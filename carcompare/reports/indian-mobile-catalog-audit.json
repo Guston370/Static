@@ -1,0 +1,248 @@
+{
+  "timestamp": "2026-10-08T18:49:14.024Z",
+  "market": "India",
+  "category": "Smartphones",
+  "totalDiscoveredBrands": 20,
+  "totalActiveBrands": 19,
+  "brandsCoveredInStatic": 19,
+  "totalModels": 74,
+  "activeModels": 74,
+  "totalVariants": 153,
+  "verifiedVariants": 153,
+  "independentBrands": [
+    {
+      "manufacturer": "Samsung Electronics Co., Ltd.",
+      "brand": "Samsung",
+      "officialIndiaWebsite": "https://www.samsung.com/in/smartphones/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Galaxy S25 Ultra",
+        "Galaxy S25+",
+        "Galaxy S25",
+        "Galaxy S24 Ultra",
+        "Galaxy S24",
+        "Galaxy S24 FE",
+        "Galaxy S23",
+        "Galaxy Z Fold 6",
+        "Galaxy Z Flip 6",
+        "Galaxy A55 5G",
+        "Galaxy A35 5G",
+        "Galaxy A16 5G",
+        "Galaxy A06",
+        "Galaxy M35 5G",
+        "Galaxy M15 5G",
+        "Galaxy M05",
+        "Galaxy F55 5G"
+      ]
+    },
+    {
+      "manufacturer": "Apple Inc.",
+      "brand": "Apple",
+      "officialIndiaWebsite": "https://www.apple.com/in/iphone/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "iPhone 16 Pro Max",
+        "iPhone 16 Pro",
+        "iPhone 16 Plus",
+        "iPhone 16",
+        "iPhone 15",
+        "iPhone 14",
+        "iPhone 13"
+      ]
+    },
+    {
+      "manufacturer": "OnePlus Technology Co., Ltd.",
+      "brand": "OnePlus",
+      "officialIndiaWebsite": "https://www.oneplus.in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "OnePlus 13",
+        "OnePlus 13R",
+        "OnePlus 12",
+        "OnePlus 12R",
+        "OnePlus Open",
+        "OnePlus Nord 4",
+        "OnePlus Nord CE4",
+        "OnePlus Nord CE4 Lite 5G"
+      ]
+    },
+    {
+      "manufacturer": "Google LLC",
+      "brand": "Google",
+      "officialIndiaWebsite": "https://store.google.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Pixel 9 Pro XL",
+        "Pixel 9 Pro",
+        "Pixel 9",
+        "Pixel 8a",
+        "Pixel 8",
+        "Pixel 7a"
+      ]
+    },
+    {
+      "manufacturer": "Xiaomi Corporation",
+      "brand": "Xiaomi",
+      "officialIndiaWebsite": "https://www.mi.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Xiaomi 14 Ultra",
+        "Xiaomi 14 Civi"
+      ]
+    },
+    {
+      "manufacturer": "Xiaomi Corporation",
+      "brand": "Redmi",
+      "officialIndiaWebsite": "https://www.mi.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Redmi Note 14 Pro+ 5G",
+        "Redmi 13 5G",
+        "Redmi A3"
+      ]
+    },
+    {
+      "manufacturer": "Xiaomi Corporation",
+      "brand": "POCO",
+      "officialIndiaWebsite": "https://www.poco.in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "POCO F6 5G",
+        "POCO X6 Pro 5G",
+        "POCO M6 Plus 5G"
+      ]
+    },
+    {
+      "manufacturer": "BBK Electronics (Vivo Mobile Communication Co.)",
+      "brand": "Vivo",
+      "officialIndiaWebsite": "https://www.vivo.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Vivo X100 Pro",
+        "Vivo V40 Pro",
+        "Vivo T3 Ultra",
+        "Vivo T3x 5G"
+      ]
+    },
+    {
+      "manufacturer": "BBK Electronics (Vivo Mobile Communication Co.)",
+      "brand": "iQOO",
+      "officialIndiaWebsite": "https://www.iqoo.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "iQOO 13 5G",
+        "iQOO Neo 9 Pro 5G",
+        "iQOO Z9s Pro 5G"
+      ]
+    },
+    {
+      "manufacturer": "BBK Electronics (Guangdong Oppo Mobile Telecommunications)",
+      "brand": "OPPO",
+      "officialIndiaWebsite": "https://www.oppo.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Find X8 Pro",
+        "Reno 12 Pro 5G",
+        "F27 Pro+ 5G"
+      ]
+    },
+    {
+      "manufacturer": "BBK Electronics (Realme Chongqing Mobile Telecommunications)",
+      "brand": "realme",
+      "officialIndiaWebsite": "https://www.realme.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "realme GT 7 Pro",
+        "realme GT 6",
+        "realme 13 Pro+ 5G"
+      ]
+    },
+    {
+      "manufacturer": "Lenovo (Motorola Mobility LLC)",
+      "brand": "Motorola",
+      "officialIndiaWebsite": "https://www.motorola.in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Motorola Edge 50 Ultra",
+        "Motorola Edge 50 Pro",
+        "Moto G85 5G"
+      ]
+    },
+    {
+      "manufacturer": "Nothing Technology Limited",
+      "brand": "Nothing",
+      "officialIndiaWebsite": "https://in.nothing.tech/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Nothing Phone (2)",
+        "Nothing Phone (2a) Plus"
+      ]
+    },
+    {
+      "manufacturer": "Nothing Technology Limited",
+      "brand": "CMF",
+      "officialIndiaWebsite": "https://in.nothing.tech/pages/cmf-phone-1",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "CMF Phone 1"
+      ]
+    },
+    {
+      "manufacturer": "ASUSTeK Computer Inc.",
+      "brand": "ASUS",
+      "officialIndiaWebsite": "https://rog.asus.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "ROG Phone 8 Pro"
+      ]
+    },
+    {
+      "manufacturer": "Transsion Holdings",
+      "brand": "Infinix",
+      "officialIndiaWebsite": "https://in.infinixmobility.com/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Infinix GT 20 Pro",
+        "Infinix Zero 40 5G"
+      ]
+    },
+    {
+      "manufacturer": "Transsion Holdings",
+      "brand": "Tecno",
+      "officialIndiaWebsite": "https://www.tecno-mobile.in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Tecno Camon 30 Premier 5G",
+        "Tecno Pova 6 Pro 5G"
+      ]
+    },
+    {
+      "manufacturer": "Lava International Limited",
+      "brand": "Lava",
+      "officialIndiaWebsite": "https://www.lavamobiles.com/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Lava Agni 3 5G",
+        "Lava Blaze Curve 5G"
+      ]
+    },
+    {
+      "manufacturer": "HMD Global Oy",
+      "brand": "HMD",
+      "officialIndiaWebsite": "https://www.hmd.com/en_in",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "HMD Skyline",
+        "HMD Crest Max 5G"
+      ]
+    },
+    {
+      "manufacturer": "Sony Corporation",
+      "brand": "Sony",
+      "officialIndiaWebsite": "https://www.sony.co.in/",
+      "isActiveInIndia": false,
+      "notes": "Sony officially exited the Indian smartphone market in 2019. Not sold via authorized Indian retail.",
+      "officialLineup": []
+    }
+  ]
+}

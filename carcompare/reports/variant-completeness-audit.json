@@ -1,0 +1,5690 @@
+{
+  "summary": {
+    "totalActiveModels": 206,
+    "modelsWith100PercentCoverage": 31,
+    "modelsWithIncompleteCoverage": 175,
+    "officialVariantsDiscovered": 620,
+    "staticVariantsStored": 251,
+    "verifiedVariants": 107,
+    "needsVerification": 144,
+    "totalMissingVariants": 425,
+    "totalIncorrectVariants": 145
+  },
+  "results": [
+    {
+      "modelId": "maruti-suzuki-alto-k10",
+      "modelName": "Alto K10",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/alto-k10/price",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "Std",
+        "LXi",
+        "VXi",
+        "VXi Plus",
+        "LXi S-CNG",
+        "VXi S-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Std",
+        "LXi",
+        "VXi",
+        "VXi Plus",
+        "LXi S-CNG",
+        "VXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-s-presso",
+      "modelName": "S-Presso",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/s-presso",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "Std",
+        "LXi",
+        "VXi",
+        "VXi Plus",
+        "LXi S-CNG",
+        "VXi S-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Std",
+        "LXi",
+        "VXi",
+        "VXi Plus",
+        "LXi S-CNG",
+        "VXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-celerio",
+      "modelName": "Celerio",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/celerio",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus",
+        "VXi S-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus",
+        "VXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-wagon-r",
+      "modelName": "Wagon R",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/wagon-r",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "LXi 1.0",
+        "VXi 1.0",
+        "ZXi 1.2",
+        "ZXi Plus 1.2",
+        "LXi S-CNG",
+        "VXi S-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "LXi 1.0",
+        "VXi 1.0",
+        "ZXi 1.2",
+        "ZXi Plus 1.2",
+        "LXi S-CNG",
+        "VXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-swift",
+      "modelName": "Swift",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/swift",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "LXi",
+        "VXi",
+        "VXi (O)",
+        "ZXi",
+        "ZXi Plus",
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "staticVariantsStored": 5,
+      "staticVariantNames": [
+        "LXi",
+        "VXi",
+        "VXi AMT",
+        "ZXi",
+        "ZXi Plus AMT"
+      ],
+      "verifiedVariantsCount": 5,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "VXi (O)",
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 71,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "maruti-suzuki-dzire",
+      "modelName": "Dzire",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/dzire",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus",
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "staticVariantsStored": 4,
+      "staticVariantNames": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus AMT"
+      ],
+      "verifiedVariantsCount": 4,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 67,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "maruti-suzuki-brezza",
+      "modelName": "Brezza",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/brezza",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus",
+        "LXi S-CNG",
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "staticVariantsStored": 4,
+      "staticVariantNames": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus AT"
+      ],
+      "verifiedVariantsCount": 4,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "LXi S-CNG",
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 57,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "maruti-suzuki-ertiga",
+      "modelName": "Ertiga",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/ertiga",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus",
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "LXi",
+        "VXi",
+        "ZXi",
+        "ZXi Plus",
+        "VXi S-CNG",
+        "ZXi S-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-eeco",
+      "modelName": "Eeco",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.marutisuzuki.com/arena/eeco",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "5-Seater Std",
+        "7-Seater Std",
+        "5-Seater AC",
+        "5-Seater AC S-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "5-Seater Std",
+        "7-Seater Std",
+        "5-Seater AC",
+        "5-Seater AC S-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-ignis",
+      "modelName": "Ignis",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/ignis",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Sigma",
+        "Delta",
+        "Zeta",
+        "Alpha"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Sigma",
+        "Delta",
+        "Zeta",
+        "Alpha"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-baleno",
+      "modelName": "Baleno",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/baleno",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "Sigma",
+        "Delta",
+        "Zeta",
+        "Alpha",
+        "Delta S-CNG",
+        "Zeta S-CNG"
+      ],
+      "staticVariantsStored": 3,
+      "staticVariantNames": [
+        "Sigma",
+        "Delta AMT",
+        "Alpha AMT"
+      ],
+      "verifiedVariantsCount": 3,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Zeta",
+        "Delta S-CNG",
+        "Zeta S-CNG"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 50,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "maruti-suzuki-fronx",
+      "modelName": "Fronx",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/fronx",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "Sigma",
+        "Delta",
+        "Delta Plus",
+        "Zeta Turbo",
+        "Alpha Turbo",
+        "Sigma S-CNG",
+        "Delta S-CNG"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "Sigma 1.2 Petrol",
+        "Alpha 1.0 Turbo 6AT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Delta",
+        "Delta Plus",
+        "Zeta Turbo",
+        "Alpha Turbo",
+        "Sigma S-CNG",
+        "Delta S-CNG"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 29,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "maruti-suzuki-ciaz",
+      "modelName": "Ciaz",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/ciaz",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Sigma",
+        "Delta",
+        "Zeta",
+        "Alpha"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Sigma",
+        "Delta",
+        "Zeta",
+        "Alpha"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-jimny",
+      "modelName": "Jimny",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/jimny",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Zeta ALLGRIP PRO",
+        "Alpha ALLGRIP PRO"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Zeta ALLGRIP PRO",
+        "Alpha ALLGRIP PRO"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-grand-vitara",
+      "modelName": "Grand Vitara",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/grand-vitara",
+      "officialVariantsFound": 8,
+      "officialVariantNames": [
+        "Sigma",
+        "Delta",
+        "Zeta",
+        "Alpha",
+        "Delta S-CNG",
+        "Zeta S-CNG",
+        "Zeta Plus Strong Hybrid",
+        "Alpha Plus Strong Hybrid"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "Sigma Mild Hybrid",
+        "Alpha+ Strong Hybrid"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Delta",
+        "Zeta",
+        "Delta S-CNG",
+        "Zeta S-CNG",
+        "Zeta Plus Strong Hybrid",
+        "Alpha Plus Strong Hybrid"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 25,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "maruti-suzuki-xl6",
+      "modelName": "XL6",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/xl6",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Zeta",
+        "Alpha",
+        "Alpha Plus",
+        "Zeta S-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Zeta",
+        "Alpha",
+        "Alpha Plus",
+        "Zeta S-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maruti-suzuki-invicto",
+      "modelName": "Invicto",
+      "brand": "Maruti Suzuki",
+      "officialSourceUrl": "https://www.nexaexperience.com/invicto",
+      "officialVariantsFound": 3,
+      "officialVariantNames": [
+        "Zeta Plus 7-Str",
+        "Zeta Plus 8-Str",
+        "Alpha Plus 7-Str"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Zeta Plus 7-Str",
+        "Zeta Plus 8-Str",
+        "Alpha Plus 7-Str"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-grand-i10-nios",
+      "modelName": "Grand i10 Nios",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/grand-i10-nios",
+      "officialVariantsFound": 8,
+      "officialVariantNames": [
+        "Era",
+        "Magna",
+        "Corporate",
+        "Sportz Executive",
+        "Sportz",
+        "Asta",
+        "Magna Hy-CNG Duo",
+        "Sportz Hy-CNG Duo"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Era",
+        "Magna",
+        "Corporate",
+        "Sportz Executive",
+        "Sportz",
+        "Asta",
+        "Magna Hy-CNG Duo",
+        "Sportz Hy-CNG Duo"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-aura",
+      "modelName": "Aura",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/aura",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "E",
+        "S",
+        "SX",
+        "SX(O)",
+        "S Hy-CNG Duo",
+        "SX Hy-CNG Duo"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "SX",
+        "SX(O)",
+        "S Hy-CNG Duo",
+        "SX Hy-CNG Duo"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-i20",
+      "modelName": "i20",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/i20",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "Era",
+        "Magna",
+        "Sportz",
+        "Sportz(O)",
+        "Asta",
+        "Asta(O)"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Era",
+        "Magna",
+        "Sportz",
+        "Sportz(O)",
+        "Asta",
+        "Asta(O)"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-exter",
+      "modelName": "Exter",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/exter",
+      "officialVariantsFound": 9,
+      "officialVariantNames": [
+        "EX",
+        "EX(O)",
+        "S",
+        "S(O)",
+        "SX",
+        "SX(O)",
+        "SX(O) Connect",
+        "S Hy-CNG Duo",
+        "SX Hy-CNG Duo"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "EX(O)",
+        "S(O)",
+        "SX",
+        "SX(O)",
+        "SX(O) Connect",
+        "S Hy-CNG Duo",
+        "SX Hy-CNG Duo"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-venue",
+      "modelName": "Venue",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/venue",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "E",
+        "S",
+        "S(O)",
+        "S Plus",
+        "SX",
+        "SX(O)"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "E 1.2 Petrol",
+        "SX(O) 1.0 Turbo DCT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "S(O)",
+        "S Plus"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 33,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "hyundai-verna",
+      "modelName": "Verna",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/verna",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "EX",
+        "S",
+        "SX",
+        "SX(O)",
+        "SX Turbo",
+        "SX(O) Turbo"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "EX",
+        "SX",
+        "SX(O)",
+        "SX Turbo",
+        "SX(O) Turbo"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-creta",
+      "modelName": "Creta",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/creta",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "E",
+        "EX",
+        "S",
+        "S(O)",
+        "SX",
+        "SX Tech",
+        "SX(O)"
+      ],
+      "staticVariantsStored": 6,
+      "staticVariantNames": [
+        "E 1.5 Petrol",
+        "EX 1.5 Petrol",
+        "S 1.5 Petrol",
+        "SX 1.5 Petrol",
+        "SX(O) 1.5 Turbo DCT",
+        "SX(O) 1.5 Diesel AT"
+      ],
+      "verifiedVariantsCount": 6,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "S(O)",
+        "SX Tech"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 86,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "hyundai-alcazar",
+      "modelName": "Alcazar",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/alcazar",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Executive",
+        "Prestige",
+        "Platinum",
+        "Signature"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Executive",
+        "Prestige",
+        "Platinum",
+        "Signature"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-tucson",
+      "modelName": "Tucson",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/tucson",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Platinum Petrol",
+        "Signature Petrol",
+        "Platinum Diesel",
+        "Signature Diesel AWD"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Platinum Petrol",
+        "Signature Petrol",
+        "Platinum Diesel",
+        "Signature Diesel AWD"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "hyundai-ioniq-5",
+      "modelName": "Ioniq 5",
+      "brand": "Hyundai",
+      "officialSourceUrl": "https://www.hyundai.com/in/en/find-a-car/ioniq-5",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard Long Range RWD"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Standard Long Range RWD"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "tata-tiago",
+      "modelName": "Tiago",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/tiago/ice.html",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "XE",
+        "XM",
+        "XT(O)",
+        "XT",
+        "XZ Plus",
+        "XT iCNG",
+        "XZ Plus iCNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "XE",
+        "XM",
+        "XT(O)",
+        "XT",
+        "XZ Plus",
+        "XT iCNG",
+        "XZ Plus iCNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-tigor",
+      "modelName": "Tigor",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/tigor/ice.html",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "XE",
+        "XM",
+        "XZ",
+        "XZ Plus",
+        "XM iCNG",
+        "XZ Plus iCNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "XE",
+        "XM",
+        "XZ",
+        "XZ Plus",
+        "XM iCNG",
+        "XZ Plus iCNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-altroz",
+      "modelName": "Altroz",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/altroz/ice.html",
+      "officialVariantsFound": 9,
+      "officialVariantNames": [
+        "XE",
+        "XM",
+        "XM Plus",
+        "XT",
+        "XZ",
+        "XZ Plus (S)",
+        "Racer R1",
+        "Racer R2",
+        "Racer R3"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "XE",
+        "XM",
+        "XM Plus",
+        "XT",
+        "XZ",
+        "XZ Plus (S)",
+        "Racer R1",
+        "Racer R2",
+        "Racer R3"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-punch",
+      "modelName": "Punch",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/punch/ice.html",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "Pure",
+        "Adventure",
+        "Accomplished",
+        "Accomplished Plus (S)",
+        "Creative Plus (S)",
+        "Adventure iCNG",
+        "Accomplished iCNG"
+      ],
+      "staticVariantsStored": 4,
+      "staticVariantNames": [
+        "Pure",
+        "Adventure",
+        "Accomplished+ (S)",
+        "Creative+ (S) AMT"
+      ],
+      "verifiedVariantsCount": 4,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Accomplished Plus (S)",
+        "Creative Plus (S)",
+        "Adventure iCNG",
+        "Accomplished iCNG"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 57,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "tata-nexon",
+      "modelName": "Nexon",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/nexon/ice.html",
+      "officialVariantsFound": 8,
+      "officialVariantNames": [
+        "Smart",
+        "Smart Plus",
+        "Pure",
+        "Pure Plus",
+        "Creative",
+        "Creative Plus",
+        "Fearless",
+        "Fearless Plus S"
+      ],
+      "staticVariantsStored": 7,
+      "staticVariantNames": [
+        "Smart 1.2 Petrol",
+        "Pure 1.2 Petrol",
+        "Creative 1.2 Petrol",
+        "Creative+ Petrol DCA",
+        "Fearless+ S DCA",
+        "Pure 1.5 Diesel",
+        "Fearless+ S Diesel AMT"
+      ],
+      "verifiedVariantsCount": 7,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Smart Plus",
+        "Pure Plus",
+        "Creative Plus",
+        "Fearless Plus S"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 88,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "tata-curvv",
+      "modelName": "Curvv",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/curvv/ice.html",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "Smart",
+        "Pure Plus",
+        "Creative",
+        "Creative Plus S",
+        "Accomplished S",
+        "Accomplished Plus A"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Smart",
+        "Pure Plus",
+        "Creative",
+        "Creative Plus S",
+        "Accomplished S",
+        "Accomplished Plus A"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-harrier",
+      "modelName": "Harrier",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/harrier/ice.html",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "Smart",
+        "Pure",
+        "Pure Plus",
+        "Adventure",
+        "Adventure Plus",
+        "Fearless",
+        "Fearless Plus"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "Smart",
+        "Fearless+ Dark Edition AT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Pure",
+        "Pure Plus",
+        "Adventure",
+        "Adventure Plus"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 29,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "tata-safari",
+      "modelName": "Safari",
+      "brand": "Tata",
+      "officialSourceUrl": "https://cars.tatamotors.com/safari/ice.html",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "Smart",
+        "Pure",
+        "Pure Plus",
+        "Adventure",
+        "Adventure Plus",
+        "Accomplished",
+        "Accomplished Plus"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Smart",
+        "Pure",
+        "Pure Plus",
+        "Adventure",
+        "Adventure Plus",
+        "Accomplished",
+        "Accomplished Plus"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-tiago-ev",
+      "modelName": "Tiago.ev",
+      "brand": "TATA.ev",
+      "officialSourceUrl": "https://ev.tatamotors.com/tiago-ev",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "XE MR",
+        "XT MR",
+        "XT LR",
+        "XZ Plus LR",
+        "XZ Plus Tech LUX LR"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "XE MR",
+        "XT MR",
+        "XT LR",
+        "XZ Plus LR",
+        "XZ Plus Tech LUX LR"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-tigor-ev",
+      "modelName": "Tigor.ev",
+      "brand": "TATA.ev",
+      "officialSourceUrl": "https://ev.tatamotors.com/tigor-ev",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "XE",
+        "XT",
+        "XZ Plus",
+        "XZ Plus LUX"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "XE",
+        "XT",
+        "XZ Plus",
+        "XZ Plus LUX"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-punch-ev",
+      "modelName": "Punch.ev",
+      "brand": "TATA.ev",
+      "officialSourceUrl": "https://ev.tatamotors.com/punch-ev",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "Smart",
+        "Smart Plus",
+        "Adventure",
+        "Empowered",
+        "Empowered Plus"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Smart",
+        "Smart Plus",
+        "Adventure",
+        "Empowered",
+        "Empowered Plus"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-nexon-ev",
+      "modelName": "Nexon.ev",
+      "brand": "TATA.ev",
+      "officialSourceUrl": "https://ev.tatamotors.com/nexon-ev",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "Creative Plus",
+        "Fearless",
+        "Fearless Plus",
+        "Empowered",
+        "Empowered Plus 45"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Creative Plus",
+        "Fearless",
+        "Fearless Plus",
+        "Empowered",
+        "Empowered Plus 45"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "tata-curvv-ev",
+      "modelName": "Curvv.ev",
+      "brand": "TATA.ev",
+      "officialSourceUrl": "https://ev.tatamotors.com/curvv-ev",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "Creative 45",
+        "Accomplished 45",
+        "Accomplished 55",
+        "Accomplished Plus 55",
+        "Empowered Plus 55"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Creative 45",
+        "Accomplished 45",
+        "Accomplished 55",
+        "Accomplished Plus 55",
+        "Empowered Plus 55"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mahindra-xuv-3xo",
+      "modelName": "XUV 3XO",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/xuv3xo",
+      "officialVariantsFound": 9,
+      "officialVariantNames": [
+        "MX1",
+        "MX2",
+        "MX2 Pro",
+        "MX3",
+        "MX3 Pro",
+        "AX5",
+        "AX5L",
+        "AX7",
+        "AX7L"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "MX1 1.2 Petrol",
+        "AX7L TGDi AT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "MX2",
+        "MX2 Pro",
+        "MX3",
+        "MX3 Pro",
+        "AX5",
+        "AX5L"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 22,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "mahindra-thar",
+      "modelName": "Thar",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/thar",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "AX (O) Hard Top RWD",
+        "LX Hard Top RWD",
+        "AX (O) Convertible 4WD",
+        "LX Hard Top 4WD"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "AX (O) Hard Top RWD",
+        "LX Hard Top RWD",
+        "AX (O) Convertible 4WD",
+        "LX Hard Top 4WD"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mahindra-thar-roxx",
+      "modelName": "Thar Roxx",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/thar-roxx",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "MX1",
+        "MX3",
+        "MX5",
+        "AX3L",
+        "AX5L",
+        "AX7L"
+      ],
+      "staticVariantsStored": 3,
+      "staticVariantNames": [
+        "MX1 Petrol 4x2",
+        "MX5 Diesel 4x4",
+        "AX7L Diesel 4x4 AT"
+      ],
+      "verifiedVariantsCount": 3,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "MX3",
+        "AX3L",
+        "AX5L"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 50,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "mahindra-bolero",
+      "modelName": "Bolero",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/bolero",
+      "officialVariantsFound": 3,
+      "officialVariantNames": [
+        "B4",
+        "B6",
+        "B6 (O)"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "B4",
+        "B6",
+        "B6 (O)"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mahindra-bolero-neo",
+      "modelName": "Bolero Neo",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/bolero-neo",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "N4",
+        "N8",
+        "N10",
+        "N10 (O)"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "N4",
+        "N8",
+        "N10",
+        "N10 (O)"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mahindra-scorpio-classic",
+      "modelName": "Scorpio Classic",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/scorpio-classic",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "S",
+        "S11"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "S11"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mahindra-scorpio-n",
+      "modelName": "Scorpio-N",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/scorpio-n",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "Z2",
+        "Z4",
+        "Z6",
+        "Z8",
+        "Z8 Select",
+        "Z8L"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "Z2 Petrol",
+        "Z8 Diesel 4WD AT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Z4",
+        "Z6",
+        "Z8 Select",
+        "Z8L"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 33,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "mahindra-xuv700",
+      "modelName": "XUV700",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/xuv700",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "MX",
+        "AX3",
+        "AX5",
+        "AX5 Select",
+        "AX7",
+        "AX7L"
+      ],
+      "staticVariantsStored": 3,
+      "staticVariantNames": [
+        "MX Petrol 5-Str",
+        "AX5 Petrol 5-Str",
+        "AX7 Luxury Diesel AT AWD"
+      ],
+      "verifiedVariantsCount": 3,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "AX3",
+        "AX5 Select",
+        "AX7L"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 50,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "mahindra-xuv400",
+      "modelName": "XUV400",
+      "brand": "Mahindra",
+      "officialSourceUrl": "https://auto.mahindra.com/suv/xuv400",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "EC Pro",
+        "EL Pro"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "EC Pro",
+        "EL Pro"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-glanza",
+      "modelName": "Glanza",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/glanza",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "E",
+        "S",
+        "G",
+        "V",
+        "S E-CNG",
+        "G E-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "V",
+        "S E-CNG",
+        "G E-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-urban-cruiser-taisor",
+      "modelName": "Urban Cruiser Taisor",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/taisor",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "E",
+        "S",
+        "S Plus",
+        "G",
+        "V"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "S Plus",
+        "G",
+        "V"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-urban-cruiser-hyryder",
+      "modelName": "Urban Cruiser Hyryder",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/hyryder",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "E NeoDrive",
+        "S NeoDrive",
+        "G NeoDrive",
+        "V NeoDrive",
+        "S Strong Hybrid",
+        "G Strong Hybrid",
+        "V Strong Hybrid"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "E NeoDrive",
+        "S NeoDrive",
+        "G NeoDrive",
+        "V NeoDrive",
+        "S Strong Hybrid",
+        "G Strong Hybrid",
+        "V Strong Hybrid"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-rumion",
+      "modelName": "Rumion",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/rumion",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "S",
+        "G",
+        "V",
+        "S E-CNG"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "G",
+        "V",
+        "S E-CNG"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-innova-crysta",
+      "modelName": "Innova Crysta",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/innova-crysta",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "GX",
+        "GX Plus",
+        "VX",
+        "ZX"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "GX",
+        "GX Plus",
+        "VX",
+        "ZX"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-innova-hycross",
+      "modelName": "Innova Hycross",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/innova-hycross",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "GX",
+        "GX (O)",
+        "VX Hybrid",
+        "VX (O) Hybrid",
+        "ZX Hybrid",
+        "ZX (O) Hybrid"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "GX Petrol",
+        "ZX (O) Strong Hybrid"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "GX (O)",
+        "VX Hybrid",
+        "VX (O) Hybrid",
+        "ZX Hybrid",
+        "ZX (O) Hybrid"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 33,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "toyota-fortuner",
+      "modelName": "Fortuner",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/fortuner",
+      "officialVariantsFound": 8,
+      "officialVariantNames": [
+        "4x2 MT Petrol",
+        "4x2 AT Petrol",
+        "4x2 MT Diesel",
+        "4x2 AT Diesel",
+        "4x4 MT Diesel",
+        "4x4 AT Diesel",
+        "Legender 4x2",
+        "GR-Sport 4x4"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "4x2 Diesel AT",
+        "GR-S 4x4 Diesel AT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "4x2 MT Petrol",
+        "4x2 AT Petrol",
+        "4x2 MT Diesel",
+        "4x2 AT Diesel",
+        "4x4 MT Diesel",
+        "4x4 AT Diesel",
+        "Legender 4x2"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 25,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "toyota-hilux",
+      "modelName": "Hilux",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/hilux",
+      "officialVariantsFound": 3,
+      "officialVariantNames": [
+        "Standard 4x4 MT",
+        "High 4x4 MT",
+        "High 4x4 AT"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Standard 4x4 MT",
+        "High 4x4 MT",
+        "High 4x4 AT"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-camry",
+      "modelName": "Camry",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/camry",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "2.5L Hybrid"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "2.5L Hybrid"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "toyota-vellfire",
+      "modelName": "Vellfire",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/vellfire",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Hi Grade",
+        "VIP Grade"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Hi Grade",
+        "VIP Grade"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "toyota-land-cruiser-300",
+      "modelName": "Land Cruiser 300",
+      "brand": "Toyota",
+      "officialSourceUrl": "https://www.toyotabharat.com/showroom/lc300",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "ZX Diesel"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "ZX Diesel"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "kia-sonet",
+      "modelName": "Sonet",
+      "brand": "Kia",
+      "officialSourceUrl": "https://www.kia.com/in/our-vehicles/sonet.html",
+      "officialVariantsFound": 8,
+      "officialVariantNames": [
+        "HTE",
+        "HTK",
+        "HTK(O)",
+        "HTK Plus",
+        "HTX",
+        "HTX Plus",
+        "GTX Plus",
+        "X-Line"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "HTE 1.2 Petrol",
+        "GTX+ 1.0 Turbo DCT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "HTK",
+        "HTK(O)",
+        "HTK Plus",
+        "HTX",
+        "HTX Plus",
+        "GTX Plus",
+        "X-Line"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 25,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "kia-seltos",
+      "modelName": "Seltos",
+      "brand": "Kia",
+      "officialSourceUrl": "https://www.kia.com/in/our-vehicles/seltos.html",
+      "officialVariantsFound": 7,
+      "officialVariantNames": [
+        "HTE",
+        "HTK",
+        "HTK Plus",
+        "HTX",
+        "HTX Plus",
+        "GTX Plus",
+        "X-Line"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "HTE 1.5 Petrol",
+        "GTX+ 1.5 Turbo DCT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "HTK",
+        "HTK Plus",
+        "HTX",
+        "HTX Plus",
+        "GTX Plus",
+        "X-Line"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 29,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "kia-carens",
+      "modelName": "Carens",
+      "brand": "Kia",
+      "officialSourceUrl": "https://www.kia.com/in/our-vehicles/carens.html",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "Premium",
+        "Prestige",
+        "Prestige Plus",
+        "Luxury",
+        "Luxury Plus"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Premium",
+        "Prestige",
+        "Prestige Plus",
+        "Luxury",
+        "Luxury Plus"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "kia-carnival",
+      "modelName": "Carnival",
+      "brand": "Kia",
+      "officialSourceUrl": "https://www.kia.com/in/our-vehicles/carnival.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Limousine",
+        "Limousine Plus"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Limousine",
+        "Limousine Plus"
+      ],
+      "extraOrIncorrectVariants": [
+        "Standard (Generic Placeholder)"
+      ],
+      "coveragePercent": 50,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "kia-ev6",
+      "modelName": "EV6",
+      "brand": "Kia",
+      "officialSourceUrl": "https://www.kia.com/in/our-vehicles/ev6.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "GT-Line RWD",
+        "GT-Line AWD"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "GT-Line RWD",
+        "GT-Line AWD"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "honda-amaze",
+      "modelName": "Amaze",
+      "brand": "Honda",
+      "officialSourceUrl": "https://www.hondacarindia.com/honda-amaze",
+      "officialVariantsFound": 3,
+      "officialVariantNames": [
+        "E",
+        "S",
+        "VX"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "VX"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "honda-city",
+      "modelName": "City",
+      "brand": "Honda",
+      "officialSourceUrl": "https://www.hondacarindia.com/honda-city",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "SV",
+        "V",
+        "VX",
+        "ZX",
+        "e:HEV ZX Hybrid"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "SV Petrol",
+        "ZX CVT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "VX",
+        "e:HEV ZX Hybrid"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 40,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "honda-elevate",
+      "modelName": "Elevate",
+      "brand": "Honda",
+      "officialSourceUrl": "https://www.hondacarindia.com/honda-elevate",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "SV",
+        "V",
+        "VX",
+        "ZX"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "SV",
+        "ZX CVT"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "VX"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 50,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 3"
+    },
+    {
+      "modelId": "mg-comet-ev",
+      "modelName": "Comet EV",
+      "brand": "MG",
+      "officialSourceUrl": "https://www.mgmotor.co.in/vehicles/comet-ev",
+      "officialVariantsFound": 3,
+      "officialVariantNames": [
+        "Executive",
+        "Excite",
+        "Exclusive"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Executive",
+        "Excite",
+        "Exclusive"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mg-windsor-ev",
+      "modelName": "Windsor EV",
+      "brand": "MG",
+      "officialSourceUrl": "https://www.mgmotor.co.in/vehicles/windsor-ev",
+      "officialVariantsFound": 3,
+      "officialVariantNames": [
+        "Excite",
+        "Exclusive",
+        "Essence"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Excite",
+        "Exclusive",
+        "Essence"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mg-astor",
+      "modelName": "Astor",
+      "brand": "MG",
+      "officialSourceUrl": "https://www.mgmotor.co.in/vehicles/mg-astor",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "Sprint",
+        "Shine",
+        "Select",
+        "Sharp Pro",
+        "Savvy Pro"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Sprint",
+        "Shine",
+        "Select",
+        "Sharp Pro",
+        "Savvy Pro"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mg-hector",
+      "modelName": "Hector",
+      "brand": "MG",
+      "officialSourceUrl": "https://www.mgmotor.co.in/vehicles/mg-hector",
+      "officialVariantsFound": 6,
+      "officialVariantNames": [
+        "Style",
+        "Shine Pro",
+        "Select Pro",
+        "Smart Pro",
+        "Sharp Pro",
+        "Savvy Pro"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Style",
+        "Shine Pro",
+        "Select Pro",
+        "Smart Pro",
+        "Sharp Pro",
+        "Savvy Pro"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mg-hector-plus",
+      "modelName": "Hector Plus",
+      "brand": "MG",
+      "officialSourceUrl": "https://www.mgmotor.co.in/vehicles/mg-hectorplus",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Select Pro",
+        "Smart Pro",
+        "Sharp Pro",
+        "Savvy Pro"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Select Pro",
+        "Smart Pro",
+        "Sharp Pro",
+        "Savvy Pro"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mg-zs-ev",
+      "modelName": "ZS EV",
+      "brand": "MG",
+      "officialSourceUrl": "https://www.mgmotor.co.in/vehicles/mg-zsev",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Executive",
+        "Excite",
+        "Exclusive Plus",
+        "Essence"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Executive",
+        "Excite",
+        "Exclusive Plus",
+        "Essence"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mg-gloster",
+      "modelName": "Gloster",
+      "brand": "MG",
+      "officialSourceUrl": "https://www.mgmotor.co.in/vehicles/mg-gloster",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Sharp",
+        "Savvy"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Sharp",
+        "Savvy"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "skoda-kushaq",
+      "modelName": "Kushaq",
+      "brand": "Skoda",
+      "officialSourceUrl": "https://www.skoda-auto.co.in/models/kushaq",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Classic",
+        "Signature",
+        "Prestige",
+        "Monte Carlo"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Classic",
+        "Signature",
+        "Prestige",
+        "Monte Carlo"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "skoda-slavia",
+      "modelName": "Slavia",
+      "brand": "Skoda",
+      "officialSourceUrl": "https://www.skoda-auto.co.in/models/slavia",
+      "officialVariantsFound": 4,
+      "officialVariantNames": [
+        "Classic",
+        "Signature",
+        "Prestige",
+        "Monte Carlo"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Classic",
+        "Signature",
+        "Prestige",
+        "Monte Carlo"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "skoda-kodiaq",
+      "modelName": "Kodiaq",
+      "brand": "Skoda",
+      "officialSourceUrl": "https://www.skoda-auto.co.in/models/kodiaq",
+      "officialVariantsFound": 3,
+      "officialVariantNames": [
+        "Style",
+        "Sportline",
+        "L&K"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Style",
+        "Sportline",
+        "L&K"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "volkswagen-taigun",
+      "modelName": "Taigun",
+      "brand": "Volkswagen",
+      "officialSourceUrl": "https://www.volkswagen.co.in/en/models/taigun.html",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "Comfortline",
+        "Highline",
+        "Topline",
+        "GT Line",
+        "GT Plus"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Comfortline",
+        "Highline",
+        "Topline",
+        "GT Line",
+        "GT Plus"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "volkswagen-virtus",
+      "modelName": "Virtus",
+      "brand": "Volkswagen",
+      "officialSourceUrl": "https://www.volkswagen.co.in/en/models/virtus.html",
+      "officialVariantsFound": 5,
+      "officialVariantNames": [
+        "Comfortline",
+        "Highline",
+        "Topline",
+        "GT Line",
+        "GT Plus"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "Comfortline 1.0 TSI",
+        "GT Plus 1.5 TSI DSG"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Highline",
+        "Topline",
+        "GT Line"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 40,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 2"
+    },
+    {
+      "modelId": "volkswagen-tiguan",
+      "modelName": "Tiguan",
+      "brand": "Volkswagen",
+      "officialSourceUrl": "https://www.volkswagen.co.in/en/models/tiguan.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Elegance 2.0 TSI"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Elegance 2.0 TSI"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "renault-kwid",
+      "modelName": "Kwid",
+      "brand": "Renault",
+      "officialSourceUrl": "https://www.renault.co.in/cars/renault-kwid.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "renault-triber",
+      "modelName": "Triber",
+      "brand": "Renault",
+      "officialSourceUrl": "https://www.renault.co.in/cars/renault-triber.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "renault-kiger",
+      "modelName": "Kiger",
+      "brand": "Renault",
+      "officialSourceUrl": "https://www.renault.co.in/cars/renault-kiger.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "nissan-magnite",
+      "modelName": "Magnite",
+      "brand": "Nissan",
+      "officialSourceUrl": "https://www.nissan.in/vehicles/new/magnite.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "nissan-x-trail",
+      "modelName": "X-Trail",
+      "brand": "Nissan",
+      "officialSourceUrl": "https://www.nissan.in/vehicles/new/x-trail.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "citroen-c3",
+      "modelName": "C3",
+      "brand": "Citroën",
+      "officialSourceUrl": "https://www.citroen.in/c3",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "citroen-e-c3",
+      "modelName": "ë-C3",
+      "brand": "Citroën",
+      "officialSourceUrl": "https://www.citroen.in/ec3",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "citroen-c3-aircross",
+      "modelName": "C3 Aircross",
+      "brand": "Citroën",
+      "officialSourceUrl": "https://www.citroen.in/c3-aircross",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "citroen-basalt",
+      "modelName": "Basalt",
+      "brand": "Citroën",
+      "officialSourceUrl": "https://www.citroen.in/basalt",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "citroen-c5-aircross",
+      "modelName": "C5 Aircross",
+      "brand": "Citroën",
+      "officialSourceUrl": "https://www.citroen.in/c5-aircross",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "jeep-compass",
+      "modelName": "Compass",
+      "brand": "Jeep",
+      "officialSourceUrl": "https://www.jeep-india.com/compass.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "jeep-meridian",
+      "modelName": "Meridian",
+      "brand": "Jeep",
+      "officialSourceUrl": "https://www.jeep-india.com/meridian.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "jeep-wrangler",
+      "modelName": "Wrangler",
+      "brand": "Jeep",
+      "officialSourceUrl": "https://www.jeep-india.com/wrangler.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "jeep-grand-cherokee",
+      "modelName": "Grand Cherokee",
+      "brand": "Jeep",
+      "officialSourceUrl": "https://www.jeep-india.com/grand-cherokee.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "byd-atto-3",
+      "modelName": "Atto 3",
+      "brand": "BYD",
+      "officialSourceUrl": "https://bydautoindia.com/byd-atto3",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "byd-seal",
+      "modelName": "Seal",
+      "brand": "BYD",
+      "officialSourceUrl": "https://bydautoindia.com/byd-seal",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "byd-emax-7",
+      "modelName": "eMax 7",
+      "brand": "BYD",
+      "officialSourceUrl": "https://bydautoindia.com/byd-emax7",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "force-gurkha",
+      "modelName": "Gurkha",
+      "brand": "Force Motors",
+      "officialSourceUrl": "https://www.forcegurkha.co.in",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "force-trax-cruiser",
+      "modelName": "Trax Cruiser",
+      "brand": "Force Motors",
+      "officialSourceUrl": "https://www.forcemotors.com/vehicle/trax-cruiser",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "isuzu-d-max-v-cross",
+      "modelName": "D-Max V-Cross",
+      "brand": "Isuzu",
+      "officialSourceUrl": "https://isuzu.in/v-cross/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "isuzu-mu-x",
+      "modelName": "MU-X",
+      "brand": "Isuzu",
+      "officialSourceUrl": "https://isuzu.in/mu-x/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-2-series-gran-coupe",
+      "modelName": "2 Series Gran Coupe",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/2-series/gran-coupe/2020/bmw-2-series-gran-coupe-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-3-series-gran-limousine",
+      "modelName": "3 Series Gran Limousine",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/3-series/gran-limousine/2021/bmw-3-series-gran-limousine-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-5-series-long-wheelbase",
+      "modelName": "5 Series Long Wheelbase",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/5-series/sedan/2023/bmw-5-series-sedan-overview.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "bmw-7-series",
+      "modelName": "7 Series",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/7-series/sedan/2022/bmw-7-series-sedan-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-x1",
+      "modelName": "X1",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/x-series/X1/2022/bmw-x1-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-x5",
+      "modelName": "X5",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/x-series/X5/2023/bmw-x5-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-x7",
+      "modelName": "X7",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/x-series/X7/2022/bmw-x7-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-ix1",
+      "modelName": "iX1",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/bmw-i/ix1/2023/bmw-ix1-overview.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "bmw-i4",
+      "modelName": "i4",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/bmw-i/i4/2021/bmw-i4-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-ix",
+      "modelName": "iX",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/bmw-i/ix/2021/bmw-ix.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-i7",
+      "modelName": "i7",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/bmw-i/i7/2022/bmw-i7-sedan-overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-a-class-limousine",
+      "modelName": "A-Class Limousine",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/a-class/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-c-class",
+      "modelName": "C-Class",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/c-class/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-e-class-long-wheelbase",
+      "modelName": "E-Class Long Wheelbase",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/e-class/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-s-class",
+      "modelName": "S-Class",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/s-class/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-gla",
+      "modelName": "GLA",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/gla/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-glc",
+      "modelName": "GLC",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/glc/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-gle",
+      "modelName": "GLE",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/gle/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-gls",
+      "modelName": "GLS",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/gls/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-g-class",
+      "modelName": "G-Class",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/g-class/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-eqs-sedan",
+      "modelName": "EQS Sedan",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/eqs/overview.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "audi-a4",
+      "modelName": "A4",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/a4/a4-sedan.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-a6",
+      "modelName": "A6",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/a6/a6-sedan.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-q3",
+      "modelName": "Q3",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/q3/q3.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-q5",
+      "modelName": "Q5",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/q5/q5.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-q7",
+      "modelName": "Q7",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/q7/q7.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-q8",
+      "modelName": "Q8",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/q8/q8.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "volvo-ex40",
+      "modelName": "EX40",
+      "brand": "Volvo",
+      "officialSourceUrl": "https://www.volvocars.com/in/cars/ex40-electric/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "volvo-ec40",
+      "modelName": "EC40",
+      "brand": "Volvo",
+      "officialSourceUrl": "https://www.volvocars.com/in/cars/ec40-electric/",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "volvo-xc60",
+      "modelName": "XC60",
+      "brand": "Volvo",
+      "officialSourceUrl": "https://www.volvocars.com/in/cars/xc60-hybrid/",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "volvo-xc90",
+      "modelName": "XC90",
+      "brand": "Volvo",
+      "officialSourceUrl": "https://www.volvocars.com/in/cars/xc90-hybrid/",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "land-rover-defender",
+      "modelName": "Defender",
+      "brand": "Land Rover",
+      "officialSourceUrl": "https://www.landrover.in/defender/index.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "land-rover-range-rover-velar",
+      "modelName": "Range Rover Velar",
+      "brand": "Land Rover",
+      "officialSourceUrl": "https://www.landrover.in/range-rover/range-rover-velar/index.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "land-rover-range-rover-sport",
+      "modelName": "Range Rover Sport",
+      "brand": "Land Rover",
+      "officialSourceUrl": "https://www.landrover.in/range-rover/range-rover-sport/index.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "land-rover-range-rover",
+      "modelName": "Range Rover",
+      "brand": "Land Rover",
+      "officialSourceUrl": "https://www.landrover.in/range-rover/range-rover/index.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "lexus-es-300h",
+      "modelName": "ES 300h",
+      "brand": "Lexus",
+      "officialSourceUrl": "https://www.lexusindia.co.in/en/models/es.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "lexus-nx-350h",
+      "modelName": "NX 350h",
+      "brand": "Lexus",
+      "officialSourceUrl": "https://www.lexusindia.co.in/en/models/nx.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "lexus-rx",
+      "modelName": "RX 350h / 500h",
+      "brand": "Lexus",
+      "officialSourceUrl": "https://www.lexusindia.co.in/en/models/rx.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "lexus-lm-350h",
+      "modelName": "LM 350h",
+      "brand": "Lexus",
+      "officialSourceUrl": "https://www.lexusindia.co.in/en/models/lm.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "lexus-lx",
+      "modelName": "LX 500d / 600",
+      "brand": "Lexus",
+      "officialSourceUrl": "https://www.lexusindia.co.in/en/models/lx.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "mini-cooper-s",
+      "modelName": "Cooper S",
+      "brand": "MINI",
+      "officialSourceUrl": "https://www.mini.in/en_IN/home/range/mini-3-door-hatch.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "mini-countryman",
+      "modelName": "Countryman",
+      "brand": "MINI",
+      "officialSourceUrl": "https://www.mini.in/en_IN/home/range/mini-countryman.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "jaguar-f-pace",
+      "modelName": "F-Pace",
+      "brand": "Jaguar",
+      "officialSourceUrl": "https://www.jaguar.in/jaguar-range/f-pace/index.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "jaguar-i-pace",
+      "modelName": "I-Pace",
+      "brand": "Jaguar",
+      "officialSourceUrl": "https://www.jaguar.in/jaguar-range/i-pace/index.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "porsche-911",
+      "modelName": "911",
+      "brand": "Porsche",
+      "officialSourceUrl": "https://www.porsche.com/middle-east/_india_/models/911/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "Carrera",
+        "Carrera GTS T-Hybrid"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "porsche-718",
+      "modelName": "718 Boxster / Cayman",
+      "brand": "Porsche",
+      "officialSourceUrl": "https://www.porsche.com/middle-east/_india_/models/718/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "porsche-macan",
+      "modelName": "Macan",
+      "brand": "Porsche",
+      "officialSourceUrl": "https://www.porsche.com/middle-east/_india_/models/macan/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "porsche-cayenne",
+      "modelName": "Cayenne",
+      "brand": "Porsche",
+      "officialSourceUrl": "https://www.porsche.com/middle-east/_india_/models/cayenne/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "porsche-panamera",
+      "modelName": "Panamera",
+      "brand": "Porsche",
+      "officialSourceUrl": "https://www.porsche.com/middle-east/_india_/models/panamera/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "porsche-taycan",
+      "modelName": "Taycan",
+      "brand": "Porsche",
+      "officialSourceUrl": "https://www.porsche.com/middle-east/_india_/models/taycan/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "ferrari-roma",
+      "modelName": "Roma",
+      "brand": "Ferrari",
+      "officialSourceUrl": "https://www.ferrari.com/en-IN/auto/ferrari-roma",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "ferrari-296-gtb",
+      "modelName": "296 GTB",
+      "brand": "Ferrari",
+      "officialSourceUrl": "https://www.ferrari.com/en-IN/auto/296-gtb",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "ferrari-purosangue",
+      "modelName": "Purosangue",
+      "brand": "Ferrari",
+      "officialSourceUrl": "https://www.ferrari.com/en-IN/auto/ferrari-purosangue",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "lamborghini-urus-se",
+      "modelName": "Urus SE",
+      "brand": "Lamborghini",
+      "officialSourceUrl": "https://www.lamborghini.com/en-en/models/urus/urus-se",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "lamborghini-revuelto",
+      "modelName": "Revuelto",
+      "brand": "Lamborghini",
+      "officialSourceUrl": "https://www.lamborghini.com/en-en/models/revuelto",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "maserati-grecale",
+      "modelName": "Grecale",
+      "brand": "Maserati",
+      "officialSourceUrl": "https://www.maserati.com/in/en/models/grecale",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maserati-mc20",
+      "modelName": "MC20",
+      "brand": "Maserati",
+      "officialSourceUrl": "https://www.maserati.com/in/en/models/mc20",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "aston-martin-vantage",
+      "modelName": "Vantage",
+      "brand": "Aston Martin",
+      "officialSourceUrl": "https://www.astonmartin.com/en/models/new-vantage",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "aston-martin-db12",
+      "modelName": "DB12",
+      "brand": "Aston Martin",
+      "officialSourceUrl": "https://www.astonmartin.com/en/models/db12",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "bentley-bentayga",
+      "modelName": "Bentayga",
+      "brand": "Bentley",
+      "officialSourceUrl": "https://www.bentleymotors.com/en/models/bentayga.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bentley-continental-gt",
+      "modelName": "Continental GT",
+      "brand": "Bentley",
+      "officialSourceUrl": "https://www.bentleymotors.com/en/models/continental-gt.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "rolls-royce-ghost",
+      "modelName": "Ghost",
+      "brand": "Rolls-Royce",
+      "officialSourceUrl": "https://www.rolls-roycemotorcars.com/en_GB/showroom/ghost.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "rolls-royce-cullinan",
+      "modelName": "Cullinan",
+      "brand": "Rolls-Royce",
+      "officialSourceUrl": "https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "rolls-royce-spectre",
+      "modelName": "Spectre",
+      "brand": "Rolls-Royce",
+      "officialSourceUrl": "https://www.rolls-roycemotorcars.com/en_GB/showroom/spectre.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "lotus-eletre",
+      "modelName": "Eletre",
+      "brand": "Lotus",
+      "officialSourceUrl": "https://www.lotuscars.com/en-GB/eletre",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mclaren-artura",
+      "modelName": "Artura",
+      "brand": "McLaren",
+      "officialSourceUrl": "https://cars.mclaren.com/en/artura",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "mclaren-750s",
+      "modelName": "750S",
+      "brand": "McLaren",
+      "officialSourceUrl": "https://cars.mclaren.com/en/750s",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "nissan-gravite",
+      "modelName": "Gravite",
+      "brand": "Nissan",
+      "officialSourceUrl": "https://www.nissan.in/vehicles/new/gravite.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "nissan-tekton",
+      "modelName": "Tekton",
+      "brand": "Nissan",
+      "officialSourceUrl": "https://www.nissan.in/vehicles/new/tekton.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "renault-duster",
+      "modelName": "Duster",
+      "brand": "Renault",
+      "officialSourceUrl": "https://www.renault.co.in/cars/duster.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "skoda-kylaq",
+      "modelName": "Kylaq",
+      "brand": "Skoda",
+      "officialSourceUrl": "https://www.skoda-auto.co.in/models/kylaq/kylaq",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "kia-ev9",
+      "modelName": "EV9",
+      "brand": "Kia",
+      "officialSourceUrl": "https://www.kia.com/in/our-vehicles/ev9.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "GT-Line AWD"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "GT-Line AWD"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "vinfast-vf-6",
+      "modelName": "VF 6",
+      "brand": "VinFast",
+      "officialSourceUrl": "https://vinfastauto.in/models/vf6",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "vinfast-vf-7",
+      "modelName": "VF 7",
+      "brand": "VinFast",
+      "officialSourceUrl": "https://vinfastauto.in/models/vf7",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "vinfast-vf-mpv-7",
+      "modelName": "VF MPV 7",
+      "brand": "VinFast",
+      "officialSourceUrl": "https://vinfastauto.in/models/vf-mpv-7",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-a8-l",
+      "modelName": "A8 L",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/a8/a8-l.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-q8-e-tron",
+      "modelName": "Q8 e-tron",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/q8-e-tron/q8-e-tron.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-e-tron-gt",
+      "modelName": "e-tron GT",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/e-tron-gt/e-tron-gt.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "audi-rs5",
+      "modelName": "RS5",
+      "brand": "Audi",
+      "officialSourceUrl": "https://www.audi.in/in/web/en/models/a5/rs-5-sportback.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "bmw-x3",
+      "modelName": "X3",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/x-series/X3/2021/bmw-x3-highlights.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 2,
+      "staticVariantNames": [
+        "xDrive20d xLine",
+        "xDrive20d M Sport"
+      ],
+      "verifiedVariantsCount": 2,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "bmw-m2",
+      "modelName": "M2",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/m-series/m2-coupe/2023/bmw-2-series-m-coupe-highlights.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-xm",
+      "modelName": "XM",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/m-series/xm/2022/bmw-xm-highlights.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "bmw-z4",
+      "modelName": "Z4",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/z-series/z4/2022/bmw-z4-roadster-highlights.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bmw-i5",
+      "modelName": "i5",
+      "brand": "BMW",
+      "officialSourceUrl": "https://www.bmw.in/en/all-models/bmw-i/i5/2023/bmw-i5-highlights.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-glb",
+      "modelName": "GLB",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/glb/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-eqb",
+      "modelName": "EQB",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/eqb/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-eqe-suv",
+      "modelName": "EQE SUV",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/eqe/overview.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "mercedes-benz-eqs-suv",
+      "modelName": "EQS SUV",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/eqs/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-benz-cle",
+      "modelName": "CLE",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/coupe/cle/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mercedes-amg-gt",
+      "modelName": "AMG GT",
+      "brand": "Mercedes-Benz",
+      "officialSourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/coupe/amg-gt-coupe/overview.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "land-rover-discovery",
+      "modelName": "Discovery",
+      "brand": "Land Rover",
+      "officialSourceUrl": "https://www.landrover.in/discovery/discovery/index.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "land-rover-discovery-sport",
+      "modelName": "Discovery Sport",
+      "brand": "Land Rover",
+      "officialSourceUrl": "https://www.landrover.in/discovery/discovery-sport/index.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "range-rover-evoque",
+      "modelName": "Range Rover Evoque",
+      "brand": "Land Rover",
+      "officialSourceUrl": "https://www.landrover.in/range-rover/range-rover-evoque/index.html",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "lexus-lc-500h",
+      "modelName": "LC 500h",
+      "brand": "Lexus",
+      "officialSourceUrl": "https://www.lexusindia.co.in/en/models/lc/lc-500h.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "volvo-ex30",
+      "modelName": "EX30",
+      "brand": "Volvo",
+      "officialSourceUrl": "https://www.volvocars.com/in/cars/ex30-electric/",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "ferrari-12cilindri",
+      "modelName": "12Cilindri",
+      "brand": "Ferrari",
+      "officialSourceUrl": "https://www.ferrari.com/en-IN/auto/12cilindri",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "12Cilindri Coupe"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [
+        "Standard"
+      ],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "INCOMPLETE",
+      "priorityTier": "PRIORITY 4"
+    },
+    {
+      "modelId": "ferrari-sf90-stradale",
+      "modelName": "SF90 Stradale",
+      "brand": "Ferrari",
+      "officialSourceUrl": "https://www.ferrari.com/en-IN/auto/sf90-stradale",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "lamborghini-temerario",
+      "modelName": "Temerario",
+      "brand": "Lamborghini",
+      "officialSourceUrl": "https://www.lamborghini.com/en-en/models/temerario",
+      "officialVariantsFound": 1,
+      "officialVariantNames": [
+        "Standard"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Standard"
+      ],
+      "verifiedVariantsCount": 1,
+      "needsVerificationCount": 0,
+      "missingVariants": [],
+      "extraOrIncorrectVariants": [],
+      "coveragePercent": 100,
+      "status": "COMPLETE",
+      "priorityTier": "COMPLETE"
+    },
+    {
+      "modelId": "aston-martin-dbx",
+      "modelName": "DBX",
+      "brand": "Aston Martin",
+      "officialSourceUrl": "https://www.astonmartin.com/en/models/dbx707",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "bentley-flying-spur",
+      "modelName": "Flying Spur",
+      "brand": "Bentley",
+      "officialSourceUrl": "https://www.bentleymotors.com/en/models/flying-spur.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "rolls-royce-phantom",
+      "modelName": "Phantom",
+      "brand": "Rolls-Royce",
+      "officialSourceUrl": "https://www.rolls-roycemotorcars.com/en_GB/showroom/phantom.html",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "lotus-emira",
+      "modelName": "Emira",
+      "brand": "Lotus",
+      "officialSourceUrl": "https://www.lotuscars.com/en-IN/emira",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "mclaren-gts",
+      "modelName": "GTS",
+      "brand": "McLaren",
+      "officialSourceUrl": "https://cars.mclaren.com/en/gts",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    },
+    {
+      "modelId": "maserati-granturismo",
+      "modelName": "GranTurismo",
+      "brand": "Maserati",
+      "officialSourceUrl": "https://www.maserati.com/in/en/models/granturismo",
+      "officialVariantsFound": 2,
+      "officialVariantNames": [
+        "Base Specification",
+        "Top Specification"
+      ],
+      "staticVariantsStored": 1,
+      "staticVariantNames": [
+        "Base Specification"
+      ],
+      "verifiedVariantsCount": 0,
+      "needsVerificationCount": 1,
+      "missingVariants": [
+        "Top Specification"
+      ],
+      "extraOrIncorrectVariants": [
+        "Base Specification (Generic Placeholder)"
+      ],
+      "coveragePercent": 0,
+      "status": "UNVERIFIED",
+      "priorityTier": "PRIORITY 1"
+    }
+  ]
+}

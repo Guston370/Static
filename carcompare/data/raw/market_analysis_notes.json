@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-10-05",
+  "rebadgedVehiclesMatrix": [
+    {
+      "pairName": "Baleno ⟷ Glanza",
+      "originalDonorModel": "Maruti Suzuki Baleno",
+      "originalManufacturer": "Maruti Suzuki India Limited",
+      "rebadgedRecipientModel": "Toyota Glanza",
+      "recipientManufacturer": "Toyota Kirloskar Motor",
+      "sharedPlatform": "Suzuki Heartect Platform",
+      "manufacturingFacility": "Maruti Suzuki (Gujarat / Manesar)",
+      "differentiatingFactors": [
+        "Front fascia: Distinct Toyota chrome wing grille and bumper styling.",
+        "Headlight & DRL signatures (Glanza has L-shaped light guide; Baleno has triple-dot Nexa LED).",
+        "Warranty: Toyota offers 3 years / 100,000 km standard vs Maruti 2 years / 40,000 km.",
+        "Interior color theme: Glanza uses dual-tone black and beige; Baleno uses black and navy blue."
+      ]
+    },
+    {
+      "pairName": "Fronx ⟷ Urban Cruiser Taisor",
+      "originalDonorModel": "Maruti Suzuki Fronx",
+      "originalManufacturer": "Maruti Suzuki India Limited",
+      "rebadgedRecipientModel": "Toyota Urban Cruiser Taisor",
+      "recipientManufacturer": "Toyota Kirloskar Motor",
+      "sharedPlatform": "Suzuki Heartect Platform",
+      "manufacturingFacility": "Maruti Suzuki (Gujarat / Manesar)",
+      "differentiatingFactors": [
+        "Front grille: Toyota honeycomb grille with upper chrome bar vs Nexa wave grille.",
+        "DRLs: Linear twin-strip horizontal LED DRLs on Taisor vs 3-point NexVision on Fronx.",
+        "Alloy wheel patterns: Unique geometric diamond-cut wheel design on Taisor.",
+        "Warranty and aftersales service network terms."
+      ]
+    },
+    {
+      "pairName": "Ertiga ⟷ Rumion",
+      "originalDonorModel": "Maruti Suzuki Ertiga",
+      "originalManufacturer": "Maruti Suzuki India Limited",
+      "rebadgedRecipientModel": "Toyota Rumion",
+      "recipientManufacturer": "Toyota Kirloskar Motor",
+      "sharedPlatform": "Suzuki Heartect Platform",
+      "manufacturingFacility": "Maruti Suzuki (Manesar, Haryana)",
+      "differentiatingFactors": [
+        "Innova Crysta-inspired front trapezoidal grille with chrome surround.",
+        "Front bumper fog lamp housings.",
+        "Distinct dual-tone machined alloy wheels.",
+        "Standard Toyota 3-year / 100,000 km warranty coverage."
+      ]
+    },
+    {
+      "pairName": "Grand Vitara ⟷ Urban Cruiser Hyryder",
+      "originalDonorModel": "Joint Development (Suzuki Global C Platform + Toyota Hybrid System)",
+      "originalManufacturer": "Toyota Kirloskar Motor & Maruti Suzuki",
+      "rebadgedRecipientModel": "Maruti Suzuki Grand Vitara & Toyota UC Hyryder",
+      "recipientManufacturer": "Manufactured jointly at Toyota Bidadi Plant",
+      "sharedPlatform": "Global C Monocoque Architecture",
+      "manufacturingFacility": "Toyota Kirloskar Motor Plant 2 (Bidadi, Karnataka)",
+      "differentiatingFactors": [
+        "Front styling: Grand Vitara features split headlamps with 3-dot DRLs; Hyryder has single continuous LED eyebrow.",
+        "Rear styling: Grand Vitara features full-width smoked LED lightbar; Hyryder has separate C-shaped twin LED tails.",
+        "Interior themes: Grand Vitara features black + bordeaux interior; Hyryder features black + chocolate brown.",
+        "Warranty: Toyota offers 8 years / 160,000 km battery warranty on strong hybrid."
+      ]
+    },
+    {
+      "pairName": "Innova Hycross ⟷ Invicto",
+      "originalDonorModel": "Toyota Innova Hycross",
+      "originalManufacturer": "Toyota Kirloskar Motor",
+      "rebadgedRecipientModel": "Maruti Suzuki Invicto",
+      "recipientManufacturer": "Maruti Suzuki India Limited (Supplied by Toyota)",
+      "sharedPlatform": "Toyota TNGA-C (GA-C) Monocoque Platform",
+      "manufacturingFacility": "Toyota Kirloskar Motor Plant 1 (Bidadi, Karnataka)",
+      "differentiatingFactors": [
+        "Engine options: Hycross offers both standard 2.0L naturally aspirated petrol AND 2.0L Strong Hybrid; Invicto is exclusively sold as a Strong Hybrid.",
+        "Exterior: Nexa hexagonal chrome grille with cross-bar and Nexa 3-dot light signature.",
+        "Interior accents: Champagne gold trim on Invicto vs silver / brushed chrome on Hycross.",
+        "Features: Invicto excludes powered Ottoman leg rests and Level 2 ADAS (available on Hycross ZX(O))."
+      ]
+    },
+    {
+      "pairName": "Slavia ⟷ Virtus (Platform Siblings)",
+      "originalDonorModel": "Volkswagen Group India 2.0 Project",
+      "originalManufacturer": "Skoda Auto Volkswagen India",
+      "rebadgedRecipientModel": "Skoda Slavia & Volkswagen Virtus",
+      "recipientManufacturer": "SAVWIPL (Chakan, Pune)",
+      "sharedPlatform": "MQB-A0-IN Modular Platform",
+      "manufacturingFacility": "SAVWIPL Plant (Chakan, Pune)",
+      "differentiatingFactors": [
+        "Not rebadged copies: They share chassis, floorpan, and powertrains (1.0 TSI / 1.5 TSI), but feature completely unique sheet metal, doors, roofline, dashboard, and steering wheels.",
+        "Suspension tuning: Slavia is tuned for pliant ride comfort; Virtus has slightly firmer European damping.",
+        "Brand philosophy: Slavia embodies Skoda Czech crystalline design; Virtus features clean horizontal German lines."
+      ]
+    },
+    {
+      "pairName": "Kushaq ⟷ Taigun (Platform Siblings)",
+      "originalDonorModel": "Volkswagen Group India 2.0 Project",
+      "originalManufacturer": "Skoda Auto Volkswagen India",
+      "rebadgedRecipientModel": "Skoda Kushaq & Volkswagen Taigun",
+      "recipientManufacturer": "SAVWIPL (Chakan, Pune)",
+      "sharedPlatform": "MQB-A0-IN Modular Platform",
+      "manufacturingFacility": "SAVWIPL Plant (Chakan, Pune)",
+      "differentiatingFactors": [
+        "Distinct exterior sheet metal and interior layouts despite shared hardpoints.",
+        "Rear design: Taigun features an edge-to-edge illuminated LED lightbar (\"Infinity tail lamp\"); Kushaq features traditional two-piece L-shaped tail lamps.",
+        "Instrumentation: Virtus/Taigun utilize 8.0-inch Digital Cockpit; Slavia/Kushaq use 8.0-inch Skoda Virtual Cockpit."
+      ]
+    },
+    {
+      "pairName": "Kiger ⟷ Magnite (Alliance Siblings)",
+      "originalDonorModel": "Renault-Nissan-Mitsubishi Alliance",
+      "originalManufacturer": "Renault-Nissan India (RNAIPL)",
+      "rebadgedRecipientModel": "Renault Kiger & Nissan Magnite",
+      "recipientManufacturer": "RNAIPL Plant (Oragadam, Chennai)",
+      "sharedPlatform": "CMF-A+ Modular Platform",
+      "manufacturingFacility": "RNAIPL (Oragadam, Chennai)",
+      "differentiatingFactors": [
+        "Completely distinct sheet metal, front grilles, and tail light assemblies.",
+        "Automatic options: Kiger offers Easy-R AMT (on 1.0 NA) and X-Tronic CVT (on 1.0 Turbo); Magnite offers EZ-Shift AMT and CVT.",
+        "Boot capacity: Kiger offers 405 litres; Magnite offers 336 litres."
+      ]
+    }
+  ],
+  "variantClarificationRules": [
+    {
+      "rule": "Special Editions Are NOT Distinct Models",
+      "examples": [
+        "Tata Dark Edition",
+        "Tata Red Dark",
+        "Tata Kaziranga",
+        "Mahindra Stealth",
+        "Skoda Monte Carlo"
+      ],
+      "action": "Treat as cosmetic/aesthetic variant package under the parent model."
+    },
+    {
+      "rule": "Performance Trim Lines Are Variants",
+      "examples": [
+        "Hyundai i20 N Line",
+        "Hyundai Venue N Line",
+        "Hyundai Creta N Line",
+        "Tata Altroz Racer",
+        "Volkswagen Virtus GT"
+      ],
+      "action": "Treat as sport variant trims with suspension/exhaust tweaks rather than isolated vehicle models."
+    },
+    {
+      "rule": "Alternative Fuel Powertrains Are Variants",
+      "examples": [
+        "Maruti S-CNG",
+        "Tata iCNG",
+        "Toyota Hy-CNG",
+        "Honda City e:HEV Strong Hybrid"
+      ],
+      "action": "Catalog as powertrain variants under the model specification table, not standalone models."
+    },
+    {
+      "rule": "Dedicated EV Architectures vs Sub-Brands",
+      "examples": [
+        "TATA.ev (Punch.ev, Nexon.ev, Curvv.ev)",
+        "Mahindra XUV400",
+        "MG ZS EV vs Astor"
+      ],
+      "action": "Where the OEM has created a distinct electric brand or fundamentally different architecture (e.g. acti.ev or INGLO), model is cataloged under that dedicated brand with explicit cross-links."
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+[
+  {
+    "name": "Maruti Suzuki India Limited",
+    "slug": "maruti-suzuki-india",
+    "country": "India / Japan",
+    "website": "https://www.marutisuzuki.com",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "New Delhi, India",
+    "sourceUrl": "https://www.siam.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Maruti Suzuki Arena",
+        "slug": "maruti-suzuki",
+        "website": "https://www.marutisuzuki.com",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Maruti Suzuki Nexa",
+        "slug": "maruti-suzuki-nexa",
+        "website": "https://www.nexaexperience.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Hyundai Motor India Limited",
+    "slug": "hyundai-motor-india",
+    "country": "South Korea",
+    "website": "https://www.hyundai.com/in/en",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Gurugram, Haryana, India",
+    "sourceUrl": "https://www.hyundai.com/in/en",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Hyundai",
+        "slug": "hyundai",
+        "website": "https://www.hyundai.com/in/en",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Tata Motors Passenger Vehicles Limited",
+    "slug": "tata-motors-pv",
+    "country": "India",
+    "website": "https://cars.tatamotors.com",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "sourceUrl": "https://cars.tatamotors.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Tata",
+        "slug": "tata",
+        "website": "https://cars.tatamotors.com",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "TATA.ev",
+        "slug": "tata-ev",
+        "website": "https://ev.tatamotors.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Mahindra & Mahindra Limited",
+    "slug": "mahindra-and-mahindra",
+    "country": "India",
+    "website": "https://auto.mahindra.com",
+    "status": "ACTIVE",
+    "category": "Utility",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "sourceUrl": "https://auto.mahindra.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Mahindra",
+        "slug": "mahindra",
+        "website": "https://auto.mahindra.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Toyota Kirloskar Motor Private Limited",
+    "slug": "toyota-kirloskar-motor",
+    "country": "Japan",
+    "website": "https://www.toyotabharat.com",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Bidadi, Karnataka, India",
+    "sourceUrl": "https://www.toyotabharat.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Toyota",
+        "slug": "toyota",
+        "website": "https://www.toyotabharat.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Kia India Private Limited",
+    "slug": "kia-india",
+    "country": "South Korea",
+    "website": "https://www.kia.com/in",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Anantapur, Andhra Pradesh, India",
+    "sourceUrl": "https://www.kia.com/in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Kia",
+        "slug": "kia",
+        "website": "https://www.kia.com/in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Honda Cars India Limited",
+    "slug": "honda-cars-india",
+    "country": "Japan",
+    "website": "https://www.hondacarindia.com",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Tapukara, Rajasthan, India",
+    "sourceUrl": "https://www.hondacarindia.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Honda",
+        "slug": "honda",
+        "website": "https://www.hondacarindia.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "JSW MG Motor India Private Limited",
+    "slug": "jsw-mg-motor-india",
+    "country": "United Kingdom / India / China",
+    "website": "https://www.mgmotor.co.in",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Gurugram, Haryana, India",
+    "sourceUrl": "https://www.mgmotor.co.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "MG",
+        "slug": "mg",
+        "website": "https://www.mgmotor.co.in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Skoda Auto Volkswagen India Private Limited",
+    "slug": "savwipl",
+    "country": "Czech Republic / Germany",
+    "website": "https://www.skoda-auto.co.in",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Pune, Maharashtra, India",
+    "sourceUrl": "https://www.skoda-auto.co.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Skoda",
+        "slug": "skoda",
+        "website": "https://www.skoda-auto.co.in",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Volkswagen",
+        "slug": "volkswagen",
+        "website": "https://www.volkswagen.co.in",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Audi",
+        "slug": "audi",
+        "website": "https://www.audi.in",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Porsche",
+        "slug": "porsche",
+        "website": "https://www.porsche.com/middle-east/_india_",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Lamborghini",
+        "slug": "lamborghini",
+        "website": "https://www.lamborghini.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Renault India Private Limited",
+    "slug": "renault-india",
+    "country": "France",
+    "website": "https://www.renault.co.in",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Chennai, Tamil Nadu, India",
+    "sourceUrl": "https://www.renault.co.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Renault",
+        "slug": "renault",
+        "website": "https://www.renault.co.in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Nissan Motor India Private Limited",
+    "slug": "nissan-motor-india",
+    "country": "Japan",
+    "website": "https://www.nissan.in",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Chennai, Tamil Nadu, India",
+    "sourceUrl": "https://www.nissan.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Nissan",
+        "slug": "nissan",
+        "website": "https://www.nissan.in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Stellantis India",
+    "slug": "stellantis-india",
+    "country": "Netherlands / France / USA",
+    "website": "https://www.citroen.in",
+    "status": "ACTIVE",
+    "category": "Mass Market",
+    "headquarters": "Chennai, Tamil Nadu, India",
+    "sourceUrl": "https://www.stellantis.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Citroën",
+        "slug": "citroen",
+        "website": "https://www.citroen.in",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Jeep",
+        "slug": "jeep",
+        "website": "https://www.jeep-india.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "BYD India Private Limited",
+    "slug": "byd-india",
+    "country": "China",
+    "website": "https://bydautoindia.com",
+    "status": "ACTIVE",
+    "category": "Premium",
+    "headquarters": "Kancheepuram, Tamil Nadu, India",
+    "sourceUrl": "https://bydautoindia.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "BYD",
+        "slug": "byd",
+        "website": "https://bydautoindia.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Force Motors Limited",
+    "slug": "force-motors-ltd",
+    "country": "India",
+    "website": "https://www.forcemotors.com",
+    "status": "ACTIVE",
+    "category": "Utility",
+    "headquarters": "Pune, Maharashtra, India",
+    "sourceUrl": "https://www.forcemotors.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Force Motors",
+        "slug": "force-motors",
+        "website": "https://www.forcemotors.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Isuzu Motors India Private Limited",
+    "slug": "isuzu-motors-india",
+    "country": "Japan",
+    "website": "https://isuzu.in",
+    "status": "ACTIVE",
+    "category": "Utility",
+    "headquarters": "Sri City, Andhra Pradesh, India",
+    "sourceUrl": "https://isuzu.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Isuzu",
+        "slug": "isuzu",
+        "website": "https://isuzu.in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "BMW India Private Limited",
+    "slug": "bmw-india",
+    "country": "Germany",
+    "website": "https://www.bmw.in",
+    "status": "ACTIVE",
+    "category": "Luxury",
+    "headquarters": "Gurugram, Haryana, India",
+    "sourceUrl": "https://www.bmw.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "BMW",
+        "slug": "bmw",
+        "website": "https://www.bmw.in",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "MINI",
+        "slug": "mini",
+        "website": "https://www.mini.in",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Rolls-Royce",
+        "slug": "rolls-royce",
+        "website": "https://www.rolls-roycemotorcars.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Mercedes-Benz India Private Limited",
+    "slug": "mercedes-benz-india",
+    "country": "Germany",
+    "website": "https://www.mercedes-benz.co.in",
+    "status": "ACTIVE",
+    "category": "Luxury",
+    "headquarters": "Chakan, Pune, India",
+    "sourceUrl": "https://www.mercedes-benz.co.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Mercedes-Benz",
+        "slug": "mercedes-benz",
+        "website": "https://www.mercedes-benz.co.in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Volvo Auto India Private Limited",
+    "slug": "volvo-auto-india",
+    "country": "Sweden",
+    "website": "https://www.volvocars.com/in",
+    "status": "ACTIVE",
+    "category": "Luxury",
+    "headquarters": "Gurugram, Haryana, India",
+    "sourceUrl": "https://www.volvocars.com/in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Volvo",
+        "slug": "volvo",
+        "website": "https://www.volvocars.com/in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Jaguar Land Rover India Limited",
+    "slug": "jlr-india",
+    "country": "United Kingdom / India (Tata Motors)",
+    "website": "https://www.landrover.in",
+    "status": "ACTIVE",
+    "category": "Luxury",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "sourceUrl": "https://www.landrover.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Land Rover",
+        "slug": "land-rover",
+        "website": "https://www.landrover.in",
+        "status": "ACTIVE"
+      },
+      {
+        "name": "Jaguar",
+        "slug": "jaguar",
+        "website": "https://www.jaguar.in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Lexus India",
+    "slug": "lexus-india",
+    "country": "Japan",
+    "website": "https://www.lexusindia.co.in",
+    "status": "ACTIVE",
+    "category": "Luxury",
+    "headquarters": "Bidadi, Karnataka, India",
+    "sourceUrl": "https://www.lexusindia.co.in",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Lexus",
+        "slug": "lexus",
+        "website": "https://www.lexusindia.co.in",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Ferrari S.p.A. India",
+    "slug": "ferrari-india",
+    "country": "Italy",
+    "website": "https://www.ferrari.com/en-IN",
+    "status": "ACTIVE",
+    "category": "Exotic",
+    "headquarters": "Maranello, Italy / New Delhi Dealer Network",
+    "sourceUrl": "https://www.ferrari.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Ferrari",
+        "slug": "ferrari",
+        "website": "https://www.ferrari.com/en-IN",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Maserati India",
+    "slug": "maserati-india",
+    "country": "Italy",
+    "website": "https://www.maserati.com/in/en",
+    "status": "ACTIVE",
+    "category": "Exotic",
+    "headquarters": "Modena, Italy / Mumbai & Delhi Network",
+    "sourceUrl": "https://www.maserati.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Maserati",
+        "slug": "maserati",
+        "website": "https://www.maserati.com/in/en",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Aston Martin Lagonda India",
+    "slug": "aston-martin-india",
+    "country": "United Kingdom",
+    "website": "https://www.astonmartin.com",
+    "status": "ACTIVE",
+    "category": "Exotic",
+    "headquarters": "Gaydon, Warwickshire, UK / New Delhi Dealership",
+    "sourceUrl": "https://www.astonmartin.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Aston Martin",
+        "slug": "aston-martin",
+        "website": "https://www.astonmartin.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Bentley Motors India",
+    "slug": "bentley-india",
+    "country": "United Kingdom",
+    "website": "https://www.bentleymotors.com",
+    "status": "ACTIVE",
+    "category": "Luxury",
+    "headquarters": "Crewe, UK / New Delhi & Mumbai Network",
+    "sourceUrl": "https://www.bentleymotors.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Bentley",
+        "slug": "bentley",
+        "website": "https://www.bentleymotors.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "Lotus Cars India",
+    "slug": "lotus-cars-india",
+    "country": "United Kingdom",
+    "website": "https://www.lotuscars.com",
+    "status": "ACTIVE",
+    "category": "Exotic",
+    "headquarters": "Hethel, Norfolk, UK / Exclusive Motors New Delhi",
+    "sourceUrl": "https://www.lotuscars.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "Lotus",
+        "slug": "lotus",
+        "website": "https://www.lotuscars.com",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  {
+    "name": "McLaren Automotive India",
+    "slug": "mclaren-india",
+    "country": "United Kingdom",
+    "website": "https://cars.mclaren.com",
+    "status": "ACTIVE",
+    "category": "Exotic",
+    "headquarters": "Woking, Surrey, UK / Mumbai Retail Network",
+    "sourceUrl": "https://cars.mclaren.com",
+    "lastVerified": "2026-10-05",
+    "brands": [
+      {
+        "name": "McLaren",
+        "slug": "mclaren",
+        "website": "https://cars.mclaren.com",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+]

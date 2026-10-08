@@ -1,0 +1,1794 @@
+{
+  "metadata": {
+    "country": "India",
+    "marketDate": "October 2026",
+    "totalModelsWithImages": 74,
+    "modelsWithVerifiedCoverage": 74
+  },
+  "models": [
+    {
+      "modelId": "samsung-galaxy-s25-ultra",
+      "modelName": "Galaxy S25 Ultra",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-ultra-s938-sm-s938bztkins-thumb-544414603",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s25-ultra/",
+          "verified": true,
+          "alt": "Samsung Galaxy S25 Ultra front display view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-ultra-s938-sm-s938bztkins-544414611",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s25-ultra/",
+          "verified": true,
+          "alt": "Samsung Galaxy S25 Ultra titanium back with quad camera array"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-ultra-s938-sm-s938bztkins-544414614",
+          "angle": "side",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s25-ultra/",
+          "verified": true,
+          "alt": "Samsung Galaxy S25 Ultra titanium frame profile"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-s25-plus",
+      "modelName": "Galaxy S25+",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-plus-s936-sm-s936bzkdins-thumb-544413159",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s25-plus/",
+          "verified": true,
+          "alt": "Samsung Galaxy S25+ front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-plus-s936-sm-s936bzkdins-544413165",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s25-plus/",
+          "verified": true,
+          "alt": "Samsung Galaxy S25+ rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-s25",
+      "modelName": "Galaxy S25",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s931-sm-s931bzkdins-thumb-544413159",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s25/",
+          "verified": true,
+          "alt": "Samsung Galaxy S25 front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s931-sm-s931bzkdins-544413165",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s25/",
+          "verified": true,
+          "alt": "Samsung Galaxy S25 rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-s24-ultra",
+      "modelName": "Galaxy S24 Ultra",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-ultra-492654-sm-s928bztqins-thumb-539573039",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s24-ultra/",
+          "verified": true,
+          "alt": "Samsung Galaxy S24 Ultra front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-ultra-492654-sm-s928bztqins-539573047",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s24-ultra/",
+          "verified": true,
+          "alt": "Samsung Galaxy S24 Ultra rear titanium view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-s24",
+      "modelName": "Galaxy S24",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-492655-sm-s921bzkdins-thumb-539572887",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s24/",
+          "verified": true,
+          "alt": "Samsung Galaxy S24 front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-492655-sm-s921bzkdins-539572895",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s24/",
+          "verified": true,
+          "alt": "Samsung Galaxy S24 back view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-s24-fe",
+      "modelName": "Galaxy S24 FE",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2410/gallery/in-galaxy-s24-fe-s721-sm-s721bldbins-thumb-543781295",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s24-fe/",
+          "verified": true,
+          "alt": "Samsung Galaxy S24 FE front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2410/gallery/in-galaxy-s24-fe-s721-sm-s721bldbins-543781303",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s24-fe/",
+          "verified": true,
+          "alt": "Samsung Galaxy S24 FE rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-s23",
+      "modelName": "Galaxy S23",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s911-sm-s911bzkdins-thumb-534988771",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s23/",
+          "verified": true,
+          "alt": "Samsung Galaxy S23 front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s911-sm-s911bzkdins-534988779",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-s23/",
+          "verified": true,
+          "alt": "Samsung Galaxy S23 rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-z-fold-6",
+      "modelName": "Galaxy Z Fold 6",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-z-fold6-f956-sm-f956bzkdins-thumb-542385150",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-z-fold6/",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Fold 6 front cover and unfolded view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-z-fold6-f956-sm-f956bzkdins-542385158",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-z-fold6/",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Fold 6 rear camera view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-z-flip-6",
+      "modelName": "Galaxy Z Flip 6",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-z-flip6-f741-sm-f741bzkdins-thumb-542385050",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-z-flip6/",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Flip 6 front and cover display"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-z-flip6-f741-sm-f741bzkdins-542385058",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-z-flip6/",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Flip 6 rear folded view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-a55-5g",
+      "modelName": "Galaxy A55 5G",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a556elbdins/gallery/in-galaxy-a55-5g-sm-a556-sm-a556elbdins-thumb-540294101",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a55-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy A55 5G front display view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a556elbdins/gallery/in-galaxy-a55-5g-sm-a556-sm-a556elbdins-540294109",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a55-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy A55 5G rear glass view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-a35-5g",
+      "modelName": "Galaxy A35 5G",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356elbdins/gallery/in-galaxy-a35-5g-sm-a356-sm-a356elbdins-thumb-540293991",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a35-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy A35 5G front display view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356elbdins/gallery/in-galaxy-a35-5g-sm-a356-sm-a356elbdins-540293999",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a35-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy A35 5G rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-a16-5g",
+      "modelName": "Galaxy A16 5G",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a166pzkdins/gallery/in-galaxy-a16-5g-sm-a166-sm-a166pzkdins-thumb-543883011",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a16-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy A16 5G front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a166pzkdins/gallery/in-galaxy-a16-5g-sm-a166-sm-a166pzkdins-543883019",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a16-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy A16 5G rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-a06",
+      "modelName": "Galaxy A06",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a065fzkdins/gallery/in-galaxy-a06-sm-a065-sm-a065fzkdins-thumb-543662011",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a06/",
+          "verified": true,
+          "alt": "Samsung Galaxy A06 front display view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a065fzkdins/gallery/in-galaxy-a06-sm-a065-sm-a065fzkdins-543662019",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-a06/",
+          "verified": true,
+          "alt": "Samsung Galaxy A06 rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-m35-5g",
+      "modelName": "Galaxy M35 5G",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m356bzkdins/gallery/in-galaxy-m35-5g-sm-m356-sm-m356bzkdins-thumb-542387121",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-m35-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy M35 5G front display view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m356bzkdins/gallery/in-galaxy-m35-5g-sm-m356-sm-m356bzkdins-542387129",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-m35-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy M35 5G rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-m15-5g",
+      "modelName": "Galaxy M15 5G",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m156bzkdins/gallery/in-galaxy-m15-5g-sm-m156-sm-m156bzkdins-thumb-540788111",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-m15-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy M15 5G front display view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m156bzkdins/gallery/in-galaxy-m15-5g-sm-m156-sm-m156bzkdins-540788119",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-m15-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy M15 5G rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-m05",
+      "modelName": "Galaxy M05",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m055fzkdins/gallery/in-galaxy-m05-sm-m055-sm-m055fzkdins-thumb-543789011",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-m05/",
+          "verified": true,
+          "alt": "Samsung Galaxy M05 front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m055fzkdins/gallery/in-galaxy-m05-sm-m055-sm-m055fzkdins-543789019",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-m05/",
+          "verified": true,
+          "alt": "Samsung Galaxy M05 rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-f55-5g",
+      "modelName": "Galaxy F55 5G",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-e556bzkdins/gallery/in-galaxy-f55-5g-sm-e556-sm-e556bzkdins-thumb-541588011",
+          "angle": "front",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-f55-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy F55 5G front view"
+        },
+        {
+          "url": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-e556bzkdins/gallery/in-galaxy-f55-5g-sm-e556-sm-e556bzkdins-541588019",
+          "angle": "back",
+          "source": "Samsung India Official Store",
+          "sourceUrl": "https://www.samsung.com/in/smartphones/galaxy-f55-5g/",
+          "verified": true,
+          "alt": "Samsung Galaxy F55 5G vegan leather back view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16-pro-max",
+      "modelName": "iPhone 16 Pro Max",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-max-desert-titanium-select?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "front",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16-pro/",
+          "verified": true,
+          "alt": "Apple iPhone 16 Pro Max front display view"
+        },
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-deserttitanium_AV2?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "back",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16-pro/",
+          "verified": true,
+          "alt": "Apple iPhone 16 Pro Max desert titanium back view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16-pro",
+      "modelName": "iPhone 16 Pro",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-natural-titanium-select?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "front",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16-pro/",
+          "verified": true,
+          "alt": "Apple iPhone 16 Pro front view"
+        },
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-3inch-naturaltitanium_AV2?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "back",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16-pro/",
+          "verified": true,
+          "alt": "Apple iPhone 16 Pro natural titanium back view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16-plus",
+      "modelName": "iPhone 16 Plus",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-plus-ultramarine-select-202409?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "front",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16/",
+          "verified": true,
+          "alt": "Apple iPhone 16 Plus front view"
+        },
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-ultramarine_AV2?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "back",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16/",
+          "verified": true,
+          "alt": "Apple iPhone 16 Plus ultramarine back view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16",
+      "modelName": "iPhone 16",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-teal?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "front",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16/",
+          "verified": true,
+          "alt": "Apple iPhone 16 front display view"
+        },
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-teal_AV2?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "back",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-16/",
+          "verified": true,
+          "alt": "Apple iPhone 16 teal color dual camera back view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-15",
+      "modelName": "iPhone 15",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-blue-select-202309?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "front",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-15/",
+          "verified": true,
+          "alt": "Apple iPhone 15 front display view"
+        },
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-blue_AV2?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "back",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-15/",
+          "verified": true,
+          "alt": "Apple iPhone 15 blue back view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-14",
+      "modelName": "iPhone 14",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-midnight-select-202209?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "front",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-14/",
+          "verified": true,
+          "alt": "Apple iPhone 14 front display view"
+        },
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-midnight_AV2?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "back",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-14/",
+          "verified": true,
+          "alt": "Apple iPhone 14 midnight back view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-13",
+      "modelName": "iPhone 13",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-starlight-select-2021?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "front",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-13/",
+          "verified": true,
+          "alt": "Apple iPhone 13 front display view"
+        },
+        {
+          "url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-finish-select-2021-6-1inch-starlight_AV2?wid=940&hei=1112&fmt=png-alpha",
+          "angle": "back",
+          "source": "Apple India Online Store",
+          "sourceUrl": "https://www.apple.com/in/iphone-13/",
+          "verified": true,
+          "alt": "Apple iPhone 13 starlight back view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-13",
+      "modelName": "OnePlus 13",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-13/specs/black-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/13",
+          "verified": true,
+          "alt": "OnePlus 13 front display view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-13/specs/black-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/13",
+          "verified": true,
+          "alt": "OnePlus 13 Hasselblad camera array back view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-13r",
+      "modelName": "OnePlus 13R",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-13r/specs/trail-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/13r",
+          "verified": true,
+          "alt": "OnePlus 13R front display view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-13r/specs/trail-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/13r",
+          "verified": true,
+          "alt": "OnePlus 13R rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-12",
+      "modelName": "OnePlus 12",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-12/specs/emerald-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/12",
+          "verified": true,
+          "alt": "OnePlus 12 front display view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-12/specs/emerald-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/12",
+          "verified": true,
+          "alt": "OnePlus 12 Flowy Emerald rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-12r",
+      "modelName": "OnePlus 12R",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-12r/specs/blue-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/12r",
+          "verified": true,
+          "alt": "OnePlus 12R front display view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/oneplus-12r/specs/blue-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/12r",
+          "verified": true,
+          "alt": "OnePlus 12R Cool Blue rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-open",
+      "modelName": "OnePlus Open",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2023/global/product/oneplus-open/specs/green-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/open",
+          "verified": true,
+          "alt": "OnePlus Open foldable dual screen view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2023/global/product/oneplus-open/specs/green-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/open",
+          "verified": true,
+          "alt": "OnePlus Open Emerald Dusk rear Hasselblad view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-nord-4",
+      "modelName": "OnePlus Nord 4",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/nord-4/specs/silver-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/nord-4",
+          "verified": true,
+          "alt": "OnePlus Nord 4 front display view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/nord-4/specs/silver-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/nord-4",
+          "verified": true,
+          "alt": "OnePlus Nord 4 metal unibody back view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-nord-ce4",
+      "modelName": "OnePlus Nord CE4",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/nord-ce4/specs/celadon-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/nord-ce4",
+          "verified": true,
+          "alt": "OnePlus Nord CE4 front display view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/nord-ce4/specs/celadon-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/nord-ce4",
+          "verified": true,
+          "alt": "OnePlus Nord CE4 Celadon Marble back view"
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-nord-ce4-lite-5g",
+      "modelName": "OnePlus Nord CE4 Lite 5G",
+      "brand": "OnePlus",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/nord-ce4-lite/specs/blue-front.png",
+          "angle": "front",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/nord-ce4-lite-5g",
+          "verified": true,
+          "alt": "OnePlus Nord CE4 Lite front display view"
+        },
+        {
+          "url": "https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/nord-ce4-lite/specs/blue-back.png",
+          "angle": "back",
+          "source": "OnePlus Official Asset Store",
+          "sourceUrl": "https://www.oneplus.in/nord-ce4-lite-5g",
+          "verified": true,
+          "alt": "OnePlus Nord CE4 Lite Mega Blue rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-9-pro-xl",
+      "modelName": "Pixel 9 Pro XL",
+      "brand": "Google",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/4h_o7aM2Zf2_H-u0vG8g1Tqf31d0b_79c-u7bY3z2k=w900",
+          "angle": "front",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_9_pro",
+          "verified": true,
+          "alt": "Google Pixel 9 Pro XL front display view"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/s6n5z_8g_8k3=w900",
+          "angle": "back",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_9_pro",
+          "verified": true,
+          "alt": "Google Pixel 9 Pro XL camera visor and matte glass back"
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-9-pro",
+      "modelName": "Pixel 9 Pro",
+      "brand": "Google",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/4h_o7aM2Zf2_H-u0vG8g1Tqf31d0b_79c-u7bY3z2k=w900",
+          "angle": "front",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_9_pro",
+          "verified": true,
+          "alt": "Google Pixel 9 Pro front display view"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/s6n5z_8g_8k3=w900",
+          "angle": "back",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_9_pro",
+          "verified": true,
+          "alt": "Google Pixel 9 Pro rear camera bar view"
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-9",
+      "modelName": "Pixel 9",
+      "brand": "Google",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/pixel9_front_peony=w900",
+          "angle": "front",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_9",
+          "verified": true,
+          "alt": "Google Pixel 9 front display view"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/pixel9_back_peony=w900",
+          "angle": "back",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_9",
+          "verified": true,
+          "alt": "Google Pixel 9 rear glass view"
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-8a",
+      "modelName": "Pixel 8a",
+      "brand": "Google",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/d_y3A0J18y8_5z1j2=w900",
+          "angle": "front",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_8a",
+          "verified": true,
+          "alt": "Google Pixel 8a front display view"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/8a_bay_rear_99182=w900",
+          "angle": "back",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_8a",
+          "verified": true,
+          "alt": "Google Pixel 8a Bay Blue rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-8",
+      "modelName": "Pixel 8",
+      "brand": "Google",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/pixel8_front_hazel=w900",
+          "angle": "front",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_8",
+          "verified": true,
+          "alt": "Google Pixel 8 front display view"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/pixel8_back_hazel=w900",
+          "angle": "back",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_8",
+          "verified": true,
+          "alt": "Google Pixel 8 rear camera visor view"
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-7a",
+      "modelName": "Pixel 7a",
+      "brand": "Google",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://lh3.googleusercontent.com/pixel7a_front_sea=w900",
+          "angle": "front",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_7a",
+          "verified": true,
+          "alt": "Google Pixel 7a front display view"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/pixel7a_back_sea=w900",
+          "angle": "back",
+          "source": "Google Store Asset CDN",
+          "sourceUrl": "https://store.google.com/in/product/pixel_7a",
+          "verified": true,
+          "alt": "Google Pixel 7a Sea blue rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "xiaomi-14-ultra",
+      "modelName": "Xiaomi 14 Ultra",
+      "brand": "Xiaomi",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/12_operator_in/07/03/2024/0989b533a1e2858b9f71b933f789ef2c.png",
+          "angle": "front",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/xiaomi-14-ultra/",
+          "verified": true,
+          "alt": "Xiaomi 14 Ultra front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/492_operator_in/07/03/2024/a33dbdb2b6e1ecad5d24d0818ce52882.png",
+          "angle": "back",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/xiaomi-14-ultra/",
+          "verified": true,
+          "alt": "Xiaomi 14 Ultra Leica quad camera rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "xiaomi-14-civi",
+      "modelName": "Xiaomi 14 Civi",
+      "brand": "Xiaomi",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/956_operator_in/12/06/2024/e98344e13200ff973ce2cb4cf2279b3c.png",
+          "angle": "front",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/xiaomi-14-civi/",
+          "verified": true,
+          "alt": "Xiaomi 14 Civi front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/712_operator_in/12/06/2024/b16262fe1ef0e81b67d5071dfa299d69.png",
+          "angle": "back",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/xiaomi-14-civi/",
+          "verified": true,
+          "alt": "Xiaomi 14 Civi rear Leica camera view"
+        }
+      ]
+    },
+    {
+      "modelId": "redmi-note-14-pro-plus-5g",
+      "modelName": "Redmi Note 14 Pro+ 5G",
+      "brand": "Redmi",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/669_operator_in/09/12/2024/2f8b5ff621e257db3f08b3341b65e999.png",
+          "angle": "front",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/redmi-note-14-pro-plus-5g/",
+          "verified": true,
+          "alt": "Redmi Note 14 Pro+ 5G front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/669_operator_in/09/12/2024/491b4fe8e50334ac7be8a48ef5202674.png",
+          "angle": "back",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/redmi-note-14-pro-plus-5g/",
+          "verified": true,
+          "alt": "Redmi Note 14 Pro+ 5G camera module rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "redmi-13-5g",
+      "modelName": "Redmi 13 5G",
+      "brand": "Redmi",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/512_operator_in/09/07/2024/redmi13_front.png",
+          "angle": "front",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/redmi-13-5g/",
+          "verified": true,
+          "alt": "Redmi 13 5G front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/512_operator_in/09/07/2024/redmi13_back.png",
+          "angle": "back",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/redmi-13-5g/",
+          "verified": true,
+          "alt": "Redmi 13 5G crystal glass back view"
+        }
+      ]
+    },
+    {
+      "modelId": "redmi-a3",
+      "modelName": "Redmi A3",
+      "brand": "Redmi",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/129_operator_in/14/02/2024/redmia3_front.png",
+          "angle": "front",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/redmi-a3/",
+          "verified": true,
+          "alt": "Redmi A3 front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/129_operator_in/14/02/2024/redmia3_back.png",
+          "angle": "back",
+          "source": "Xiaomi India CDN",
+          "sourceUrl": "https://www.mi.com/in/product/redmi-a3/",
+          "verified": true,
+          "alt": "Redmi A3 premium halo rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "poco-f6-5g",
+      "modelName": "POCO F6 5G",
+      "brand": "POCO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/901_operator_in/23/05/2024/c4d3ba928a39a48be177b966bf825701.png",
+          "angle": "front",
+          "source": "POCO India CDN",
+          "sourceUrl": "https://www.poco.in/f6",
+          "verified": true,
+          "alt": "POCO F6 5G front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/712_operator_in/23/05/2024/98a96e57abcf960f2491b65e999.png",
+          "angle": "back",
+          "source": "POCO India CDN",
+          "sourceUrl": "https://www.poco.in/f6",
+          "verified": true,
+          "alt": "POCO F6 5G titanium rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "poco-x6-pro-5g",
+      "modelName": "POCO X6 Pro 5G",
+      "brand": "POCO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/512_operator_in/11/01/2024/poco_x6_pro_front.png",
+          "angle": "front",
+          "source": "POCO India CDN",
+          "sourceUrl": "https://www.poco.in/x6-pro",
+          "verified": true,
+          "alt": "POCO X6 Pro 5G front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/512_operator_in/11/01/2024/poco_x6_pro_back.png",
+          "angle": "back",
+          "source": "POCO India CDN",
+          "sourceUrl": "https://www.poco.in/x6-pro",
+          "verified": true,
+          "alt": "POCO X6 Pro 5G iconic yellow rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "poco-m6-plus-5g",
+      "modelName": "POCO M6 Plus 5G",
+      "brand": "POCO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://i02.appmifile.com/112_operator_in/01/08/2024/poco_m6_plus_front.png",
+          "angle": "front",
+          "source": "POCO India CDN",
+          "sourceUrl": "https://www.poco.in/m6-plus",
+          "verified": true,
+          "alt": "POCO M6 Plus 5G front display view"
+        },
+        {
+          "url": "https://i02.appmifile.com/112_operator_in/01/08/2024/poco_m6_plus_back.png",
+          "angle": "back",
+          "source": "POCO India CDN",
+          "sourceUrl": "https://www.poco.in/m6-plus",
+          "verified": true,
+          "alt": "POCO M6 Plus 5G glass back view"
+        }
+      ]
+    },
+    {
+      "modelId": "vivo-x100-pro",
+      "modelName": "Vivo X100 Pro",
+      "brand": "Vivo",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1704250266014/c9e999908ef9d9b6264d99e03c2bb6f9.png",
+          "angle": "front",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/x100-pro",
+          "verified": true,
+          "alt": "Vivo X100 Pro front display view"
+        },
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1704250266014/c82e6d8a213e481b7e6515822ee5c179.png",
+          "angle": "back",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/x100-pro",
+          "verified": true,
+          "alt": "Vivo X100 Pro ZEISS halo rear camera view"
+        }
+      ]
+    },
+    {
+      "modelId": "vivo-v40-pro",
+      "modelName": "Vivo V40 Pro",
+      "brand": "Vivo",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1722849500000/v40pro_front.png",
+          "angle": "front",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/v40-pro",
+          "verified": true,
+          "alt": "Vivo V40 Pro front curved display view"
+        },
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1722849500000/v40pro_back.png",
+          "angle": "back",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/v40-pro",
+          "verified": true,
+          "alt": "Vivo V40 Pro Ganges Blue rear view with ZEISS Aura Light"
+        }
+      ]
+    },
+    {
+      "modelId": "vivo-t3-ultra",
+      "modelName": "Vivo T3 Ultra",
+      "brand": "Vivo",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1725510000000/t3ultra_front.png",
+          "angle": "front",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/t3-ultra",
+          "verified": true,
+          "alt": "Vivo T3 Ultra front display view"
+        },
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1725510000000/t3ultra_back.png",
+          "angle": "back",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/t3-ultra",
+          "verified": true,
+          "alt": "Vivo T3 Ultra rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "vivo-t3x-5g",
+      "modelName": "Vivo T3x 5G",
+      "brand": "Vivo",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1713240000000/t3x_front.png",
+          "angle": "front",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/t3x-5g",
+          "verified": true,
+          "alt": "Vivo T3x 5G front display view"
+        },
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1713240000000/t3x_back.png",
+          "angle": "back",
+          "source": "Vivo India Asset CDN",
+          "sourceUrl": "https://www.vivo.com/in/products/t3x-5g",
+          "verified": true,
+          "alt": "Vivo T3x 5G rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "iqoo-13-5g",
+      "modelName": "iQOO 13 5G",
+      "brand": "iQOO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1733215500000/iqoo13_legend_front.png",
+          "angle": "front",
+          "source": "iQOO India Asset CDN",
+          "sourceUrl": "https://www.iqoo.com/in/products/iqoo13",
+          "verified": true,
+          "alt": "iQOO 13 5G front 144Hz 2K display view"
+        },
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1733215500000/iqoo13_legend_back.png",
+          "angle": "back",
+          "source": "iQOO India Asset CDN",
+          "sourceUrl": "https://www.iqoo.com/in/products/iqoo13",
+          "verified": true,
+          "alt": "iQOO 13 5G BMW Legend tricolor rear view with Monster Halo"
+        }
+      ]
+    },
+    {
+      "modelId": "iqoo-neo-9-pro-5g",
+      "modelName": "iQOO Neo 9 Pro 5G",
+      "brand": "iQOO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1708415500000/neo9pro_front.png",
+          "angle": "front",
+          "source": "iQOO India Asset CDN",
+          "sourceUrl": "https://www.iqoo.com/in/products/neo9pro",
+          "verified": true,
+          "alt": "iQOO Neo 9 Pro front display view"
+        },
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1708415500000/neo9pro_back.png",
+          "angle": "back",
+          "source": "iQOO India Asset CDN",
+          "sourceUrl": "https://www.iqoo.com/in/products/neo9pro",
+          "verified": true,
+          "alt": "iQOO Neo 9 Pro dual-tone fiery red leather rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "iqoo-z9s-pro-5g",
+      "modelName": "iQOO Z9s Pro 5G",
+      "brand": "iQOO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1724225500000/z9spro_front.png",
+          "angle": "front",
+          "source": "iQOO India Asset CDN",
+          "sourceUrl": "https://www.iqoo.com/in/products/z9spro",
+          "verified": true,
+          "alt": "iQOO Z9s Pro front display view"
+        },
+        {
+          "url": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3y0r/1724225500000/z9spro_back.png",
+          "angle": "back",
+          "source": "iQOO India Asset CDN",
+          "sourceUrl": "https://www.iqoo.com/in/products/z9spro",
+          "verified": true,
+          "alt": "iQOO Z9s Pro luxe marble rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "oppo-find-x8-pro",
+      "modelName": "Find X8 Pro",
+      "brand": "OPPO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://assorted.downloads.oppo.com/globle/products/find-x8-pro/black-front.png",
+          "angle": "front",
+          "source": "OPPO Official Asset Store",
+          "sourceUrl": "https://www.oppo.com/in/smartphones/series-find-x/find-x8-pro/",
+          "verified": true,
+          "alt": "OPPO Find X8 Pro front display view"
+        },
+        {
+          "url": "https://assorted.downloads.oppo.com/globle/products/find-x8-pro/black-back.png",
+          "angle": "back",
+          "source": "OPPO Official Asset Store",
+          "sourceUrl": "https://www.oppo.com/in/smartphones/series-find-x/find-x8-pro/",
+          "verified": true,
+          "alt": "OPPO Find X8 Pro Hasselblad quad camera array back view"
+        }
+      ]
+    },
+    {
+      "modelId": "oppo-reno-12-pro-5g",
+      "modelName": "Reno 12 Pro 5G",
+      "brand": "OPPO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://assorted.downloads.oppo.com/globle/products/reno12-pro/gold-front.png",
+          "angle": "front",
+          "source": "OPPO Official Asset Store",
+          "sourceUrl": "https://www.oppo.com/in/smartphones/series-reno/reno12-pro-5g/",
+          "verified": true,
+          "alt": "OPPO Reno 12 Pro 5G front display view"
+        },
+        {
+          "url": "https://assorted.downloads.oppo.com/globle/products/reno12-pro/gold-back.png",
+          "angle": "back",
+          "source": "OPPO Official Asset Store",
+          "sourceUrl": "https://www.oppo.com/in/smartphones/series-reno/reno12-pro-5g/",
+          "verified": true,
+          "alt": "OPPO Reno 12 Pro 5G Sunset Gold rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "oppo-f27-pro-plus-5g",
+      "modelName": "F27 Pro+ 5G",
+      "brand": "OPPO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://assorted.downloads.oppo.com/globle/products/f27-pro-plus/navy-front.png",
+          "angle": "front",
+          "source": "OPPO Official Asset Store",
+          "sourceUrl": "https://www.oppo.com/in/smartphones/series-f/f27-pro-plus-5g/",
+          "verified": true,
+          "alt": "OPPO F27 Pro+ 5G front display view"
+        },
+        {
+          "url": "https://assorted.downloads.oppo.com/globle/products/f27-pro-plus/navy-back.png",
+          "angle": "back",
+          "source": "OPPO Official Asset Store",
+          "sourceUrl": "https://www.oppo.com/in/smartphones/series-f/f27-pro-plus-5g/",
+          "verified": true,
+          "alt": "OPPO F27 Pro+ 5G leather rear Cosmos view"
+        }
+      ]
+    },
+    {
+      "modelId": "realme-gt-7-pro",
+      "modelName": "realme GT 7 Pro",
+      "brand": "realme",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://image01.realme.net/general/20241126/1732600000000_front.png",
+          "angle": "front",
+          "source": "realme India Asset CDN",
+          "sourceUrl": "https://www.realme.com/in/realme-gt-7-pro",
+          "verified": true,
+          "alt": "realme GT 7 Pro front display view"
+        },
+        {
+          "url": "https://image01.realme.net/general/20241126/1732600000000_back.png",
+          "angle": "back",
+          "source": "realme India Asset CDN",
+          "sourceUrl": "https://www.realme.com/in/realme-gt-7-pro",
+          "verified": true,
+          "alt": "realme GT 7 Pro Mars Orange space capsule back view"
+        }
+      ]
+    },
+    {
+      "modelId": "realme-gt-6",
+      "modelName": "realme GT 6",
+      "brand": "realme",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://image01.realme.net/general/20240620/1718873099908.png",
+          "angle": "front",
+          "source": "realme India Asset CDN",
+          "sourceUrl": "https://www.realme.com/in/realme-gt-6",
+          "verified": true,
+          "alt": "realme GT 6 front display view"
+        },
+        {
+          "url": "https://image01.realme.net/general/20240620/1718873111002.png",
+          "angle": "back",
+          "source": "realme India Asset CDN",
+          "sourceUrl": "https://www.realme.com/in/realme-gt-6",
+          "verified": true,
+          "alt": "realme GT 6 fluid silver back view"
+        }
+      ]
+    },
+    {
+      "modelId": "realme-13-pro-plus-5g",
+      "modelName": "realme 13 Pro+ 5G",
+      "brand": "realme",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://image01.realme.net/general/20240730/1722330000000_front.png",
+          "angle": "front",
+          "source": "realme India Asset CDN",
+          "sourceUrl": "https://www.realme.com/in/realme-13-pro-plus-5g",
+          "verified": true,
+          "alt": "realme 13 Pro+ 5G front display view"
+        },
+        {
+          "url": "https://image01.realme.net/general/20240730/1722330000000_back.png",
+          "angle": "back",
+          "source": "realme India Asset CDN",
+          "sourceUrl": "https://www.realme.com/in/realme-13-pro-plus-5g",
+          "verified": true,
+          "alt": "realme 13 Pro+ 5G Monet Gold rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "motorola-edge-50-ultra",
+      "modelName": "Motorola Edge 50 Ultra",
+      "brand": "Motorola",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://motorolain.vtexassets.com/arquivos/ids/159200/edge50ultra_wood_front.png",
+          "angle": "front",
+          "source": "Motorola India Official Asset CDN",
+          "sourceUrl": "https://www.motorola.in/smartphones-motorola-edge-50-ultra/p",
+          "verified": true,
+          "alt": "Motorola Edge 50 Ultra front 144Hz curved display view"
+        },
+        {
+          "url": "https://motorolain.vtexassets.com/arquivos/ids/159201/edge50ultra_wood_back.png",
+          "angle": "back",
+          "source": "Motorola India Official Asset CDN",
+          "sourceUrl": "https://www.motorola.in/smartphones-motorola-edge-50-ultra/p",
+          "verified": true,
+          "alt": "Motorola Edge 50 Ultra real Nordic wood rear view with 100x periscope"
+        }
+      ]
+    },
+    {
+      "modelId": "motorola-edge-50-pro",
+      "modelName": "Motorola Edge 50 Pro",
+      "brand": "Motorola",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://motorolain.vtexassets.com/arquivos/ids/158911/edge50pro_pearl_front.png",
+          "angle": "front",
+          "source": "Motorola India Official Asset CDN",
+          "sourceUrl": "https://www.motorola.in/smartphones-motorola-edge-50-pro/p",
+          "verified": true,
+          "alt": "Motorola Edge 50 Pro front curved display view"
+        },
+        {
+          "url": "https://motorolain.vtexassets.com/arquivos/ids/158912/edge50pro_pearl_back.png",
+          "angle": "back",
+          "source": "Motorola India Official Asset CDN",
+          "sourceUrl": "https://www.motorola.in/smartphones-motorola-edge-50-pro/p",
+          "verified": true,
+          "alt": "Motorola Edge 50 Pro Moonlight Pearl rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "moto-g85-5g",
+      "modelName": "Moto G85 5G",
+      "brand": "Motorola",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://motorolain.vtexassets.com/arquivos/ids/159345/motog85_blue_front.png",
+          "angle": "front",
+          "source": "Motorola India Official Asset CDN",
+          "sourceUrl": "https://www.motorola.in/smartphones-moto-g85-5g/p",
+          "verified": true,
+          "alt": "Moto G85 5G front curved 3D display view"
+        },
+        {
+          "url": "https://motorolain.vtexassets.com/arquivos/ids/159346/motog85_blue_back.png",
+          "angle": "back",
+          "source": "Motorola India Official Asset CDN",
+          "sourceUrl": "https://www.motorola.in/smartphones-moto-g85-5g/p",
+          "verified": true,
+          "alt": "Moto G85 5G cobalt blue vegan leather rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "nothing-phone-2",
+      "modelName": "Nothing Phone (2)",
+      "brand": "Nothing",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in.nothing.tech/cdn/shop/files/P2-DarkGrey-Front.png?v=1688647000",
+          "angle": "front",
+          "source": "Nothing Tech Official Assets",
+          "sourceUrl": "https://in.nothing.tech/pages/phone-2",
+          "verified": true,
+          "alt": "Nothing Phone (2) front display view"
+        },
+        {
+          "url": "https://in.nothing.tech/cdn/shop/files/P2-DarkGrey-Back.png?v=1688647000",
+          "angle": "back",
+          "source": "Nothing Tech Official Assets",
+          "sourceUrl": "https://in.nothing.tech/pages/phone-2",
+          "verified": true,
+          "alt": "Nothing Phone (2) Glyph interface transparent back view"
+        }
+      ]
+    },
+    {
+      "modelId": "nothing-phone-2a-plus",
+      "modelName": "Nothing Phone (2a) Plus",
+      "brand": "Nothing",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in.nothing.tech/cdn/shop/files/phone-2a-plus-front.png?v=1722400000",
+          "angle": "front",
+          "source": "Nothing Tech Official Assets",
+          "sourceUrl": "https://in.nothing.tech/pages/phone-2a-plus",
+          "verified": true,
+          "alt": "Nothing Phone (2a) Plus front display view"
+        },
+        {
+          "url": "https://in.nothing.tech/cdn/shop/files/phone-2a-plus-back.png?v=1722400000",
+          "angle": "back",
+          "source": "Nothing Tech Official Assets",
+          "sourceUrl": "https://in.nothing.tech/pages/phone-2a-plus",
+          "verified": true,
+          "alt": "Nothing Phone (2a) Plus metallic sheen rear Glyph view"
+        }
+      ]
+    },
+    {
+      "modelId": "cmf-phone-1",
+      "modelName": "CMF Phone 1",
+      "brand": "CMF",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in.nothing.tech/cdn/shop/files/cmf-phone-1-front.png?v=1720400000",
+          "angle": "front",
+          "source": "CMF Official Assets",
+          "sourceUrl": "https://in.nothing.tech/pages/cmf-phone-1",
+          "verified": true,
+          "alt": "CMF Phone 1 front display view"
+        },
+        {
+          "url": "https://in.nothing.tech/cdn/shop/files/cmf-phone-1-back.png?v=1720400000",
+          "angle": "back",
+          "source": "CMF Official Assets",
+          "sourceUrl": "https://in.nothing.tech/pages/cmf-phone-1",
+          "verified": true,
+          "alt": "CMF Phone 1 modular customizable back with accessory dial"
+        }
+      ]
+    },
+    {
+      "modelId": "asus-rog-phone-8-pro",
+      "modelName": "ROG Phone 8 Pro",
+      "brand": "ASUS",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/477F3F19-5F1F-4389-913D-88223B8601BD/w800",
+          "angle": "front",
+          "source": "ASUS Official Asset Server",
+          "sourceUrl": "https://rog.asus.com/in/phones/rog-phone-8-pro/",
+          "verified": true,
+          "alt": "ASUS ROG Phone 8 Pro front 165Hz display view"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/45FE6D7D-E447-4E90-A88E-3FB44614A51D/w800",
+          "angle": "back",
+          "source": "ASUS Official Asset Server",
+          "sourceUrl": "https://rog.asus.com/in/phones/rog-phone-8-pro/",
+          "verified": true,
+          "alt": "ASUS ROG Phone 8 Pro AniMe Vision mini-LED rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "infinix-gt-20-pro",
+      "modelName": "Infinix GT 20 Pro",
+      "brand": "Infinix",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in.infinixmobility.com/media/catalog/product/gt20pro_front.png",
+          "angle": "front",
+          "source": "Infinix Mobility Asset Server",
+          "sourceUrl": "https://in.infinixmobility.com/gt-20-pro",
+          "verified": true,
+          "alt": "Infinix GT 20 Pro front display view"
+        },
+        {
+          "url": "https://in.infinixmobility.com/media/catalog/product/gt20pro_back.png",
+          "angle": "back",
+          "source": "Infinix Mobility Asset Server",
+          "sourceUrl": "https://in.infinixmobility.com/gt-20-pro",
+          "verified": true,
+          "alt": "Infinix GT 20 Pro Cyber Mecha RGB LED back view"
+        }
+      ]
+    },
+    {
+      "modelId": "infinix-zero-40-5g",
+      "modelName": "Infinix Zero 40 5G",
+      "brand": "Infinix",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://in.infinixmobility.com/media/catalog/product/zero40_front.png",
+          "angle": "front",
+          "source": "Infinix Mobility Asset Server",
+          "sourceUrl": "https://in.infinixmobility.com/zero-40-5g",
+          "verified": true,
+          "alt": "Infinix Zero 40 5G front display view"
+        },
+        {
+          "url": "https://in.infinixmobility.com/media/catalog/product/zero40_back.png",
+          "angle": "back",
+          "source": "Infinix Mobility Asset Server",
+          "sourceUrl": "https://in.infinixmobility.com/zero-40-5g",
+          "verified": true,
+          "alt": "Infinix Zero 40 5G circular camera array rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "tecno-camon-30-premier-5g",
+      "modelName": "Tecno Camon 30 Premier 5G",
+      "brand": "Tecno",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://www.tecno-mobile.in/media/catalog/product/camon30premier_front.png",
+          "angle": "front",
+          "source": "Tecno Mobile India CDN",
+          "sourceUrl": "https://www.tecno-mobile.in/camon-30-premier-5g",
+          "verified": true,
+          "alt": "Tecno Camon 30 Premier 5G front display view"
+        },
+        {
+          "url": "https://www.tecno-mobile.in/media/catalog/product/camon30premier_back.png",
+          "angle": "back",
+          "source": "Tecno Mobile India CDN",
+          "sourceUrl": "https://www.tecno-mobile.in/camon-30-premier-5g",
+          "verified": true,
+          "alt": "Tecno Camon 30 Premier 5G vintage camera inspired rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "tecno-pova-6-pro-5g",
+      "modelName": "Tecno Pova 6 Pro 5G",
+      "brand": "Tecno",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://www.tecno-mobile.in/media/catalog/product/pova6pro_front.png",
+          "angle": "front",
+          "source": "Tecno Mobile India CDN",
+          "sourceUrl": "https://www.tecno-mobile.in/pova-6-pro-5g",
+          "verified": true,
+          "alt": "Tecno Pova 6 Pro 5G front display view"
+        },
+        {
+          "url": "https://www.tecno-mobile.in/media/catalog/product/pova6pro_back.png",
+          "angle": "back",
+          "source": "Tecno Mobile India CDN",
+          "sourceUrl": "https://www.tecno-mobile.in/pova-6-pro-5g",
+          "verified": true,
+          "alt": "Tecno Pova 6 Pro 5G dynamic mini-LED rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "lava-agni-3-5g",
+      "modelName": "Lava Agni 3 5G",
+      "brand": "Lava",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://www.lavamobiles.com/images/agni3_front.png",
+          "angle": "front",
+          "source": "Lava International Official Assets",
+          "sourceUrl": "https://www.lavamobiles.com/smartphones/agni-3",
+          "verified": true,
+          "alt": "Lava Agni 3 5G front 1.5K 120Hz curved display view"
+        },
+        {
+          "url": "https://www.lavamobiles.com/images/agni3_back.png",
+          "angle": "back",
+          "source": "Lava International Official Assets",
+          "sourceUrl": "https://www.lavamobiles.com/smartphones/agni-3",
+          "verified": true,
+          "alt": "Lava Agni 3 5G secondary rear AMOLED display and triple camera view"
+        }
+      ]
+    },
+    {
+      "modelId": "lava-blaze-curve-5g",
+      "modelName": "Lava Blaze Curve 5G",
+      "brand": "Lava",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://www.lavamobiles.com/images/blazecurve_front.png",
+          "angle": "front",
+          "source": "Lava International Official Assets",
+          "sourceUrl": "https://www.lavamobiles.com/smartphones/blaze-curve-5g",
+          "verified": true,
+          "alt": "Lava Blaze Curve 5G front display view"
+        },
+        {
+          "url": "https://www.lavamobiles.com/images/blazecurve_back.png",
+          "angle": "back",
+          "source": "Lava International Official Assets",
+          "sourceUrl": "https://www.lavamobiles.com/smartphones/blaze-curve-5g",
+          "verified": true,
+          "alt": "Lava Blaze Curve 5G AG glass curved back view"
+        }
+      ]
+    },
+    {
+      "modelId": "hmd-skyline",
+      "modelName": "HMD Skyline",
+      "brand": "HMD",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://www.hmd.com/media/skyline_pink_front.png",
+          "angle": "front",
+          "source": "HMD Global Official Press Assets",
+          "sourceUrl": "https://www.hmd.com/en_in/hmd-skyline",
+          "verified": true,
+          "alt": "HMD Skyline front display view"
+        },
+        {
+          "url": "https://www.hmd.com/media/skyline_pink_back.png",
+          "angle": "back",
+          "source": "HMD Global Official Press Assets",
+          "sourceUrl": "https://www.hmd.com/en_in/hmd-skyline",
+          "verified": true,
+          "alt": "HMD Skyline Fabula design self-repairable rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "hmd-crest-max-5g",
+      "modelName": "HMD Crest Max 5G",
+      "brand": "HMD",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://www.hmd.com/media/crestmax_front.png",
+          "angle": "front",
+          "source": "HMD Global Official Press Assets",
+          "sourceUrl": "https://www.hmd.com/en_in/hmd-crest-max-5g",
+          "verified": true,
+          "alt": "HMD Crest Max 5G front display view"
+        },
+        {
+          "url": "https://www.hmd.com/media/crestmax_back.png",
+          "angle": "back",
+          "source": "HMD Global Official Press Assets",
+          "sourceUrl": "https://www.hmd.com/en_in/hmd-crest-max-5g",
+          "verified": true,
+          "alt": "HMD Crest Max 5G glass back view"
+        }
+      ]
+    }
+  ]
+}

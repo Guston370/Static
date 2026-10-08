@@ -1,0 +1,1270 @@
+{
+  "manufacturersDiscovered": 28,
+  "manufacturersInCatalog": 28,
+  "missingManufacturers": [],
+  "brandsDiscovered": 37,
+  "brandsInCatalog": 38,
+  "missingBrands": [],
+  "modelsDiscovered": 206,
+  "modelsInCatalog": 241,
+  "missingModels": [],
+  "activeModelsCount": 206,
+  "discontinuedModelsCount": 25,
+  "upcomingModelsCount": 10,
+  "incorrectStatusesCount": 0,
+  "incorrectStatusesList": [],
+  "duplicatesCount": 0,
+  "duplicatesList": [],
+  "urlAudit": {
+    "totalChecked": 206,
+    "valid": 206,
+    "invalid": 0,
+    "genericHomepage": 0,
+    "wrongModel": 0,
+    "needsManualReview": 0,
+    "details": [
+      {
+        "slug": "maruti-suzuki-alto-k10",
+        "modelName": "Maruti Suzuki Alto K10",
+        "url": "https://www.marutisuzuki.com/alto-k10",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-s-presso",
+        "modelName": "Maruti Suzuki S-Presso",
+        "url": "https://www.marutisuzuki.com/s-presso",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-celerio",
+        "modelName": "Maruti Suzuki Celerio",
+        "url": "https://www.marutisuzuki.com/celerio",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-wagon-r",
+        "modelName": "Maruti Suzuki Wagon R",
+        "url": "https://www.marutisuzuki.com/wagon-r",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-swift",
+        "modelName": "Maruti Suzuki Swift",
+        "url": "https://www.marutisuzuki.com/swift",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-dzire",
+        "modelName": "Maruti Suzuki Dzire",
+        "url": "https://www.marutisuzuki.com/dzire",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-brezza",
+        "modelName": "Maruti Suzuki Brezza",
+        "url": "https://www.marutisuzuki.com/brezza",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-ertiga",
+        "modelName": "Maruti Suzuki Ertiga",
+        "url": "https://www.marutisuzuki.com/ertiga",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-eeco",
+        "modelName": "Maruti Suzuki Eeco",
+        "url": "https://www.marutisuzuki.com/eeco",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-ignis",
+        "modelName": "Maruti Suzuki Ignis",
+        "url": "https://www.nexaexperience.com/ignis",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-baleno",
+        "modelName": "Maruti Suzuki Baleno",
+        "url": "https://www.nexaexperience.com/baleno",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-fronx",
+        "modelName": "Maruti Suzuki Fronx",
+        "url": "https://www.nexaexperience.com/fronx",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-ciaz",
+        "modelName": "Maruti Suzuki Ciaz",
+        "url": "https://www.nexaexperience.com/ciaz",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-jimny",
+        "modelName": "Maruti Suzuki Jimny",
+        "url": "https://www.nexaexperience.com/jimny",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-grand-vitara",
+        "modelName": "Maruti Suzuki Grand Vitara",
+        "url": "https://www.nexaexperience.com/grand-vitara",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-xl6",
+        "modelName": "Maruti Suzuki XL6",
+        "url": "https://www.nexaexperience.com/xl6",
+        "category": "valid"
+      },
+      {
+        "slug": "maruti-suzuki-invicto",
+        "modelName": "Maruti Suzuki Invicto",
+        "url": "https://www.nexaexperience.com/invicto",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-grand-i10-nios",
+        "modelName": "Hyundai Grand i10 Nios",
+        "url": "https://www.hyundai.com/in/en/find-a-car/grand-i10-nios/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-aura",
+        "modelName": "Hyundai Aura",
+        "url": "https://www.hyundai.com/in/en/find-a-car/aura/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-i20",
+        "modelName": "Hyundai i20",
+        "url": "https://www.hyundai.com/in/en/find-a-car/i20/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-exter",
+        "modelName": "Hyundai Exter",
+        "url": "https://www.hyundai.com/in/en/find-a-car/exter/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-venue",
+        "modelName": "Hyundai Venue",
+        "url": "https://www.hyundai.com/in/en/find-a-car/venue/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-verna",
+        "modelName": "Hyundai Verna",
+        "url": "https://www.hyundai.com/in/en/find-a-car/verna/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-creta",
+        "modelName": "Hyundai Creta",
+        "url": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-alcazar",
+        "modelName": "Hyundai Alcazar",
+        "url": "https://www.hyundai.com/in/en/find-a-car/alcazar/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-tucson",
+        "modelName": "Hyundai Tucson",
+        "url": "https://www.hyundai.com/in/en/find-a-car/tucson/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "hyundai-ioniq-5",
+        "modelName": "Hyundai Ioniq 5",
+        "url": "https://www.hyundai.com/in/en/find-a-car/ioniq-5/highlights",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-tiago",
+        "modelName": "Tata Tiago",
+        "url": "https://cars.tatamotors.com/tiago",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-tigor",
+        "modelName": "Tata Tigor",
+        "url": "https://cars.tatamotors.com/tigor",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-altroz",
+        "modelName": "Tata Altroz",
+        "url": "https://cars.tatamotors.com/altroz",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-punch",
+        "modelName": "Tata Punch",
+        "url": "https://cars.tatamotors.com/punch",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-nexon",
+        "modelName": "Tata Nexon",
+        "url": "https://cars.tatamotors.com/nexon",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-curvv",
+        "modelName": "Tata Curvv",
+        "url": "https://cars.tatamotors.com/curvv",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-harrier",
+        "modelName": "Tata Harrier",
+        "url": "https://cars.tatamotors.com/harrier",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-safari",
+        "modelName": "Tata Safari",
+        "url": "https://cars.tatamotors.com/safari",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-tiago-ev",
+        "modelName": "TATA.ev Tiago.ev",
+        "url": "https://ev.tatamotors.com/tiago-ev",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-tigor-ev",
+        "modelName": "TATA.ev Tigor.ev",
+        "url": "https://ev.tatamotors.com/tigor-ev",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-punch-ev",
+        "modelName": "TATA.ev Punch.ev",
+        "url": "https://ev.tatamotors.com/punch-ev",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-nexon-ev",
+        "modelName": "TATA.ev Nexon.ev",
+        "url": "https://ev.tatamotors.com/nexon-ev",
+        "category": "valid"
+      },
+      {
+        "slug": "tata-curvv-ev",
+        "modelName": "TATA.ev Curvv.ev",
+        "url": "https://ev.tatamotors.com/curvv-ev",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-xuv-3xo",
+        "modelName": "Mahindra XUV 3XO",
+        "url": "https://auto.mahindra.com/suv/xuv-3xo",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-thar",
+        "modelName": "Mahindra Thar",
+        "url": "https://auto.mahindra.com/suv/thar",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-thar-roxx",
+        "modelName": "Mahindra Thar Roxx",
+        "url": "https://auto.mahindra.com/suv/thar-roxx",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-bolero",
+        "modelName": "Mahindra Bolero",
+        "url": "https://auto.mahindra.com/suv/bolero",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-bolero-neo",
+        "modelName": "Mahindra Bolero Neo",
+        "url": "https://auto.mahindra.com/suv/bolero-neo",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-scorpio-classic",
+        "modelName": "Mahindra Scorpio Classic",
+        "url": "https://auto.mahindra.com/suv/scorpio-classic",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-scorpio-n",
+        "modelName": "Mahindra Scorpio-N",
+        "url": "https://auto.mahindra.com/suv/scorpio-n",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-xuv700",
+        "modelName": "Mahindra XUV700",
+        "url": "https://auto.mahindra.com/suv/xuv700",
+        "category": "valid"
+      },
+      {
+        "slug": "mahindra-xuv400",
+        "modelName": "Mahindra XUV400",
+        "url": "https://auto.mahindra.com/suv/xuv400",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-glanza",
+        "modelName": "Toyota Glanza",
+        "url": "https://www.toyotabharat.com/showroom/glanza/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-urban-cruiser-taisor",
+        "modelName": "Toyota Urban Cruiser Taisor",
+        "url": "https://www.toyotabharat.com/showroom/taisor/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-urban-cruiser-hyryder",
+        "modelName": "Toyota Urban Cruiser Hyryder",
+        "url": "https://www.toyotabharat.com/showroom/hyryder/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-rumion",
+        "modelName": "Toyota Rumion",
+        "url": "https://www.toyotabharat.com/showroom/rumion/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-innova-crysta",
+        "modelName": "Toyota Innova Crysta",
+        "url": "https://www.toyotabharat.com/showroom/innova-crysta/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-innova-hycross",
+        "modelName": "Toyota Innova Hycross",
+        "url": "https://www.toyotabharat.com/showroom/innova-hycross/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-fortuner",
+        "modelName": "Toyota Fortuner",
+        "url": "https://www.toyotabharat.com/showroom/fortuner/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-hilux",
+        "modelName": "Toyota Hilux",
+        "url": "https://www.toyotabharat.com/showroom/hilux/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-camry",
+        "modelName": "Toyota Camry",
+        "url": "https://www.toyotabharat.com/showroom/camry/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-vellfire",
+        "modelName": "Toyota Vellfire",
+        "url": "https://www.toyotabharat.com/showroom/vellfire/",
+        "category": "valid"
+      },
+      {
+        "slug": "toyota-land-cruiser-300",
+        "modelName": "Toyota Land Cruiser 300",
+        "url": "https://www.toyotabharat.com/showroom/lc300/",
+        "category": "valid"
+      },
+      {
+        "slug": "kia-sonet",
+        "modelName": "Kia Sonet",
+        "url": "https://www.kia.com/in/our-vehicles/sonet/showroom.html",
+        "category": "valid"
+      },
+      {
+        "slug": "kia-seltos",
+        "modelName": "Kia Seltos",
+        "url": "https://www.kia.com/in/our-vehicles/seltos/showroom.html",
+        "category": "valid"
+      },
+      {
+        "slug": "kia-carens",
+        "modelName": "Kia Carens",
+        "url": "https://www.kia.com/in/our-vehicles/carens/showroom.html",
+        "category": "valid"
+      },
+      {
+        "slug": "kia-carnival",
+        "modelName": "Kia Carnival",
+        "url": "https://www.kia.com/in/our-vehicles/carnival/showroom.html",
+        "category": "valid"
+      },
+      {
+        "slug": "kia-ev6",
+        "modelName": "Kia EV6",
+        "url": "https://www.kia.com/in/our-vehicles/ev6/showroom.html",
+        "category": "valid"
+      },
+      {
+        "slug": "honda-amaze",
+        "modelName": "Honda Amaze",
+        "url": "https://www.hondacarindia.com/honda-amaze",
+        "category": "valid"
+      },
+      {
+        "slug": "honda-city",
+        "modelName": "Honda City",
+        "url": "https://www.hondacarindia.com/honda-city",
+        "category": "valid"
+      },
+      {
+        "slug": "honda-elevate",
+        "modelName": "Honda Elevate",
+        "url": "https://www.hondacarindia.com/honda-elevate",
+        "category": "valid"
+      },
+      {
+        "slug": "mg-comet-ev",
+        "modelName": "MG Comet EV",
+        "url": "https://www.mgmotor.co.in/vehicles/comet-ev",
+        "category": "valid"
+      },
+      {
+        "slug": "mg-windsor-ev",
+        "modelName": "MG Windsor EV",
+        "url": "https://www.mgmotor.co.in/vehicles/windsor-ev",
+        "category": "valid"
+      },
+      {
+        "slug": "mg-astor",
+        "modelName": "MG Astor",
+        "url": "https://www.mgmotor.co.in/vehicles/mg-astor",
+        "category": "valid"
+      },
+      {
+        "slug": "mg-hector",
+        "modelName": "MG Hector",
+        "url": "https://www.mgmotor.co.in/vehicles/mg-hector",
+        "category": "valid"
+      },
+      {
+        "slug": "mg-hector-plus",
+        "modelName": "MG Hector Plus",
+        "url": "https://www.mgmotor.co.in/vehicles/mg-hector-plus",
+        "category": "valid"
+      },
+      {
+        "slug": "mg-zs-ev",
+        "modelName": "MG ZS EV",
+        "url": "https://www.mgmotor.co.in/vehicles/mg-zsev",
+        "category": "valid"
+      },
+      {
+        "slug": "mg-gloster",
+        "modelName": "MG Gloster",
+        "url": "https://www.mgmotor.co.in/vehicles/mg-gloster",
+        "category": "valid"
+      },
+      {
+        "slug": "skoda-kushaq",
+        "modelName": "Skoda Kushaq",
+        "url": "https://www.skoda-auto.co.in/models/kushaq/kushaq",
+        "category": "valid"
+      },
+      {
+        "slug": "skoda-slavia",
+        "modelName": "Skoda Slavia",
+        "url": "https://www.skoda-auto.co.in/models/slavia/slavia",
+        "category": "valid"
+      },
+      {
+        "slug": "skoda-kodiaq",
+        "modelName": "Skoda Kodiaq",
+        "url": "https://www.skoda-auto.co.in/models/kodiaq/kodiaq",
+        "category": "valid"
+      },
+      {
+        "slug": "volkswagen-taigun",
+        "modelName": "Volkswagen Taigun",
+        "url": "https://www.volkswagen.co.in/en/models/taigun.html",
+        "category": "valid"
+      },
+      {
+        "slug": "volkswagen-virtus",
+        "modelName": "Volkswagen Virtus",
+        "url": "https://www.volkswagen.co.in/en/models/virtus.html",
+        "category": "valid"
+      },
+      {
+        "slug": "volkswagen-tiguan",
+        "modelName": "Volkswagen Tiguan",
+        "url": "https://www.volkswagen.co.in/en/models/tiguan.html",
+        "category": "valid"
+      },
+      {
+        "slug": "renault-kwid",
+        "modelName": "Renault Kwid",
+        "url": "https://www.renault.co.in/cars/renault-kwid.html",
+        "category": "valid"
+      },
+      {
+        "slug": "renault-triber",
+        "modelName": "Renault Triber",
+        "url": "https://www.renault.co.in/cars/renault-triber.html",
+        "category": "valid"
+      },
+      {
+        "slug": "renault-kiger",
+        "modelName": "Renault Kiger",
+        "url": "https://www.renault.co.in/cars/renault-kiger.html",
+        "category": "valid"
+      },
+      {
+        "slug": "nissan-magnite",
+        "modelName": "Nissan Magnite",
+        "url": "https://www.nissan.in/vehicles/new/magnite.html",
+        "category": "valid"
+      },
+      {
+        "slug": "nissan-x-trail",
+        "modelName": "Nissan X-Trail",
+        "url": "https://www.nissan.in/vehicles/new/x-trail.html",
+        "category": "valid"
+      },
+      {
+        "slug": "citroen-c3",
+        "modelName": "Citroën C3",
+        "url": "https://www.citroen.in/c3",
+        "category": "valid"
+      },
+      {
+        "slug": "citroen-e-c3",
+        "modelName": "Citroën ë-C3",
+        "url": "https://www.citroen.in/ec3",
+        "category": "valid"
+      },
+      {
+        "slug": "citroen-c3-aircross",
+        "modelName": "Citroën C3 Aircross",
+        "url": "https://www.citroen.in/c3-aircross",
+        "category": "valid"
+      },
+      {
+        "slug": "citroen-basalt",
+        "modelName": "Citroën Basalt",
+        "url": "https://www.citroen.in/basalt",
+        "category": "valid"
+      },
+      {
+        "slug": "citroen-c5-aircross",
+        "modelName": "Citroën C5 Aircross",
+        "url": "https://www.citroen.in/c5-aircross",
+        "category": "valid"
+      },
+      {
+        "slug": "jeep-compass",
+        "modelName": "Jeep Compass",
+        "url": "https://www.jeep-india.com/compass.html",
+        "category": "valid"
+      },
+      {
+        "slug": "jeep-meridian",
+        "modelName": "Jeep Meridian",
+        "url": "https://www.jeep-india.com/meridian.html",
+        "category": "valid"
+      },
+      {
+        "slug": "jeep-wrangler",
+        "modelName": "Jeep Wrangler",
+        "url": "https://www.jeep-india.com/wrangler.html",
+        "category": "valid"
+      },
+      {
+        "slug": "jeep-grand-cherokee",
+        "modelName": "Jeep Grand Cherokee",
+        "url": "https://www.jeep-india.com/grand-cherokee.html",
+        "category": "valid"
+      },
+      {
+        "slug": "byd-atto-3",
+        "modelName": "BYD Atto 3",
+        "url": "https://bydautoindia.com/byd-atto3",
+        "category": "valid"
+      },
+      {
+        "slug": "byd-seal",
+        "modelName": "BYD Seal",
+        "url": "https://bydautoindia.com/byd-seal",
+        "category": "valid"
+      },
+      {
+        "slug": "byd-emax-7",
+        "modelName": "BYD eMax 7",
+        "url": "https://bydautoindia.com/byd-emax7",
+        "category": "valid"
+      },
+      {
+        "slug": "force-gurkha",
+        "modelName": "Force Motors Gurkha",
+        "url": "https://www.forcegurkha.co.in",
+        "category": "valid"
+      },
+      {
+        "slug": "force-trax-cruiser",
+        "modelName": "Force Motors Trax Cruiser",
+        "url": "https://www.forcemotors.com/vehicle/trax-cruiser",
+        "category": "valid"
+      },
+      {
+        "slug": "isuzu-d-max-v-cross",
+        "modelName": "Isuzu D-Max V-Cross",
+        "url": "https://isuzu.in/v-cross/",
+        "category": "valid"
+      },
+      {
+        "slug": "isuzu-mu-x",
+        "modelName": "Isuzu MU-X",
+        "url": "https://isuzu.in/mu-x/",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-2-series-gran-coupe",
+        "modelName": "BMW 2 Series Gran Coupe",
+        "url": "https://www.bmw.in/en/all-models/2-series/gran-coupe/2020/bmw-2-series-gran-coupe-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-3-series-gran-limousine",
+        "modelName": "BMW 3 Series Gran Limousine",
+        "url": "https://www.bmw.in/en/all-models/3-series/gran-limousine/2021/bmw-3-series-gran-limousine-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-5-series-long-wheelbase",
+        "modelName": "BMW 5 Series Long Wheelbase",
+        "url": "https://www.bmw.in/en/all-models/5-series/sedan/2023/bmw-5-series-sedan-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-7-series",
+        "modelName": "BMW 7 Series",
+        "url": "https://www.bmw.in/en/all-models/7-series/sedan/2022/bmw-7-series-sedan-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-x1",
+        "modelName": "BMW X1",
+        "url": "https://www.bmw.in/en/all-models/x-series/X1/2022/bmw-x1-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-x5",
+        "modelName": "BMW X5",
+        "url": "https://www.bmw.in/en/all-models/x-series/X5/2023/bmw-x5-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-x7",
+        "modelName": "BMW X7",
+        "url": "https://www.bmw.in/en/all-models/x-series/X7/2022/bmw-x7-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-ix1",
+        "modelName": "BMW iX1",
+        "url": "https://www.bmw.in/en/all-models/bmw-i/ix1/2023/bmw-ix1-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-i4",
+        "modelName": "BMW i4",
+        "url": "https://www.bmw.in/en/all-models/bmw-i/i4/2021/bmw-i4-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-ix",
+        "modelName": "BMW iX",
+        "url": "https://www.bmw.in/en/all-models/bmw-i/ix/2021/bmw-ix.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-i7",
+        "modelName": "BMW i7",
+        "url": "https://www.bmw.in/en/all-models/bmw-i/i7/2022/bmw-i7-sedan-overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-a-class-limousine",
+        "modelName": "Mercedes-Benz A-Class Limousine",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/saloon/a-class/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-c-class",
+        "modelName": "Mercedes-Benz C-Class",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/saloon/c-class/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-e-class-long-wheelbase",
+        "modelName": "Mercedes-Benz E-Class Long Wheelbase",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/saloon/e-class/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-s-class",
+        "modelName": "Mercedes-Benz S-Class",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/saloon/s-class/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-gla",
+        "modelName": "Mercedes-Benz GLA",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/gla/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-glc",
+        "modelName": "Mercedes-Benz GLC",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/glc/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-gle",
+        "modelName": "Mercedes-Benz GLE",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/gle/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-gls",
+        "modelName": "Mercedes-Benz GLS",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/gls/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-g-class",
+        "modelName": "Mercedes-Benz G-Class",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/g-class/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-eqs-sedan",
+        "modelName": "Mercedes-Benz EQS Sedan",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/saloon/eqs/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-a4",
+        "modelName": "Audi A4",
+        "url": "https://www.audi.in/in/web/en/models/a4/a4-sedan.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-a6",
+        "modelName": "Audi A6",
+        "url": "https://www.audi.in/in/web/en/models/a6/a6-sedan.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-q3",
+        "modelName": "Audi Q3",
+        "url": "https://www.audi.in/in/web/en/models/q3/q3.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-q5",
+        "modelName": "Audi Q5",
+        "url": "https://www.audi.in/in/web/en/models/q5/q5.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-q7",
+        "modelName": "Audi Q7",
+        "url": "https://www.audi.in/in/web/en/models/q7/q7.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-q8",
+        "modelName": "Audi Q8",
+        "url": "https://www.audi.in/in/web/en/models/q8/q8.html",
+        "category": "valid"
+      },
+      {
+        "slug": "volvo-ex40",
+        "modelName": "Volvo EX40",
+        "url": "https://www.volvocars.com/in/cars/ex40-electric/",
+        "category": "valid"
+      },
+      {
+        "slug": "volvo-ec40",
+        "modelName": "Volvo EC40",
+        "url": "https://www.volvocars.com/in/cars/ec40-electric/",
+        "category": "valid"
+      },
+      {
+        "slug": "volvo-xc60",
+        "modelName": "Volvo XC60",
+        "url": "https://www.volvocars.com/in/cars/xc60-hybrid/",
+        "category": "valid"
+      },
+      {
+        "slug": "volvo-xc90",
+        "modelName": "Volvo XC90",
+        "url": "https://www.volvocars.com/in/cars/xc90-hybrid/",
+        "category": "valid"
+      },
+      {
+        "slug": "land-rover-defender",
+        "modelName": "Land Rover Defender",
+        "url": "https://www.landrover.in/defender/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "land-rover-range-rover-velar",
+        "modelName": "Land Rover Range Rover Velar",
+        "url": "https://www.landrover.in/range-rover/range-rover-velar/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "land-rover-range-rover-sport",
+        "modelName": "Land Rover Range Rover Sport",
+        "url": "https://www.landrover.in/range-rover/range-rover-sport/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "land-rover-range-rover",
+        "modelName": "Land Rover Range Rover",
+        "url": "https://www.landrover.in/range-rover/range-rover/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lexus-es-300h",
+        "modelName": "Lexus ES 300h",
+        "url": "https://www.lexusindia.co.in/en/models/es.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lexus-nx-350h",
+        "modelName": "Lexus NX 350h",
+        "url": "https://www.lexusindia.co.in/en/models/nx.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lexus-rx",
+        "modelName": "Lexus RX 350h / 500h",
+        "url": "https://www.lexusindia.co.in/en/models/rx.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lexus-lm-350h",
+        "modelName": "Lexus LM 350h",
+        "url": "https://www.lexusindia.co.in/en/models/lm.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lexus-lx",
+        "modelName": "Lexus LX 500d / 600",
+        "url": "https://www.lexusindia.co.in/en/models/lx.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mini-cooper-s",
+        "modelName": "MINI Cooper S",
+        "url": "https://www.mini.in/en_IN/home/range/mini-3-door-hatch.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mini-countryman",
+        "modelName": "MINI Countryman",
+        "url": "https://www.mini.in/en_IN/home/range/mini-countryman.html",
+        "category": "valid"
+      },
+      {
+        "slug": "jaguar-f-pace",
+        "modelName": "Jaguar F-Pace",
+        "url": "https://www.jaguar.in/jaguar-range/f-pace/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "jaguar-i-pace",
+        "modelName": "Jaguar I-Pace",
+        "url": "https://www.jaguar.in/jaguar-range/i-pace/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "porsche-911",
+        "modelName": "Porsche 911",
+        "url": "https://www.porsche.com/middle-east/_india_/models/911/",
+        "category": "valid"
+      },
+      {
+        "slug": "porsche-718",
+        "modelName": "Porsche 718 Boxster / Cayman",
+        "url": "https://www.porsche.com/middle-east/_india_/models/718/",
+        "category": "valid"
+      },
+      {
+        "slug": "porsche-macan",
+        "modelName": "Porsche Macan",
+        "url": "https://www.porsche.com/middle-east/_india_/models/macan/",
+        "category": "valid"
+      },
+      {
+        "slug": "porsche-cayenne",
+        "modelName": "Porsche Cayenne",
+        "url": "https://www.porsche.com/middle-east/_india_/models/cayenne/",
+        "category": "valid"
+      },
+      {
+        "slug": "porsche-panamera",
+        "modelName": "Porsche Panamera",
+        "url": "https://www.porsche.com/middle-east/_india_/models/panamera/",
+        "category": "valid"
+      },
+      {
+        "slug": "porsche-taycan",
+        "modelName": "Porsche Taycan",
+        "url": "https://www.porsche.com/middle-east/_india_/models/taycan/",
+        "category": "valid"
+      },
+      {
+        "slug": "ferrari-roma",
+        "modelName": "Ferrari Roma",
+        "url": "https://www.ferrari.com/en-IN/auto/ferrari-roma",
+        "category": "valid"
+      },
+      {
+        "slug": "ferrari-296-gtb",
+        "modelName": "Ferrari 296 GTB",
+        "url": "https://www.ferrari.com/en-IN/auto/296-gtb",
+        "category": "valid"
+      },
+      {
+        "slug": "ferrari-purosangue",
+        "modelName": "Ferrari Purosangue",
+        "url": "https://www.ferrari.com/en-IN/auto/ferrari-purosangue",
+        "category": "valid"
+      },
+      {
+        "slug": "lamborghini-urus-se",
+        "modelName": "Lamborghini Urus SE",
+        "url": "https://www.lamborghini.com/en-en/models/urus/urus-se",
+        "category": "valid"
+      },
+      {
+        "slug": "lamborghini-revuelto",
+        "modelName": "Lamborghini Revuelto",
+        "url": "https://www.lamborghini.com/en-en/models/revuelto",
+        "category": "valid"
+      },
+      {
+        "slug": "maserati-grecale",
+        "modelName": "Maserati Grecale",
+        "url": "https://www.maserati.com/in/en/models/grecale",
+        "category": "valid"
+      },
+      {
+        "slug": "maserati-mc20",
+        "modelName": "Maserati MC20",
+        "url": "https://www.maserati.com/in/en/models/mc20",
+        "category": "valid"
+      },
+      {
+        "slug": "aston-martin-vantage",
+        "modelName": "Aston Martin Vantage",
+        "url": "https://www.astonmartin.com/en/models/new-vantage",
+        "category": "valid"
+      },
+      {
+        "slug": "aston-martin-db12",
+        "modelName": "Aston Martin DB12",
+        "url": "https://www.astonmartin.com/en/models/db12",
+        "category": "valid"
+      },
+      {
+        "slug": "bentley-bentayga",
+        "modelName": "Bentley Bentayga",
+        "url": "https://www.bentleymotors.com/en/models/bentayga.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bentley-continental-gt",
+        "modelName": "Bentley Continental GT",
+        "url": "https://www.bentleymotors.com/en/models/continental-gt.html",
+        "category": "valid"
+      },
+      {
+        "slug": "rolls-royce-ghost",
+        "modelName": "Rolls-Royce Ghost",
+        "url": "https://www.rolls-roycemotorcars.com/en_GB/showroom/ghost.html",
+        "category": "valid"
+      },
+      {
+        "slug": "rolls-royce-cullinan",
+        "modelName": "Rolls-Royce Cullinan",
+        "url": "https://www.rolls-roycemotorcars.com/en_GB/showroom/cullinan.html",
+        "category": "valid"
+      },
+      {
+        "slug": "rolls-royce-spectre",
+        "modelName": "Rolls-Royce Spectre",
+        "url": "https://www.rolls-roycemotorcars.com/en_GB/showroom/spectre.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lotus-eletre",
+        "modelName": "Lotus Eletre",
+        "url": "https://www.lotuscars.com/en-GB/eletre",
+        "category": "valid"
+      },
+      {
+        "slug": "mclaren-artura",
+        "modelName": "McLaren Artura",
+        "url": "https://cars.mclaren.com/en/artura",
+        "category": "valid"
+      },
+      {
+        "slug": "mclaren-750s",
+        "modelName": "McLaren 750S",
+        "url": "https://cars.mclaren.com/en/750s",
+        "category": "valid"
+      },
+      {
+        "slug": "nissan-gravite",
+        "modelName": "Nissan Gravite",
+        "url": "https://www.nissan.in/vehicles/new/gravite.html",
+        "category": "valid"
+      },
+      {
+        "slug": "nissan-tekton",
+        "modelName": "Nissan Tekton",
+        "url": "https://www.nissan.in/vehicles/new/tekton.html",
+        "category": "valid"
+      },
+      {
+        "slug": "renault-duster",
+        "modelName": "Renault Duster",
+        "url": "https://www.renault.co.in/cars/duster.html",
+        "category": "valid"
+      },
+      {
+        "slug": "skoda-kylaq",
+        "modelName": "Skoda Kylaq",
+        "url": "https://www.skoda-auto.co.in/models/kylaq/kylaq",
+        "category": "valid"
+      },
+      {
+        "slug": "kia-ev9",
+        "modelName": "Kia EV9",
+        "url": "https://www.kia.com/in/our-vehicles/ev9/showroom.html",
+        "category": "valid"
+      },
+      {
+        "slug": "vinfast-vf-6",
+        "modelName": "VinFast VF 6",
+        "url": "https://vinfastauto.in/models/vf6",
+        "category": "valid"
+      },
+      {
+        "slug": "vinfast-vf-7",
+        "modelName": "VinFast VF 7",
+        "url": "https://vinfastauto.in/models/vf7",
+        "category": "valid"
+      },
+      {
+        "slug": "vinfast-vf-mpv-7",
+        "modelName": "VinFast VF MPV 7",
+        "url": "https://vinfastauto.in/models/vf-mpv-7",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-a8-l",
+        "modelName": "Audi A8 L",
+        "url": "https://www.audi.in/in/web/en/models/a8/a8-l.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-q8-e-tron",
+        "modelName": "Audi Q8 e-tron",
+        "url": "https://www.audi.in/in/web/en/models/q8-e-tron/q8-e-tron.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-e-tron-gt",
+        "modelName": "Audi e-tron GT",
+        "url": "https://www.audi.in/in/web/en/models/e-tron-gt/e-tron-gt.html",
+        "category": "valid"
+      },
+      {
+        "slug": "audi-rs5",
+        "modelName": "Audi RS5",
+        "url": "https://www.audi.in/in/web/en/models/a5/rs-5-sportback.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-x3",
+        "modelName": "BMW X3",
+        "url": "https://www.bmw.in/en/all-models/x-series/X3/2021/bmw-x3-highlights.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-m2",
+        "modelName": "BMW M2",
+        "url": "https://www.bmw.in/en/all-models/m-series/m2-coupe/2023/bmw-2-series-m-coupe-highlights.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-xm",
+        "modelName": "BMW XM",
+        "url": "https://www.bmw.in/en/all-models/m-series/xm/2022/bmw-xm-highlights.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-z4",
+        "modelName": "BMW Z4",
+        "url": "https://www.bmw.in/en/all-models/z-series/z4/2022/bmw-z4-roadster-highlights.html",
+        "category": "valid"
+      },
+      {
+        "slug": "bmw-i5",
+        "modelName": "BMW i5",
+        "url": "https://www.bmw.in/en/all-models/bmw-i/i5/2023/bmw-i5-highlights.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-glb",
+        "modelName": "Mercedes-Benz GLB",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/glb/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-eqb",
+        "modelName": "Mercedes-Benz EQB",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/eqb/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-eqe-suv",
+        "modelName": "Mercedes-Benz EQE SUV",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/eqe/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-eqs-suv",
+        "modelName": "Mercedes-Benz EQS SUV",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/suv/eqs/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-benz-cle",
+        "modelName": "Mercedes-Benz CLE",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/coupe/cle/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "mercedes-amg-gt",
+        "modelName": "Mercedes-Benz AMG GT",
+        "url": "https://www.mercedes-benz.co.in/passengercars/models/coupe/amg-gt-coupe/overview.html",
+        "category": "valid"
+      },
+      {
+        "slug": "land-rover-discovery",
+        "modelName": "Land Rover Discovery",
+        "url": "https://www.landrover.in/discovery/discovery/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "land-rover-discovery-sport",
+        "modelName": "Land Rover Discovery Sport",
+        "url": "https://www.landrover.in/discovery/discovery-sport/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "range-rover-evoque",
+        "modelName": "Land Rover Range Rover Evoque",
+        "url": "https://www.landrover.in/range-rover/range-rover-evoque/index.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lexus-lc-500h",
+        "modelName": "Lexus LC 500h",
+        "url": "https://www.lexusindia.co.in/en/models/lc/lc-500h.html",
+        "category": "valid"
+      },
+      {
+        "slug": "volvo-ex30",
+        "modelName": "Volvo EX30",
+        "url": "https://www.volvocars.com/in/cars/ex30-electric/",
+        "category": "valid"
+      },
+      {
+        "slug": "ferrari-12cilindri",
+        "modelName": "Ferrari 12Cilindri",
+        "url": "https://www.ferrari.com/en-IN/auto/12cilindri",
+        "category": "valid"
+      },
+      {
+        "slug": "ferrari-sf90-stradale",
+        "modelName": "Ferrari SF90 Stradale",
+        "url": "https://www.ferrari.com/en-IN/auto/sf90-stradale",
+        "category": "valid"
+      },
+      {
+        "slug": "lamborghini-temerario",
+        "modelName": "Lamborghini Temerario",
+        "url": "https://www.lamborghini.com/en-en/models/temerario",
+        "category": "valid"
+      },
+      {
+        "slug": "aston-martin-dbx",
+        "modelName": "Aston Martin DBX",
+        "url": "https://www.astonmartin.com/en/models/dbx707",
+        "category": "valid"
+      },
+      {
+        "slug": "bentley-flying-spur",
+        "modelName": "Bentley Flying Spur",
+        "url": "https://www.bentleymotors.com/en/models/flying-spur.html",
+        "category": "valid"
+      },
+      {
+        "slug": "rolls-royce-phantom",
+        "modelName": "Rolls-Royce Phantom",
+        "url": "https://www.rolls-roycemotorcars.com/en_GB/showroom/phantom.html",
+        "category": "valid"
+      },
+      {
+        "slug": "lotus-emira",
+        "modelName": "Lotus Emira",
+        "url": "https://www.lotuscars.com/en-IN/emira",
+        "category": "valid"
+      },
+      {
+        "slug": "mclaren-gts",
+        "modelName": "McLaren GTS",
+        "url": "https://cars.mclaren.com/en/gts",
+        "category": "valid"
+      },
+      {
+        "slug": "maserati-granturismo",
+        "modelName": "Maserati GranTurismo",
+        "url": "https://www.maserati.com/in/en/models/granturismo",
+        "category": "valid"
+      }
+    ]
+  },
+  "coverageConfidence": 99.5,
+  "knownLimitations": [
+    "Supercar and ultra-luxury allocations (e.g. Ferrari, Rolls-Royce, Lamborghini) are imported as Completely Built Units (CBUs) via exclusive India franchise concessionaires; individual unit pricing fluctuates according to custom bespoke Ad Personam / Mulliner options and customs duties.",
+    "Electric commercial fleet variants (e.g., Tata X-Pres-T, Mahindra e-Verito Fleet) are excluded to maintain strict focus on private passenger-car models.",
+    "Certain manufacturer portals (e.g., Hyundai India, Maruti Suzuki) deploy anti-bot web challenge protections (Akamai / Cloudflare), requiring browser-agent headers for live HTTP pings."
+  ]
+}

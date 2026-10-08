@@ -1,0 +1,400 @@
+// Prisma Schema for Indian Passenger Car Database
+// Supporting Manufacturer -> Brand -> Model -> Generation -> Variant hierarchy
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ──────────────────────────────────────────────
+// ENUMS
+// ──────────────────────────────────────────────
+
+enum ModelStatus {
+  ACTIVE
+  DISCONTINUED
+  UPCOMING
+  ANNOUNCED
+}
+
+enum BodyType {
+  Hatchback
+  Sedan
+  SUV
+  CompactSUV
+  MPV
+  MUV
+  Coupe
+  Convertible
+  Wagon
+  Pickup
+  Van
+  Crossover
+}
+
+enum FuelType {
+  Petrol
+  Diesel
+  CNG
+  LPG
+  MildHybrid
+  StrongHybrid
+  PlugInHybrid
+  Electric
+  Hydrogen
+}
+
+enum TransmissionType {
+  Manual
+  AMT
+  CVT
+  DCT
+  TorqueConverter
+  iMT
+  eCVT
+  SingleSpeedEV
+  Other
+}
+
+enum Drivetrain {
+  FWD
+  RWD
+  AWD
+  FourWD
+}
+
+enum AspirationType {
+  NaturallyAspirated
+  Turbocharged
+  Supercharged
+  TwinTurbo
+  ElectricMotorOnly
+}
+
+enum FeatureCategory {
+  ComfortConvenience
+  InfotainmentConnectivity
+  InteriorLighting
+  ExteriorStyling
+  SafetySecurity
+  DrivingAssistance
+}
+
+enum SourceType {
+  OfficialManufacturerWebsite
+  OfficialBrochure
+  GovernmentRegulatory
+  AutomotivePublication
+  IndustryReport
+}
+
+enum ReliabilityLevel {
+  HIGH
+  MEDIUM
+  LOW
+}
+
+enum VerificationStatus {
+  VERIFIED
+  PENDING_VERIFICATION
+  UNVERIFIED
+}
+
+// ──────────────────────────────────────────────
+// ENTITIES
+// ──────────────────────────────────────────────
+
+model Manufacturer {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  country   String
+  logo      String?
+  website   String?
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  brands Brand[]
+
+  @@map("manufacturers")
+}
+
+model Brand {
+  id             String       @id @default(cuid())
+  manufacturerId String
+  manufacturer   Manufacturer @relation(fields: [manufacturerId], references: [id], onDelete: Cascade)
+  name           String
+  slug           String       @unique
+  logo           String?
+  website        String?
+  active         Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  models CarModel[]
+
+  @@map("brands")
+}
+
+model CarModel {
+  id          String      @id @default(cuid())
+  brandId     String
+  brand       Brand       @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  name        String
+  slug        String      @unique
+  bodyType    BodyType
+  segment     String?
+  status      ModelStatus @default(ACTIVE)
+  active      Boolean     @default(true)
+  description String?     @db.Text
+  heroImage   String?
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  generations Generation[]
+
+  @@index([brandId])
+  @@index([status])
+  @@index([bodyType])
+  @@map("car_models")
+}
+
+model Generation {
+  id               String   @id @default(cuid())
+  modelId          String
+  model            CarModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  name             String
+  generationNumber Int      @default(1)
+  launchYear       Int
+  endYear          Int?
+  active           Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  variants Variant[]
+
+  @@index([modelId])
+  @@map("generations")
+}
+
+model Variant {
+  id              String           @id @default(cuid())
+  generationId    String
+  generation      Generation       @relation(fields: [generationId], references: [id], onDelete: Cascade)
+  name            String
+  slug            String           @unique
+  trim            String
+  fuelType        FuelType
+  transmission    TransmissionType
+  transmissionSpeeds Int?
+  drivetrain      Drivetrain       @default(FWD)
+  seatingCapacity Int              @default(5)
+  active          Boolean          @default(true)
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  engineSpec   EngineSpecification?
+  dimensions   Dimensions?
+  performance  Performance?
+  safety       Safety?
+  features     VariantFeature[]
+  prices       Price[]
+  specSources  SpecificationSource[]
+
+  @@index([generationId])
+  @@index([fuelType])
+  @@index([transmission])
+  @@index([seatingCapacity])
+  @@map("variants")
+}
+
+model EngineSpecification {
+  id                         String          @id @default(cuid())
+  variantId                  String          @unique
+  variant                    Variant         @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  engineName                 String?
+  displacementCC             Int?
+  cylinders                  Int?
+  valvesPerCylinder          Int?
+  aspiration                 AspirationType? @default(Turbocharged)
+  powerBhp                   Float?
+  powerRawValue              Float?
+  powerRawUnit               String?
+  powerRpm                   Int?
+  torqueNm                   Float?
+  torqueRawValue             Float?
+  torqueRawUnit              String?
+  torqueRpmMin               Int?
+  torqueRpmMax               Int?
+  motorType                  String?
+  motorPowerBhp              Float?
+  motorTorqueNm              Float?
+  batteryCapacityKWh         Float?
+  batteryType                String?
+  chargingTimeHoursAC        Float?
+  fastChargingTimeMinutesDC  Float?
+  createdAt                  DateTime        @default(now())
+  updatedAt                  DateTime        @updatedAt
+
+  @@map("engine_specifications")
+}
+
+model Dimensions {
+  id                    String   @id @default(cuid())
+  variantId             String   @unique
+  variant               Variant  @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  lengthMm              Int?
+  widthMm               Int?
+  heightMm              Int?
+  wheelbaseMm           Int?
+  groundClearanceMm     Int?
+  kerbWeightKg          Int?
+  grossWeightKg         Int?
+  bootSpaceLitres       Int?
+  fuelTankCapacityLitres Float?
+  turningRadiusMetres   Float?
+  frontTrackMm          Int?
+  rearTrackMm           Int?
+  tyreSize              String?
+  wheelSizeInches       Int?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@map("dimensions")
+}
+
+model Performance {
+  id                           String   @id @default(cuid())
+  variantId                    String   @unique
+  variant                      Variant  @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  mileageKmpl                  Float?
+  mileageCertifiedBy           String?
+  evRangeKm                    Float?
+  evRangeCertifiedBy           String?
+  acceleration0to100KmphSeconds Float?
+  topSpeedKmph                 Float?
+  createdAt                    DateTime @default(now())
+  updatedAt                    DateTime @updatedAt
+
+  @@map("performances")
+}
+
+model Safety {
+  id                  String   @id @default(cuid())
+  variantId           String   @unique
+  variant             Variant  @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  ncapRating          Float?
+  ncapAgency          String?
+  ncapAdultStars      Int?
+  ncapChildStars      Int?
+  ncapTestYear        Int?
+  airbagsCount        Int      @default(2)
+  abs                 Boolean  @default(true)
+  ebd                 Boolean  @default(true)
+  esc                 Boolean  @default(false)
+  tractionControl     Boolean  @default(false)
+  hillStartAssist     Boolean  @default(false)
+  hillDescentControl  Boolean  @default(false)
+  adas                Boolean  @default(false)
+  adasLevel           Int?
+  tpms                Boolean  @default(false)
+  parkingSensors      String?
+  parkingCamera       String?
+  isofix              Boolean  @default(true)
+  seatbeltWarning     Boolean  @default(true)
+  speedAlertSystem    Boolean  @default(true)
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@map("safeties")
+}
+
+model Feature {
+  id          String          @id @default(cuid())
+  name        String
+  slug        String          @unique
+  category    FeatureCategory
+  description String?
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  variantFeatures VariantFeature[]
+
+  @@map("features")
+}
+
+model VariantFeature {
+  id         String   @id @default(cuid())
+  variantId  String
+  variant    Variant  @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  featureId  String
+  feature    Feature  @relation(fields: [featureId], references: [id], onDelete: Cascade)
+  isStandard Boolean  @default(true)
+  isOptional Boolean  @default(false)
+  value      String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([variantId, featureId])
+  @@index([featureId])
+  @@map("variant_features")
+}
+
+model Price {
+  id             String    @id @default(cuid())
+  variantId      String
+  variant        Variant   @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  exShowroomMin  Float     // In Lakhs (e.g. 11.50) or canonical currency unit
+  exShowroomMax  Float?
+  currency       String    @default("INR")
+  state          String?
+  city           String?
+  effectiveFrom  DateTime  @default(now())
+  effectiveTo    DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@index([variantId])
+  @@map("prices")
+}
+
+model Source {
+  id          String           @id @default(cuid())
+  name        String
+  url         String
+  sourceType  SourceType
+  retrievedAt DateTime         @default(now())
+  reliability ReliabilityLevel @default(HIGH)
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  specifications SpecificationSource[]
+
+  @@map("sources")
+}
+
+model SpecificationSource {
+  id                 String             @id @default(cuid())
+  sourceId           String
+  source             Source             @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  variantId          String
+  variant            Variant            @relation(fields: [variantId], references: [id], onDelete: Cascade)
+  entityType         String
+  entityId           String
+  field              String
+  sourceValue        String
+  verifiedAt         DateTime           @default(now())
+  verificationStatus VerificationStatus @default(VERIFIED)
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+
+  @@index([sourceId])
+  @@index([variantId])
+  @@index([entityType, entityId])
+  @@map("specification_sources")
+}

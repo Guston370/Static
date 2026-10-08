@@ -1,0 +1,3359 @@
+[
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Alto K10",
+    "slug": "maruti-suzuki-alto-k10",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "A-Segment Entry Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 3.99,
+      "max": 5.96
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Standard A-segment entry car; 1.0L K10C DualJet engine with 5MT / AGS.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/alto-k10",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "S-Presso",
+    "slug": "maruti-suzuki-s-presso",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "Mini SUV-Styled Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 4.26,
+      "max": 6.12
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Micro-SUV upright styling on Heartect-K platform.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/s-presso",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Celerio",
+    "slug": "maruti-suzuki-celerio",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B1-Segment Compact Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 5.37,
+      "max": 7.09
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Heartect platform 2nd generation.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/celerio",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Wagon R",
+    "slug": "maruti-suzuki-wagon-r",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B1-Segment Tall-Boy Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 5.54,
+      "max": 7.33
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Available with 1.0L and 1.2L DualJet powertrains.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/wagon-r",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Swift",
+    "slug": "maruti-suzuki-swift",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B2-Segment Premium Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.49,
+      "max": 9.6
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "4th Generation equipped with all-new Z12E 1.2L 3-cylinder engine and 6 airbags standard.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/swift",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Dzire",
+    "slug": "maruti-suzuki-dzire",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Sub-4m Compact Sedan",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.79,
+      "max": 10.14
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "4th Generation distinct design with 5-star Global NCAP / Bharat NCAP rating and sunroof.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/dzire",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Brezza",
+    "slug": "maruti-suzuki-brezza",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Compact SUV",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 8.34,
+      "max": 14.14
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Global C-platform; 1.5L K15C Smart Hybrid engine with 5MT / 6AT.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/brezza",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Ertiga",
+    "slug": "maruti-suzuki-ertiga",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Compact 7-Seater MPV",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 8.69,
+      "max": 13.03
+    },
+    "rebadgedFromOrSharedWith": "Toyota Rumion (Shared Platform)",
+    "notes": "Heartect platform MPV. Platform shared with Toyota Rumion.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/ertiga",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Arena",
+    "brandSlug": "maruti-suzuki",
+    "modelName": "Eeco",
+    "slug": "maruti-suzuki-eeco",
+    "status": "ACTIVE",
+    "bodyType": "Van",
+    "segment": "Multi-purpose Microvan",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 5.32,
+      "max": 6.58
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Utility passenger van with 1.2L K-series DualJet engine.",
+    "source": "Maruti Suzuki Arena Official",
+    "sourceUrl": "https://www.marutisuzuki.com/eeco",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "Ignis",
+    "slug": "maruti-suzuki-ignis",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "Urban Compact Crossover Hatchback",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 5.84,
+      "max": 8.16
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Nexa entry hatchback with 1.2L K12N engine.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/ignis",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "Baleno",
+    "slug": "maruti-suzuki-baleno",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B2-Segment Premium Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.66,
+      "max": 9.88
+    },
+    "rebadgedFromOrSharedWith": "Toyota Glanza (Platform Donor)",
+    "notes": "Heartect platform. Manufactured by Maruti Suzuki and supplied to Toyota as Glanza.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/baleno",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "Fronx",
+    "slug": "maruti-suzuki-fronx",
+    "status": "ACTIVE",
+    "bodyType": "Coupe SUV",
+    "segment": "Sub-4m Coupe SUV",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.51,
+      "max": 13.04
+    },
+    "rebadgedFromOrSharedWith": "Toyota Urban Cruiser Taisor (Platform Donor)",
+    "notes": "Heartect crossover with 1.2L DualJet and 1.0L Boosterjet turbo petrol. Supplied to Toyota as Taisor.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/fronx",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "Ciaz",
+    "slug": "maruti-suzuki-ciaz",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "C-Segment Mid-size Sedan",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.4,
+      "max": 12.29
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Mid-size sedan with K15 Smart Hybrid powertrain.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/ciaz",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "Jimny",
+    "slug": "maruti-suzuki-jimny",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Sub-4m 4x4 Off-Road Ladder-Frame SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 12.74,
+      "max": 15.05
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "5-door ladder-frame 4x4 with AllGrip Pro low-range transfer case.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/jimny",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "Grand Vitara",
+    "slug": "maruti-suzuki-grand-vitara",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV",
+    "fuelTypes": [
+      "Petrol",
+      "MildHybrid",
+      "StrongHybrid",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 10.99,
+      "max": 20.09
+    },
+    "rebadgedFromOrSharedWith": "Toyota Urban Cruiser Hyryder (Joint Venture)",
+    "notes": "Jointly engineered by Suzuki & Toyota; manufactured at Toyota Bidadi plant with AllGrip AWD and Intelligent Electric Hybrid.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/grand-vitara",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "XL6",
+    "slug": "maruti-suzuki-xl6",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Premium 6-Seater Captain Seat MPV",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 11.61,
+      "max": 14.77
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Upmarket 6-seater derivative of Ertiga sold through Nexa.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/xl6",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Maruti Suzuki India Limited",
+    "brandName": "Maruti Suzuki Nexa",
+    "brandSlug": "maruti-suzuki-nexa",
+    "modelName": "Invicto",
+    "slug": "maruti-suzuki-invicto",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Premium Monocoque Hybrid MPV",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 25.21,
+      "max": 28.92
+    },
+    "rebadgedFromOrSharedWith": "Toyota Innova Hycross (Rebadged from Toyota)",
+    "notes": "Manufactured by Toyota on TNGA-C monocoque architecture and supplied to Maruti Suzuki.",
+    "source": "Maruti Suzuki Nexa Official",
+    "sourceUrl": "https://www.nexaexperience.com/invicto",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Grand i10 Nios",
+    "slug": "hyundai-grand-i10-nios",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B1-Segment Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 5.92,
+      "max": 8.56
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Entry hatchback with 1.2L Kappa petrol engine.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/grand-i10-nios/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Aura",
+    "slug": "hyundai-aura",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Sub-4m Compact Sedan",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.49,
+      "max": 9.05
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Sedan counterpart of Grand i10 Nios.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/aura/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "i20",
+    "slug": "hyundai-i20",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B2-Segment Premium Hatchback",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.04,
+      "max": 11.21
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Premium hatchback. The i20 N Line is cataloged as a sport performance trim of this model.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/i20/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Exter",
+    "slug": "hyundai-exter",
+    "status": "ACTIVE",
+    "bodyType": "Micro SUV",
+    "segment": "Micro SUV / A-Crossover",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.13,
+      "max": 10.43
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "K1 platform micro SUV competing directly with Tata Punch.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/exter/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Venue",
+    "slug": "hyundai-venue",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Compact SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.94,
+      "max": 13.48
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Sub-4m SUV with ADAS Level 1 and turbo petrol / diesel engines. Venue N Line is a trim.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/venue/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Verna",
+    "slug": "hyundai-verna",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "C-Segment Mid-size Sedan",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 11,
+      "max": 17.42
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "6th Generation mid-size sedan with 5-star Global NCAP rating and 1.5L Turbo GDi (160 PS).",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/verna/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Creta",
+    "slug": "hyundai-creta",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 11,
+      "max": 20.15
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Facelifted mid-size SUV with Level 2 ADAS. Creta N Line is cataloged as a sport variant.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/creta/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Alcazar",
+    "slug": "hyundai-alcazar",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "3-Row Mid-size SUV (6/7 Seater)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 14.99,
+      "max": 21.55
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Extended wheelbase 3-row derivative of Creta platform with refreshed facelift styling.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/alcazar/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Tucson",
+    "slug": "hyundai-tucson",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Premium Mid-to-Large SUV (CKD)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 29.02,
+      "max": 35.94
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Long wheelbase 4th generation Tucson with HTRAC AWD and SmartSense ADAS.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/tucson/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Hyundai Motor India Limited",
+    "brandName": "Hyundai",
+    "brandSlug": "hyundai",
+    "modelName": "Ioniq 5",
+    "slug": "hyundai-ioniq-5",
+    "status": "ACTIVE",
+    "bodyType": "Crossover",
+    "segment": "Premium Electric Crossover (E-GMP)",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 46.05,
+      "max": 46.05
+    },
+    "rebadgedFromOrSharedWith": "Kia EV6 (Shared E-GMP Platform)",
+    "notes": "Locally assembled CKD on 800V E-GMP dedicated EV architecture with 72.6 kWh battery.",
+    "source": "Hyundai India Official",
+    "sourceUrl": "https://www.hyundai.com/in/en/find-a-car/ioniq-5/highlights",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Tiago",
+    "slug": "tata-tiago",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B1-Segment Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 5.65,
+      "max": 8.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "4-star Global NCAP hatchback with twin-cylinder iCNG technology.",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/tiago",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Tigor",
+    "slug": "tata-tigor",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Sub-4m Compact Sedan",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.3,
+      "max": 9.55
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Sub-4m compact sedan with dual-cylinder CNG technology.",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/tigor",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Altroz",
+    "slug": "tata-altroz",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B2-Segment Premium Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.65,
+      "max": 11.35
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "ALFA-Arc architecture with 5-star Global NCAP. Altroz Racer is a performance trim.",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/altroz",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Punch",
+    "slug": "tata-punch",
+    "status": "ACTIVE",
+    "bodyType": "Micro SUV",
+    "segment": "Micro SUV",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.13,
+      "max": 10.2
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "5-star Global NCAP rated sub-compact SUV on ALFA-Arc.",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/punch",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Nexon",
+    "slug": "tata-nexon",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Compact SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 8,
+      "max": 15.8
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "5-star Global & Bharat NCAP SUV. Features 1.2L Turbo iCNG and DCA dual-clutch transmission.",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/nexon",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Curvv",
+    "slug": "tata-curvv",
+    "status": "ACTIVE",
+    "bodyType": "Coupe SUV",
+    "segment": "Mid-size Coupe SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.99,
+      "max": 19
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "ATLAS architecture coupe SUV with 1.2L Hyperion GDi and 1.5L Kryojet diesel; 5-star Bharat NCAP.",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/curvv",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Harrier",
+    "slug": "tata-harrier",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "D-Segment Mid-to-Large 5-Seater SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 14.99,
+      "max": 26.44
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "OMEGARC architecture (Land Rover D8 derived) with 5-star Bharat NCAP and ADAS.",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/harrier",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "Tata",
+    "brandSlug": "tata",
+    "modelName": "Safari",
+    "slug": "tata-safari",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "3-Row D-Segment Flagship SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 15.49,
+      "max": 27.34
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "OMEGARC 6/7-seater flagship SUV with highest Bharat NCAP score (33.05/32 adult safety).",
+    "source": "Tata Motors Official",
+    "sourceUrl": "https://cars.tatamotors.com/safari",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "TATA.ev",
+    "brandSlug": "tata-ev",
+    "modelName": "Tiago.ev",
+    "slug": "tata-tiago-ev",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "Electric Entry Hatchback",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.99,
+      "max": 11.89
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Ziptron electric architecture with 19.2 kWh and 24 kWh battery pack choices.",
+    "source": "TATA.ev Official",
+    "sourceUrl": "https://ev.tatamotors.com/tiago-ev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "TATA.ev",
+    "brandSlug": "tata-ev",
+    "modelName": "Tigor.ev",
+    "slug": "tata-tigor-ev",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Electric Compact Sedan",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 12.49,
+      "max": 13.75
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Ziptron electric sedan with 26 kWh battery pack.",
+    "source": "TATA.ev Official",
+    "sourceUrl": "https://ev.tatamotors.com/tigor-ev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "TATA.ev",
+    "brandSlug": "tata-ev",
+    "modelName": "Punch.ev",
+    "slug": "tata-punch-ev",
+    "status": "ACTIVE",
+    "bodyType": "Micro SUV",
+    "segment": "Electric Micro SUV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.99,
+      "max": 14.29
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Built on dedicated acti.ev pure EV platform with 5-star Bharat NCAP rating.",
+    "source": "TATA.ev Official",
+    "sourceUrl": "https://ev.tatamotors.com/punch-ev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "TATA.ev",
+    "brandSlug": "tata-ev",
+    "modelName": "Nexon.ev",
+    "slug": "tata-nexon-ev",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Electric Compact SUV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 12.49,
+      "max": 17.19
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Equipped with 30 kWh and 45 kWh battery options, V2L/V2V charging, and 5-star Bharat NCAP.",
+    "source": "TATA.ev Official",
+    "sourceUrl": "https://ev.tatamotors.com/nexon-ev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Tata Motors Passenger Vehicles Limited",
+    "brandName": "TATA.ev",
+    "brandSlug": "tata-ev",
+    "modelName": "Curvv.ev",
+    "slug": "tata-curvv-ev",
+    "status": "ACTIVE",
+    "bodyType": "Coupe SUV",
+    "segment": "Electric Coupe SUV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 17.49,
+      "max": 21.99
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "acti.ev platform coupe SUV with 45 kWh and 55 kWh batteries delivering up to 585 km range; 5-star Bharat NCAP.",
+    "source": "TATA.ev Official",
+    "sourceUrl": "https://ev.tatamotors.com/curvv-ev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "XUV 3XO",
+    "slug": "mahindra-xuv-3xo",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Compact SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.79,
+      "max": 15.49
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Major redevelopment of XUV300 with panoramic skyroof, Level 2 ADAS, and mStallion TGDi / mHawk engines.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/xuv-3xo",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "Thar",
+    "slug": "mahindra-thar",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Sub-4m 3-Door Lifestyle 4x4 Off-Road SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 11.35,
+      "max": 17.6
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "3-door lifestyle off-roader with RWD and 4WD configurations on ladder chassis.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/thar",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "Thar Roxx",
+    "slug": "mahindra-thar-roxx",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size 5-Door Lifestyle 4x4 Off-Road SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 12.99,
+      "max": 22.49
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "5-door extended body on 4G M_GLYDE ladder architecture; 5-star Bharat NCAP rating and Level 2 ADAS.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/thar-roxx",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "Bolero",
+    "slug": "mahindra-bolero",
+    "status": "ACTIVE",
+    "bodyType": "MUV",
+    "segment": "Rugged Rural Utility MUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.79,
+      "max": 10.91
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Legendary Indian utility vehicle with mHawk75 diesel engine.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/bolero",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "Bolero Neo",
+    "slug": "mahindra-bolero-neo",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Ladder Frame RWD Compact SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.95,
+      "max": 12.15
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Ladder-chassis rear-wheel drive SUV with Multi-Terrain Technology (MLD). Includes Bolero Neo+ 9-seater variant.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/bolero-neo",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "Scorpio Classic",
+    "slug": "mahindra-scorpio-classic",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size Rugged Ladder Frame SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 13.62,
+      "max": 17.42
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Original iconic Scorpio silhouette retained with Gen-2 mHawk all-aluminium engine.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/scorpio-classic",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "Scorpio-N",
+    "slug": "mahindra-scorpio-n",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "D-Segment Ladder Frame SUV (4XPLOR)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 13.85,
+      "max": 24.54
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "3rd generation Scorpio on new ladder frame; 5-star Global NCAP rating and 4XPLOR terrain system.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/scorpio-n",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "XUV700",
+    "slug": "mahindra-xuv700",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-to-Large Monocoque SUV (5/7 Seater)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 13.99,
+      "max": 26.99
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Monocoque D-segment SUV with 200 PS mStallion petrol / 185 PS mHawk diesel, AWD, and Level 2 ADAS.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/xuv700",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mahindra & Mahindra Limited",
+    "brandName": "Mahindra",
+    "brandSlug": "mahindra",
+    "modelName": "XUV400",
+    "slug": "mahindra-xuv400",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Electric Compact SUV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 15.49,
+      "max": 17.69
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "EV built on the elongated 4.2m XUV platform with Pro interior and dual 10.25-inch screens.",
+    "source": "Mahindra Auto Official",
+    "sourceUrl": "https://auto.mahindra.com/suv/xuv400",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Glanza",
+    "slug": "toyota-glanza",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B2-Segment Premium Hatchback",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.86,
+      "max": 10
+    },
+    "rebadgedFromOrSharedWith": "Maruti Suzuki Baleno (Joint Venture)",
+    "notes": "Manufactured by Maruti Suzuki under Toyota-Suzuki cross-badging agreement.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/glanza/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Urban Cruiser Taisor",
+    "slug": "toyota-urban-cruiser-taisor",
+    "status": "ACTIVE",
+    "bodyType": "Coupe SUV",
+    "segment": "Sub-4m Coupe Crossover",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.74,
+      "max": 13.04
+    },
+    "rebadgedFromOrSharedWith": "Maruti Suzuki Fronx (Joint Venture)",
+    "notes": "Supplied by Maruti Suzuki based on the Fronx platform with unique Toyota grille and LED signature.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/taisor/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Urban Cruiser Hyryder",
+    "slug": "toyota-urban-cruiser-hyryder",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV",
+    "fuelTypes": [
+      "Petrol",
+      "MildHybrid",
+      "StrongHybrid",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 11.14,
+      "max": 20.19
+    },
+    "rebadgedFromOrSharedWith": "Maruti Suzuki Grand Vitara (Joint Venture)",
+    "notes": "Manufactured at Toyota Bidadi plant with Toyota Self-Charging Strong Hybrid system and Suzuki AllGrip AWD.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/hyryder/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Rumion",
+    "slug": "toyota-rumion",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Compact 7-Seater MPV",
+    "fuelTypes": [
+      "Petrol",
+      "CNG"
+    ],
+    "priceRangeLakhs": {
+      "min": 10.44,
+      "max": 13.73
+    },
+    "rebadgedFromOrSharedWith": "Maruti Suzuki Ertiga (Joint Venture)",
+    "notes": "7-seater MPV supplied by Maruti Suzuki with Toyota warranty package.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/rumion/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Innova Crysta",
+    "slug": "toyota-innova-crysta",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Ladder-Frame Rear-Wheel-Drive Diesel MPV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 19.99,
+      "max": 26.55
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Classic ladder frame rear-wheel drive MPV powered by 2.4L 2GD-FTV diesel engine.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/innova-crysta/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Innova Hycross",
+    "slug": "toyota-innova-hycross",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Premium Monocoque Hybrid MPV",
+    "fuelTypes": [
+      "Petrol",
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 19.77,
+      "max": 30.98
+    },
+    "rebadgedFromOrSharedWith": "Maruti Suzuki Invicto (Platform Donor)",
+    "notes": "TNGA-C monocoque MPV with 5th Gen Self-Charging Hybrid System and Ottoman seats; shared with Maruti Invicto.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/innova-hycross/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Fortuner",
+    "slug": "toyota-fortuner",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Full-size Ladder Frame 4x4 SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 33.43,
+      "max": 51.44
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "D-segment ladder-frame SUV with 2.8L 1GD-FTV diesel (500 Nm). Fortuner Legender and GR-S are sporty variants.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/fortuner/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Hilux",
+    "slug": "toyota-hilux",
+    "status": "ACTIVE",
+    "bodyType": "Pickup Truck",
+    "segment": "Lifestyle Double-Cab 4x4 Pickup Truck",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 30.4,
+      "max": 37.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Heavy-duty IMV platform lifestyle pickup with electronic 4WD and 700mm water wading capacity.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/hilux/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Camry",
+    "slug": "toyota-camry",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Luxury Hybrid Sedan",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 46.17,
+      "max": 46.17
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "TNGA-K platform executive self-charging hybrid sedan assembled via CKD.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/camry/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Vellfire",
+    "slug": "toyota-vellfire",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Ultra-Luxury Hybrid Executive Lounge MPV",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 122.3,
+      "max": 132.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Imported CBU luxury lounge on wheels with TNGA-K platform and electric sliding doors.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/vellfire/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Toyota Kirloskar Motor Private Limited",
+    "brandName": "Toyota",
+    "brandSlug": "toyota",
+    "modelName": "Land Cruiser 300",
+    "slug": "toyota-land-cruiser-300",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Flagship Luxury Full-size 4x4 SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 210,
+      "max": 210
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "TNGA-F ladder-frame flagship with 3.3L twin-turbo V6 diesel and E-KDSS suspension.",
+    "source": "Toyota Bharat Official",
+    "sourceUrl": "https://www.toyotabharat.com/showroom/lc300/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Kia India Private Limited",
+    "brandName": "Kia",
+    "brandSlug": "kia",
+    "modelName": "Sonet",
+    "slug": "kia-sonet",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Compact SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.99,
+      "max": 15.77
+    },
+    "rebadgedFromOrSharedWith": "Hyundai Venue (Shared Platform)",
+    "notes": "K1 platform compact SUV with Level 1 ADAS and diesel AT option.",
+    "source": "Kia India Official",
+    "sourceUrl": "https://www.kia.com/in/our-vehicles/sonet/showroom.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Kia India Private Limited",
+    "brandName": "Kia",
+    "brandSlug": "kia",
+    "modelName": "Seltos",
+    "slug": "kia-seltos",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 10.9,
+      "max": 20.37
+    },
+    "rebadgedFromOrSharedWith": "Hyundai Creta (Shared Platform)",
+    "notes": "K2 platform mid-size SUV with Level 2 ADAS (17 autonomous features) and dual 10.25-inch screens.",
+    "source": "Kia India Official",
+    "sourceUrl": "https://www.kia.com/in/our-vehicles/seltos/showroom.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Kia India Private Limited",
+    "brandName": "Kia",
+    "brandSlug": "kia",
+    "modelName": "Carens",
+    "slug": "kia-carens",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "3-Row Recreational Family MPV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 10.52,
+      "max": 19.67
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "6/7-seater family vehicle with 6 airbags standard, sunroof, and one-touch electric tumble seats.",
+    "source": "Kia India Official",
+    "sourceUrl": "https://www.kia.com/in/our-vehicles/carens/showroom.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Kia India Private Limited",
+    "brandName": "Kia",
+    "brandSlug": "kia",
+    "modelName": "Carnival",
+    "slug": "kia-carnival",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Premium Flagship Luxury MPV (KA4)",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 63.9,
+      "max": 63.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "4th Generation Carnival imported via CKD with dual sunroofs and Level 2 ADAS.",
+    "source": "Kia India Official",
+    "sourceUrl": "https://www.kia.com/in/our-vehicles/carnival/showroom.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Kia India Private Limited",
+    "brandName": "Kia",
+    "brandSlug": "kia",
+    "modelName": "EV6",
+    "slug": "kia-ev6",
+    "status": "ACTIVE",
+    "bodyType": "Crossover",
+    "segment": "Premium Electric Crossover (E-GMP)",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 60.97,
+      "max": 65.97
+    },
+    "rebadgedFromOrSharedWith": "Hyundai Ioniq 5 (Shared E-GMP Platform)",
+    "notes": "Dedicated 800V E-GMP platform with 77.4 kWh battery and 350 kW DC ultra-fast charging.",
+    "source": "Kia India Official",
+    "sourceUrl": "https://www.kia.com/in/our-vehicles/ev6/showroom.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Honda Cars India Limited",
+    "brandName": "Honda",
+    "brandSlug": "honda",
+    "modelName": "Amaze",
+    "slug": "honda-amaze",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Sub-4m Compact Sedan",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.2,
+      "max": 9.96
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Sub-4m sedan with 1.2L i-VTEC engine and CVT option.",
+    "source": "Honda Cars India Official",
+    "sourceUrl": "https://www.hondacarindia.com/honda-amaze",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Honda Cars India Limited",
+    "brandName": "Honda",
+    "brandSlug": "honda",
+    "modelName": "City",
+    "slug": "honda-city",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "C-Segment Mid-size Sedan",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 12.08,
+      "max": 16.35
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "5th generation mid-size sedan with 1.5L DOHC i-VTEC and Honda Sensing ADAS.",
+    "source": "Honda Cars India Official",
+    "sourceUrl": "https://www.hondacarindia.com/honda-city",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Honda Cars India Limited",
+    "brandName": "Honda",
+    "brandSlug": "honda",
+    "modelName": "City e:HEV",
+    "slug": "honda-city-e-hev",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Self-Charging Hybrid Sedan",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 20.55,
+      "max": 20.55
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Dual-motor self-charging hybrid sedan with 27.13 km/l fuel economy and electronic parking brake.",
+    "source": "Honda Cars India Official",
+    "sourceUrl": "https://www.hondacarindia.com/honda-city-ehev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Honda Cars India Limited",
+    "brandName": "Honda",
+    "brandSlug": "honda",
+    "modelName": "Elevate",
+    "slug": "honda-elevate",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 11.69,
+      "max": 16.43
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Global mid-size SUV engineered in India with 220 mm ground clearance and Honda Sensing ADAS.",
+    "source": "Honda Cars India Official",
+    "sourceUrl": "https://www.hondacarindia.com/honda-elevate",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "JSW MG Motor India Private Limited",
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "modelName": "Comet EV",
+    "slug": "mg-comet-ev",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "Ultra-Compact 3-Door Urban EV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.99,
+      "max": 9.65
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "GSEV platform compact 3-door EV with 17.3 kWh battery for dense city transit.",
+    "source": "MG Motor India Official",
+    "sourceUrl": "https://www.mgmotor.co.in/vehicles/comet-ev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "JSW MG Motor India Private Limited",
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "modelName": "Windsor EV",
+    "slug": "mg-windsor-ev",
+    "status": "ACTIVE",
+    "bodyType": "Crossover",
+    "segment": "Intelligent Electric Crossover Utility Vehicle",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.99,
+      "max": 15.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "AeroGlide CUV design with 38 kWh battery, 135-degree reclining Aero Lounge rear seats, and BaaS option.",
+    "source": "MG Motor India Official",
+    "sourceUrl": "https://www.mgmotor.co.in/vehicles/windsor-ev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "JSW MG Motor India Private Limited",
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "modelName": "Astor",
+    "slug": "mg-astor",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.98,
+      "max": 18.08
+    },
+    "rebadgedFromOrSharedWith": "MG ZS EV (ICE Counterpart)",
+    "notes": "Petrol mid-size SUV featuring personal AI robot assistant and Autonomous Level 2 technology.",
+    "source": "MG Motor India Official",
+    "sourceUrl": "https://www.mgmotor.co.in/vehicles/mg-astor",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "JSW MG Motor India Private Limited",
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "modelName": "Hector",
+    "slug": "mg-hector",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-to-Large 5-Seater SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 13.99,
+      "max": 22.24
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Equipped with 14-inch HD portrait touchscreen and Level 2 ADAS technology.",
+    "source": "MG Motor India Official",
+    "sourceUrl": "https://www.mgmotor.co.in/vehicles/mg-hector",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "JSW MG Motor India Private Limited",
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "modelName": "Hector Plus",
+    "slug": "mg-hector-plus",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "3-Row 6/7-Seater Family SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 17.3,
+      "max": 23.08
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "3-row version of Hector with captain seat or bench options.",
+    "source": "MG Motor India Official",
+    "sourceUrl": "https://www.mgmotor.co.in/vehicles/mg-hector-plus",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "JSW MG Motor India Private Limited",
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "modelName": "ZS EV",
+    "slug": "mg-zs-ev",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Electric Mid-size SUV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 18.98,
+      "max": 25.44
+    },
+    "rebadgedFromOrSharedWith": "MG Astor (EV Counterpart)",
+    "notes": "50.3 kWh prismatic battery pack with 461 km certified range.",
+    "source": "MG Motor India Official",
+    "sourceUrl": "https://www.mgmotor.co.in/vehicles/mg-zsev",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "JSW MG Motor India Private Limited",
+    "brandName": "MG",
+    "brandSlug": "mg",
+    "modelName": "Gloster",
+    "slug": "mg-gloster",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Full-size Ladder Frame D-Segment 4x4 SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 38.8,
+      "max": 43.87
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Full-size 7-seater ladder-frame SUV with 2.0L twin-turbo diesel (216 PS / 480 Nm) and BorgWarner 4x4.",
+    "source": "MG Motor India Official",
+    "sourceUrl": "https://www.mgmotor.co.in/vehicles/mg-gloster",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Skoda",
+    "brandSlug": "skoda",
+    "modelName": "Kushaq",
+    "slug": "skoda-kushaq",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV (MQB-A0-IN)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 10.89,
+      "max": 18.79
+    },
+    "rebadgedFromOrSharedWith": "Volkswagen Taigun (Platform Sibling)",
+    "notes": "MQB-A0-IN platform with 5-star Global NCAP rating (adult & child). Shares architecture with VW Taigun.",
+    "source": "Skoda Auto India Official",
+    "sourceUrl": "https://www.skoda-auto.co.in/models/kushaq/kushaq",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Skoda",
+    "brandSlug": "skoda",
+    "modelName": "Slavia",
+    "slug": "skoda-slavia",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "C-Segment Mid-size Sedan (MQB-A0-IN)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 10.69,
+      "max": 18.69
+    },
+    "rebadgedFromOrSharedWith": "Volkswagen Virtus (Platform Sibling)",
+    "notes": "MQB-A0-IN notchback sedan with 5-star Global NCAP rating. Shares architecture with VW Virtus.",
+    "source": "Skoda Auto India Official",
+    "sourceUrl": "https://www.skoda-auto.co.in/models/slavia/slavia",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Skoda",
+    "brandSlug": "skoda",
+    "modelName": "Kodiaq",
+    "slug": "skoda-kodiaq",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Luxury 7-Seater 4x4 SUV (CKD)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 39.99,
+      "max": 41.99
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "MQB platform luxury 7-seater SUV with 2.0L TSI (190 PS), 4x4, and Dynamic Chassis Control (DCC).",
+    "source": "Skoda Auto India Official",
+    "sourceUrl": "https://www.skoda-auto.co.in/models/kodiaq/kodiaq",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "modelName": "Taigun",
+    "slug": "volkswagen-taigun",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size SUV (MQB-A0-IN)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 10.89,
+      "max": 19.49
+    },
+    "rebadgedFromOrSharedWith": "Skoda Kushaq (Platform Sibling)",
+    "notes": "MQB-A0-IN SUV with 5-star Global NCAP rating; 1.0L TSI (115 PS) and 1.5L TSI EVO (150 PS with ACT).",
+    "source": "Volkswagen India Official",
+    "sourceUrl": "https://www.volkswagen.co.in/en/models/taigun.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "modelName": "Virtus",
+    "slug": "volkswagen-virtus",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "C-Segment Mid-size Sedan (MQB-A0-IN)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 11.56,
+      "max": 19.41
+    },
+    "rebadgedFromOrSharedWith": "Skoda Slavia (Platform Sibling)",
+    "notes": "MQB-A0-IN sedan with 5-star Global NCAP rating; 521-litre boot and GT Line performance models.",
+    "source": "Volkswagen India Official",
+    "sourceUrl": "https://www.volkswagen.co.in/en/models/virtus.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "modelName": "Tiguan",
+    "slug": "volkswagen-tiguan",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Premium 5-Seater 4MOTION SUV (CKD)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 35.17,
+      "max": 35.17
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "CKD assembled premium SUV with 2.0L TSI (190 PS / 320 Nm) and 4MOTION all-wheel drive.",
+    "source": "Volkswagen India Official",
+    "sourceUrl": "https://www.volkswagen.co.in/en/models/tiguan.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Renault India Private Limited",
+    "brandName": "Renault",
+    "brandSlug": "renault",
+    "modelName": "Kwid",
+    "slug": "renault-kwid",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "A-Segment Entry Hatchback",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 4.7,
+      "max": 6.45
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "CMF-A platform crossover-styled hatchback with 1.0L SCe engine and Easy-R AMT.",
+    "source": "Renault India Official",
+    "sourceUrl": "https://www.renault.co.in/cars/renault-kwid.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Renault India Private Limited",
+    "brandName": "Renault",
+    "brandSlug": "renault",
+    "modelName": "Triber",
+    "slug": "renault-triber",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Sub-4m Modular 7-Seater MPV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 6,
+      "max": 8.97
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "CMF-A+ modular sub-4m MPV with removable EasyFix 3rd row seats; 4-star Global NCAP rating.",
+    "source": "Renault India Official",
+    "sourceUrl": "https://www.renault.co.in/cars/renault-triber.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Renault India Private Limited",
+    "brandName": "Renault",
+    "brandSlug": "renault",
+    "modelName": "Kiger",
+    "slug": "renault-kiger",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Compact SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 6,
+      "max": 11.23
+    },
+    "rebadgedFromOrSharedWith": "Nissan Magnite (Alliance Platform)",
+    "notes": "CMF-A+ platform compact SUV with 1.0L Turbo (100 PS) and 4-star Global NCAP safety rating.",
+    "source": "Renault India Official",
+    "sourceUrl": "https://www.renault.co.in/cars/renault-kiger.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Nissan Motor India Private Limited",
+    "brandName": "Nissan",
+    "brandSlug": "nissan",
+    "modelName": "Magnite",
+    "slug": "nissan-magnite",
+    "status": "ACTIVE",
+    "bodyType": "Compact SUV",
+    "segment": "Sub-4m Compact SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 5.99,
+      "max": 11.5
+    },
+    "rebadgedFromOrSharedWith": "Renault Kiger (Alliance Platform)",
+    "notes": "Refreshed sub-4m SUV with 6 airbags standard, frameless auto-dimming IRVM, and 4-star safety rating.",
+    "source": "Nissan India Official",
+    "sourceUrl": "https://www.nissan.in/vehicles/new/magnite.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Nissan Motor India Private Limited",
+    "brandName": "Nissan",
+    "brandSlug": "nissan",
+    "modelName": "X-Trail",
+    "slug": "nissan-x-trail",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Premium 3-Row Mid-to-Large SUV (CBU)",
+    "fuelTypes": [
+      "MildHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 49.92,
+      "max": 49.92
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Imported CBU 4th Gen SUV with 1.5L Variable Compression Turbo (VC-Turbo) mild-hybrid engine.",
+    "source": "Nissan India Official",
+    "sourceUrl": "https://www.nissan.in/vehicles/new/x-trail.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Citroën",
+    "brandSlug": "citroen",
+    "modelName": "C3",
+    "slug": "citroen-c3",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "B-Segment Hatchback with SUV Cues",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 6.16,
+      "max": 9.42
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Smart Car platform hatchback with Advanced Comfort suspension and 1.2L PureTech turbo (110 PS / 205 Nm).",
+    "source": "Citroën India Official",
+    "sourceUrl": "https://www.citroen.in/c3",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Citroën",
+    "brandSlug": "citroen",
+    "modelName": "ë-C3",
+    "slug": "citroen-e-c3",
+    "status": "ACTIVE",
+    "bodyType": "Hatchback",
+    "segment": "Electric B-Segment Hatchback",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 11.61,
+      "max": 13.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Electric derivative of C3 with 29.2 kWh LFP battery pack and 320 km MIDC range.",
+    "source": "Citroën India Official",
+    "sourceUrl": "https://www.citroen.in/ec3",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Citroën",
+    "brandSlug": "citroen",
+    "modelName": "C3 Aircross",
+    "slug": "citroen-c3-aircross",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size 5/7 Seater Compact SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 9.99,
+      "max": 14.33
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Smart Car platform SUV featuring removable 3rd row seats and automatic torque converter transmission.",
+    "source": "Citroën India Official",
+    "sourceUrl": "https://www.citroen.in/c3-aircross",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Citroën",
+    "brandSlug": "citroen",
+    "modelName": "Basalt",
+    "slug": "citroen-basalt",
+    "status": "ACTIVE",
+    "bodyType": "Coupe SUV",
+    "segment": "Mid-size Coupe SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 7.99,
+      "max": 13.83
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Coupe-SUV styling on Smart Car architecture; 4-star Bharat NCAP rating and adjustable thigh support.",
+    "source": "Citroën India Official",
+    "sourceUrl": "https://www.citroen.in/basalt",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Citroën",
+    "brandSlug": "citroen",
+    "modelName": "C5 Aircross",
+    "slug": "citroen-c5-aircross",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Premium Mid-size SUV (CKD)",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 36.91,
+      "max": 37.67
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "EMP2 platform flagship with Progressive Hydraulic Cushions and 3 independent rear sliding seats.",
+    "source": "Citroën India Official",
+    "sourceUrl": "https://www.citroen.in/c5-aircross",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Jeep",
+    "brandSlug": "jeep",
+    "modelName": "Compass",
+    "slug": "jeep-compass",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Premium Mid-size 4x4 / 4x2 SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 18.99,
+      "max": 32.41
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Monocoque 4x4 SUV with 2.0L Multijet II diesel (170 PS / 350 Nm) and Selec-Terrain 4WD.",
+    "source": "Jeep India Official",
+    "sourceUrl": "https://www.jeep-india.com/compass.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Jeep",
+    "brandSlug": "jeep",
+    "modelName": "Meridian",
+    "slug": "jeep-meridian",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "3-Row 7-Seater Premium SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 24.99,
+      "max": 38.49
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Extended 3-row architecture with Level 2 ADAS and refreshed 2025/2026 model lineup.",
+    "source": "Jeep India Official",
+    "sourceUrl": "https://www.jeep-india.com/meridian.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Jeep",
+    "brandSlug": "jeep",
+    "modelName": "Wrangler",
+    "slug": "jeep-wrangler",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Hardcore Off-Road 4x4 SUV (CKD)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 67.65,
+      "max": 71.65
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Iconic ladder-frame off-roader assembled in Ranjangaon; Rubicon & Unlimited trims with Dana 44 axles.",
+    "source": "Jeep India Official",
+    "sourceUrl": "https://www.jeep-india.com/wrangler.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Stellantis India",
+    "brandName": "Jeep",
+    "brandSlug": "jeep",
+    "modelName": "Grand Cherokee",
+    "slug": "jeep-grand-cherokee",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Flagship Luxury 4x4 SUV (CKD)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 80.5,
+      "max": 80.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Assembled in India; 2.0L Turbo petrol with Quadra-Trac I 4x4 and passenger dashboard interactive display.",
+    "source": "Jeep India Official",
+    "sourceUrl": "https://www.jeep-india.com/grand-cherokee.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BYD India Private Limited",
+    "brandName": "BYD",
+    "brandSlug": "byd",
+    "modelName": "Atto 3",
+    "slug": "byd-atto-3",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Electric Mid-size SUV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 24.99,
+      "max": 33.99
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "e-Platform 3.0 with ultra-safe ultra-thin Blade Battery (49.92 kWh / 60.48 kWh); 5-star Euro NCAP.",
+    "source": "BYD India Official",
+    "sourceUrl": "https://bydautoindia.com/byd-atto3",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BYD India Private Limited",
+    "brandName": "BYD",
+    "brandSlug": "byd",
+    "modelName": "Seal",
+    "slug": "byd-seal",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Electric High-Performance Sports Sedan",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 41,
+      "max": 53
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Cell-to-Body (CTB) architecture with 82.56 kWh battery and AWD dual motor (530 PS / 3.8s 0-100 km/h).",
+    "source": "BYD India Official",
+    "sourceUrl": "https://bydautoindia.com/byd-seal",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BYD India Private Limited",
+    "brandName": "BYD",
+    "brandSlug": "byd",
+    "modelName": "eMax 7",
+    "slug": "byd-emax-7",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Electric 6/7-Seater Family MPV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 26.9,
+      "max": 29.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Substantial upgrade to e6 MPV with Blade Battery (55.4 kWh / 71.8 kWh), Level 2 ADAS, and panoramic glass roof.",
+    "source": "BYD India Official",
+    "sourceUrl": "https://bydautoindia.com/byd-emax7",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Force Motors Limited",
+    "brandName": "Force Motors",
+    "brandSlug": "force-motors",
+    "modelName": "Gurkha",
+    "slug": "force-gurkha",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Hardcore 4x4 Off-Road Ladder Frame SUV (3-Door & 5-Door)",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 16.75,
+      "max": 18
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Ladder-frame 4x4 with Mercedes-derived 2.6L FM 2.6 CR diesel (140 PS / 320 Nm) and manual diff-locks on both axles.",
+    "source": "Force Gurkha Official",
+    "sourceUrl": "https://www.forcegurkha.co.in",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Force Motors Limited",
+    "brandName": "Force Motors",
+    "brandSlug": "force-motors",
+    "modelName": "Trax Cruiser",
+    "slug": "force-trax-cruiser",
+    "status": "ACTIVE",
+    "bodyType": "MUV",
+    "segment": "Heavy Utility High-Capacity MUV (9 to 13 Seater)",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 13.83,
+      "max": 15.24
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Long-wheelbase rural and multi-passenger utility vehicle.",
+    "source": "Force Motors Official",
+    "sourceUrl": "https://www.forcemotors.com/vehicle/trax-cruiser",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Isuzu Motors India Private Limited",
+    "brandName": "Isuzu",
+    "brandSlug": "isuzu",
+    "modelName": "D-Max V-Cross",
+    "slug": "isuzu-d-max-v-cross",
+    "status": "ACTIVE",
+    "bodyType": "Pickup Truck",
+    "segment": "Lifestyle Double-Cab 4x4 Adventure Pickup",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 21.2,
+      "max": 30.96
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Double-cab lifestyle pickup with 1.9L Ddi turbo diesel (163 PS / 360 Nm) and shift-on-the-fly 4WD.",
+    "source": "Isuzu India Official",
+    "sourceUrl": "https://isuzu.in/v-cross/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Isuzu Motors India Private Limited",
+    "brandName": "Isuzu",
+    "brandSlug": "isuzu",
+    "modelName": "MU-X",
+    "slug": "isuzu-mu-x",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Full-size 7-Seater Ladder Frame 4x4 SUV",
+    "fuelTypes": [
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 35,
+      "max": 37.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Full-size 7-seater SUV sharing ladder-frame chassis with D-Max.",
+    "source": "Isuzu India Official",
+    "sourceUrl": "https://isuzu.in/mu-x/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "2 Series Gran Coupe",
+    "slug": "bmw-2-series-gran-coupe",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Entry Luxury Four-Door Coupe",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 43.9,
+      "max": 46.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "UKL2 architecture assembled locally at BMW Chennai plant.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/2-series/gran-coupe/2020/bmw-2-series-gran-coupe-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "3 Series Gran Limousine",
+    "slug": "bmw-3-series-gran-limousine",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Luxury Long-Wheelbase Sedan",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 60.6,
+      "max": 62
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Long wheelbase 3 Series bespoke to Indian market assembled via CKD in Chennai.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/3-series/gran-limousine/2021/bmw-3-series-gran-limousine-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "5 Series Long Wheelbase",
+    "slug": "bmw-5-series-long-wheelbase",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Luxury E-Segment Sedan (G68)",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 72.9,
+      "max": 72.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "G68 Long Wheelbase generation produced in right-hand-drive format specifically for India with BMW Curved Display.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/5-series/sedan/2023/bmw-5-series-sedan-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "7 Series",
+    "slug": "bmw-7-series",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Flagship Ultra-Luxury Sedan (G70)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 181.5,
+      "max": 184.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "G70 flagship with 31.3-inch 8K Theatre Screen in the rear passenger cabin.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/7-series/sedan/2022/bmw-7-series-sedan-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "X1",
+    "slug": "bmw-x1",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Compact Luxury SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 49.5,
+      "max": 52.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "U11 generation luxury compact SUV with Curved Display and 7-speed Steptronic dual-clutch transmission.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/x-series/X1/2022/bmw-x1-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "X5",
+    "slug": "bmw-x5",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-to-Large Luxury SUV (G05)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 96,
+      "max": 109.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "G05 LCI facelift assembled in Chennai with xDrive all-wheel drive and adaptive air suspension.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/x-series/X5/2023/bmw-x5-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "X7",
+    "slug": "bmw-x7",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Full-size 7-Seater Flagship Luxury SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 130,
+      "max": 134
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "3-row flagship luxury SUV with Sky Lounge panoramic glass roof and two-axle air suspension.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/x-series/X7/2022/bmw-x7-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "iX1",
+    "slug": "bmw-ix1",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Electric Compact Luxury SUV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 66.9,
+      "max": 66.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Dual motor AWD (xDrive30) with 66.4 kWh battery producing 313 PS.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/bmw-i/ix1/2023/bmw-ix1-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "i4",
+    "slug": "bmw-i4",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Electric Luxury Gran Coupe",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 72.5,
+      "max": 77.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "83.9 kWh battery delivering up to 590 km WLTP range.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/bmw-i/i4/2021/bmw-i4-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "iX",
+    "slug": "bmw-ix",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Flagship Electric Luxury SAV",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 121,
+      "max": 139.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Carbon-fibre cage electric flagship with dual motors and up to 111.5 kWh battery in xDrive50.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/bmw-i/ix/2021/bmw-ix.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "BMW India Private Limited",
+    "brandName": "BMW",
+    "brandSlug": "bmw",
+    "modelName": "i7",
+    "slug": "bmw-i7",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Electric Ultra-Luxury Flagship Sedan",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 203,
+      "max": 250
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "101.7 kWh battery with 544 PS dual-motor drive in xDrive60 and 659 PS in M70.",
+    "source": "BMW India Official",
+    "sourceUrl": "https://www.bmw.in/en/all-models/bmw-i/i7/2022/bmw-i7-sedan-overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "A-Class Limousine",
+    "slug": "mercedes-benz-a-class-limousine",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Entry Luxury Compact Sedan",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 46.05,
+      "max": 48.05
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Assembled at Chakan, Pune plant with MBUX system.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/a-class/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "C-Class",
+    "slug": "mercedes-benz-c-class",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Luxury Sedan (W206)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 61.85,
+      "max": 69
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "W206 \"Baby S-Class\" with 11.9-inch portrait OLED display and 48V integrated starter generator mild-hybrid.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/c-class/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "E-Class Long Wheelbase",
+    "slug": "mercedes-benz-e-class-long-wheelbase",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Luxury Long-Wheelbase Sedan (V214)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 78.5,
+      "max": 92.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "New V214 generation Long Wheelbase with MBUX Superscreen (3 displays), selfie camera, and chauffeur package.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/e-class/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "S-Class",
+    "slug": "mercedes-benz-s-class",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Flagship Luxury Sedan (W223)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 177,
+      "max": 186
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Locally assembled flagship with rear-axle steering (4.5 degrees) and Burmester 4D surround sound.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/s-class/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "GLA",
+    "slug": "mercedes-benz-gla",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Entry Luxury Compact SUV",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 51.75,
+      "max": 58.15
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Facelifted entry SUV assembled at Chakan with 4MATIC AWD on 220d.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/gla/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "GLC",
+    "slug": "mercedes-benz-glc",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size Luxury SUV (X254)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 76.15,
+      "max": 77.45
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "X254 generation with transparent bonnet camera view, 4MATIC all-wheel drive, and Level 2 ADAS.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/glc/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "GLE",
+    "slug": "mercedes-benz-gle",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-to-Large Luxury SUV (V167)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 97.85,
+      "max": 117
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Assembled in India with AIRMATIC suspension and 300d / 450d / 450 petrol variants.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/gle/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "GLS",
+    "slug": "mercedes-benz-gls",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Full-size 7-Seater Luxury Flagship SUV (X167)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 132.25,
+      "max": 137.25
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "\"S-Class of SUVs\" 3-row flagship with electric seats for all 7 occupants.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/gls/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "G-Class",
+    "slug": "mercedes-benz-g-class",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Iconic Luxury 4x4 Off-Road SUV (W463)",
+    "fuelTypes": [
+      "Diesel",
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 255,
+      "max": 400
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Iconic ladder-frame off-roader with three 100% mechanical differential locks; G 400d and AMG G 63.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/suv/g-class/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Mercedes-Benz India Private Limited",
+    "brandName": "Mercedes-Benz",
+    "brandSlug": "mercedes-benz",
+    "modelName": "EQS Sedan",
+    "slug": "mercedes-benz-eqs-sedan",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Electric Ultra-Luxury Flagship Sedan",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 162.25,
+      "max": 162.25
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Locally assembled in India (EQS 580 4MATIC) with massive 107.8 kWh battery and 857 km ARAI range.",
+    "source": "Mercedes-Benz India Official",
+    "sourceUrl": "https://www.mercedes-benz.co.in/passengercars/models/saloon/eqs/overview.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Audi",
+    "brandSlug": "audi",
+    "modelName": "A4",
+    "slug": "audi-a4",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Luxury Sedan",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 45.34,
+      "max": 53.5
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "MLB Evo platform assembled at Aurangabad with 2.0L TFSI (204 PS) and Audi Virtual Cockpit.",
+    "source": "Audi India Official",
+    "sourceUrl": "https://www.audi.in/in/web/en/models/a4/a4-sedan.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Audi",
+    "brandSlug": "audi",
+    "modelName": "A6",
+    "slug": "audi-a6",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Mid-size Luxury Executive Sedan",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 64.41,
+      "max": 70.79
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "2.0L TFSI with 12V mild-hybrid system, dual touchscreens, and Matrix LED headlights.",
+    "source": "Audi India Official",
+    "sourceUrl": "https://www.audi.in/in/web/en/models/a6/a6-sedan.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Audi",
+    "brandSlug": "audi",
+    "modelName": "Q3",
+    "slug": "audi-q3",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Compact Luxury SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 43.81,
+      "max": 53.17
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "2.0L TFSI (190 PS / 320 Nm) with quattro permanent all-wheel drive. Includes Q3 Sportback coupe SUV.",
+    "source": "Audi India Official",
+    "sourceUrl": "https://www.audi.in/in/web/en/models/q3/q3.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Audi",
+    "brandSlug": "audi",
+    "modelName": "Q5",
+    "slug": "audi-q5",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size Luxury SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 65.51,
+      "max": 70.8
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Assembled in India; 2.0L TFSI (249 PS) with quattro with ultra technology and adaptive damper suspension.",
+    "source": "Audi India Official",
+    "sourceUrl": "https://www.audi.in/in/web/en/models/q5/q5.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Audi",
+    "brandSlug": "audi",
+    "modelName": "Q7",
+    "slug": "audi-q7",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Full-size 7-Seater Luxury SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 88.66,
+      "max": 97.84
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "3.0L V6 TFSI (340 PS / 500 Nm) with 48V mild hybrid, quattro, and adaptive air suspension.",
+    "source": "Audi India Official",
+    "sourceUrl": "https://www.audi.in/in/web/en/models/q7/q7.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Skoda Auto Volkswagen India Private Limited",
+    "brandName": "Audi",
+    "brandSlug": "audi",
+    "modelName": "Q8",
+    "slug": "audi-q8",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Flagship Luxury Coupe SUV",
+    "fuelTypes": [
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 117.49,
+      "max": 140
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Flagship coupe SUV with frameless doors, HD Matrix LED headlights with laser light, and 3.0L TFSI.",
+    "source": "Audi India Official",
+    "sourceUrl": "https://www.audi.in/in/web/en/models/q8/q8.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Volvo Auto India Private Limited",
+    "brandName": "Volvo",
+    "brandSlug": "volvo",
+    "modelName": "EX40",
+    "slug": "volvo-ex40",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Electric Compact Luxury SUV (formerly XC40 Recharge)",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 56.1,
+      "max": 57.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Locally assembled at Hosakote, Karnataka; dual-motor AWD (408 PS / 660 Nm) and 78 kWh battery.",
+    "source": "Volvo Cars India Official",
+    "sourceUrl": "https://www.volvocars.com/in/cars/ex40-electric/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Volvo Auto India Private Limited",
+    "brandName": "Volvo",
+    "brandSlug": "volvo",
+    "modelName": "EC40",
+    "slug": "volvo-ec40",
+    "status": "ACTIVE",
+    "bodyType": "Coupe SUV",
+    "segment": "Electric Luxury Coupe SUV (formerly C40 Recharge)",
+    "fuelTypes": [
+      "Electric"
+    ],
+    "priceRangeLakhs": {
+      "min": 62.95,
+      "max": 62.95
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Aerodynamic crossover coupe with 530 km WLTP range.",
+    "source": "Volvo Cars India Official",
+    "sourceUrl": "https://www.volvocars.com/in/cars/ec40-electric/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Volvo Auto India Private Limited",
+    "brandName": "Volvo",
+    "brandSlug": "volvo",
+    "modelName": "XC60",
+    "slug": "volvo-xc60",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size Luxury Mild-Hybrid SUV",
+    "fuelTypes": [
+      "MildHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 68.9,
+      "max": 68.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "SPA platform SUV with 2.0L B5 mild-hybrid powertrain and Google built-in services.",
+    "source": "Volvo Cars India Official",
+    "sourceUrl": "https://www.volvocars.com/in/cars/xc60-hybrid/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Volvo Auto India Private Limited",
+    "brandName": "Volvo",
+    "brandSlug": "volvo",
+    "modelName": "XC90",
+    "slug": "volvo-xc90",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Full-size 7-Seater Luxury Flagship SUV",
+    "fuelTypes": [
+      "MildHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 100.89,
+      "max": 100.89
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "7-seater flagship luxury SUV with Bowers & Wilkins audio system and air suspension.",
+    "source": "Volvo Cars India Official",
+    "sourceUrl": "https://www.volvocars.com/in/cars/xc90-hybrid/",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Jaguar Land Rover India Limited",
+    "brandName": "Land Rover",
+    "brandSlug": "land-rover",
+    "modelName": "Defender",
+    "slug": "land-rover-defender",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Iconic Luxury All-Terrain 4x4 SUV (90 / 110 / 130)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 97,
+      "max": 235
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "D7x monocoque architecture with 900mm wading depth, permanent 4WD, and 90, 110, 130 body configurations.",
+    "source": "Land Rover India Official",
+    "sourceUrl": "https://www.landrover.in/defender/index.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Jaguar Land Rover India Limited",
+    "brandName": "Land Rover",
+    "brandSlug": "land-rover",
+    "modelName": "Range Rover Velar",
+    "slug": "land-rover-range-rover-velar",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-size Avant-Garde Luxury SUV (CKD)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 87.9,
+      "max": 87.9
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Assembled in India; reductive design philosophy with 11.4-inch floating curved glass touchscreen.",
+    "source": "Land Rover India Official",
+    "sourceUrl": "https://www.landrover.in/range-rover/range-rover-velar/index.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Jaguar Land Rover India Limited",
+    "brandName": "Land Rover",
+    "brandSlug": "land-rover",
+    "modelName": "Range Rover Sport",
+    "slug": "land-rover-range-rover-sport",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Dynamic Luxury Performance SUV (CKD)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 140,
+      "max": 180
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "MLA-Flex platform; locally assembled at Pune facility resulting in significant price repositioning.",
+    "source": "Land Rover India Official",
+    "sourceUrl": "https://www.landrover.in/range-rover/range-rover-sport/index.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Jaguar Land Rover India Limited",
+    "brandName": "Land Rover",
+    "brandSlug": "land-rover",
+    "modelName": "Range Rover",
+    "slug": "land-rover-range-rover",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Flagship Ultra-Luxury SUV (CKD & CBU)",
+    "fuelTypes": [
+      "Petrol",
+      "Diesel"
+    ],
+    "priceRangeLakhs": {
+      "min": 236,
+      "max": 440
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Flagship luxury SUV now locally assembled in India for key variants; includes SV bespoke models.",
+    "source": "Land Rover India Official",
+    "sourceUrl": "https://www.landrover.in/range-rover/range-rover/index.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Lexus India",
+    "brandName": "Lexus",
+    "brandSlug": "lexus",
+    "modelName": "ES 300h",
+    "slug": "lexus-es-300h",
+    "status": "ACTIVE",
+    "bodyType": "Sedan",
+    "segment": "Executive Luxury Self-Charging Hybrid Sedan",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 63.1,
+      "max": 69.7
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Locally assembled in Bidadi, Karnataka; 4th Gen self-charging hybrid with 2.5L engine and E-CVT.",
+    "source": "Lexus India Official",
+    "sourceUrl": "https://www.lexusindia.co.in/en/models/es.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Lexus India",
+    "brandName": "Lexus",
+    "brandSlug": "lexus",
+    "modelName": "NX 350h",
+    "slug": "lexus-nx-350h",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Compact Luxury Hybrid SUV",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 67.35,
+      "max": 74.2
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "GA-K platform hybrid SUV with E-Four electric all-wheel drive and Tazuna cockpit concept.",
+    "source": "Lexus India Official",
+    "sourceUrl": "https://www.lexusindia.co.in/en/models/nx.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Lexus India",
+    "brandName": "Lexus",
+    "brandSlug": "lexus",
+    "modelName": "RX 350h / 500h",
+    "slug": "lexus-rx",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Mid-to-Large Luxury Performance Hybrid SUV",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 95.8,
+      "max": 118.1
+    },
+    "rebadgedFromOrSharedWith": null,
+    "notes": "Available as RX 350h and RX 500h F SPORT Performance with DIRECT4 all-wheel drive system.",
+    "source": "Lexus India Official",
+    "sourceUrl": "https://www.lexusindia.co.in/en/models/rx.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Lexus India",
+    "brandName": "Lexus",
+    "brandSlug": "lexus",
+    "modelName": "LM 350h",
+    "slug": "lexus-lm-350h",
+    "status": "ACTIVE",
+    "bodyType": "MPV",
+    "segment": "Ultra-Luxury Flagship Lounge MPV",
+    "fuelTypes": [
+      "StrongHybrid"
+    ],
+    "priceRangeLakhs": {
+      "min": 200,
+      "max": 250
+    },
+    "rebadgedFromOrSharedWith": "Toyota Vellfire (Platform Sibling)",
+    "notes": "Ultra-luxury 4-seater executive lounge on wheels featuring a 48-inch widescreen partition display.",
+    "source": "Lexus India Official",
+    "sourceUrl": "https://www.lexusindia.co.in/en/models/lm.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  },
+  {
+    "manufacturerName": "Lexus India",
+    "brandName": "Lexus",
+    "brandSlug": "lexus",
+    "modelName": "LX 500d / 600",
+    "slug": "lexus-lx",
+    "status": "ACTIVE",
+    "bodyType": "SUV",
+    "segment": "Flagship Full-size Luxury 4x4 SUV",
+    "fuelTypes": [
+      "Diesel",
+      "Petrol"
+    ],
+    "priceRangeLakhs": {
+      "min": 282,
+      "max": 282
+    },
+    "rebadgedFromOrSharedWith": "Toyota Land Cruiser 300 (Shared Platform)",
+    "notes": "GA-F platform flagship with active height control and ultra-luxury Ottoman rear seating.",
+    "source": "Lexus India Official",
+    "sourceUrl": "https://www.lexusindia.co.in/en/models/lx.html",
+    "lastVerified": "2026-10-05",
+    "verificationStatus": "VERIFIED"
+  }
+]
