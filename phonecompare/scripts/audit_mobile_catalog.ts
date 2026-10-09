@@ -247,6 +247,30 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
     ],
   },
   {
+    manufacturer: 'Honor Device Co., Ltd. (HTech India)',
+    brand: 'Honor',
+    officialIndiaWebsite: 'https://www.explorehonor.com/in/',
+    isActiveInIndia: true,
+    officialLineup: [
+      'Honor Magic 6 Pro',
+      'Honor 200 Pro',
+      'Honor 200',
+      'Honor X9b',
+    ],
+  },
+  {
+    manufacturer: 'Transsion Holdings',
+    brand: 'Itel',
+    officialIndiaWebsite: 'https://www.itel-india.com/',
+    isActiveInIndia: true,
+    officialLineup: [
+      'Itel Color Pro 5G',
+      'Itel P55 5G',
+      'Itel S24',
+      'Itel A70',
+    ],
+  },
+  {
     manufacturer: 'Sony Corporation',
     brand: 'Sony',
     officialIndiaWebsite: 'https://www.sony.co.in/',
@@ -295,7 +319,9 @@ for (const b of INDEPENDENT_MOBILE_BRANDS) {
   }
 }
 
-console.log(`Manufacturers Discovered: 14`);
+const totalDiscoveredManufacturers = new Set(INDEPENDENT_MOBILE_BRANDS.map((b) => b.manufacturer)).size;
+
+console.log(`Manufacturers Discovered: ${totalDiscoveredManufacturers}`);
 console.log(`Brands Discovered:        ${totalDiscoveredBrands}`);
 console.log(`Active Brands in India:   ${totalActiveBrands}`);
 console.log(`Brands Covered in Static: ${brandsCoveredInStatic} / ${totalActiveBrands} (100% active brand coverage)`);

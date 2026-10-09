@@ -395,11 +395,16 @@ export function MobileComparisonPage() {
                         }}
                       >
                         <Image
-                          src={mobile.primaryImage || '/images/phone-placeholder.png'}
+                          src={mobile.primaryImage || '/mobiles/images/phone-placeholder.svg'}
                           alt={`${mobile.brand} ${mobile.modelName}`}
                           fill
-                          unoptimized={mobile.primaryImage?.startsWith('http')}
+                          sizes="150px"
                           style={{ objectFit: 'contain', padding: '10px' }}
+                          onError={(e) => {
+                            const target = e.currentTarget as HTMLImageElement;
+                            target.srcset = '';
+                            target.src = '/mobiles/images/phone-placeholder.svg';
+                          }}
                         />
                       </div>
 

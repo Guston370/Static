@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-08T19:22:34.944Z",
+  "timestamp": "2026-10-09T11:40:09.618Z",
   "marketDate": "October 2026",
   "summary": {
-    "totalActiveModels": 74,
-    "totalVariants": 153,
-    "coverage100Percent": 74,
+    "totalActiveModels": 88,
+    "totalVariants": 176,
+    "coverage100Percent": 88,
     "coverage80to99Percent": 0,
     "coverage50to80Percent": 0,
     "coverageUnder50Percent": 0,
@@ -1129,6 +1129,40 @@
         "status": "COMPLETE"
       },
       {
+        "modelId": "motorola-edge-50-fusion",
+        "modelName": "Motorola Edge 50 Fusion",
+        "brand": "Motorola",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "12GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "12GB + 256GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "motorola-edge-50-neo",
+        "modelName": "Motorola Edge 50 Neo",
+        "brand": "Motorola",
+        "officialExpectedVariants": [
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 256GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
         "modelId": "moto-g85-5g",
         "modelName": "Moto G85 5G",
         "brand": "Motorola",
@@ -1139,6 +1173,42 @@
         "staticVariants": [
           "8GB + 128GB",
           "12GB + 256GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "moto-g64-5g",
+        "modelName": "Moto G64 5G",
+        "brand": "Motorola",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "12GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "12GB + 256GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "moto-g45-5g",
+        "modelName": "Moto G45 5G",
+        "brand": "Motorola",
+        "officialExpectedVariants": [
+          "4GB + 128GB",
+          "8GB + 128GB"
+        ],
+        "staticVariants": [
+          "4GB + 128GB",
+          "8GB + 128GB"
         ],
         "officialCount": 2,
         "staticCount": 2,
@@ -1185,6 +1255,26 @@
         "status": "COMPLETE"
       },
       {
+        "modelId": "nothing-phone-2a",
+        "modelName": "Nothing Phone (2a)",
+        "brand": "Nothing",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "12GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "12GB + 256GB"
+        ],
+        "officialCount": 3,
+        "staticCount": 3,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
         "modelId": "cmf-phone-1",
         "modelName": "CMF Phone 1",
         "brand": "CMF",
@@ -1205,6 +1295,24 @@
       {
         "modelId": "asus-rog-phone-8-pro",
         "modelName": "ROG Phone 8 Pro",
+        "brand": "ASUS",
+        "officialExpectedVariants": [
+          "16GB + 512GB",
+          "24GB + 1TB"
+        ],
+        "staticVariants": [
+          "16GB + 512GB",
+          "24GB + 1TB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "asus-rog-phone-9-pro",
+        "modelName": "ROG Phone 9 Pro",
         "brand": "ASUS",
         "officialExpectedVariants": [
           "16GB + 512GB",
@@ -1354,6 +1462,140 @@
         ],
         "officialCount": 1,
         "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "honor-magic-6-pro",
+        "modelName": "Honor Magic 6 Pro",
+        "brand": "Honor",
+        "officialExpectedVariants": [
+          "12GB + 512GB"
+        ],
+        "staticVariants": [
+          "12GB + 512GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "honor-200-pro",
+        "modelName": "Honor 200 Pro",
+        "brand": "Honor",
+        "officialExpectedVariants": [
+          "12GB + 512GB"
+        ],
+        "staticVariants": [
+          "12GB + 512GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "honor-200",
+        "modelName": "Honor 200",
+        "brand": "Honor",
+        "officialExpectedVariants": [
+          "8GB + 256GB",
+          "12GB + 512GB"
+        ],
+        "staticVariants": [
+          "8GB + 256GB",
+          "12GB + 512GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "honor-x9b",
+        "modelName": "Honor X9b",
+        "brand": "Honor",
+        "officialExpectedVariants": [
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 256GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "itel-color-pro-5g",
+        "modelName": "Itel Color Pro 5G",
+        "brand": "Itel",
+        "officialExpectedVariants": [
+          "6GB + 128GB"
+        ],
+        "staticVariants": [
+          "6GB + 128GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "itel-p55-5g",
+        "modelName": "Itel P55 5G",
+        "brand": "Itel",
+        "officialExpectedVariants": [
+          "4GB + 64GB",
+          "6GB + 128GB"
+        ],
+        "staticVariants": [
+          "4GB + 64GB",
+          "6GB + 128GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "itel-s24",
+        "modelName": "Itel S24",
+        "brand": "Itel",
+        "officialExpectedVariants": [
+          "8GB + 128GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "itel-a70",
+        "modelName": "Itel A70",
+        "brand": "Itel",
+        "officialExpectedVariants": [
+          "3GB + 64GB",
+          "4GB + 128GB"
+        ],
+        "staticVariants": [
+          "3GB + 64GB",
+          "4GB + 128GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
         "coveragePercent": 100,
         "missingVariants": [],
         "status": "COMPLETE"
@@ -2474,6 +2716,40 @@
       "status": "COMPLETE"
     },
     {
+      "modelId": "motorola-edge-50-fusion",
+      "modelName": "Motorola Edge 50 Fusion",
+      "brand": "Motorola",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "12GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "12GB + 256GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "motorola-edge-50-neo",
+      "modelName": "Motorola Edge 50 Neo",
+      "brand": "Motorola",
+      "officialExpectedVariants": [
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 256GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
       "modelId": "moto-g85-5g",
       "modelName": "Moto G85 5G",
       "brand": "Motorola",
@@ -2484,6 +2760,42 @@
       "staticVariants": [
         "8GB + 128GB",
         "12GB + 256GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "moto-g64-5g",
+      "modelName": "Moto G64 5G",
+      "brand": "Motorola",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "12GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "12GB + 256GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "moto-g45-5g",
+      "modelName": "Moto G45 5G",
+      "brand": "Motorola",
+      "officialExpectedVariants": [
+        "4GB + 128GB",
+        "8GB + 128GB"
+      ],
+      "staticVariants": [
+        "4GB + 128GB",
+        "8GB + 128GB"
       ],
       "officialCount": 2,
       "staticCount": 2,
@@ -2530,6 +2842,26 @@
       "status": "COMPLETE"
     },
     {
+      "modelId": "nothing-phone-2a",
+      "modelName": "Nothing Phone (2a)",
+      "brand": "Nothing",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "12GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "12GB + 256GB"
+      ],
+      "officialCount": 3,
+      "staticCount": 3,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
       "modelId": "cmf-phone-1",
       "modelName": "CMF Phone 1",
       "brand": "CMF",
@@ -2550,6 +2882,24 @@
     {
       "modelId": "asus-rog-phone-8-pro",
       "modelName": "ROG Phone 8 Pro",
+      "brand": "ASUS",
+      "officialExpectedVariants": [
+        "16GB + 512GB",
+        "24GB + 1TB"
+      ],
+      "staticVariants": [
+        "16GB + 512GB",
+        "24GB + 1TB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "asus-rog-phone-9-pro",
+      "modelName": "ROG Phone 9 Pro",
       "brand": "ASUS",
       "officialExpectedVariants": [
         "16GB + 512GB",
@@ -2699,6 +3049,140 @@
       ],
       "officialCount": 1,
       "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "honor-magic-6-pro",
+      "modelName": "Honor Magic 6 Pro",
+      "brand": "Honor",
+      "officialExpectedVariants": [
+        "12GB + 512GB"
+      ],
+      "staticVariants": [
+        "12GB + 512GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "honor-200-pro",
+      "modelName": "Honor 200 Pro",
+      "brand": "Honor",
+      "officialExpectedVariants": [
+        "12GB + 512GB"
+      ],
+      "staticVariants": [
+        "12GB + 512GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "honor-200",
+      "modelName": "Honor 200",
+      "brand": "Honor",
+      "officialExpectedVariants": [
+        "8GB + 256GB",
+        "12GB + 512GB"
+      ],
+      "staticVariants": [
+        "8GB + 256GB",
+        "12GB + 512GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "honor-x9b",
+      "modelName": "Honor X9b",
+      "brand": "Honor",
+      "officialExpectedVariants": [
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 256GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "itel-color-pro-5g",
+      "modelName": "Itel Color Pro 5G",
+      "brand": "Itel",
+      "officialExpectedVariants": [
+        "6GB + 128GB"
+      ],
+      "staticVariants": [
+        "6GB + 128GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "itel-p55-5g",
+      "modelName": "Itel P55 5G",
+      "brand": "Itel",
+      "officialExpectedVariants": [
+        "4GB + 64GB",
+        "6GB + 128GB"
+      ],
+      "staticVariants": [
+        "4GB + 64GB",
+        "6GB + 128GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "itel-s24",
+      "modelName": "Itel S24",
+      "brand": "Itel",
+      "officialExpectedVariants": [
+        "8GB + 128GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "itel-a70",
+      "modelName": "Itel A70",
+      "brand": "Itel",
+      "officialExpectedVariants": [
+        "3GB + 64GB",
+        "4GB + 128GB"
+      ],
+      "staticVariants": [
+        "3GB + 64GB",
+        "4GB + 128GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
       "coveragePercent": 100,
       "missingVariants": [],
       "status": "COMPLETE"

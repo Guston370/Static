@@ -39,3 +39,4 @@ temp/
 
 # Local tooling
 coverage/
+.vercel/

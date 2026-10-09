@@ -51,7 +51,7 @@ export function resolveMobileCardImage(model: MobileModel): { url: string; alt: 
   }
 
   return {
-    url: '/images/phone-placeholder.png',
+    url: '/images/phone-placeholder.svg',
     alt: `${model.brand} ${model.modelName}`,
     angle: 'Front',
   };

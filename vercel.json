@@ -1,0 +1,47 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "carcompare": {
+      "root": "carcompare",
+      "framework": "nextjs"
+    },
+    "phonecompare": {
+      "root": "phonecompare",
+      "framework": "nextjs"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/mobiles/_next/(.*)",
+      "destination": {
+        "service": "phonecompare",
+        "path": "/_next/$1"
+      }
+    },
+    {
+      "source": "/mobiles/images/(.*)",
+      "destination": {
+        "service": "phonecompare",
+        "path": "/images/$1"
+      }
+    },
+    {
+      "source": "/mobiles",
+      "destination": {
+        "service": "phonecompare"
+      }
+    },
+    {
+      "source": "/mobiles/(.*)",
+      "destination": {
+        "service": "phonecompare"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "carcompare"
+      }
+    }
+  ]
+}

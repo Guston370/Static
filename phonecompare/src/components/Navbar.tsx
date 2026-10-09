@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Menu, X, Smartphone, Layers } from 'lucide-react';
+import { Menu, X, Smartphone, Layers, Car } from 'lucide-react';
 import { useMobileCompare } from '@/context/MobileCompareContext';
 
 export function Navbar() {
@@ -89,24 +89,58 @@ export function Navbar() {
               </div>
             </Link>
 
-            {/* Platform pill indicator */}
-            <span
+            {/* Category Switcher Pill Toggle */}
+            <div
               style={{
-                display: 'inline-flex',
+                display: 'flex',
                 alignItems: 'center',
-                gap: '0.35rem',
-                fontSize: '0.75rem',
-                fontWeight: 600,
-                padding: '0.2rem 0.6rem',
-                borderRadius: '999px',
-                background: 'rgba(193,56,42,0.08)',
-                color: 'var(--color-accent)',
-                border: '1px solid rgba(193,56,42,0.2)',
+                background: 'var(--color-surface-sunken)',
+                padding: '3px',
+                borderRadius: '8px',
+                border: '1px solid var(--color-border)',
               }}
             >
-              <Smartphone size={13} />
-              Mobiles
-            </span>
+              <Link
+                href="/cars"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                  padding: '0.35rem 0.75rem',
+                  borderRadius: '6px',
+                  fontSize: '0.82rem',
+                  fontWeight: 500,
+                  color: 'var(--color-text-tertiary)',
+                  background: 'transparent',
+                  textDecoration: 'none',
+                  transition: 'all 150ms ease',
+                }}
+              >
+                <Car size={14} />
+                Cars
+              </Link>
+
+              <Link
+                href="/mobiles"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.35rem',
+                  padding: '0.35rem 0.75rem',
+                  borderRadius: '6px',
+                  fontSize: '0.82rem',
+                  fontWeight: 700,
+                  color: 'var(--color-text-primary)',
+                  background: 'var(--color-surface)',
+                  boxShadow: '0 1px 2px rgba(0,0,0,0.06)',
+                  textDecoration: 'none',
+                  transition: 'all 150ms ease',
+                }}
+              >
+                <Smartphone size={14} />
+                Mobiles
+              </Link>
+            </div>
           </div>
 
           {/* Desktop Navigation Links */}
@@ -206,6 +240,25 @@ export function Navbar() {
               gap: '0.5rem',
             }}
           >
+            <Link
+              href="/cars"
+              onClick={() => setMobileOpen(false)}
+              style={{
+                padding: '0.6rem 0.75rem',
+                fontSize: '0.92rem',
+                fontWeight: 500,
+                color: 'var(--color-text-primary)',
+                textDecoration: 'none',
+                borderRadius: '6px',
+                background: 'transparent',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.4rem',
+              }}
+            >
+              <Car size={16} />
+              Browse Cars
+            </Link>
             <Link
               href="/mobiles"
               onClick={() => setMobileOpen(false)}

@@ -18,6 +18,7 @@ const footerLinks = {
   ],
   Platform: [
     { href: '/', label: 'Home' },
+    { href: '/cars', label: 'Cars Catalog' },
     { href: '/mobiles', label: 'Mobiles Catalog' },
     { href: '/mobiles/compare', label: 'Direct Comparison' },
   ],

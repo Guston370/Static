@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Plus, Check, Cpu, Battery, Smartphone, ShieldCheck } from 'lucide-react';
@@ -15,6 +16,9 @@ interface MobileCardProps {
 export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
   const { isMobileSelected, addMobile, removeMobile, isFull } = useMobileCompare();
   const selected = isMobileSelected(mobile.slug);
+  const [imgSrc, setImgSrc] = useState<string>(
+    mobile.primaryImage || '/mobiles/images/phone-placeholder.svg'
+  );
 
   const handleCompareToggle = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -26,8 +30,6 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
     }
   };
 
-  const imageSrc = mobile.primaryImage || '/images/phone-placeholder.png';
-  const isRemoteImage = imageSrc.startsWith('http');
 
   return (
     <article
@@ -70,11 +72,11 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
           />
 
           <Image
-            src={imageSrc}
+            src={imgSrc}
             alt={mobile.primaryImageAlt || `${mobile.brand} ${mobile.modelName} photo`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            unoptimized={isRemoteImage}
+            onError={() => setImgSrc('/mobiles/images/phone-placeholder.svg')}
             style={{
               objectFit: 'contain',
               padding: '12px',

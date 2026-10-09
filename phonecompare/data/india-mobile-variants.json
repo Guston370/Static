@@ -2,8 +2,8 @@
   "metadata": {
     "country": "India",
     "marketDate": "October 2026",
-    "totalVariants": 153,
-    "verifiedVariants": 153
+    "totalVariants": 176,
+    "verifiedVariants": 176
   },
   "variants": [
     {
@@ -1980,88 +1980,240 @@
       "source": "realme India Official Store"
     },
     {
-      "id": "motorola-edge-50-ultra-12-512",
+      "id": "motorola-edge-50-ultra-12gb-512gb",
       "modelId": "motorola-edge-50-ultra",
+      "modelName": "Motorola Edge 50 Ultra",
+      "brand": "Motorola",
+      "variantName": "12GB + 512GB",
       "ram": "12GB",
       "storage": "512GB",
       "price": 54999,
-      "mrp": 59999,
+      "mrp": 64999,
       "colors": [
         "Nordic Wood",
-        "Forest Grey",
-        "Peach Fuzz"
+        "Peach Fuzz",
+        "Forest Grey"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Motorola India Official Store"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "motorola-edge-50-pro-8-256",
+      "id": "motorola-edge-50-pro-8gb-256gb",
       "modelId": "motorola-edge-50-pro",
+      "modelName": "Motorola Edge 50 Pro",
+      "brand": "Motorola",
+      "variantName": "8GB + 256GB (68W Charger)",
       "ram": "8GB",
       "storage": "256GB",
       "price": 29999,
-      "mrp": 31999,
+      "mrp": 36999,
       "colors": [
         "Moonlight Pearl",
         "Luxe Lavender",
         "Black Beauty"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Motorola India Official Store"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "motorola-edge-50-pro-12-256",
+      "id": "motorola-edge-50-pro-12gb-256gb",
       "modelId": "motorola-edge-50-pro",
+      "modelName": "Motorola Edge 50 Pro",
+      "brand": "Motorola",
+      "variantName": "12GB + 256GB (125W Charger)",
       "ram": "12GB",
       "storage": "256GB",
-      "price": 33999,
-      "mrp": 35999,
+      "price": 34999,
+      "mrp": 41999,
       "colors": [
         "Moonlight Pearl",
         "Luxe Lavender",
         "Black Beauty"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Motorola India Official Store"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "moto-g85-5g-8-128",
+      "id": "motorola-edge-50-fusion-8gb-128gb",
+      "modelId": "motorola-edge-50-fusion",
+      "modelName": "Motorola Edge 50 Fusion",
+      "brand": "Motorola",
+      "variantName": "8GB + 128GB",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 20999,
+      "mrp": 25999,
+      "colors": [
+        "Marshmallow Blue",
+        "Hot Pink",
+        "Forest Blue"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "motorola-edge-50-fusion-12gb-256gb",
+      "modelId": "motorola-edge-50-fusion",
+      "modelName": "Motorola Edge 50 Fusion",
+      "brand": "Motorola",
+      "variantName": "12GB + 256GB",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 22999,
+      "mrp": 27999,
+      "colors": [
+        "Marshmallow Blue",
+        "Hot Pink",
+        "Forest Blue"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "motorola-edge-50-neo-8gb-256gb",
+      "modelId": "motorola-edge-50-neo",
+      "modelName": "Motorola Edge 50 Neo",
+      "brand": "Motorola",
+      "variantName": "8GB + 256GB",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 22999,
+      "mrp": 29999,
+      "colors": [
+        "Pantone Poinciana",
+        "Pantone Lattè",
+        "Pantone Grisaille",
+        "Pantone Nautical Blue"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "moto-g85-5g-8gb-128gb",
       "modelId": "moto-g85-5g",
+      "modelName": "Moto G85 5G",
+      "brand": "Motorola",
+      "variantName": "8GB + 128GB",
       "ram": "8GB",
       "storage": "128GB",
       "price": 16999,
-      "mrp": 17999,
+      "mrp": 20999,
       "colors": [
         "Cobalt Blue",
         "Olive Green",
         "Urban Grey"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Motorola India Official Store"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "moto-g85-5g-12-256",
+      "id": "moto-g85-5g-12gb-256gb",
       "modelId": "moto-g85-5g",
+      "modelName": "Moto G85 5G",
+      "brand": "Motorola",
+      "variantName": "12GB + 256GB",
       "ram": "12GB",
       "storage": "256GB",
       "price": 18999,
-      "mrp": 19999,
+      "mrp": 22999,
       "colors": [
         "Cobalt Blue",
         "Olive Green",
         "Urban Grey"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Motorola India Official Store"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "nothing-phone-2-8-128",
+      "id": "moto-g64-5g-8gb-128gb",
+      "modelId": "moto-g64-5g",
+      "modelName": "Moto G64 5G",
+      "brand": "Motorola",
+      "variantName": "8GB + 128GB",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 13999,
+      "mrp": 17999,
+      "colors": [
+        "Mint Green",
+        "Pearl Blue",
+        "Ice Lilac"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "moto-g64-5g-12gb-256gb",
+      "modelId": "moto-g64-5g",
+      "modelName": "Moto G64 5G",
+      "brand": "Motorola",
+      "variantName": "12GB + 256GB",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 15999,
+      "mrp": 19999,
+      "colors": [
+        "Mint Green",
+        "Pearl Blue",
+        "Ice Lilac"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "moto-g45-5g-4gb-128gb",
+      "modelId": "moto-g45-5g",
+      "modelName": "Moto G45 5G",
+      "brand": "Motorola",
+      "variantName": "4GB + 128GB",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 9999,
+      "mrp": 12999,
+      "colors": [
+        "Brilliant Blue",
+        "Viva Magenta",
+        "Brilliant Green"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "moto-g45-5g-8gb-128gb",
+      "modelId": "moto-g45-5g",
+      "modelName": "Moto G45 5G",
+      "brand": "Motorola",
+      "variantName": "8GB + 128GB",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 11999,
+      "mrp": 14999,
+      "colors": [
+        "Brilliant Blue",
+        "Viva Magenta",
+        "Brilliant Green"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "nothing-phone-2-8gb-128gb",
       "modelId": "nothing-phone-2",
+      "modelName": "Nothing Phone (2)",
+      "brand": "Nothing",
+      "variantName": "8GB + 128GB",
       "ram": "8GB",
       "storage": "128GB",
       "price": 36999,
@@ -2070,13 +2222,16 @@
         "Dark Grey",
         "White"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Nothing India / Flipkart"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "nothing-phone-2-12-256",
+      "id": "nothing-phone-2-12gb-256gb",
       "modelId": "nothing-phone-2",
+      "modelName": "Nothing Phone (2)",
+      "brand": "Nothing",
+      "variantName": "12GB + 256GB",
       "ram": "12GB",
       "storage": "256GB",
       "price": 39999,
@@ -2085,13 +2240,16 @@
         "Dark Grey",
         "White"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Nothing India / Flipkart"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "nothing-phone-2-12-512",
+      "id": "nothing-phone-2-12gb-512gb",
       "modelId": "nothing-phone-2",
+      "modelName": "Nothing Phone (2)",
+      "brand": "Nothing",
+      "variantName": "12GB + 512GB",
       "ram": "12GB",
       "storage": "512GB",
       "price": 44999,
@@ -2100,100 +2258,209 @@
         "Dark Grey",
         "White"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Nothing India / Flipkart"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "nothing-phone-2a-plus-8-256",
+      "id": "nothing-phone-2a-plus-8gb-256gb",
       "modelId": "nothing-phone-2a-plus",
+      "modelName": "Nothing Phone (2a) Plus",
+      "brand": "Nothing",
+      "variantName": "8GB + 256GB",
       "ram": "8GB",
       "storage": "256GB",
       "price": 27999,
-      "mrp": 27999,
-      "colors": [
-        "Metallic Grey",
-        "Black"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Nothing India / Flipkart"
-    },
-    {
-      "id": "nothing-phone-2a-plus-12-256",
-      "modelId": "nothing-phone-2a-plus",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 29999,
       "mrp": 29999,
       "colors": [
         "Metallic Grey",
         "Black"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "Nothing India / Flipkart"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "cmf-phone-1-6-128",
+      "id": "nothing-phone-2a-plus-12gb-256gb",
+      "modelId": "nothing-phone-2a-plus",
+      "modelName": "Nothing Phone (2a) Plus",
+      "brand": "Nothing",
+      "variantName": "12GB + 256GB",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 29999,
+      "mrp": 31999,
+      "colors": [
+        "Metallic Grey",
+        "Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "nothing-phone-2a-8gb-128gb",
+      "modelId": "nothing-phone-2a",
+      "modelName": "Nothing Phone (2a)",
+      "brand": "Nothing",
+      "variantName": "8GB + 128GB",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 23999,
+      "mrp": 25999,
+      "colors": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "nothing-phone-2a-8gb-256gb",
+      "modelId": "nothing-phone-2a",
+      "modelName": "Nothing Phone (2a)",
+      "brand": "Nothing",
+      "variantName": "8GB + 256GB",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 25999,
+      "mrp": 27999,
+      "colors": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "nothing-phone-2a-12gb-256gb",
+      "modelId": "nothing-phone-2a",
+      "modelName": "Nothing Phone (2a)",
+      "brand": "Nothing",
+      "variantName": "12GB + 256GB",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 27999,
+      "mrp": 29999,
+      "colors": [
+        "Black",
+        "White",
+        "Special Edition"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "cmf-phone-1-6gb-128gb",
       "modelId": "cmf-phone-1",
+      "modelName": "CMF Phone 1",
+      "brand": "CMF",
+      "variantName": "6GB + 128GB",
       "ram": "6GB",
       "storage": "128GB",
       "price": 15999,
-      "mrp": 15999,
+      "mrp": 19999,
       "colors": [
         "Black",
-        "Light Green",
-        "Blue",
-        "Orange"
+        "Orange",
+        "Light Green"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "CMF by Nothing India / Flipkart"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "cmf-phone-1-8-128",
+      "id": "cmf-phone-1-8gb-128gb",
       "modelId": "cmf-phone-1",
+      "modelName": "CMF Phone 1",
+      "brand": "CMF",
+      "variantName": "8GB + 128GB",
       "ram": "8GB",
       "storage": "128GB",
       "price": 17999,
-      "mrp": 17999,
+      "mrp": 21999,
       "colors": [
         "Black",
+        "Orange",
         "Light Green",
-        "Orange"
+        "Blue"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "CMF by Nothing India / Flipkart"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "asus-rog-phone-8-pro-16-512",
+      "id": "asus-rog-phone-8-pro-16gb-512gb",
       "modelId": "asus-rog-phone-8-pro",
+      "modelName": "ROG Phone 8 Pro",
+      "brand": "ASUS",
+      "variantName": "16GB + 512GB",
       "ram": "16GB",
       "storage": "512GB",
       "price": 94999,
-      "mrp": 94999,
+      "mrp": 104999,
       "colors": [
         "Phantom Black"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "ASUS India / Vijay Sales"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
-      "id": "asus-rog-phone-8-pro-24-1tb",
+      "id": "asus-rog-phone-8-pro-24gb-1tb",
       "modelId": "asus-rog-phone-8-pro",
+      "modelName": "ROG Phone 8 Pro",
+      "brand": "ASUS",
+      "variantName": "24GB + 1TB",
       "ram": "24GB",
       "storage": "1TB",
       "price": 119999,
+      "mrp": 129999,
+      "colors": [
+        "Phantom Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "asus-rog-phone-9-pro-16gb-512gb",
+      "modelId": "asus-rog-phone-9-pro",
+      "modelName": "ROG Phone 9 Pro",
+      "brand": "ASUS",
+      "variantName": "16GB + 512GB",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 99999,
       "mrp": 119999,
       "colors": [
         "Phantom Black"
       ],
-      "status": "active",
-      "verified": true,
-      "source": "ASUS India / Vijay Sales"
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "asus-rog-phone-9-pro-24gb-1tb",
+      "modelId": "asus-rog-phone-9-pro",
+      "modelName": "ROG Phone 9 Pro",
+      "brand": "ASUS",
+      "variantName": "24GB + 1TB",
+      "ram": "24GB",
+      "storage": "1TB",
+      "price": 129999,
+      "mrp": 149999,
+      "colors": [
+        "Phantom Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
     },
     {
       "id": "infinix-gt-20-pro-8-256",
@@ -2394,6 +2661,204 @@
       "status": "active",
       "verified": true,
       "source": "HMD Global India / Amazon India"
+    },
+    {
+      "id": "honor-magic-6-pro-12gb-512gb",
+      "modelId": "honor-magic-6-pro",
+      "modelName": "Honor Magic 6 Pro",
+      "brand": "Honor",
+      "variantName": "12GB + 512GB",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 89999,
+      "mrp": 109999,
+      "colors": [
+        "Epi Green",
+        "Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "honor-200-pro-12gb-512gb",
+      "modelId": "honor-200-pro",
+      "modelName": "Honor 200 Pro",
+      "brand": "Honor",
+      "variantName": "12GB + 512GB",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 49999,
+      "mrp": 64999,
+      "colors": [
+        "Ocean Cyan",
+        "Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "honor-200-8gb-256gb",
+      "modelId": "honor-200",
+      "modelName": "Honor 200",
+      "brand": "Honor",
+      "variantName": "8GB + 256GB",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 31999,
+      "mrp": 39999,
+      "colors": [
+        "Moonlight White",
+        "Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "honor-200-12gb-512gb",
+      "modelId": "honor-200",
+      "modelName": "Honor 200",
+      "brand": "Honor",
+      "variantName": "12GB + 512GB",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 34999,
+      "mrp": 44999,
+      "colors": [
+        "Moonlight White",
+        "Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "honor-x9b-8gb-256gb",
+      "modelId": "honor-x9b",
+      "modelName": "Honor X9b",
+      "brand": "Honor",
+      "variantName": "8GB + 256GB",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 19999,
+      "mrp": 28999,
+      "colors": [
+        "Sunrise Orange",
+        "Midnight Black"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "itel-color-pro-5g-6gb-128gb",
+      "modelId": "itel-color-pro-5g",
+      "modelName": "Itel Color Pro 5G",
+      "brand": "Itel",
+      "variantName": "6GB + 128GB",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 9999,
+      "mrp": 12999,
+      "colors": [
+        "River Blue",
+        "Lavender Fantasy"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "itel-p55-5g-4gb-64gb",
+      "modelId": "itel-p55-5g",
+      "modelName": "Itel P55 5G",
+      "brand": "Itel",
+      "variantName": "4GB + 64GB",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 8999,
+      "mrp": 10999,
+      "colors": [
+        "Galaxy Blue",
+        "Mint Green"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "itel-p55-5g-6gb-128gb",
+      "modelId": "itel-p55-5g",
+      "modelName": "Itel P55 5G",
+      "brand": "Itel",
+      "variantName": "6GB + 128GB",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 9999,
+      "mrp": 11999,
+      "colors": [
+        "Galaxy Blue",
+        "Mint Green"
+      ],
+      "connectivity": "5G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "itel-s24-8gb-128gb",
+      "modelId": "itel-s24",
+      "modelName": "Itel S24",
+      "brand": "Itel",
+      "variantName": "8GB + 128GB",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 8499,
+      "mrp": 11999,
+      "colors": [
+        "Starry Black",
+        "Coastline Blue"
+      ],
+      "connectivity": "4G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "itel-a70-3gb-64gb",
+      "modelId": "itel-a70",
+      "modelName": "Itel A70",
+      "brand": "Itel",
+      "variantName": "3GB + 64GB",
+      "ram": "3GB",
+      "storage": "64GB",
+      "price": 5999,
+      "mrp": 7999,
+      "colors": [
+        "Brilliant Gold",
+        "Stylish Black"
+      ],
+      "connectivity": "4G",
+      "inStock": true,
+      "verified": true
+    },
+    {
+      "id": "itel-a70-4gb-128gb",
+      "modelId": "itel-a70",
+      "modelName": "Itel A70",
+      "brand": "Itel",
+      "variantName": "4GB + 128GB",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 6799,
+      "mrp": 8999,
+      "colors": [
+        "Brilliant Gold",
+        "Field Green"
+      ],
+      "connectivity": "4G",
+      "inStock": true,
+      "verified": true
     }
   ]
 }

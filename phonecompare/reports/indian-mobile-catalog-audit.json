@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-10-08T19:22:34.487Z",
+  "timestamp": "2026-10-09T11:40:08.791Z",
   "market": "India",
   "category": "Smartphones",
-  "totalDiscoveredBrands": 20,
-  "totalActiveBrands": 19,
-  "brandsCoveredInStatic": 19,
-  "totalModels": 74,
-  "activeModels": 74,
-  "totalVariants": 153,
-  "verifiedVariants": 153,
+  "totalDiscoveredBrands": 22,
+  "totalActiveBrands": 21,
+  "brandsCoveredInStatic": 21,
+  "totalModels": 88,
+  "activeModels": 88,
+  "totalVariants": 176,
+  "verifiedVariants": 176,
   "independentBrands": [
     {
       "manufacturer": "Samsung Electronics Co., Ltd.",
@@ -234,6 +234,30 @@
       "officialLineup": [
         "HMD Skyline",
         "HMD Crest Max 5G"
+      ]
+    },
+    {
+      "manufacturer": "Honor Device Co., Ltd. (HTech India)",
+      "brand": "Honor",
+      "officialIndiaWebsite": "https://www.explorehonor.com/in/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Honor Magic 6 Pro",
+        "Honor 200 Pro",
+        "Honor 200",
+        "Honor X9b"
+      ]
+    },
+    {
+      "manufacturer": "Transsion Holdings",
+      "brand": "Itel",
+      "officialIndiaWebsite": "https://www.itel-india.com/",
+      "isActiveInIndia": true,
+      "officialLineup": [
+        "Itel Color Pro 5G",
+        "Itel P55 5G",
+        "Itel S24",
+        "Itel A70"
       ]
     },
     {

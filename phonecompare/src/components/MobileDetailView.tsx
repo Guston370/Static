@@ -32,6 +32,7 @@ export function MobileDetailView({
     variants[0]?.id || ''
   );
   const [activeImageIndex, setActiveImageIndex] = useState<number>(0);
+  const [failedImageUrls, setFailedImageUrls] = useState<Record<string, boolean>>({});
 
   const { isMobileSelected, addMobile, removeMobile, isFull } = useMobileCompare();
   const selectedForCompare = isMobileSelected(mobile.slug);
@@ -42,10 +43,14 @@ export function MobileDetailView({
   const currentPrice = selectedVariant?.price || mobile.pricing.startingPrice;
   const currentMrp = selectedVariant?.mrp;
   const activeImage = images[activeImageIndex] || {
-    url: mobile.primaryImage || '/images/phone-placeholder.png',
+    url: mobile.primaryImage || '/mobiles/images/phone-placeholder.svg',
     alt: `${mobile.brand} ${mobile.modelName}`,
     angle: 'front',
   };
+
+  const activeImageUrl = failedImageUrls[activeImage.url]
+    ? '/mobiles/images/phone-placeholder.svg'
+    : (activeImage.url || '/mobiles/images/phone-placeholder.svg');
 
   const upgradeDiff = upgradeTargetMobile
     ? calculateUpgradeDifference(mobile, upgradeTargetMobile)
@@ -109,13 +114,15 @@ export function MobileDetailView({
             }}
           >
             <Image
-              src={activeImage.url}
+              src={activeImageUrl}
               alt={activeImage.alt}
               fill
               sizes="(max-width: 768px) 100vw, 480px"
-              unoptimized={activeImage.url.startsWith('http')}
               style={{ objectFit: 'contain', padding: '16px' }}
               priority
+              onError={() => {
+                setFailedImageUrls((prev) => ({ ...prev, [activeImage.url]: true }));
+              }}
             />
 
             <span
@@ -173,8 +180,13 @@ export function MobileDetailView({
                     src={img.url}
                     alt={img.alt}
                     fill
-                    unoptimized={img.url.startsWith('http')}
+                    sizes="68px"
                     style={{ objectFit: 'contain', padding: '4px' }}
+                    onError={(e) => {
+                      const target = e.currentTarget as HTMLImageElement;
+                      target.srcset = '';
+                      target.src = '/mobiles/images/phone-placeholder.svg';
+                    }}
                   />
                 </button>
               ))}
@@ -744,11 +756,16 @@ export function MobileDetailView({
               >
                 <div style={{ position: 'relative', height: '140px', background: '#18191c', borderRadius: '8px', overflow: 'hidden' }}>
                   <Image
-                    src={sim.primaryImage || '/images/phone-placeholder.png'}
+                    src={sim.primaryImage || '/mobiles/images/phone-placeholder.svg'}
                     alt={`${sim.brand} ${sim.modelName}`}
                     fill
-                    unoptimized={sim.primaryImage?.startsWith('http')}
+                    sizes="140px"
                     style={{ objectFit: 'contain', padding: '10px' }}
+                    onError={(e) => {
+                      const target = e.currentTarget as HTMLImageElement;
+                      target.srcset = '';
+                      target.src = '/mobiles/images/phone-placeholder.svg';
+                    }}
                   />
                 </div>
                 <div>
