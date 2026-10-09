@@ -8,13 +8,22 @@ import { appleBundle } from './apple';
 import { oneplusBundle } from './oneplus';
 import { googleBundle } from './google';
 import { xiaomiBundle } from './xiaomi';
-import { bbkVivoBundle } from './bbk_vivo';
-import { bbkOppoRealmeBundle } from './bbk_oppo_realme';
+import { redmiBundle } from './redmi';
+import { pocoBundle } from './poco';
+import { vivoBundle } from './vivo';
+import { iqooBundle } from './iqoo';
+import { oppoBundle } from './oppo';
+import { realmeBundle } from './realme';
 import { motorolaBundle } from './motorola';
-import { nothingAsusBundle } from './nothing_asus';
-import { transsionBundle } from './transsion';
-import { indianOemsBundle } from './indian_oems';
-import { honorItelBundle } from './honor_itel';
+import { nothingBundle } from './nothing';
+import { cmfBundle } from './cmf';
+import { asusBundle } from './asus';
+import { infinixBundle } from './infinix';
+import { tecnoBundle } from './tecno';
+import { lavaBundle } from './lava';
+import { hmdBundle } from './hmd';
+import { honorBundle } from './honor';
+import { itelBundle } from './itel';
 
 const bundles = [
   samsungBundle,
@@ -22,13 +31,22 @@ const bundles = [
   oneplusBundle,
   googleBundle,
   xiaomiBundle,
-  bbkVivoBundle,
-  bbkOppoRealmeBundle,
+  redmiBundle,
+  pocoBundle,
+  vivoBundle,
+  iqooBundle,
+  oppoBundle,
+  realmeBundle,
   motorolaBundle,
-  nothingAsusBundle,
-  transsionBundle,
-  indianOemsBundle,
-  honorItelBundle,
+  nothingBundle,
+  cmfBundle,
+  asusBundle,
+  infinixBundle,
+  tecnoBundle,
+  lavaBundle,
+  hmdBundle,
+  honorBundle,
+  itelBundle,
 ];
 
 export const allMobileModels: MobileModel[] = bundles.flatMap((b) => b.models);

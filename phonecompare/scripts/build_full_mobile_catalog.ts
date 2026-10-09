@@ -93,14 +93,22 @@ const modelsCatalog = {
   models: allMobileModels,
 };
 
+const normalizedVariants = allMobileVariants.map((v) => {
+  const colors = v.colors || (v.color ? [v.color] : []);
+  return {
+    ...v,
+    colors,
+  };
+});
+
 const variantsCatalog = {
   metadata: {
     country: 'India',
     marketDate: 'October 2026',
-    totalVariants: allMobileVariants.length,
-    verifiedVariants: allMobileVariants.filter((v) => v.verified).length,
+    totalVariants: normalizedVariants.length,
+    verifiedVariants: normalizedVariants.filter((v) => v.verified).length,
   },
-  variants: allMobileVariants,
+  variants: normalizedVariants,
 };
 
 const imagesCatalog = {

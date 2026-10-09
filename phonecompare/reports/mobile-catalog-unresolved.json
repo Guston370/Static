@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-10-09T17:32:50.049Z",
+  "market": "India",
+  "unresolvedItems": [
+    {
+      "modelCandidate": "Xiaomi 15 & Xiaomi 15 Pro",
+      "brand": "Xiaomi",
+      "status": "global_only",
+      "reason": "Launched in China late 2024; official Indian BIS certification and MRP launch pending as of audit date. Excluded to preserve verified Indian market constraint."
+    },
+    {
+      "modelCandidate": "Vivo X100 Ultra",
+      "brand": "Vivo",
+      "status": "global_only",
+      "reason": "Released exclusively in Mainland China with 200MP periscope; Vivo India confirmed only X100 and X100 Pro launched in India."
+    },
+    {
+      "modelCandidate": "POCO F6 Pro",
+      "brand": "POCO",
+      "status": "global_only",
+      "reason": "POCO India officially launched only the standard POCO F6 in India; F6 Pro was designated for European and global markets only."
+    },
+    {
+      "modelCandidate": "ASUS Zenfone 9, 10, 11 Ultra",
+      "brand": "ASUS",
+      "status": "global_only",
+      "reason": "ASUS India ceased launching non-gaming Zenfones in India after ASUS 8z due to trademark disputes and ROG branding concentration."
+    },
+    {
+      "modelCandidate": "Tecno Phantom V Fold2 5G",
+      "brand": "Tecno",
+      "status": "announced_not_yet_available",
+      "reason": "Showcased globally; Indian availability and official retail stock unverified at audit date."
+    },
+    {
+      "modelCandidate": "Sony Xperia 1 VI / Xperia 5 V",
+      "brand": "Sony",
+      "status": "global_only",
+      "reason": "Sony Mobile India ceased smartphone sales in India in 2019. Any units in India are grey market imports without official warranty."
+    }
+  ]
+}

@@ -139,7 +139,8 @@ export interface MobileVariant {
   storage: string; // e.g. '256GB'
   price: number; // in INR
   mrp?: number; // Launch MRP
-  colors: string[];
+  colors?: string[];
+  color?: string;
   status: MobileStatus;
   verified: boolean;
   source?: string;

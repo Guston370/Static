@@ -328,7 +328,7 @@ export function MobileDetailView({
           )}
 
           {/* Colors available for this variant */}
-          {selectedVariant && selectedVariant.colors.length > 0 && (
+          {selectedVariant && ((selectedVariant.colors && selectedVariant.colors.length > 0) || selectedVariant.color) && (
             <div>
               <span
                 style={{
@@ -342,7 +342,7 @@ export function MobileDetailView({
                 Available Colors:
               </span>
               <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
-                {selectedVariant.colors.map((color) => (
+                {(selectedVariant.colors || (selectedVariant.color ? [selectedVariant.color] : [])).filter(Boolean).map((color) => (
                   <span
                     key={color}
                     style={{

@@ -2,8 +2,8 @@
   "metadata": {
     "country": "India",
     "marketDate": "October 2026",
-    "totalVariants": 176,
-    "verifiedVariants": 176
+    "totalVariants": 438,
+    "verifiedVariants": 438
   },
   "variants": [
     {
@@ -584,6 +584,464 @@
       "source": "Samsung India Official Store"
     },
     {
+      "id": "samsung-galaxy-s24-plus-12-256",
+      "modelId": "samsung-galaxy-s24-plus",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 79999,
+      "mrp": 99999,
+      "colors": [
+        "Onyx Black",
+        "Marble Gray",
+        "Cobalt Violet"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-s24-plus-12-512",
+      "modelId": "samsung-galaxy-s24-plus",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 89999,
+      "mrp": 109999,
+      "colors": [
+        "Onyx Black",
+        "Marble Gray"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-s23-ultra-12-256",
+      "modelId": "samsung-galaxy-s23-ultra",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 84999,
+      "mrp": 124999,
+      "colors": [
+        "Phantom Black",
+        "Green",
+        "Cream"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-s23-ultra-12-512",
+      "modelId": "samsung-galaxy-s23-ultra",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 104999,
+      "mrp": 134999,
+      "colors": [
+        "Phantom Black",
+        "Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-s23-fe-8-128",
+      "modelId": "samsung-galaxy-s23-fe",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 34999,
+      "mrp": 59999,
+      "colors": [
+        "Mint",
+        "Graphite",
+        "Purple"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-s23-fe-8-256",
+      "modelId": "samsung-galaxy-s23-fe",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 39999,
+      "mrp": 64999,
+      "colors": [
+        "Mint",
+        "Graphite"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-s22-ultra-12-256",
+      "modelId": "samsung-galaxy-s22-ultra",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 69999,
+      "mrp": 109999,
+      "colors": [
+        "Phantom Black",
+        "Burgundy"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-s22-ultra-12-512",
+      "modelId": "samsung-galaxy-s22-ultra",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 79999,
+      "mrp": 119999,
+      "colors": [
+        "Phantom Black",
+        "Burgundy"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-s21-fe-5g-8-128",
+      "modelId": "samsung-galaxy-s21-fe-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 28999,
+      "mrp": 49999,
+      "colors": [
+        "Navy Blue",
+        "Graphite",
+        "Olive"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Flipkart"
+    },
+    {
+      "id": "samsung-galaxy-s21-fe-5g-8-256",
+      "modelId": "samsung-galaxy-s21-fe-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 32999,
+      "mrp": 53999,
+      "colors": [
+        "Navy Blue",
+        "Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Flipkart"
+    },
+    {
+      "id": "samsung-galaxy-z-fold-5-12-256",
+      "modelId": "samsung-galaxy-z-fold-5",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 139999,
+      "mrp": 154999,
+      "colors": [
+        "Icy Blue",
+        "Phantom Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-z-fold-5-12-512",
+      "modelId": "samsung-galaxy-z-fold-5",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 154999,
+      "mrp": 169999,
+      "colors": [
+        "Icy Blue",
+        "Phantom Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-z-flip-5-8-256",
+      "modelId": "samsung-galaxy-z-flip-5",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 69999,
+      "mrp": 99999,
+      "colors": [
+        "Mint",
+        "Graphite",
+        "Lavender"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-z-flip-5-8-512",
+      "modelId": "samsung-galaxy-z-flip-5",
+      "ram": "8GB",
+      "storage": "512GB",
+      "price": 79999,
+      "mrp": 109999,
+      "colors": [
+        "Mint",
+        "Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-a54-5g-8-128",
+      "modelId": "samsung-galaxy-a54-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 28999,
+      "mrp": 38999,
+      "colors": [
+        "Awesome Lime",
+        "Awesome Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-a54-5g-8-256",
+      "modelId": "samsung-galaxy-a54-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 32999,
+      "mrp": 40999,
+      "colors": [
+        "Awesome Lime",
+        "Awesome Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-a34-5g-8-128",
+      "modelId": "samsung-galaxy-a34-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 22999,
+      "mrp": 30999,
+      "colors": [
+        "Awesome Lime",
+        "Awesome Silver"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-a34-5g-8-256",
+      "modelId": "samsung-galaxy-a34-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 24999,
+      "mrp": 32999,
+      "colors": [
+        "Awesome Lime",
+        "Awesome Silver"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-a25-5g-8-128",
+      "modelId": "samsung-galaxy-a25-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 19999,
+      "mrp": 26999,
+      "colors": [
+        "Blue Black",
+        "Blue",
+        "Yellow"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-a25-5g-8-256",
+      "modelId": "samsung-galaxy-a25-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 22999,
+      "mrp": 29999,
+      "colors": [
+        "Blue Black",
+        "Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-a15-5g-6-128",
+      "modelId": "samsung-galaxy-a15-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 14999,
+      "mrp": 19499,
+      "colors": [
+        "Blue Black",
+        "Blue",
+        "Light Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-a15-5g-8-128",
+      "modelId": "samsung-galaxy-a15-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 16999,
+      "mrp": 21499,
+      "colors": [
+        "Blue Black",
+        "Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-m55-5g-8-128",
+      "modelId": "samsung-galaxy-m55-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 21999,
+      "mrp": 26999,
+      "colors": [
+        "Light Green",
+        "Denim Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-m55-5g-8-256",
+      "modelId": "samsung-galaxy-m55-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 24999,
+      "mrp": 29999,
+      "colors": [
+        "Light Green",
+        "Denim Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-m34-5g-6-128",
+      "modelId": "samsung-galaxy-m34-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 15999,
+      "mrp": 20999,
+      "colors": [
+        "Midnight Blue",
+        "Prism Silver"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-m34-5g-8-128",
+      "modelId": "samsung-galaxy-m34-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 17999,
+      "mrp": 22999,
+      "colors": [
+        "Midnight Blue",
+        "Prism Silver"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Amazon India"
+    },
+    {
+      "id": "samsung-galaxy-f54-5g-8-256",
+      "modelId": "samsung-galaxy-f54-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 22999,
+      "mrp": 29999,
+      "colors": [
+        "Meteor Blue",
+        "Starlight Silver"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Flipkart"
+    },
+    {
+      "id": "samsung-galaxy-f54-5g-8-128",
+      "modelId": "samsung-galaxy-f54-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 20999,
+      "mrp": 27999,
+      "colors": [
+        "Meteor Blue",
+        "Starlight Silver"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Samsung India / Flipkart"
+    },
+    {
+      "id": "samsung-galaxy-f15-5g-4-128",
+      "modelId": "samsung-galaxy-f15-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 12999,
+      "mrp": 15999,
+      "colors": [
+        "Jazzy Green",
+        "Groovy Violet",
+        "Ash Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
+      "id": "samsung-galaxy-f15-5g-6-128",
+      "modelId": "samsung-galaxy-f15-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 14499,
+      "mrp": 16999,
+      "colors": [
+        "Jazzy Green",
+        "Groovy Violet"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Samsung India Official Store"
+    },
+    {
       "id": "apple-iphone-16-pro-max-8-256",
       "modelId": "apple-iphone-16-pro-max",
       "ram": "8GB",
@@ -921,6 +1379,346 @@
       "source": "Apple India Online Store"
     },
     {
+      "id": "apple-iphone-15-pro-max-8-256",
+      "modelId": "apple-iphone-15-pro-max",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 134900,
+      "mrp": 159900,
+      "colors": [
+        "Natural Titanium",
+        "Blue Titanium",
+        "Black Titanium"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-15-pro-max-8-512",
+      "modelId": "apple-iphone-15-pro-max",
+      "ram": "8GB",
+      "storage": "512GB",
+      "price": 154900,
+      "mrp": 179900,
+      "colors": [
+        "Natural Titanium",
+        "Blue Titanium"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-15-pro-8-128",
+      "modelId": "apple-iphone-15-pro",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 109900,
+      "mrp": 134900,
+      "colors": [
+        "Natural Titanium",
+        "Blue Titanium",
+        "Black Titanium"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-15-pro-8-256",
+      "modelId": "apple-iphone-15-pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 119900,
+      "mrp": 144900,
+      "colors": [
+        "Natural Titanium",
+        "Blue Titanium"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-15-plus-6-128",
+      "modelId": "apple-iphone-15-plus",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 79900,
+      "mrp": 89900,
+      "colors": [
+        "Pink",
+        "Blue",
+        "Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-15-plus-6-256",
+      "modelId": "apple-iphone-15-plus",
+      "ram": "6GB",
+      "storage": "256GB",
+      "price": 89900,
+      "mrp": 99900,
+      "colors": [
+        "Pink",
+        "Blue",
+        "Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-14-pro-max-6-128",
+      "modelId": "apple-iphone-14-pro-max",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 119900,
+      "mrp": 139900,
+      "colors": [
+        "Deep Purple",
+        "Space Black",
+        "Gold"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Amazon India"
+    },
+    {
+      "id": "apple-iphone-14-pro-max-6-256",
+      "modelId": "apple-iphone-14-pro-max",
+      "ram": "6GB",
+      "storage": "256GB",
+      "price": 129900,
+      "mrp": 149900,
+      "colors": [
+        "Deep Purple",
+        "Space Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Amazon India"
+    },
+    {
+      "id": "apple-iphone-14-pro-6-128",
+      "modelId": "apple-iphone-14-pro",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 99900,
+      "mrp": 129900,
+      "colors": [
+        "Deep Purple",
+        "Space Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Amazon India"
+    },
+    {
+      "id": "apple-iphone-14-pro-6-256",
+      "modelId": "apple-iphone-14-pro",
+      "ram": "6GB",
+      "storage": "256GB",
+      "price": 109900,
+      "mrp": 139900,
+      "colors": [
+        "Deep Purple",
+        "Space Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Amazon India"
+    },
+    {
+      "id": "apple-iphone-14-plus-6-128",
+      "modelId": "apple-iphone-14-plus",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 69900,
+      "mrp": 89900,
+      "colors": [
+        "Blue",
+        "Purple",
+        "Midnight"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-14-plus-6-256",
+      "modelId": "apple-iphone-14-plus",
+      "ram": "6GB",
+      "storage": "256GB",
+      "price": 79900,
+      "mrp": 99900,
+      "colors": [
+        "Blue",
+        "Purple"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-13-pro-max-6-128",
+      "modelId": "apple-iphone-13-pro-max",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 94900,
+      "mrp": 129900,
+      "colors": [
+        "Sierra Blue",
+        "Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Flipkart"
+    },
+    {
+      "id": "apple-iphone-13-pro-max-6-256",
+      "modelId": "apple-iphone-13-pro-max",
+      "ram": "6GB",
+      "storage": "256GB",
+      "price": 104900,
+      "mrp": 139900,
+      "colors": [
+        "Sierra Blue",
+        "Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Flipkart"
+    },
+    {
+      "id": "apple-iphone-13-pro-6-128",
+      "modelId": "apple-iphone-13-pro",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 84900,
+      "mrp": 119900,
+      "colors": [
+        "Sierra Blue",
+        "Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Flipkart"
+    },
+    {
+      "id": "apple-iphone-13-pro-6-256",
+      "modelId": "apple-iphone-13-pro",
+      "ram": "6GB",
+      "storage": "256GB",
+      "price": 94900,
+      "mrp": 129900,
+      "colors": [
+        "Sierra Blue",
+        "Graphite"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Flipkart"
+    },
+    {
+      "id": "apple-iphone-13-mini-4-128",
+      "modelId": "apple-iphone-13-mini",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 44900,
+      "mrp": 69900,
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "Pink"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Flipkart"
+    },
+    {
+      "id": "apple-iphone-13-mini-4-256",
+      "modelId": "apple-iphone-13-mini",
+      "ram": "4GB",
+      "storage": "256GB",
+      "price": 54900,
+      "mrp": 79900,
+      "colors": [
+        "Midnight",
+        "Starlight"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Flipkart"
+    },
+    {
+      "id": "apple-iphone-12-4-64",
+      "modelId": "apple-iphone-12",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 37900,
+      "mrp": 79900,
+      "colors": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Amazon India"
+    },
+    {
+      "id": "apple-iphone-12-4-128",
+      "modelId": "apple-iphone-12",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 42900,
+      "mrp": 84900,
+      "colors": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Apple India / Amazon India"
+    },
+    {
+      "id": "apple-iphone-se-2022-4-64",
+      "modelId": "apple-iphone-se-2022",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 39900,
+      "mrp": 43900,
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "(PRODUCT)RED"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
+      "id": "apple-iphone-se-2022-4-128",
+      "modelId": "apple-iphone-se-2022",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 44900,
+      "mrp": 48900,
+      "colors": [
+        "Midnight",
+        "Starlight"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Apple India Online Store"
+    },
+    {
       "id": "oneplus-13-12-256",
       "modelId": "oneplus-13",
       "ram": "12GB",
@@ -1181,6 +1979,246 @@
       "source": "OnePlus India Official Store"
     },
     {
+      "id": "oneplus-11-5g-8-128",
+      "modelId": "oneplus-11-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 49999,
+      "mrp": 56999,
+      "colors": [
+        "Titan Black",
+        "Eternal Green"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-11-5g-16-256",
+      "modelId": "oneplus-11-5g",
+      "ram": "16GB",
+      "storage": "256GB",
+      "price": 56999,
+      "mrp": 61999,
+      "colors": [
+        "Titan Black",
+        "Eternal Green"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-11r-5g-8-128",
+      "modelId": "oneplus-11r-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 27999,
+      "mrp": 39999,
+      "colors": [
+        "Sonic Black",
+        "Galactic Silver"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-11r-5g-16-256",
+      "modelId": "oneplus-11r-5g",
+      "ram": "16GB",
+      "storage": "256GB",
+      "price": 31999,
+      "mrp": 44999,
+      "colors": [
+        "Sonic Black",
+        "Galactic Silver"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-10-pro-5g-8-128",
+      "modelId": "oneplus-10-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 44999,
+      "mrp": 66999,
+      "colors": [
+        "Volcanic Black",
+        "Emerald Forest"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-10-pro-5g-12-256",
+      "modelId": "oneplus-10-pro-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 49999,
+      "mrp": 71999,
+      "colors": [
+        "Volcanic Black",
+        "Emerald Forest"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-10r-5g-8-128",
+      "modelId": "oneplus-10r-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 24999,
+      "mrp": 38999,
+      "colors": [
+        "Sierra Black",
+        "Forest Green"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-10r-5g-12-256",
+      "modelId": "oneplus-10r-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 27999,
+      "mrp": 42999,
+      "colors": [
+        "Sierra Black",
+        "Forest Green"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-10t-5g-8-128",
+      "modelId": "oneplus-10t-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 34999,
+      "mrp": 49999,
+      "colors": [
+        "Moonstone Black",
+        "Jade Green"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-10t-5g-12-256",
+      "modelId": "oneplus-10t-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 39999,
+      "mrp": 54999,
+      "colors": [
+        "Moonstone Black",
+        "Jade Green"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-nord-3-5g-8-128",
+      "modelId": "oneplus-nord-3-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 19999,
+      "mrp": 33999,
+      "colors": [
+        "Misty Green",
+        "Tempest Gray"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-nord-3-5g-16-256",
+      "modelId": "oneplus-nord-3-5g",
+      "ram": "16GB",
+      "storage": "256GB",
+      "price": 23999,
+      "mrp": 37999,
+      "colors": [
+        "Misty Green",
+        "Tempest Gray"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-nord-ce-3-5g-8-128",
+      "modelId": "oneplus-nord-ce-3-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 16999,
+      "mrp": 26999,
+      "colors": [
+        "Aqua Surge",
+        "Grey Shimmer"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-nord-ce-3-5g-12-256",
+      "modelId": "oneplus-nord-ce-3-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 18999,
+      "mrp": 28999,
+      "colors": [
+        "Aqua Surge",
+        "Grey Shimmer"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-nord-ce-3-lite-5g-8-128",
+      "modelId": "oneplus-nord-ce-3-lite-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 14999,
+      "mrp": 19999,
+      "colors": [
+        "Pastel Lime",
+        "Chromatic Gray"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
+      "id": "oneplus-nord-ce-3-lite-5g-8-256",
+      "modelId": "oneplus-nord-ce-3-lite-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 16999,
+      "mrp": 21999,
+      "colors": [
+        "Pastel Lime",
+        "Chromatic Gray"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OnePlus India Store / Amazon India"
+    },
+    {
       "id": "google-pixel-9-pro-xl-16-256",
       "modelId": "google-pixel-9-pro-xl",
       "ram": "16GB",
@@ -1325,6 +2363,158 @@
       "source": "Google Store India / Flipkart"
     },
     {
+      "id": "google-pixel-9-pro-fold-16-256",
+      "modelId": "google-pixel-9-pro-fold",
+      "ram": "16GB",
+      "storage": "256GB",
+      "price": 172999,
+      "mrp": 172999,
+      "colors": [
+        "Obsidian",
+        "Porcelain"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-9-pro-fold-16-512",
+      "modelId": "google-pixel-9-pro-fold",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 189999,
+      "mrp": 189999,
+      "colors": [
+        "Obsidian"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-8-pro-12-128",
+      "modelId": "google-pixel-8-pro",
+      "ram": "12GB",
+      "storage": "128GB",
+      "price": 79999,
+      "mrp": 106999,
+      "colors": [
+        "Bay",
+        "Porcelain",
+        "Obsidian"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-8-pro-12-256",
+      "modelId": "google-pixel-8-pro",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 86999,
+      "mrp": 113999,
+      "colors": [
+        "Bay",
+        "Obsidian"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-7-pro-12-128",
+      "modelId": "google-pixel-7-pro",
+      "ram": "12GB",
+      "storage": "128GB",
+      "price": 54999,
+      "mrp": 84999,
+      "colors": [
+        "Hazel",
+        "Snow",
+        "Obsidian"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-7-pro-12-256",
+      "modelId": "google-pixel-7-pro",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 62999,
+      "mrp": 92999,
+      "colors": [
+        "Hazel",
+        "Obsidian"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-7-8-128",
+      "modelId": "google-pixel-7",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 39999,
+      "mrp": 59999,
+      "colors": [
+        "Lemongrass",
+        "Snow",
+        "Obsidian"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-7-8-256",
+      "modelId": "google-pixel-7",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 44999,
+      "mrp": 64999,
+      "colors": [
+        "Snow",
+        "Obsidian"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-6a-6-128",
+      "modelId": "google-pixel-6a",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 27999,
+      "mrp": 43999,
+      "colors": [
+        "Chalk",
+        "Charcoal",
+        "Sage"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
+      "id": "google-pixel-6a-6-256",
+      "modelId": "google-pixel-6a",
+      "ram": "6GB",
+      "storage": "256GB",
+      "price": 29999,
+      "mrp": 47999,
+      "colors": [
+        "Charcoal"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Google Store India / Flipkart"
+    },
+    {
       "id": "xiaomi-14-ultra-16-512",
       "modelId": "xiaomi-14-ultra",
       "ram": "16GB",
@@ -1334,6 +2524,22 @@
       "colors": [
         "Black",
         "White"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
+      "id": "xiaomi-14-12-512",
+      "modelId": "xiaomi-14",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 59999,
+      "mrp": 69999,
+      "colors": [
+        "Black",
+        "White",
+        "Jade Green"
       ],
       "status": "active",
       "verified": true,
@@ -1372,36 +2578,124 @@
       "source": "Mi India Official Store"
     },
     {
+      "id": "xiaomi-13-pro-12-256",
+      "modelId": "xiaomi-13-pro",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 74999,
+      "mrp": 79999,
+      "colors": [
+        "Ceramic Black",
+        "Ceramic White"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
+      "id": "xiaomi-12-pro-8-256",
+      "modelId": "xiaomi-12-pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 44999,
+      "mrp": 62999,
+      "colors": [
+        "Noir Black",
+        "Couture Blue"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
+      "id": "xiaomi-12-pro-12-256",
+      "modelId": "xiaomi-12-pro",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 49999,
+      "mrp": 66999,
+      "colors": [
+        "Noir Black",
+        "Couture Blue"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
+      "id": "xiaomi-11t-pro-5g-8-128",
+      "modelId": "xiaomi-11t-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 34999,
+      "mrp": 39999,
+      "colors": [
+        "Meteorite Gray",
+        "Celestial Blue"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
+      "id": "xiaomi-11t-pro-5g-12-256",
+      "modelId": "xiaomi-11t-pro-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 39999,
+      "mrp": 43999,
+      "colors": [
+        "Meteorite Gray",
+        "Celestial Blue"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
+      "id": "xiaomi-11-lite-ne-5g-6-128",
+      "modelId": "xiaomi-11-lite-ne-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 23999,
+      "mrp": 26999,
+      "colors": [
+        "Truffle Black",
+        "Diamond Dazzle"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
+      "id": "xiaomi-11-lite-ne-5g-8-128",
+      "modelId": "xiaomi-11-lite-ne-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 25999,
+      "mrp": 28999,
+      "colors": [
+        "Truffle Black",
+        "Diamond Dazzle"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store"
+    },
+    {
       "id": "redmi-note-14-pro-plus-5g-8-128",
       "modelId": "redmi-note-14-pro-plus-5g",
       "ram": "8GB",
       "storage": "128GB",
       "price": 30999,
       "mrp": 30999,
-      "colors": [
-        "Titan Black",
-        "Spectre Blue",
-        "Phantom Purple"
-      ],
       "status": "active",
       "verified": true,
-      "source": "Mi India Official Store"
-    },
-    {
-      "id": "redmi-note-14-pro-plus-5g-8-256",
-      "modelId": "redmi-note-14-pro-plus-5g",
-      "ram": "8GB",
-      "storage": "256GB",
-      "price": 32999,
-      "mrp": 32999,
+      "source": "Mi India Official Store",
       "colors": [
-        "Titan Black",
         "Spectre Blue",
-        "Phantom Purple"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Mi India Official Store"
+        "Titan Black"
+      ]
     },
     {
       "id": "redmi-note-14-pro-plus-5g-12-512",
@@ -1410,44 +2704,433 @@
       "storage": "512GB",
       "price": 35999,
       "mrp": 35999,
-      "colors": [
-        "Titan Black",
-        "Spectre Blue"
-      ],
       "status": "active",
       "verified": true,
-      "source": "Mi India Official Store"
+      "source": "Mi India Official Store",
+      "colors": [
+        "Spectre Blue",
+        "Titan Black"
+      ]
+    },
+    {
+      "id": "redmi-note-14-pro-5g-8-128",
+      "modelId": "redmi-note-14-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 24999,
+      "mrp": 24999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Ivy Green",
+        "Titan Black"
+      ]
+    },
+    {
+      "id": "redmi-note-14-pro-5g-8-256",
+      "modelId": "redmi-note-14-pro-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 26999,
+      "mrp": 26999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Ivy Green",
+        "Titan Black"
+      ]
+    },
+    {
+      "id": "redmi-note-14-5g-6-128",
+      "modelId": "redmi-note-14-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 17999,
+      "mrp": 17999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Mystic White",
+        "Titan Black"
+      ]
+    },
+    {
+      "id": "redmi-note-14-5g-8-256",
+      "modelId": "redmi-note-14-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 20999,
+      "mrp": 20999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Mystic White",
+        "Titan Black"
+      ]
+    },
+    {
+      "id": "redmi-note-13-pro-plus-5g-8-256",
+      "modelId": "redmi-note-13-pro-plus-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 27999,
+      "mrp": 31999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Fusion White",
+        "Fusion Purple"
+      ]
+    },
+    {
+      "id": "redmi-note-13-pro-plus-5g-12-512",
+      "modelId": "redmi-note-13-pro-plus-5g",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 31999,
+      "mrp": 35999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Fusion White",
+        "Fusion Purple"
+      ]
+    },
+    {
+      "id": "redmi-note-13-pro-5g-8-128",
+      "modelId": "redmi-note-13-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 21999,
+      "mrp": 25999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Arctic White",
+        "Coral Purple"
+      ]
+    },
+    {
+      "id": "redmi-note-13-pro-5g-12-256",
+      "modelId": "redmi-note-13-pro-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 24999,
+      "mrp": 28999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Arctic White",
+        "Coral Purple"
+      ]
+    },
+    {
+      "id": "redmi-note-13-5g-6-128",
+      "modelId": "redmi-note-13-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 15999,
+      "mrp": 17999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Stealth Black",
+        "Prism Gold"
+      ]
+    },
+    {
+      "id": "redmi-note-13-5g-8-256",
+      "modelId": "redmi-note-13-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 18999,
+      "mrp": 20999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Stealth Black",
+        "Prism Gold"
+      ]
+    },
+    {
+      "id": "redmi-note-12-pro-plus-5g-8-256",
+      "modelId": "redmi-note-12-pro-plus-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 24999,
+      "mrp": 29999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Arctic White",
+        "Iceberg Blue"
+      ]
+    },
+    {
+      "id": "redmi-note-12-pro-plus-5g-12-256",
+      "modelId": "redmi-note-12-pro-plus-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 27999,
+      "mrp": 32999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Arctic White",
+        "Iceberg Blue"
+      ]
+    },
+    {
+      "id": "redmi-note-12-pro-5g-6-128",
+      "modelId": "redmi-note-12-pro-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 19999,
+      "mrp": 24999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Glacier Blue",
+        "Onyx Black"
+      ]
+    },
+    {
+      "id": "redmi-note-12-pro-5g-8-256",
+      "modelId": "redmi-note-12-pro-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 22999,
+      "mrp": 27999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Glacier Blue",
+        "Onyx Black"
+      ]
+    },
+    {
+      "id": "redmi-note-12-5g-4-128",
+      "modelId": "redmi-note-12-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 13999,
+      "mrp": 17999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Frosted Green",
+        "Matte Black"
+      ]
+    },
+    {
+      "id": "redmi-note-12-5g-6-128",
+      "modelId": "redmi-note-12-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 15499,
+      "mrp": 19999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Frosted Green",
+        "Matte Black"
+      ]
+    },
+    {
+      "id": "redmi-note-11-pro-plus-5g-6-128",
+      "modelId": "redmi-note-11-pro-plus-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 17999,
+      "mrp": 20999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Mirage Blue",
+        "Stealth Black"
+      ]
+    },
+    {
+      "id": "redmi-note-11-pro-plus-5g-8-256",
+      "modelId": "redmi-note-11-pro-plus-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 20999,
+      "mrp": 23999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Mirage Blue",
+        "Stealth Black"
+      ]
+    },
+    {
+      "id": "redmi-note-11-4-64",
+      "modelId": "redmi-note-11",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 11999,
+      "mrp": 13499,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Horizon Blue",
+        "Space Black"
+      ]
+    },
+    {
+      "id": "redmi-note-11-6-128",
+      "modelId": "redmi-note-11",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 13999,
+      "mrp": 15999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Horizon Blue",
+        "Space Black"
+      ]
     },
     {
       "id": "redmi-13-5g-6-128",
       "modelId": "redmi-13-5g",
       "ram": "6GB",
       "storage": "128GB",
-      "price": 12999,
+      "price": 13999,
       "mrp": 13999,
-      "colors": [
-        "Hawaiian Blue",
-        "Black Diamond",
-        "Moonstone Silver"
-      ],
       "status": "active",
       "verified": true,
-      "source": "Mi India Official Store"
+      "source": "Mi India Official Store",
+      "colors": [
+        "Hawaiian Blue",
+        "Black Diamond"
+      ]
     },
     {
       "id": "redmi-13-5g-8-128",
       "modelId": "redmi-13-5g",
       "ram": "8GB",
       "storage": "128GB",
-      "price": 14499,
-      "mrp": 15999,
-      "colors": [
-        "Hawaiian Blue",
-        "Moonstone Silver"
-      ],
+      "price": 15499,
+      "mrp": 15499,
       "status": "active",
       "verified": true,
-      "source": "Mi India Official Store"
+      "source": "Mi India Official Store",
+      "colors": [
+        "Hawaiian Blue",
+        "Black Diamond"
+      ]
+    },
+    {
+      "id": "redmi-13c-5g-4-128",
+      "modelId": "redmi-13c-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 10499,
+      "mrp": 10999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Starlight Black",
+        "Startrail Green"
+      ]
+    },
+    {
+      "id": "redmi-13c-5g-8-256",
+      "modelId": "redmi-13c-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 13499,
+      "mrp": 14499,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Starlight Black",
+        "Startrail Green"
+      ]
+    },
+    {
+      "id": "redmi-13c-4-128",
+      "modelId": "redmi-13c",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 7999,
+      "mrp": 8999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Starlight Black",
+        "Starshine Green"
+      ]
+    },
+    {
+      "id": "redmi-13c-8-256",
+      "modelId": "redmi-13c",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 9999,
+      "mrp": 11499,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Starlight Black",
+        "Starshine Green"
+      ]
+    },
+    {
+      "id": "redmi-12-5g-4-128",
+      "modelId": "redmi-12-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 11499,
+      "mrp": 11999,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Moonstone Silver",
+        "Jade Black"
+      ]
+    },
+    {
+      "id": "redmi-12-5g-8-256",
+      "modelId": "redmi-12-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 13999,
+      "mrp": 15499,
+      "status": "active",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Moonstone Silver",
+        "Jade Black"
+      ]
     },
     {
       "id": "redmi-a3-3-64",
@@ -1456,60 +3139,148 @@
       "storage": "64GB",
       "price": 6999,
       "mrp": 7299,
-      "colors": [
-        "Midnight Black",
-        "Lake Blue",
-        "Olive Green"
-      ],
       "status": "active",
       "verified": true,
-      "source": "Mi India Official Store"
+      "source": "Mi India Official Store",
+      "colors": [
+        "Olive Green",
+        "Midnight Black"
+      ]
     },
     {
-      "id": "redmi-a3-4-128",
+      "id": "redmi-a3-6-128",
       "modelId": "redmi-a3",
-      "ram": "4GB",
+      "ram": "6GB",
       "storage": "128GB",
       "price": 7999,
-      "mrp": 8299,
-      "colors": [
-        "Midnight Black",
-        "Lake Blue",
-        "Olive Green"
-      ],
+      "mrp": 9299,
       "status": "active",
       "verified": true,
-      "source": "Mi India Official Store"
+      "source": "Mi India Official Store",
+      "colors": [
+        "Olive Green",
+        "Midnight Black"
+      ]
+    },
+    {
+      "id": "redmi-a2-plus-2-32",
+      "modelId": "redmi-a2-plus",
+      "ram": "2GB",
+      "storage": "32GB",
+      "price": 5999,
+      "mrp": 6999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Aqua Blue",
+        "Classic Black"
+      ]
+    },
+    {
+      "id": "redmi-a2-plus-4-64",
+      "modelId": "redmi-a2-plus",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 6999,
+      "mrp": 8499,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Mi India Official Store",
+      "colors": [
+        "Aqua Blue",
+        "Classic Black"
+      ]
     },
     {
       "id": "poco-f6-5g-8-256",
       "modelId": "poco-f6-5g",
       "ram": "8GB",
       "storage": "256GB",
-      "price": 27999,
+      "price": 29999,
       "mrp": 29999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
       "colors": [
         "Titanium",
         "Black"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "POCO India / Flipkart"
+      ]
     },
     {
       "id": "poco-f6-5g-12-512",
       "modelId": "poco-f6-5g",
       "ram": "12GB",
       "storage": "512GB",
-      "price": 31999,
+      "price": 33999,
       "mrp": 33999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
       "colors": [
         "Titanium",
         "Black"
-      ],
-      "status": "active",
+      ]
+    },
+    {
+      "id": "poco-f5-5g-8-256",
+      "modelId": "poco-f5-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 26999,
+      "mrp": 29999,
+      "status": "discontinued",
       "verified": true,
-      "source": "POCO India / Flipkart"
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Carbon Black",
+        "Snowstorm White"
+      ]
+    },
+    {
+      "id": "poco-f5-5g-12-256",
+      "modelId": "poco-f5-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 29999,
+      "mrp": 33999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Carbon Black",
+        "Snowstorm White"
+      ]
+    },
+    {
+      "id": "poco-f4-5g-6-128",
+      "modelId": "poco-f4-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 23999,
+      "mrp": 27999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Night Black",
+        "Nebula Green"
+      ]
+    },
+    {
+      "id": "poco-f4-5g-8-128",
+      "modelId": "poco-f4-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 25999,
+      "mrp": 29999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Night Black",
+        "Nebula Green"
+      ]
     },
     {
       "id": "poco-x6-pro-5g-8-256",
@@ -1518,14 +3289,13 @@
       "storage": "256GB",
       "price": 23999,
       "mrp": 26999,
-      "colors": [
-        "Yellow",
-        "Racing Grey",
-        "Spectre Black"
-      ],
       "status": "active",
       "verified": true,
-      "source": "POCO India / Flipkart"
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "POCO Yellow",
+        "Racing Grey"
+      ]
     },
     {
       "id": "poco-x6-pro-5g-12-512",
@@ -1534,14 +3304,103 @@
       "storage": "512GB",
       "price": 25999,
       "mrp": 28999,
-      "colors": [
-        "Yellow",
-        "Racing Grey",
-        "Spectre Black"
-      ],
       "status": "active",
       "verified": true,
-      "source": "POCO India / Flipkart"
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "POCO Yellow",
+        "Racing Grey"
+      ]
+    },
+    {
+      "id": "poco-x6-5g-8-256",
+      "modelId": "poco-x6-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 17999,
+      "mrp": 21999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Mirror Black",
+        "Snowstorm White"
+      ]
+    },
+    {
+      "id": "poco-x6-5g-12-512",
+      "modelId": "poco-x6-5g",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 20999,
+      "mrp": 24999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Mirror Black",
+        "Snowstorm White"
+      ]
+    },
+    {
+      "id": "poco-x6-neo-5g-8-128",
+      "modelId": "poco-x6-neo-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 13999,
+      "mrp": 15999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Martian Orange",
+        "Astral Black"
+      ]
+    },
+    {
+      "id": "poco-x6-neo-5g-12-256",
+      "modelId": "poco-x6-neo-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 15999,
+      "mrp": 17999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Martian Orange",
+        "Astral Black"
+      ]
+    },
+    {
+      "id": "poco-x5-pro-5g-6-128",
+      "modelId": "poco-x5-pro-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 18999,
+      "mrp": 22999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Yellow",
+        "Astral Black"
+      ]
+    },
+    {
+      "id": "poco-x5-pro-5g-8-256",
+      "modelId": "poco-x5-pro-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 20999,
+      "mrp": 24999,
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Yellow",
+        "Astral Black"
+      ]
     },
     {
       "id": "poco-m6-plus-5g-6-128",
@@ -1549,15 +3408,14 @@
       "ram": "6GB",
       "storage": "128GB",
       "price": 11999,
-      "mrp": 13499,
-      "colors": [
-        "Ice Silver",
-        "Graphite Black",
-        "Misty Lavender"
-      ],
+      "mrp": 12999,
       "status": "active",
       "verified": true,
-      "source": "POCO India / Flipkart"
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Ice Silver",
+        "Graphite Black"
+      ]
     },
     {
       "id": "poco-m6-plus-5g-8-128",
@@ -1565,14 +3423,179 @@
       "ram": "8GB",
       "storage": "128GB",
       "price": 13499,
-      "mrp": 14999,
+      "mrp": 14499,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
       "colors": [
         "Ice Silver",
         "Graphite Black"
+      ]
+    },
+    {
+      "id": "poco-m6-pro-5g-4-64",
+      "modelId": "poco-m6-pro-5g",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 9999,
+      "mrp": 10999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Forest Green",
+        "Power Black"
+      ]
+    },
+    {
+      "id": "poco-m6-pro-5g-6-128",
+      "modelId": "poco-m6-pro-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 10999,
+      "mrp": 12999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Forest Green",
+        "Power Black"
+      ]
+    },
+    {
+      "id": "poco-m6-5g-4-128",
+      "modelId": "poco-m6-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 8999,
+      "mrp": 9999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Galactic Black",
+        "Orion Blue"
+      ]
+    },
+    {
+      "id": "poco-m6-5g-8-256",
+      "modelId": "poco-m6-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 10999,
+      "mrp": 12499,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Galactic Black",
+        "Orion Blue"
+      ]
+    },
+    {
+      "id": "poco-c65-4-128",
+      "modelId": "poco-c65",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 6999,
+      "mrp": 8499,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Matte Black",
+        "Pastel Blue"
+      ]
+    },
+    {
+      "id": "poco-c65-8-256",
+      "modelId": "poco-c65",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 8499,
+      "mrp": 9999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Matte Black",
+        "Pastel Blue"
+      ]
+    },
+    {
+      "id": "poco-c61-4-64",
+      "modelId": "poco-c61",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 5999,
+      "mrp": 6999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Mystical Green",
+        "Diamond Dust Black"
+      ]
+    },
+    {
+      "id": "poco-c61-6-128",
+      "modelId": "poco-c61",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 6999,
+      "mrp": 7999,
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / POCO India",
+      "colors": [
+        "Mystical Green",
+        "Diamond Dust Black"
+      ]
+    },
+    {
+      "id": "vivo-x200-pro-16-512",
+      "modelId": "vivo-x200-pro",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 94999,
+      "mrp": 94999,
+      "colors": [
+        "Titanium Grey",
+        "Carbon Black"
       ],
       "status": "active",
       "verified": true,
-      "source": "POCO India / Flipkart"
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-x200-12-256",
+      "modelId": "vivo-x200",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 65999,
+      "mrp": 65999,
+      "colors": [
+        "Aurora Green",
+        "Midnight Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-x200-16-512",
+      "modelId": "vivo-x200",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 71999,
+      "mrp": 71999,
+      "colors": [
+        "Aurora Green",
+        "Midnight Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
     },
     {
       "id": "vivo-x100-pro-16-512",
@@ -1584,6 +3607,64 @@
       "colors": [
         "Asteroid Black",
         "Sunset Orange"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-x100-12-256",
+      "modelId": "vivo-x100",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 63999,
+      "mrp": 63999,
+      "colors": [
+        "Stargaze Blue",
+        "Asteroid Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-x100-16-512",
+      "modelId": "vivo-x100",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 69999,
+      "mrp": 69999,
+      "colors": [
+        "Stargaze Blue",
+        "Asteroid Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-x90-pro-12-256",
+      "modelId": "vivo-x90-pro",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 74999,
+      "mrp": 84999,
+      "colors": [
+        "Legend Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-x-fold-3-pro-16-512",
+      "modelId": "vivo-x-fold-3-pro",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 159999,
+      "mrp": 159999,
+      "colors": [
+        "Celestial Black"
       ],
       "status": "active",
       "verified": true,
@@ -1620,6 +3701,156 @@
       "source": "Vivo India Official Store"
     },
     {
+      "id": "vivo-v40-8-128",
+      "modelId": "vivo-v40",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 34999,
+      "mrp": 34999,
+      "colors": [
+        "Ganges Blue",
+        "Titanium Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v40-12-512",
+      "modelId": "vivo-v40",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 41999,
+      "mrp": 41999,
+      "colors": [
+        "Ganges Blue",
+        "Titanium Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v40e-8-128",
+      "modelId": "vivo-v40e",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 28999,
+      "mrp": 28999,
+      "colors": [
+        "Royal Bronze",
+        "Mint Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v40e-8-256",
+      "modelId": "vivo-v40e",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 30999,
+      "mrp": 30999,
+      "colors": [
+        "Royal Bronze",
+        "Mint Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v30-pro-8-256",
+      "modelId": "vivo-v30-pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 41999,
+      "mrp": 41999,
+      "colors": [
+        "Andaman Blue",
+        "Classic Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v30-pro-12-512",
+      "modelId": "vivo-v30-pro",
+      "ram": "12GB",
+      "storage": "512GB",
+      "price": 46999,
+      "mrp": 46999,
+      "colors": [
+        "Andaman Blue",
+        "Classic Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v30-8-128",
+      "modelId": "vivo-v30",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 33999,
+      "mrp": 33999,
+      "colors": [
+        "Andaman Blue",
+        "Peacock Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v30-12-256",
+      "modelId": "vivo-v30",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 37999,
+      "mrp": 37999,
+      "colors": [
+        "Andaman Blue",
+        "Peacock Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v29-pro-8-256",
+      "modelId": "vivo-v29-pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 39999,
+      "mrp": 39999,
+      "colors": [
+        "Himalayan Blue",
+        "Space Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-v29-pro-12-256",
+      "modelId": "vivo-v29-pro",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 42999,
+      "mrp": 42999,
+      "colors": [
+        "Himalayan Blue",
+        "Space Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
       "id": "vivo-t3-ultra-8-128",
       "modelId": "vivo-t3-ultra",
       "ram": "8GB",
@@ -1632,22 +3863,7 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "Vivo India / Flipkart"
-    },
-    {
-      "id": "vivo-t3-ultra-8-256",
-      "modelId": "vivo-t3-ultra",
-      "ram": "8GB",
-      "storage": "256GB",
-      "price": 33999,
-      "mrp": 33999,
-      "colors": [
-        "Frost Green",
-        "Lunar Grey"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Vivo India / Flipkart"
+      "source": "Flipkart / Vivo India"
     },
     {
       "id": "vivo-t3-ultra-12-256",
@@ -1662,7 +3878,67 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "Vivo India / Flipkart"
+      "source": "Flipkart / Vivo India"
+    },
+    {
+      "id": "vivo-t3-pro-5g-8-128",
+      "modelId": "vivo-t3-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 24999,
+      "mrp": 24999,
+      "colors": [
+        "Sandstone Orange",
+        "Emerald Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / Vivo India"
+    },
+    {
+      "id": "vivo-t3-pro-5g-8-256",
+      "modelId": "vivo-t3-pro-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 26999,
+      "mrp": 26999,
+      "colors": [
+        "Sandstone Orange",
+        "Emerald Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / Vivo India"
+    },
+    {
+      "id": "vivo-t3-5g-8-128",
+      "modelId": "vivo-t3-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 19999,
+      "mrp": 19999,
+      "colors": [
+        "Crystal Flake",
+        "Cosmic Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / Vivo India"
+    },
+    {
+      "id": "vivo-t3-5g-8-256",
+      "modelId": "vivo-t3-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 21999,
+      "mrp": 21999,
+      "colors": [
+        "Crystal Flake",
+        "Cosmic Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / Vivo India"
     },
     {
       "id": "vivo-t3x-5g-4-128",
@@ -1677,22 +3953,7 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "Vivo India / Flipkart"
-    },
-    {
-      "id": "vivo-t3x-5g-6-128",
-      "modelId": "vivo-t3x-5g",
-      "ram": "6GB",
-      "storage": "128GB",
-      "price": 14999,
-      "mrp": 14999,
-      "colors": [
-        "Celestial Green",
-        "Crimson Bliss"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Vivo India / Flipkart"
+      "source": "Flipkart / Vivo India"
     },
     {
       "id": "vivo-t3x-5g-8-128",
@@ -1707,7 +3968,97 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "Vivo India / Flipkart"
+      "source": "Flipkart / Vivo India"
+    },
+    {
+      "id": "vivo-t3-lite-5g-4-128",
+      "modelId": "vivo-t3-lite-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 10499,
+      "mrp": 10499,
+      "colors": [
+        "Vibrant Green",
+        "Majestic Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / Vivo India"
+    },
+    {
+      "id": "vivo-t3-lite-5g-6-128",
+      "modelId": "vivo-t3-lite-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 11499,
+      "mrp": 11499,
+      "colors": [
+        "Vibrant Green",
+        "Majestic Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / Vivo India"
+    },
+    {
+      "id": "vivo-y200-5g-8-128",
+      "modelId": "vivo-y200-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 21999,
+      "mrp": 21999,
+      "colors": [
+        "Desert Gold",
+        "Jungle Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-y200-5g-8-256",
+      "modelId": "vivo-y200-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 23999,
+      "mrp": 23999,
+      "colors": [
+        "Desert Gold",
+        "Jungle Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-y28-5g-4-128",
+      "modelId": "vivo-y28-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 13999,
+      "mrp": 13999,
+      "colors": [
+        "Glitter Aqua",
+        "Crystal Purple"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
+    },
+    {
+      "id": "vivo-y28-5g-8-128",
+      "modelId": "vivo-y28-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 16999,
+      "mrp": 16999,
+      "colors": [
+        "Glitter Aqua",
+        "Crystal Purple"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Vivo India Official Store"
     },
     {
       "id": "iqoo-13-5g-12-256",
@@ -1722,7 +4073,7 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "iQOO India / Amazon India"
+      "source": "Amazon India / iQOO India"
     },
     {
       "id": "iqoo-13-5g-16-512",
@@ -1737,7 +4088,67 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "iQOO India / Amazon India"
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-12-5g-12-256",
+      "modelId": "iqoo-12-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 52999,
+      "mrp": 52999,
+      "colors": [
+        "Legend (White)",
+        "Alpha (Black)"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-12-5g-16-512",
+      "modelId": "iqoo-12-5g",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 57999,
+      "mrp": 57999,
+      "colors": [
+        "Legend (White)",
+        "Alpha (Black)"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-11-5g-8-256",
+      "modelId": "iqoo-11-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 49999,
+      "mrp": 59999,
+      "colors": [
+        "Legend (White)",
+        "Alpha (Black)"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-11-5g-16-256",
+      "modelId": "iqoo-11-5g",
+      "ram": "16GB",
+      "storage": "256GB",
+      "price": 54999,
+      "mrp": 64999,
+      "colors": [
+        "Legend (White)",
+        "Alpha (Black)"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
     },
     {
       "id": "iqoo-neo-9-pro-5g-8-128",
@@ -1752,22 +4163,82 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "iQOO India / Amazon India"
+      "source": "Amazon India / iQOO India"
     },
     {
-      "id": "iqoo-neo-9-pro-5g-8-256",
+      "id": "iqoo-neo-9-pro-5g-12-256",
       "modelId": "iqoo-neo-9-pro-5g",
-      "ram": "8GB",
+      "ram": "12GB",
       "storage": "256GB",
-      "price": 37999,
-      "mrp": 39999,
+      "price": 39999,
+      "mrp": 41999,
       "colors": [
         "Fiery Red",
         "Conqueror Black"
       ],
       "status": "active",
       "verified": true,
-      "source": "iQOO India / Amazon India"
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-neo-7-pro-5g-8-128",
+      "modelId": "iqoo-neo-7-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 29999,
+      "mrp": 34999,
+      "colors": [
+        "Fearless Flame",
+        "Dark Storm"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-neo-7-pro-5g-12-256",
+      "modelId": "iqoo-neo-7-pro-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 33999,
+      "mrp": 37999,
+      "colors": [
+        "Fearless Flame",
+        "Dark Storm"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-neo-7-5g-8-128",
+      "modelId": "iqoo-neo-7-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 24999,
+      "mrp": 29999,
+      "colors": [
+        "Frost Blue",
+        "Interstellar Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-neo-7-5g-12-256",
+      "modelId": "iqoo-neo-7-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 27999,
+      "mrp": 33999,
+      "colors": [
+        "Frost Blue",
+        "Interstellar Black"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
     },
     {
       "id": "iqoo-z9s-pro-5g-8-128",
@@ -1782,22 +4253,112 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "iQOO India / Amazon India"
+      "source": "Amazon India / iQOO India"
     },
     {
-      "id": "iqoo-z9s-pro-5g-8-256",
+      "id": "iqoo-z9s-pro-5g-12-256",
       "modelId": "iqoo-z9s-pro-5g",
-      "ram": "8GB",
+      "ram": "12GB",
       "storage": "256GB",
-      "price": 26999,
-      "mrp": 26999,
+      "price": 28999,
+      "mrp": 28999,
       "colors": [
         "Luxe Marble",
         "Flamboyant Orange"
       ],
       "status": "active",
       "verified": true,
-      "source": "iQOO India / Amazon India"
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-z9s-5g-8-128",
+      "modelId": "iqoo-z9s-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 19999,
+      "mrp": 19999,
+      "colors": [
+        "Titanium Matte",
+        "Onyx Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-z9s-5g-12-256",
+      "modelId": "iqoo-z9s-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 23999,
+      "mrp": 23999,
+      "colors": [
+        "Titanium Matte",
+        "Onyx Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-z9-5g-8-128",
+      "modelId": "iqoo-z9-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 17999,
+      "mrp": 19999,
+      "colors": [
+        "Brushed Green",
+        "Graphene Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-z9-5g-8-256",
+      "modelId": "iqoo-z9-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 19999,
+      "mrp": 21999,
+      "colors": [
+        "Brushed Green",
+        "Graphene Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-z9x-5g-4-128",
+      "modelId": "iqoo-z9x-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 12499,
+      "mrp": 12999,
+      "colors": [
+        "Tornado Green",
+        "Storm Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
+    },
+    {
+      "id": "iqoo-z9x-5g-8-128",
+      "modelId": "iqoo-z9x-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 15499,
+      "mrp": 15999,
+      "colors": [
+        "Tornado Green",
+        "Storm Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / iQOO India"
     },
     {
       "id": "oppo-find-x8-pro-16-512",
@@ -1809,6 +4370,51 @@
       "colors": [
         "Space Black",
         "Pearl White"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-find-x8-12-256",
+      "modelId": "oppo-find-x8",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 69999,
+      "mrp": 69999,
+      "colors": [
+        "Starry Black",
+        "Space Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-find-x8-16-512",
+      "modelId": "oppo-find-x8",
+      "ram": "16GB",
+      "storage": "512GB",
+      "price": 79999,
+      "mrp": 79999,
+      "colors": [
+        "Starry Black",
+        "Space Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-find-n3-flip-12-256",
+      "modelId": "oppo-find-n3-flip",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 94999,
+      "mrp": 94999,
+      "colors": [
+        "Cream Gold",
+        "Sleek Black"
       ],
       "status": "active",
       "verified": true,
@@ -1845,6 +4451,81 @@
       "source": "OPPO India Official Store"
     },
     {
+      "id": "oppo-reno-12-5g-8-256",
+      "modelId": "oppo-reno-12-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 32999,
+      "mrp": 32999,
+      "colors": [
+        "Sunset Peach",
+        "Astro Silver"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-reno-11-pro-5g-12-256",
+      "modelId": "oppo-reno-11-pro-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 37999,
+      "mrp": 39999,
+      "colors": [
+        "Pearl White",
+        "Rock Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-reno-11-5g-8-128",
+      "modelId": "oppo-reno-11-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 27999,
+      "mrp": 29999,
+      "colors": [
+        "Wave Green",
+        "Rock Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-reno-11-5g-8-256",
+      "modelId": "oppo-reno-11-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 31999,
+      "mrp": 33999,
+      "colors": [
+        "Wave Green",
+        "Rock Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-reno-10-pro-plus-5g-12-256",
+      "modelId": "oppo-reno-10-pro-plus-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 49999,
+      "mrp": 54999,
+      "colors": [
+        "Glossy Purple",
+        "Silvery Grey"
+      ],
+      "status": "discontinued",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
       "id": "oppo-f27-pro-plus-5g-8-128",
       "modelId": "oppo-f27-pro-plus-5g",
       "ram": "8GB",
@@ -1875,6 +4556,126 @@
       "source": "OPPO India Official Store"
     },
     {
+      "id": "oppo-f27-5g-8-128",
+      "modelId": "oppo-f27-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 22999,
+      "mrp": 22999,
+      "colors": [
+        "Amber Orange",
+        "Emerald Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-f27-5g-8-256",
+      "modelId": "oppo-f27-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 24999,
+      "mrp": 24999,
+      "colors": [
+        "Amber Orange",
+        "Emerald Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-f25-pro-5g-8-128",
+      "modelId": "oppo-f25-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 23999,
+      "mrp": 23999,
+      "colors": [
+        "Lava Red",
+        "Ocean Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-f25-pro-5g-8-256",
+      "modelId": "oppo-f25-pro-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 25999,
+      "mrp": 25999,
+      "colors": [
+        "Lava Red",
+        "Ocean Blue"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-k12x-5g-6-128",
+      "modelId": "oppo-k12x-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 12999,
+      "mrp": 12999,
+      "colors": [
+        "Breeze Blue",
+        "Midnight Violet"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / OPPO India"
+    },
+    {
+      "id": "oppo-k12x-5g-8-256",
+      "modelId": "oppo-k12x-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 15999,
+      "mrp": 15999,
+      "colors": [
+        "Breeze Blue",
+        "Midnight Violet"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / OPPO India"
+    },
+    {
+      "id": "oppo-a3-pro-5g-8-128",
+      "modelId": "oppo-a3-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 17999,
+      "mrp": 17999,
+      "colors": [
+        "Starry Black",
+        "Moonlight Purple"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
+      "id": "oppo-a3-pro-5g-8-256",
+      "modelId": "oppo-a3-pro-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 19999,
+      "mrp": 19999,
+      "colors": [
+        "Starry Black",
+        "Moonlight Purple"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "OPPO India Official Store"
+    },
+    {
       "id": "realme-gt-7-pro-12-256",
       "modelId": "realme-gt-7-pro",
       "ram": "12GB",
@@ -1887,7 +4688,7 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "realme India Official Store"
+      "source": "Amazon India / realme India"
     },
     {
       "id": "realme-gt-7-pro-16-512",
@@ -1902,7 +4703,7 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "realme India Official Store"
+      "source": "Amazon India / realme India"
     },
     {
       "id": "realme-gt-6-8-256",
@@ -1917,37 +4718,52 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "realme India Official Store"
-    },
-    {
-      "id": "realme-gt-6-12-256",
-      "modelId": "realme-gt-6",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 41999,
-      "mrp": 43999,
-      "colors": [
-        "Fluid Silver",
-        "Razor Green"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "realme India Official Store"
+      "source": "Amazon India / realme India"
     },
     {
       "id": "realme-gt-6-16-512",
       "modelId": "realme-gt-6",
       "ram": "16GB",
       "storage": "512GB",
-      "price": 44999,
-      "mrp": 47999,
+      "price": 42999,
+      "mrp": 44999,
       "colors": [
         "Fluid Silver",
         "Razor Green"
       ],
       "status": "active",
       "verified": true,
-      "source": "realme India Official Store"
+      "source": "Amazon India / realme India"
+    },
+    {
+      "id": "realme-gt-6t-8-128",
+      "modelId": "realme-gt-6t",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 30999,
+      "mrp": 30999,
+      "colors": [
+        "Fluid Silver",
+        "Razor Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / realme India"
+    },
+    {
+      "id": "realme-gt-6t-12-256",
+      "modelId": "realme-gt-6t",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 33999,
+      "mrp": 33999,
+      "colors": [
+        "Fluid Silver",
+        "Razor Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / realme India"
     },
     {
       "id": "realme-13-pro-plus-5g-8-256",
@@ -1962,7 +4778,7 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "realme India Official Store"
+      "source": "Flipkart / realme India"
     },
     {
       "id": "realme-13-pro-plus-5g-12-512",
@@ -1977,888 +4793,1882 @@
       ],
       "status": "active",
       "verified": true,
-      "source": "realme India Official Store"
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "motorola-edge-50-ultra-12gb-512gb",
-      "modelId": "motorola-edge-50-ultra",
-      "modelName": "Motorola Edge 50 Ultra",
-      "brand": "Motorola",
-      "variantName": "12GB + 512GB",
-      "ram": "12GB",
-      "storage": "512GB",
-      "price": 54999,
-      "mrp": 64999,
-      "colors": [
-        "Nordic Wood",
-        "Peach Fuzz",
-        "Forest Grey"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "motorola-edge-50-pro-8gb-256gb",
-      "modelId": "motorola-edge-50-pro",
-      "modelName": "Motorola Edge 50 Pro",
-      "brand": "Motorola",
-      "variantName": "8GB + 256GB (68W Charger)",
+      "id": "realme-13-pro-5g-8-128",
+      "modelId": "realme-13-pro-5g",
       "ram": "8GB",
+      "storage": "128GB",
+      "price": 26999,
+      "mrp": 26999,
+      "colors": [
+        "Monet Gold",
+        "Monet Purple"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-13-pro-5g-12-256",
+      "modelId": "realme-13-pro-5g",
+      "ram": "12GB",
       "storage": "256GB",
       "price": 29999,
-      "mrp": 36999,
-      "colors": [
-        "Moonlight Pearl",
-        "Luxe Lavender",
-        "Black Beauty"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "motorola-edge-50-pro-12gb-256gb",
-      "modelId": "motorola-edge-50-pro",
-      "modelName": "Motorola Edge 50 Pro",
-      "brand": "Motorola",
-      "variantName": "12GB + 256GB (125W Charger)",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 34999,
-      "mrp": 41999,
-      "colors": [
-        "Moonlight Pearl",
-        "Luxe Lavender",
-        "Black Beauty"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "motorola-edge-50-fusion-8gb-128gb",
-      "modelId": "motorola-edge-50-fusion",
-      "modelName": "Motorola Edge 50 Fusion",
-      "brand": "Motorola",
-      "variantName": "8GB + 128GB",
-      "ram": "8GB",
-      "storage": "128GB",
-      "price": 20999,
-      "mrp": 25999,
-      "colors": [
-        "Marshmallow Blue",
-        "Hot Pink",
-        "Forest Blue"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "motorola-edge-50-fusion-12gb-256gb",
-      "modelId": "motorola-edge-50-fusion",
-      "modelName": "Motorola Edge 50 Fusion",
-      "brand": "Motorola",
-      "variantName": "12GB + 256GB",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 22999,
-      "mrp": 27999,
-      "colors": [
-        "Marshmallow Blue",
-        "Hot Pink",
-        "Forest Blue"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "motorola-edge-50-neo-8gb-256gb",
-      "modelId": "motorola-edge-50-neo",
-      "modelName": "Motorola Edge 50 Neo",
-      "brand": "Motorola",
-      "variantName": "8GB + 256GB",
-      "ram": "8GB",
-      "storage": "256GB",
-      "price": 22999,
       "mrp": 29999,
       "colors": [
-        "Pantone Poinciana",
-        "Pantone Lattè",
-        "Pantone Grisaille",
-        "Pantone Nautical Blue"
+        "Monet Gold",
+        "Monet Purple"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "moto-g85-5g-8gb-128gb",
-      "modelId": "moto-g85-5g",
-      "modelName": "Moto G85 5G",
-      "brand": "Motorola",
-      "variantName": "8GB + 128GB",
+      "id": "realme-13-plus-5g-8-128",
+      "modelId": "realme-13-plus-5g",
       "ram": "8GB",
       "storage": "128GB",
-      "price": 16999,
-      "mrp": 20999,
-      "colors": [
-        "Cobalt Blue",
-        "Olive Green",
-        "Urban Grey"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "moto-g85-5g-12gb-256gb",
-      "modelId": "moto-g85-5g",
-      "modelName": "Moto G85 5G",
-      "brand": "Motorola",
-      "variantName": "12GB + 256GB",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 18999,
+      "price": 22999,
       "mrp": 22999,
       "colors": [
-        "Cobalt Blue",
-        "Olive Green",
-        "Urban Grey"
+        "Victory Gold",
+        "Speed Green"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "moto-g64-5g-8gb-128gb",
-      "modelId": "moto-g64-5g",
-      "modelName": "Moto G64 5G",
-      "brand": "Motorola",
-      "variantName": "8GB + 128GB",
+      "id": "realme-13-plus-5g-12-256",
+      "modelId": "realme-13-plus-5g",
+      "ram": "12GB",
+      "storage": "256GB",
+      "price": 26999,
+      "mrp": 26999,
+      "colors": [
+        "Victory Gold",
+        "Speed Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-13-5g-8-128",
+      "modelId": "realme-13-5g",
       "ram": "8GB",
       "storage": "128GB",
-      "price": 13999,
+      "price": 17999,
       "mrp": 17999,
       "colors": [
-        "Mint Green",
-        "Pearl Blue",
-        "Ice Lilac"
+        "Speed Green",
+        "Dark Purple"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "moto-g64-5g-12gb-256gb",
-      "modelId": "moto-g64-5g",
-      "modelName": "Moto G64 5G",
-      "brand": "Motorola",
-      "variantName": "12GB + 256GB",
-      "ram": "12GB",
+      "id": "realme-13-5g-8-256",
+      "modelId": "realme-13-5g",
+      "ram": "8GB",
       "storage": "256GB",
-      "price": 15999,
+      "price": 19999,
       "mrp": 19999,
       "colors": [
-        "Mint Green",
-        "Pearl Blue",
-        "Ice Lilac"
+        "Speed Green",
+        "Dark Purple"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "moto-g45-5g-4gb-128gb",
-      "modelId": "moto-g45-5g",
-      "modelName": "Moto G45 5G",
-      "brand": "Motorola",
-      "variantName": "4GB + 128GB",
-      "ram": "4GB",
-      "storage": "128GB",
-      "price": 9999,
-      "mrp": 12999,
-      "colors": [
-        "Brilliant Blue",
-        "Viva Magenta",
-        "Brilliant Green"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "moto-g45-5g-8gb-128gb",
-      "modelId": "moto-g45-5g",
-      "modelName": "Moto G45 5G",
-      "brand": "Motorola",
-      "variantName": "8GB + 128GB",
+      "id": "realme-12-pro-plus-5g-8-128",
+      "modelId": "realme-12-pro-plus-5g",
       "ram": "8GB",
       "storage": "128GB",
-      "price": 11999,
-      "mrp": 14999,
-      "colors": [
-        "Brilliant Blue",
-        "Viva Magenta",
-        "Brilliant Green"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "nothing-phone-2-8gb-128gb",
-      "modelId": "nothing-phone-2",
-      "modelName": "Nothing Phone (2)",
-      "brand": "Nothing",
-      "variantName": "8GB + 128GB",
-      "ram": "8GB",
-      "storage": "128GB",
-      "price": 36999,
-      "mrp": 44999,
-      "colors": [
-        "Dark Grey",
-        "White"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "nothing-phone-2-12gb-256gb",
-      "modelId": "nothing-phone-2",
-      "modelName": "Nothing Phone (2)",
-      "brand": "Nothing",
-      "variantName": "12GB + 256GB",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 39999,
-      "mrp": 49999,
-      "colors": [
-        "Dark Grey",
-        "White"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "nothing-phone-2-12gb-512gb",
-      "modelId": "nothing-phone-2",
-      "modelName": "Nothing Phone (2)",
-      "brand": "Nothing",
-      "variantName": "12GB + 512GB",
-      "ram": "12GB",
-      "storage": "512GB",
-      "price": 44999,
-      "mrp": 54999,
-      "colors": [
-        "Dark Grey",
-        "White"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "nothing-phone-2a-plus-8gb-256gb",
-      "modelId": "nothing-phone-2a-plus",
-      "modelName": "Nothing Phone (2a) Plus",
-      "brand": "Nothing",
-      "variantName": "8GB + 256GB",
-      "ram": "8GB",
-      "storage": "256GB",
       "price": 27999,
       "mrp": 29999,
       "colors": [
-        "Metallic Grey",
-        "Black"
+        "Submarine Blue",
+        "Navigator Beige"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "nothing-phone-2a-plus-12gb-256gb",
-      "modelId": "nothing-phone-2a-plus",
-      "modelName": "Nothing Phone (2a) Plus",
-      "brand": "Nothing",
-      "variantName": "12GB + 256GB",
+      "id": "realme-12-pro-plus-5g-12-256",
+      "modelId": "realme-12-pro-plus-5g",
       "ram": "12GB",
       "storage": "256GB",
-      "price": 29999,
-      "mrp": 31999,
+      "price": 31999,
+      "mrp": 33999,
       "colors": [
-        "Metallic Grey",
-        "Black"
+        "Submarine Blue",
+        "Navigator Beige"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "nothing-phone-2a-8gb-128gb",
-      "modelId": "nothing-phone-2a",
-      "modelName": "Nothing Phone (2a)",
-      "brand": "Nothing",
-      "variantName": "8GB + 128GB",
+      "id": "realme-12-pro-5g-8-128",
+      "modelId": "realme-12-pro-5g",
       "ram": "8GB",
       "storage": "128GB",
       "price": 23999,
       "mrp": 25999,
       "colors": [
-        "Black",
-        "White",
-        "Blue"
+        "Submarine Blue",
+        "Navigator Beige"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "nothing-phone-2a-8gb-256gb",
-      "modelId": "nothing-phone-2a",
-      "modelName": "Nothing Phone (2a)",
-      "brand": "Nothing",
-      "variantName": "8GB + 256GB",
+      "id": "realme-12-pro-5g-8-256",
+      "modelId": "realme-12-pro-5g",
       "ram": "8GB",
       "storage": "256GB",
       "price": 25999,
       "mrp": 27999,
       "colors": [
-        "Black",
-        "White",
-        "Blue"
+        "Submarine Blue",
+        "Navigator Beige"
       ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      "status": "discontinued",
+      "verified": true,
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "nothing-phone-2a-12gb-256gb",
-      "modelId": "nothing-phone-2a",
-      "modelName": "Nothing Phone (2a)",
-      "brand": "Nothing",
-      "variantName": "12GB + 256GB",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 27999,
-      "mrp": 29999,
-      "colors": [
-        "Black",
-        "White",
-        "Special Edition"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "cmf-phone-1-6gb-128gb",
-      "modelId": "cmf-phone-1",
-      "modelName": "CMF Phone 1",
-      "brand": "CMF",
-      "variantName": "6GB + 128GB",
-      "ram": "6GB",
-      "storage": "128GB",
-      "price": 15999,
-      "mrp": 19999,
-      "colors": [
-        "Black",
-        "Orange",
-        "Light Green"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "cmf-phone-1-8gb-128gb",
-      "modelId": "cmf-phone-1",
-      "modelName": "CMF Phone 1",
-      "brand": "CMF",
-      "variantName": "8GB + 128GB",
+      "id": "realme-12-plus-5g-8-128",
+      "modelId": "realme-12-plus-5g",
       "ram": "8GB",
       "storage": "128GB",
-      "price": 17999,
-      "mrp": 21999,
+      "price": 18999,
+      "mrp": 20999,
       "colors": [
-        "Black",
-        "Orange",
-        "Light Green",
-        "Blue"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "asus-rog-phone-8-pro-16gb-512gb",
-      "modelId": "asus-rog-phone-8-pro",
-      "modelName": "ROG Phone 8 Pro",
-      "brand": "ASUS",
-      "variantName": "16GB + 512GB",
-      "ram": "16GB",
-      "storage": "512GB",
-      "price": 94999,
-      "mrp": 104999,
-      "colors": [
-        "Phantom Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "asus-rog-phone-8-pro-24gb-1tb",
-      "modelId": "asus-rog-phone-8-pro",
-      "modelName": "ROG Phone 8 Pro",
-      "brand": "ASUS",
-      "variantName": "24GB + 1TB",
-      "ram": "24GB",
-      "storage": "1TB",
-      "price": 119999,
-      "mrp": 129999,
-      "colors": [
-        "Phantom Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "asus-rog-phone-9-pro-16gb-512gb",
-      "modelId": "asus-rog-phone-9-pro",
-      "modelName": "ROG Phone 9 Pro",
-      "brand": "ASUS",
-      "variantName": "16GB + 512GB",
-      "ram": "16GB",
-      "storage": "512GB",
-      "price": 99999,
-      "mrp": 119999,
-      "colors": [
-        "Phantom Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "asus-rog-phone-9-pro-24gb-1tb",
-      "modelId": "asus-rog-phone-9-pro",
-      "modelName": "ROG Phone 9 Pro",
-      "brand": "ASUS",
-      "variantName": "24GB + 1TB",
-      "ram": "24GB",
-      "storage": "1TB",
-      "price": 129999,
-      "mrp": 149999,
-      "colors": [
-        "Phantom Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
-    },
-    {
-      "id": "infinix-gt-20-pro-8-256",
-      "modelId": "infinix-gt-20-pro",
-      "ram": "8GB",
-      "storage": "256GB",
-      "price": 22999,
-      "mrp": 24999,
-      "colors": [
-        "Mecha Silver",
-        "Mecha Blue",
-        "Mecha Orange"
+        "Pioneer Green",
+        "Navigator Beige"
       ],
       "status": "active",
       "verified": true,
-      "source": "Infinix India / Flipkart"
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "infinix-gt-20-pro-12-256",
-      "modelId": "infinix-gt-20-pro",
+      "id": "realme-12-plus-5g-8-256",
+      "modelId": "realme-12-plus-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 21999,
+      "mrp": 23999,
+      "colors": [
+        "Pioneer Green",
+        "Navigator Beige"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-12x-5g-4-128",
+      "modelId": "realme-12x-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 11999,
+      "mrp": 11999,
+      "colors": [
+        "Twilight Purple",
+        "Woodland Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-12x-5g-8-128",
+      "modelId": "realme-12x-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 13999,
+      "mrp": 13999,
+      "colors": [
+        "Twilight Purple",
+        "Woodland Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-p1-pro-5g-8-128",
+      "modelId": "realme-p1-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 19999,
+      "mrp": 21999,
+      "colors": [
+        "Parrot Blue",
+        "Phoenix Red"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-p1-pro-5g-8-256",
+      "modelId": "realme-p1-pro-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 21999,
+      "mrp": 23999,
+      "colors": [
+        "Parrot Blue",
+        "Phoenix Red"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-p1-5g-6-128",
+      "modelId": "realme-p1-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 14999,
+      "mrp": 15999,
+      "colors": [
+        "Peacock Green",
+        "Phoenix Red"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-p1-5g-8-256",
+      "modelId": "realme-p1-5g",
+      "ram": "8GB",
+      "storage": "256GB",
+      "price": 16999,
+      "mrp": 17999,
+      "colors": [
+        "Peacock Green",
+        "Phoenix Red"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-p2-pro-5g-8-128",
+      "modelId": "realme-p2-pro-5g",
+      "ram": "8GB",
+      "storage": "128GB",
+      "price": 21999,
+      "mrp": 21999,
+      "colors": [
+        "Parrot Green",
+        "Eagle Grey"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-p2-pro-5g-12-256",
+      "modelId": "realme-p2-pro-5g",
       "ram": "12GB",
       "storage": "256GB",
       "price": 24999,
-      "mrp": 26999,
+      "mrp": 24999,
       "colors": [
-        "Mecha Silver",
-        "Mecha Blue",
-        "Mecha Orange"
+        "Parrot Green",
+        "Eagle Grey"
       ],
       "status": "active",
       "verified": true,
-      "source": "Infinix India / Flipkart"
+      "source": "Flipkart / realme India"
     },
     {
-      "id": "infinix-zero-40-5g-12-256",
-      "modelId": "infinix-zero-40-5g",
-      "ram": "12GB",
-      "storage": "256GB",
-      "price": 27999,
-      "mrp": 29999,
-      "colors": [
-        "Violet Garden",
-        "Moving Titanium",
-        "Rock Black"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Infinix India / Flipkart"
-    },
-    {
-      "id": "infinix-zero-40-5g-12-512",
-      "modelId": "infinix-zero-40-5g",
-      "ram": "12GB",
-      "storage": "512GB",
-      "price": 30999,
-      "mrp": 32999,
-      "colors": [
-        "Moving Titanium",
-        "Rock Black"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Infinix India / Flipkart"
-    },
-    {
-      "id": "tecno-camon-30-premier-5g-12-512",
-      "modelId": "tecno-camon-30-premier-5g",
-      "ram": "12GB",
-      "storage": "512GB",
-      "price": 36999,
-      "mrp": 39999,
-      "colors": [
-        "Alps Snowy Silver",
-        "Hawaii Lava Black"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Tecno India Official Store"
-    },
-    {
-      "id": "tecno-pova-6-pro-5g-8-256",
-      "modelId": "tecno-pova-6-pro-5g",
+      "id": "realme-narzo-70-pro-5g-8-128",
+      "modelId": "realme-narzo-70-pro-5g",
       "ram": "8GB",
-      "storage": "256GB",
+      "storage": "128GB",
       "price": 18999,
       "mrp": 19999,
       "colors": [
-        "Meteorite Grey",
-        "Comet Green"
+        "Glass Green",
+        "Glass Gold"
       ],
       "status": "active",
       "verified": true,
-      "source": "Tecno India Official Store"
+      "source": "Amazon India / realme India"
     },
     {
-      "id": "tecno-pova-6-pro-5g-12-256",
-      "modelId": "tecno-pova-6-pro-5g",
-      "ram": "12GB",
+      "id": "realme-narzo-70-pro-5g-8-256",
+      "modelId": "realme-narzo-70-pro-5g",
+      "ram": "8GB",
       "storage": "256GB",
       "price": 20999,
       "mrp": 21999,
       "colors": [
-        "Meteorite Grey",
-        "Comet Green"
+        "Glass Green",
+        "Glass Gold"
       ],
       "status": "active",
       "verified": true,
-      "source": "Tecno India Official Store"
+      "source": "Amazon India / realme India"
     },
     {
-      "id": "lava-agni-3-5g-8-128",
-      "modelId": "lava-agni-3-5g",
-      "ram": "8GB",
+      "id": "realme-narzo-70-turbo-5g-6-128",
+      "modelId": "realme-narzo-70-turbo-5g",
+      "ram": "6GB",
       "storage": "128GB",
-      "price": 20999,
-      "mrp": 20999,
+      "price": 16999,
+      "mrp": 16999,
       "colors": [
-        "Pristine Glass",
-        "Heather Glass"
+        "Turbo Yellow",
+        "Turbo Green"
       ],
       "status": "active",
       "verified": true,
-      "source": "Lava International Store"
+      "source": "Amazon India / realme India"
     },
     {
-      "id": "lava-agni-3-5g-8-256",
-      "modelId": "lava-agni-3-5g",
-      "ram": "8GB",
-      "storage": "256GB",
-      "price": 24999,
-      "mrp": 24999,
-      "colors": [
-        "Pristine Glass",
-        "Heather Glass"
-      ],
-      "status": "active",
-      "verified": true,
-      "source": "Lava International Store"
-    },
-    {
-      "id": "lava-blaze-curve-5g-8-128",
-      "modelId": "lava-blaze-curve-5g",
+      "id": "realme-narzo-70-turbo-5g-8-128",
+      "modelId": "realme-narzo-70-turbo-5g",
       "ram": "8GB",
       "storage": "128GB",
       "price": 17999,
       "mrp": 17999,
       "colors": [
-        "Iron Glass",
-        "Viridian Glass"
+        "Turbo Yellow",
+        "Turbo Green"
       ],
       "status": "active",
       "verified": true,
-      "source": "Lava International Store"
+      "source": "Amazon India / realme India"
+    },
+    {
+      "id": "realme-narzo-70x-5g-4-128",
+      "modelId": "realme-narzo-70x-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 11999,
+      "mrp": 11999,
+      "colors": [
+        "Ice Blue",
+        "Forest Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / realme India"
+    },
+    {
+      "id": "realme-narzo-70x-5g-6-128",
+      "modelId": "realme-narzo-70x-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 12999,
+      "mrp": 12999,
+      "colors": [
+        "Ice Blue",
+        "Forest Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Amazon India / realme India"
+    },
+    {
+      "id": "realme-c65-5g-4-64",
+      "modelId": "realme-c65-5g",
+      "ram": "4GB",
+      "storage": "64GB",
+      "price": 10499,
+      "mrp": 10499,
+      "colors": [
+        "Feather Green",
+        "Glowing Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-c65-5g-6-128",
+      "modelId": "realme-c65-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 12499,
+      "mrp": 12499,
+      "colors": [
+        "Feather Green",
+        "Glowing Black"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-c63-5g-4-128",
+      "modelId": "realme-c63-5g",
+      "ram": "4GB",
+      "storage": "128GB",
+      "price": 10999,
+      "mrp": 10999,
+      "colors": [
+        "Starry Gold",
+        "Forest Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "realme-c63-5g-6-128",
+      "modelId": "realme-c63-5g",
+      "ram": "6GB",
+      "storage": "128GB",
+      "price": 11999,
+      "mrp": 11999,
+      "colors": [
+        "Starry Gold",
+        "Forest Green"
+      ],
+      "status": "active",
+      "verified": true,
+      "source": "Flipkart / realme India"
+    },
+    {
+      "id": "motorola-razr-50-ultra-12gb-512gb",
+      "modelId": "motorola-razr-50-ultra",
+      "name": "Motorola Razr 50 Ultra (12GB RAM, 512GB)",
+      "ram": "12GB",
+      "storage": "512GB",
+      "color": "Midnight Blue",
+      "price": 89999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Midnight Blue"
+      ]
+    },
+    {
+      "id": "motorola-razr-40-ultra-8gb-256gb",
+      "modelId": "motorola-razr-40-ultra",
+      "name": "Motorola Razr 40 Ultra (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Infinite Black",
+      "price": 49999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Infinite Black"
+      ]
+    },
+    {
+      "id": "motorola-edge-50-ultra-12gb-512gb",
+      "modelId": "motorola-edge-50-ultra",
+      "name": "Motorola Edge 50 Ultra (12GB RAM, 512GB)",
+      "ram": "12GB",
+      "storage": "512GB",
+      "color": "Nordic Wood",
+      "price": 54999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Nordic Wood"
+      ]
+    },
+    {
+      "id": "motorola-edge-50-pro-8gb-256gb",
+      "modelId": "motorola-edge-50-pro",
+      "name": "Motorola Edge 50 Pro (8GB RAM, 256GB, 68W Charger)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Luxe Lavender",
+      "price": 29999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Luxe Lavender"
+      ]
+    },
+    {
+      "id": "motorola-edge-50-pro-12gb-256gb",
+      "modelId": "motorola-edge-50-pro",
+      "name": "Motorola Edge 50 Pro (12GB RAM, 256GB, 125W Charger)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Black Beauty",
+      "price": 33999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Black Beauty"
+      ]
+    },
+    {
+      "id": "motorola-edge-50-fusion-8gb-128gb",
+      "modelId": "motorola-edge-50-fusion",
+      "name": "Motorola Edge 50 Fusion (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Marshmallow Blue",
+      "price": 20999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Marshmallow Blue"
+      ]
+    },
+    {
+      "id": "motorola-edge-50-fusion-12gb-256gb",
+      "modelId": "motorola-edge-50-fusion",
+      "name": "Motorola Edge 50 Fusion (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Hot Pink",
+      "price": 22999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Hot Pink"
+      ]
+    },
+    {
+      "id": "motorola-edge-50-neo-8gb-256gb",
+      "modelId": "motorola-edge-50-neo",
+      "name": "Motorola Edge 50 Neo (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Poinciana",
+      "price": 23999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Poinciana"
+      ]
+    },
+    {
+      "id": "motorola-edge-40-8gb-256gb",
+      "modelId": "motorola-edge-40",
+      "name": "Motorola Edge 40 (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Eclipse Black",
+      "price": 26999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Eclipse Black"
+      ]
+    },
+    {
+      "id": "motorola-edge-40-neo-8gb-128gb",
+      "modelId": "motorola-edge-40-neo",
+      "name": "Motorola Edge 40 Neo (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Caneel Bay",
+      "price": 20999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Caneel Bay"
+      ]
+    },
+    {
+      "id": "motorola-edge-40-neo-12gb-256gb",
+      "modelId": "motorola-edge-40-neo",
+      "name": "Motorola Edge 40 Neo (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Black Onyx",
+      "price": 22999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Black Onyx"
+      ]
+    },
+    {
+      "id": "motorola-edge-30-ultra-8gb-128gb",
+      "modelId": "motorola-edge-30-ultra",
+      "name": "Motorola Edge 30 Ultra (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Interstellar Black",
+      "price": 44999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Interstellar Black"
+      ]
+    },
+    {
+      "id": "motorola-edge-30-fusion-8gb-128gb",
+      "modelId": "motorola-edge-30-fusion",
+      "name": "Motorola Edge 30 Fusion (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Cosmic Grey",
+      "price": 34999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Cosmic Grey"
+      ]
+    },
+    {
+      "id": "motorola-edge-30-pro-8gb-128gb",
+      "modelId": "motorola-edge-30-pro",
+      "name": "Motorola Edge 30 Pro (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Cosmos Blue",
+      "price": 39999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Cosmos Blue"
+      ]
+    },
+    {
+      "id": "moto-g85-5g-8gb-128gb",
+      "modelId": "moto-g85-5g",
+      "name": "Moto G85 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Olive Green",
+      "price": 16999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Olive Green"
+      ]
+    },
+    {
+      "id": "moto-g85-5g-12gb-256gb",
+      "modelId": "moto-g85-5g",
+      "name": "Moto G85 5G (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Cobalt Blue",
+      "price": 18999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Cobalt Blue"
+      ]
+    },
+    {
+      "id": "motorola-moto-g84-5g-12gb-256gb",
+      "modelId": "motorola-moto-g84-5g",
+      "name": "Moto G84 5G (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Viva Magenta",
+      "price": 16999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Viva Magenta"
+      ]
+    },
+    {
+      "id": "moto-g64-5g-8gb-128gb",
+      "modelId": "moto-g64-5g",
+      "name": "Moto G64 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Pearl Blue",
+      "price": 13999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Pearl Blue"
+      ]
+    },
+    {
+      "id": "moto-g64-5g-12gb-256gb",
+      "modelId": "moto-g64-5g",
+      "name": "Moto G64 5G (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Mint Green",
+      "price": 15999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Mint Green"
+      ]
+    },
+    {
+      "id": "motorola-moto-g54-5g-8gb-128gb",
+      "modelId": "motorola-moto-g54-5g",
+      "name": "Moto G54 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Midnight Blue",
+      "price": 12999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Midnight Blue"
+      ]
+    },
+    {
+      "id": "motorola-moto-g54-5g-12gb-256gb",
+      "modelId": "motorola-moto-g54-5g",
+      "name": "Moto G54 5G (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Pearl Blue",
+      "price": 14999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Pearl Blue"
+      ]
+    },
+    {
+      "id": "moto-g45-5g-4gb-128gb",
+      "modelId": "moto-g45-5g",
+      "name": "Moto G45 5G (4GB RAM, 128GB)",
+      "ram": "4GB",
+      "storage": "128GB",
+      "color": "Brilliant Blue",
+      "price": 9999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Brilliant Blue"
+      ]
+    },
+    {
+      "id": "moto-g45-5g-8gb-128gb",
+      "modelId": "moto-g45-5g",
+      "name": "Moto G45 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Viva Magenta",
+      "price": 11999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Viva Magenta"
+      ]
+    },
+    {
+      "id": "motorola-moto-g24-power-4gb-128gb",
+      "modelId": "motorola-moto-g24-power",
+      "name": "Moto G24 Power (4GB RAM, 128GB)",
+      "ram": "4GB",
+      "storage": "128GB",
+      "color": "Glacier Blue",
+      "price": 7999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Glacier Blue"
+      ]
+    },
+    {
+      "id": "motorola-moto-g24-power-8gb-128gb",
+      "modelId": "motorola-moto-g24-power",
+      "name": "Moto G24 Power (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Ink Blue",
+      "price": 8999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Ink Blue"
+      ]
+    },
+    {
+      "id": "motorola-moto-g73-5g-8gb-128gb",
+      "modelId": "motorola-moto-g73-5g",
+      "name": "Moto G73 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Midnight Blue",
+      "price": 16999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Midnight Blue"
+      ]
+    },
+    {
+      "id": "motorola-moto-g82-5g-6gb-128gb",
+      "modelId": "motorola-moto-g82-5g",
+      "name": "Moto G82 5G (6GB RAM, 128GB)",
+      "ram": "6GB",
+      "storage": "128GB",
+      "color": "Meteorite Gray",
+      "price": 19999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Meteorite Gray"
+      ]
+    },
+    {
+      "id": "nothing-phone-2-8gb-128gb",
+      "modelId": "nothing-phone-2",
+      "name": "Nothing Phone (2) (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Dark Grey",
+      "price": 36999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Dark Grey"
+      ]
+    },
+    {
+      "id": "nothing-phone-2-12gb-256gb",
+      "modelId": "nothing-phone-2",
+      "name": "Nothing Phone (2) (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "White",
+      "price": 39999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "White"
+      ]
+    },
+    {
+      "id": "nothing-phone-2-12gb-512gb",
+      "modelId": "nothing-phone-2",
+      "name": "Nothing Phone (2) (12GB RAM, 512GB)",
+      "ram": "12GB",
+      "storage": "512GB",
+      "color": "Dark Grey",
+      "price": 44999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Dark Grey"
+      ]
+    },
+    {
+      "id": "nothing-phone-2a-plus-8gb-256gb",
+      "modelId": "nothing-phone-2a-plus",
+      "name": "Nothing Phone (2a) Plus (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Metallic Grey",
+      "price": 27999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Metallic Grey"
+      ]
+    },
+    {
+      "id": "nothing-phone-2a-plus-12gb-256gb",
+      "modelId": "nothing-phone-2a-plus",
+      "name": "Nothing Phone (2a) Plus (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Black",
+      "price": 29999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Black"
+      ]
+    },
+    {
+      "id": "nothing-phone-2a-8gb-128gb",
+      "modelId": "nothing-phone-2a",
+      "name": "Nothing Phone (2a) (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Black",
+      "price": 23999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Black"
+      ]
+    },
+    {
+      "id": "nothing-phone-2a-8gb-256gb",
+      "modelId": "nothing-phone-2a",
+      "name": "Nothing Phone (2a) (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "White",
+      "price": 25999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "White"
+      ]
+    },
+    {
+      "id": "nothing-phone-2a-12gb-256gb",
+      "modelId": "nothing-phone-2a",
+      "name": "Nothing Phone (2a) (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Special Edition",
+      "price": 27999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Special Edition"
+      ]
+    },
+    {
+      "id": "nothing-phone-1-8gb-128gb",
+      "modelId": "nothing-phone-1",
+      "name": "Nothing Phone (1) (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Black",
+      "price": 27999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Black"
+      ]
+    },
+    {
+      "id": "nothing-phone-1-8gb-256gb",
+      "modelId": "nothing-phone-1",
+      "name": "Nothing Phone (1) (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "White",
+      "price": 29999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "White"
+      ]
+    },
+    {
+      "id": "nothing-phone-1-12gb-256gb",
+      "modelId": "nothing-phone-1",
+      "name": "Nothing Phone (1) (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Black",
+      "price": 33999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Black"
+      ]
+    },
+    {
+      "id": "cmf-phone-1-6gb-128gb",
+      "modelId": "cmf-phone-1",
+      "name": "CMF Phone 1 (6GB RAM, 128GB)",
+      "ram": "6GB",
+      "storage": "128GB",
+      "color": "Black",
+      "price": 15999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Black"
+      ]
+    },
+    {
+      "id": "cmf-phone-1-8gb-128gb",
+      "modelId": "cmf-phone-1",
+      "name": "CMF Phone 1 (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Orange",
+      "price": 17999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Orange"
+      ]
+    },
+    {
+      "id": "asus-rog-phone-9-pro-16gb-512gb",
+      "modelId": "asus-rog-phone-9-pro",
+      "name": "ASUS ROG Phone 9 Pro (16GB RAM, 512GB)",
+      "ram": "16GB",
+      "storage": "512GB",
+      "color": "Phantom Black",
+      "price": 119999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Phantom Black"
+      ]
+    },
+    {
+      "id": "asus-rog-phone-9-pro-24gb-1tb",
+      "modelId": "asus-rog-phone-9-pro",
+      "name": "ASUS ROG Phone 9 Pro Edition (24GB RAM, 1TB with AeroActive Cooler X Pro)",
+      "ram": "24GB",
+      "storage": "1TB",
+      "color": "Phantom Black",
+      "price": 139999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Phantom Black"
+      ]
+    },
+    {
+      "id": "asus-rog-phone-8-pro-16gb-512gb",
+      "modelId": "asus-rog-phone-8-pro",
+      "name": "ASUS ROG Phone 8 Pro (16GB RAM, 512GB)",
+      "ram": "16GB",
+      "storage": "512GB",
+      "color": "Phantom Black",
+      "price": 94999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Phantom Black"
+      ]
+    },
+    {
+      "id": "asus-rog-phone-8-pro-24gb-1tb",
+      "modelId": "asus-rog-phone-8-pro",
+      "name": "ASUS ROG Phone 8 Pro Edition (24GB RAM, 1TB with AeroActive Cooler X)",
+      "ram": "24GB",
+      "storage": "1TB",
+      "color": "Phantom Black",
+      "price": 119999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Phantom Black"
+      ]
+    },
+    {
+      "id": "asus-rog-phone-7-ultimate-16gb-512gb",
+      "modelId": "asus-rog-phone-7-ultimate",
+      "name": "ASUS ROG Phone 7 Ultimate (16GB RAM, 512GB)",
+      "ram": "16GB",
+      "storage": "512GB",
+      "color": "Storm White",
+      "price": 99999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Storm White"
+      ]
+    },
+    {
+      "id": "asus-rog-phone-6-12gb-256gb",
+      "modelId": "asus-rog-phone-6",
+      "name": "ASUS ROG Phone 6 (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Phantom Black",
+      "price": 71999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Phantom Black"
+      ]
+    },
+    {
+      "id": "asus-8z-8gb-128gb",
+      "modelId": "asus-8z",
+      "name": "ASUS 8z (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Obsidian Black",
+      "price": 42999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Obsidian Black"
+      ]
+    },
+    {
+      "id": "infinix-gt-20-pro-8-256",
+      "modelId": "infinix-gt-20-pro",
+      "name": "Infinix GT 20 Pro (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Mecha Silver",
+      "price": 22999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Mecha Silver"
+      ]
+    },
+    {
+      "id": "infinix-gt-20-pro-12-256",
+      "modelId": "infinix-gt-20-pro",
+      "name": "Infinix GT 20 Pro (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Mecha Blue",
+      "price": 24999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Mecha Blue"
+      ]
+    },
+    {
+      "id": "infinix-gt-10-pro-8-256",
+      "modelId": "infinix-gt-10-pro",
+      "name": "Infinix GT 10 Pro (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Cyber Black",
+      "price": 19999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Cyber Black"
+      ]
+    },
+    {
+      "id": "infinix-zero-40-5g-12-256",
+      "modelId": "infinix-zero-40-5g",
+      "name": "Infinix Zero 40 5G (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Violet Garden",
+      "price": 27999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Violet Garden"
+      ]
+    },
+    {
+      "id": "infinix-zero-40-5g-12-512",
+      "modelId": "infinix-zero-40-5g",
+      "name": "Infinix Zero 40 5G (12GB RAM, 512GB)",
+      "ram": "12GB",
+      "storage": "512GB",
+      "color": "Rock Black",
+      "price": 30999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Rock Black"
+      ]
+    },
+    {
+      "id": "infinix-zero-30-5g-8-256",
+      "modelId": "infinix-zero-30-5g",
+      "name": "Infinix Zero 30 5G (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Golden Hour",
+      "price": 21999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Golden Hour"
+      ]
+    },
+    {
+      "id": "infinix-zero-30-5g-12-256",
+      "modelId": "infinix-zero-30-5g",
+      "name": "Infinix Zero 30 5G (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Rome Green",
+      "price": 23999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Rome Green"
+      ]
+    },
+    {
+      "id": "infinix-zero-ultra-8-256",
+      "modelId": "infinix-zero-ultra",
+      "name": "Infinix Zero Ultra (8GB RAM, 256GB, 180W Charge)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Cosima Silver",
+      "price": 32999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Cosima Silver"
+      ]
+    },
+    {
+      "id": "infinix-zero-5g-2023-8-128",
+      "modelId": "infinix-zero-5g-2023",
+      "name": "Infinix Zero 5G 2023 (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Submarine Black",
+      "price": 16999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Submarine Black"
+      ]
+    },
+    {
+      "id": "infinix-note-30-5g-4-128",
+      "modelId": "infinix-note-30-5g",
+      "name": "Infinix Note 30 5G (4GB RAM, 128GB)",
+      "ram": "4GB",
+      "storage": "128GB",
+      "color": "Magic Black",
+      "price": 14999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Magic Black"
+      ]
+    },
+    {
+      "id": "infinix-note-30-5g-8-256",
+      "modelId": "infinix-note-30-5g",
+      "name": "Infinix Note 30 5G (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Sunset Gold",
+      "price": 15999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Sunset Gold"
+      ]
+    },
+    {
+      "id": "infinix-hot-40-pro-8-128",
+      "modelId": "infinix-hot-40-pro",
+      "name": "Infinix Hot 40 Pro (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Palm Blue",
+      "price": 12999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Palm Blue"
+      ]
+    },
+    {
+      "id": "infinix-hot-30-5g-4-128",
+      "modelId": "infinix-hot-30-5g",
+      "name": "Infinix Hot 30 5G (4GB RAM, 128GB)",
+      "ram": "4GB",
+      "storage": "128GB",
+      "color": "Knight Black",
+      "price": 11499,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Knight Black"
+      ]
+    },
+    {
+      "id": "infinix-smart-8-hd-3-64",
+      "modelId": "infinix-smart-8-hd",
+      "name": "Infinix Smart 8 HD (3GB RAM, 64GB)",
+      "ram": "3GB",
+      "storage": "64GB",
+      "color": "Crystal Green",
+      "price": 6299,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Crystal Green"
+      ]
+    },
+    {
+      "id": "tecno-phantom-v-fold-12-256",
+      "modelId": "tecno-phantom-v-fold",
+      "name": "Tecno Phantom V Fold (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Black",
+      "price": 69999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Black"
+      ]
+    },
+    {
+      "id": "tecno-phantom-v-flip-5g-8-256",
+      "modelId": "tecno-phantom-v-flip-5g",
+      "name": "Tecno Phantom V Flip 5G (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Mystic Dawn",
+      "price": 49999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Mystic Dawn"
+      ]
+    },
+    {
+      "id": "tecno-camon-30-premier-5g-12-512",
+      "modelId": "tecno-camon-30-premier-5g",
+      "name": "Tecno Camon 30 Premier 5G (12GB RAM, 512GB)",
+      "ram": "12GB",
+      "storage": "512GB",
+      "color": "Alps Snowy Silver",
+      "price": 39999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Alps Snowy Silver"
+      ]
+    },
+    {
+      "id": "tecno-camon-30-5g-8-256",
+      "modelId": "tecno-camon-30-5g",
+      "name": "Tecno Camon 30 5G (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Iceland Basalt Dark",
+      "price": 22999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Iceland Basalt Dark"
+      ]
+    },
+    {
+      "id": "tecno-pova-6-pro-5g-8-256",
+      "modelId": "tecno-pova-6-pro-5g",
+      "name": "Tecno Pova 6 Pro 5G (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Meteorite Grey",
+      "price": 19999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Meteorite Grey"
+      ]
+    },
+    {
+      "id": "tecno-pova-6-pro-5g-12-256",
+      "modelId": "tecno-pova-6-pro-5g",
+      "name": "Tecno Pova 6 Pro 5G (12GB RAM, 256GB)",
+      "ram": "12GB",
+      "storage": "256GB",
+      "color": "Comet Green",
+      "price": 21999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Comet Green"
+      ]
+    },
+    {
+      "id": "tecno-pova-5-pro-8-128",
+      "modelId": "tecno-pova-5-pro",
+      "name": "Tecno Pova 5 Pro 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Silver Fantasy",
+      "price": 14999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Silver Fantasy"
+      ]
+    },
+    {
+      "id": "tecno-spark-20-pro-plus-8-256",
+      "modelId": "tecno-spark-20-pro-plus",
+      "name": "Tecno Spark 20 Pro Plus (8GB RAM, 256GB)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Temporal Orbits",
+      "price": 15999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Temporal Orbits"
+      ]
+    },
+    {
+      "id": "tecno-pop-8-4-64",
+      "modelId": "tecno-pop-8",
+      "name": "Tecno Pop 8 (4GB RAM, 64GB)",
+      "ram": "4GB",
+      "storage": "64GB",
+      "color": "Gravity Black",
+      "price": 5999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Gravity Black"
+      ]
+    },
+    {
+      "id": "lava-agni-3-5g-8-128",
+      "modelId": "lava-agni-3-5g",
+      "name": "Lava Agni 3 5G (8GB RAM, 128GB without charger)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Heather Glass",
+      "price": 20999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Heather Glass"
+      ]
+    },
+    {
+      "id": "lava-agni-3-5g-8-256",
+      "modelId": "lava-agni-3-5g",
+      "name": "Lava Agni 3 5G (8GB RAM, 256GB with 66W charger)",
+      "ram": "8GB",
+      "storage": "256GB",
+      "color": "Pristine Glass",
+      "price": 24999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Pristine Glass"
+      ]
+    },
+    {
+      "id": "lava-agni-5g-8-128",
+      "modelId": "lava-agni-5g",
+      "name": "Lava Agni 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Fiery Blue",
+      "price": 17999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Fiery Blue"
+      ]
+    },
+    {
+      "id": "lava-blaze-curve-5g-8-128",
+      "modelId": "lava-blaze-curve-5g",
+      "name": "Lava Blaze Curve 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Iron Glass",
+      "price": 17999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Iron Glass"
+      ]
     },
     {
       "id": "lava-blaze-curve-5g-8-256",
       "modelId": "lava-blaze-curve-5g",
+      "name": "Lava Blaze Curve 5G (8GB RAM, 256GB)",
       "ram": "8GB",
       "storage": "256GB",
+      "color": "Viridian Glass",
       "price": 18999,
-      "mrp": 18999,
-      "colors": [
-        "Iron Glass",
-        "Viridian Glass"
-      ],
+      "currency": "INR",
       "status": "active",
       "verified": true,
-      "source": "Lava International Store"
+      "colors": [
+        "Viridian Glass"
+      ]
+    },
+    {
+      "id": "lava-blaze-x-5g-6-128",
+      "modelId": "lava-blaze-x-5g",
+      "name": "Lava Blaze X 5G (6GB RAM, 128GB)",
+      "ram": "6GB",
+      "storage": "128GB",
+      "color": "Starlight Purple",
+      "price": 14999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Starlight Purple"
+      ]
+    },
+    {
+      "id": "lava-blaze-x-5g-8-128",
+      "modelId": "lava-blaze-x-5g",
+      "name": "Lava Blaze X 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Titanium Grey",
+      "price": 16999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Titanium Grey"
+      ]
+    },
+    {
+      "id": "lava-blaze-5g-6-128",
+      "modelId": "lava-blaze-5g",
+      "name": "Lava Blaze 5G (6GB RAM, 128GB)",
+      "ram": "6GB",
+      "storage": "128GB",
+      "color": "Glass Blue",
+      "price": 9999,
+      "currency": "INR",
+      "status": "discontinued",
+      "verified": true,
+      "colors": [
+        "Glass Blue"
+      ]
+    },
+    {
+      "id": "lava-blaze-2-6-128",
+      "modelId": "lava-blaze-2",
+      "name": "Lava Blaze 2 (6GB RAM, 128GB)",
+      "ram": "6GB",
+      "storage": "128GB",
+      "color": "Glass Black",
+      "price": 8999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Glass Black"
+      ]
+    },
+    {
+      "id": "lava-storm-5g-8-128",
+      "modelId": "lava-storm-5g",
+      "name": "Lava Storm 5G (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Gale Green",
+      "price": 11999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Gale Green"
+      ]
+    },
+    {
+      "id": "lava-yuva-3-pro-8-128",
+      "modelId": "lava-yuva-3-pro",
+      "name": "Lava Yuva 3 Pro (8GB RAM, 128GB)",
+      "ram": "8GB",
+      "storage": "128GB",
+      "color": "Desert Gold",
+      "price": 8999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Desert Gold"
+      ]
     },
     {
       "id": "hmd-skyline-12-256",
       "modelId": "hmd-skyline",
+      "name": "HMD Skyline (12GB RAM, 256GB, Qi2 Wireless)",
       "ram": "12GB",
       "storage": "256GB",
+      "color": "Topaz Blue",
       "price": 35999,
-      "mrp": 35999,
-      "colors": [
-        "Neon Pink",
-        "Topaz Blue",
-        "Twisted Black"
-      ],
+      "currency": "INR",
       "status": "active",
       "verified": true,
-      "source": "HMD Global India"
+      "colors": [
+        "Topaz Blue"
+      ]
     },
     {
       "id": "hmd-crest-max-5g-8-256",
       "modelId": "hmd-crest-max-5g",
+      "name": "HMD Crest Max 5G (8GB RAM, 256GB, Self-Repairable)",
       "ram": "8GB",
       "storage": "256GB",
-      "price": 16499,
-      "mrp": 16499,
-      "colors": [
-        "Deep Purple",
-        "Royal Pink",
-        "Aqua Green"
-      ],
+      "color": "Aqua Green",
+      "price": 14999,
+      "currency": "INR",
       "status": "active",
       "verified": true,
-      "source": "HMD Global India / Amazon India"
+      "colors": [
+        "Aqua Green"
+      ]
+    },
+    {
+      "id": "hmd-crest-5g-6-128",
+      "modelId": "hmd-crest-5g",
+      "name": "HMD Crest 5G (6GB RAM, 128GB, Self-Repairable)",
+      "ram": "6GB",
+      "storage": "128GB",
+      "color": "Midnight Blue",
+      "price": 12999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
+      "colors": [
+        "Midnight Blue"
+      ]
     },
     {
       "id": "honor-magic-6-pro-12gb-512gb",
       "modelId": "honor-magic-6-pro",
-      "modelName": "Honor Magic 6 Pro",
-      "brand": "Honor",
-      "variantName": "12GB + 512GB",
+      "name": "Honor Magic 6 Pro (12GB RAM, 512GB)",
       "ram": "12GB",
       "storage": "512GB",
+      "color": "Epi Green",
       "price": 89999,
-      "mrp": 109999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Epi Green",
-        "Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+        "Epi Green"
+      ]
     },
     {
       "id": "honor-200-pro-12gb-512gb",
       "modelId": "honor-200-pro",
-      "modelName": "Honor 200 Pro",
-      "brand": "Honor",
-      "variantName": "12GB + 512GB",
+      "name": "Honor 200 Pro (12GB RAM, 512GB)",
       "ram": "12GB",
       "storage": "512GB",
+      "color": "Ocean Cyan",
       "price": 49999,
-      "mrp": 64999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Ocean Cyan",
-        "Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+        "Ocean Cyan"
+      ]
     },
     {
       "id": "honor-200-8gb-256gb",
       "modelId": "honor-200",
-      "modelName": "Honor 200",
-      "brand": "Honor",
-      "variantName": "8GB + 256GB",
+      "name": "Honor 200 (8GB RAM, 256GB)",
       "ram": "8GB",
       "storage": "256GB",
+      "color": "Moonlight White",
       "price": 31999,
-      "mrp": 39999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Moonlight White",
-        "Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+        "Moonlight White"
+      ]
     },
     {
       "id": "honor-200-12gb-512gb",
       "modelId": "honor-200",
-      "modelName": "Honor 200",
-      "brand": "Honor",
-      "variantName": "12GB + 512GB",
+      "name": "Honor 200 (12GB RAM, 512GB)",
       "ram": "12GB",
       "storage": "512GB",
+      "color": "Black",
       "price": 34999,
-      "mrp": 44999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Moonlight White",
         "Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      ]
     },
     {
       "id": "honor-x9b-8gb-256gb",
       "modelId": "honor-x9b",
-      "modelName": "Honor X9b",
-      "brand": "Honor",
-      "variantName": "8GB + 256GB",
+      "name": "Honor X9b (8GB RAM, 256GB)",
       "ram": "8GB",
       "storage": "256GB",
+      "color": "Sunrise Orange",
       "price": 19999,
-      "mrp": 28999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Sunrise Orange",
-        "Midnight Black"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+        "Sunrise Orange"
+      ]
     },
     {
       "id": "itel-color-pro-5g-6gb-128gb",
       "modelId": "itel-color-pro-5g",
-      "modelName": "Itel Color Pro 5G",
-      "brand": "Itel",
-      "variantName": "6GB + 128GB",
+      "name": "Itel Color Pro 5G (6GB RAM, 128GB)",
       "ram": "6GB",
       "storage": "128GB",
+      "color": "River Blue",
       "price": 9999,
-      "mrp": 12999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "River Blue",
-        "Lavender Fantasy"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+        "River Blue"
+      ]
     },
     {
       "id": "itel-p55-5g-4gb-64gb",
       "modelId": "itel-p55-5g",
-      "modelName": "Itel P55 5G",
-      "brand": "Itel",
-      "variantName": "4GB + 64GB",
+      "name": "Itel P55 5G (4GB RAM, 64GB)",
       "ram": "4GB",
       "storage": "64GB",
+      "color": "Galaxy Blue",
       "price": 8999,
-      "mrp": 10999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Galaxy Blue",
-        "Mint Green"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+        "Galaxy Blue"
+      ]
     },
     {
       "id": "itel-p55-5g-6gb-128gb",
       "modelId": "itel-p55-5g",
-      "modelName": "Itel P55 5G",
-      "brand": "Itel",
-      "variantName": "6GB + 128GB",
+      "name": "Itel P55 5G (6GB RAM, 128GB)",
       "ram": "6GB",
       "storage": "128GB",
+      "color": "Mint Green",
       "price": 9999,
-      "mrp": 11999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Galaxy Blue",
         "Mint Green"
-      ],
-      "connectivity": "5G",
-      "inStock": true,
-      "verified": true
+      ]
     },
     {
       "id": "itel-s24-8gb-128gb",
       "modelId": "itel-s24",
-      "modelName": "Itel S24",
-      "brand": "Itel",
-      "variantName": "8GB + 128GB",
+      "name": "Itel S24 (8GB RAM, 128GB)",
       "ram": "8GB",
       "storage": "128GB",
+      "color": "Starry Black",
       "price": 8499,
-      "mrp": 11999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Starry Black",
-        "Coastline Blue"
-      ],
-      "connectivity": "4G",
-      "inStock": true,
-      "verified": true
+        "Starry Black"
+      ]
     },
     {
       "id": "itel-a70-3gb-64gb",
       "modelId": "itel-a70",
-      "modelName": "Itel A70",
-      "brand": "Itel",
-      "variantName": "3GB + 64GB",
+      "name": "Itel A70 (3GB RAM, 64GB)",
       "ram": "3GB",
       "storage": "64GB",
+      "color": "Brilliant Gold",
       "price": 5999,
-      "mrp": 7999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Brilliant Gold",
-        "Stylish Black"
-      ],
-      "connectivity": "4G",
-      "inStock": true,
-      "verified": true
+        "Brilliant Gold"
+      ]
     },
     {
       "id": "itel-a70-4gb-128gb",
       "modelId": "itel-a70",
-      "modelName": "Itel A70",
-      "brand": "Itel",
-      "variantName": "4GB + 128GB",
+      "name": "Itel A70 (4GB RAM, 128GB)",
       "ram": "4GB",
       "storage": "128GB",
+      "color": "Field Green",
       "price": 6799,
-      "mrp": 8999,
+      "currency": "INR",
+      "status": "active",
+      "verified": true,
       "colors": [
-        "Brilliant Gold",
         "Field Green"
-      ],
-      "connectivity": "4G",
-      "inStock": true,
-      "verified": true
+      ]
     }
   ]
 }

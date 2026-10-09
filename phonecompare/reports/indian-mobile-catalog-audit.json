@@ -1,14 +1,15 @@
 {
-  "timestamp": "2026-10-09T11:40:08.791Z",
+  "timestamp": "2026-10-09T17:32:50.048Z",
   "market": "India",
   "category": "Smartphones",
   "totalDiscoveredBrands": 22,
   "totalActiveBrands": 21,
   "brandsCoveredInStatic": 21,
-  "totalModels": 88,
-  "activeModels": 88,
-  "totalVariants": 176,
-  "verifiedVariants": 176,
+  "totalModels": 240,
+  "activeModels": 170,
+  "historicalModels": 70,
+  "totalVariants": 438,
+  "verifiedVariants": 438,
   "independentBrands": [
     {
       "manufacturer": "Samsung Electronics Co., Ltd.",
@@ -20,19 +21,34 @@
         "Galaxy S25+",
         "Galaxy S25",
         "Galaxy S24 Ultra",
+        "Galaxy S24+",
         "Galaxy S24",
         "Galaxy S24 FE",
+        "Galaxy S23 Ultra",
         "Galaxy S23",
+        "Galaxy S23 FE",
+        "Galaxy S22 Ultra",
+        "Galaxy S21 FE 5G",
         "Galaxy Z Fold 6",
         "Galaxy Z Flip 6",
+        "Galaxy Z Fold 5",
+        "Galaxy Z Flip 5",
         "Galaxy A55 5G",
+        "Galaxy A54 5G",
         "Galaxy A35 5G",
+        "Galaxy A34 5G",
+        "Galaxy A25 5G",
         "Galaxy A16 5G",
+        "Galaxy A15 5G",
         "Galaxy A06",
+        "Galaxy M55 5G",
         "Galaxy M35 5G",
+        "Galaxy M34 5G",
         "Galaxy M15 5G",
         "Galaxy M05",
-        "Galaxy F55 5G"
+        "Galaxy F55 5G",
+        "Galaxy F54 5G",
+        "Galaxy F15 5G"
       ]
     },
     {
@@ -45,9 +61,20 @@
         "iPhone 16 Pro",
         "iPhone 16 Plus",
         "iPhone 16",
+        "iPhone 15 Pro Max",
+        "iPhone 15 Pro",
+        "iPhone 15 Plus",
         "iPhone 15",
+        "iPhone 14 Pro Max",
+        "iPhone 14 Pro",
+        "iPhone 14 Plus",
         "iPhone 14",
-        "iPhone 13"
+        "iPhone 13 Pro Max",
+        "iPhone 13 Pro",
+        "iPhone 13 mini",
+        "iPhone 13",
+        "iPhone 12",
+        "iPhone SE (3rd Gen, 2022)"
       ]
     },
     {
@@ -60,10 +87,18 @@
         "OnePlus 13R",
         "OnePlus 12",
         "OnePlus 12R",
+        "OnePlus 11 5G",
+        "OnePlus 11R 5G",
+        "OnePlus 10 Pro 5G",
+        "OnePlus 10R 5G",
+        "OnePlus 10T 5G",
         "OnePlus Open",
         "OnePlus Nord 4",
+        "OnePlus Nord 3 5G",
         "OnePlus Nord CE4",
-        "OnePlus Nord CE4 Lite 5G"
+        "OnePlus Nord CE4 Lite 5G",
+        "OnePlus Nord CE 3 5G",
+        "OnePlus Nord CE 3 Lite 5G"
       ]
     },
     {
@@ -75,9 +110,14 @@
         "Pixel 9 Pro XL",
         "Pixel 9 Pro",
         "Pixel 9",
+        "Pixel 9 Pro Fold",
         "Pixel 8a",
         "Pixel 8",
-        "Pixel 7a"
+        "Pixel 8 Pro",
+        "Pixel 7a",
+        "Pixel 7 Pro",
+        "Pixel 7",
+        "Pixel 6a"
       ]
     },
     {
@@ -87,7 +127,12 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "Xiaomi 14 Ultra",
-        "Xiaomi 14 Civi"
+        "Xiaomi 14",
+        "Xiaomi 14 Civi",
+        "Xiaomi 13 Pro",
+        "Xiaomi 12 Pro",
+        "Xiaomi 11T Pro 5G",
+        "Xiaomi 11 Lite NE 5G"
       ]
     },
     {
@@ -97,8 +142,22 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "Redmi Note 14 Pro+ 5G",
+        "Redmi Note 14 Pro 5G",
+        "Redmi Note 14 5G",
+        "Redmi Note 13 Pro+ 5G",
+        "Redmi Note 13 Pro 5G",
+        "Redmi Note 13 5G",
+        "Redmi Note 12 Pro+ 5G",
+        "Redmi Note 12 Pro 5G",
+        "Redmi Note 12 5G",
+        "Redmi Note 11 Pro+ 5G",
+        "Redmi Note 11",
         "Redmi 13 5G",
-        "Redmi A3"
+        "Redmi 12 5G",
+        "Redmi 13C 5G",
+        "Redmi 13C",
+        "Redmi A3",
+        "Redmi A2+"
       ]
     },
     {
@@ -108,8 +167,17 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "POCO F6 5G",
+        "POCO F5 5G",
+        "POCO F4 5G",
         "POCO X6 Pro 5G",
-        "POCO M6 Plus 5G"
+        "POCO X6 5G",
+        "POCO X6 Neo 5G",
+        "POCO X5 Pro 5G",
+        "POCO M6 Plus 5G",
+        "POCO M6 Pro 5G",
+        "POCO M6 5G",
+        "POCO C65",
+        "POCO C61"
       ]
     },
     {
@@ -118,10 +186,25 @@
       "officialIndiaWebsite": "https://www.vivo.com/in/",
       "isActiveInIndia": true,
       "officialLineup": [
+        "Vivo X200 Pro",
+        "Vivo X200",
         "Vivo X100 Pro",
+        "Vivo X100",
+        "Vivo X90 Pro",
+        "Vivo X Fold3 Pro",
         "Vivo V40 Pro",
+        "Vivo V40",
+        "Vivo V40e",
+        "Vivo V30 Pro",
+        "Vivo V30",
+        "Vivo V29 Pro",
         "Vivo T3 Ultra",
-        "Vivo T3x 5G"
+        "Vivo T3 Pro 5G",
+        "Vivo T3 5G",
+        "Vivo T3x 5G",
+        "Vivo T3 Lite 5G",
+        "Vivo Y200 5G",
+        "Vivo Y28 5G"
       ]
     },
     {
@@ -131,8 +214,15 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "iQOO 13 5G",
+        "iQOO 12 5G",
+        "iQOO 11 5G",
         "iQOO Neo 9 Pro 5G",
-        "iQOO Z9s Pro 5G"
+        "iQOO Neo 7 Pro 5G",
+        "iQOO Neo 7 5G",
+        "iQOO Z9s Pro 5G",
+        "iQOO Z9s 5G",
+        "iQOO Z9 5G",
+        "iQOO Z9x 5G"
       ]
     },
     {
@@ -141,9 +231,19 @@
       "officialIndiaWebsite": "https://www.oppo.com/in/",
       "isActiveInIndia": true,
       "officialLineup": [
-        "Find X8 Pro",
-        "Reno 12 Pro 5G",
-        "F27 Pro+ 5G"
+        "OPPO Find X8 Pro",
+        "OPPO Find X8",
+        "OPPO Find N3 Flip",
+        "OPPO Reno 12 Pro 5G",
+        "OPPO Reno 12 5G",
+        "OPPO Reno 11 Pro 5G",
+        "OPPO Reno 11 5G",
+        "OPPO Reno 10 Pro+ 5G",
+        "OPPO F27 Pro+ 5G",
+        "OPPO F27 5G",
+        "OPPO F25 Pro 5G",
+        "OPPO K12x 5G",
+        "OPPO A3 Pro 5G"
       ]
     },
     {
@@ -154,7 +254,23 @@
       "officialLineup": [
         "realme GT 7 Pro",
         "realme GT 6",
-        "realme 13 Pro+ 5G"
+        "realme GT 6T",
+        "realme 13 Pro+ 5G",
+        "realme 13 Pro 5G",
+        "realme 13+ 5G",
+        "realme 13 5G",
+        "realme 12 Pro+ 5G",
+        "realme 12 Pro 5G",
+        "realme 12+ 5G",
+        "realme 12x 5G",
+        "realme P2 Pro 5G",
+        "realme P1 Pro 5G",
+        "realme P1 5G",
+        "realme Narzo 70 Pro 5G",
+        "realme Narzo 70 Turbo 5G",
+        "realme Narzo 70x 5G",
+        "realme C65 5G",
+        "realme C63 5G"
       ]
     },
     {
@@ -163,9 +279,25 @@
       "officialIndiaWebsite": "https://www.motorola.in/",
       "isActiveInIndia": true,
       "officialLineup": [
+        "Motorola Razr 50 Ultra",
+        "Motorola Razr 40 Ultra",
         "Motorola Edge 50 Ultra",
         "Motorola Edge 50 Pro",
-        "Moto G85 5G"
+        "Motorola Edge 50 Fusion",
+        "Motorola Edge 50 Neo",
+        "Motorola Edge 40",
+        "Motorola Edge 40 Neo",
+        "Motorola Edge 30 Ultra",
+        "Motorola Edge 30 Fusion",
+        "Motorola Edge 30 Pro",
+        "Moto G85 5G",
+        "Moto G84 5G",
+        "Moto G64 5G",
+        "Moto G54 5G",
+        "Moto G45 5G",
+        "Moto G24 Power",
+        "Moto G73 5G",
+        "Moto G82 5G"
       ]
     },
     {
@@ -175,7 +307,9 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "Nothing Phone (2)",
-        "Nothing Phone (2a) Plus"
+        "Nothing Phone (2a) Plus",
+        "Nothing Phone (2a)",
+        "Nothing Phone (1)"
       ]
     },
     {
@@ -193,7 +327,11 @@
       "officialIndiaWebsite": "https://rog.asus.com/in/",
       "isActiveInIndia": true,
       "officialLineup": [
-        "ROG Phone 8 Pro"
+        "ASUS ROG Phone 9 Pro",
+        "ASUS ROG Phone 8 Pro",
+        "ASUS ROG Phone 7 Ultimate",
+        "ASUS ROG Phone 6",
+        "ASUS 8z"
       ]
     },
     {
@@ -203,7 +341,15 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "Infinix GT 20 Pro",
-        "Infinix Zero 40 5G"
+        "Infinix GT 10 Pro",
+        "Infinix Zero 40 5G",
+        "Infinix Zero 30 5G",
+        "Infinix Zero Ultra",
+        "Infinix Zero 5G 2023",
+        "Infinix Note 30 5G",
+        "Infinix Hot 40 Pro",
+        "Infinix Hot 30 5G",
+        "Infinix Smart 8 HD"
       ]
     },
     {
@@ -212,8 +358,14 @@
       "officialIndiaWebsite": "https://www.tecno-mobile.in/",
       "isActiveInIndia": true,
       "officialLineup": [
+        "Tecno Phantom V Fold",
+        "Tecno Phantom V Flip 5G",
         "Tecno Camon 30 Premier 5G",
-        "Tecno Pova 6 Pro 5G"
+        "Tecno Camon 30 5G",
+        "Tecno Pova 6 Pro 5G",
+        "Tecno Pova 5 Pro 5G",
+        "Tecno Spark 20 Pro Plus",
+        "Tecno Pop 8"
       ]
     },
     {
@@ -223,7 +375,13 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "Lava Agni 3 5G",
-        "Lava Blaze Curve 5G"
+        "Lava Agni 5G",
+        "Lava Blaze Curve 5G",
+        "Lava Blaze X 5G",
+        "Lava Blaze 5G",
+        "Lava Blaze 2",
+        "Lava Storm 5G",
+        "Lava Yuva 3 Pro"
       ]
     },
     {
@@ -233,7 +391,8 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "HMD Skyline",
-        "HMD Crest Max 5G"
+        "HMD Crest Max 5G",
+        "HMD Crest 5G"
       ]
     },
     {
@@ -267,6 +426,580 @@
       "isActiveInIndia": false,
       "notes": "Sony officially exited the Indian smartphone market in 2019. Not sold via authorized Indian retail.",
       "officialLineup": []
+    }
+  ],
+  "seriesAudit": [
+    {
+      "brand": "Samsung",
+      "series": "Galaxy S Series",
+      "knownGenerations": "S25, S24, S23, S22 Ultra, S21 FE",
+      "modelsDiscovered": 12,
+      "modelsInDataset": 12,
+      "missingModelsAdded": 12,
+      "sourcesChecked": "Samsung India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Samsung",
+      "series": "Galaxy Z Series",
+      "knownGenerations": "Fold 6/5, Flip 6/5",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Samsung India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Samsung",
+      "series": "Galaxy A Series",
+      "knownGenerations": "A55/A54, A35/A34, A25, A16, A15, A06",
+      "modelsDiscovered": 8,
+      "modelsInDataset": 8,
+      "missingModelsAdded": 8,
+      "sourcesChecked": "Samsung India, Reliance Digital",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Samsung",
+      "series": "Galaxy M Series",
+      "knownGenerations": "M55, M35, M34, M15, M05",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
+      "sourcesChecked": "Amazon IN, Samsung India",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Samsung",
+      "series": "Galaxy F Series",
+      "knownGenerations": "F55, F54, F15",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "Flipkart, Samsung India",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Apple",
+      "series": "iPhone Pro/Pro Max",
+      "knownGenerations": "16 Pro/Max, 15 Pro/Max, 14 Pro/Max, 13 Pro/Max",
+      "modelsDiscovered": 8,
+      "modelsInDataset": 8,
+      "missingModelsAdded": 8,
+      "sourcesChecked": "Apple India, Imagine, Croma",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Apple",
+      "series": "iPhone Standard/Plus/mini",
+      "knownGenerations": "16/Plus, 15/Plus, 14/Plus, 13/mini, 12",
+      "modelsDiscovered": 9,
+      "modelsInDataset": 9,
+      "missingModelsAdded": 9,
+      "sourcesChecked": "Apple India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Apple",
+      "series": "iPhone SE",
+      "knownGenerations": "3rd Gen (2022)",
+      "modelsDiscovered": 1,
+      "modelsInDataset": 1,
+      "missingModelsAdded": 1,
+      "sourcesChecked": "Apple India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "OnePlus",
+      "series": "Numbered Flagship",
+      "knownGenerations": "13, 12, 11, 10 Pro, 10T",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
+      "sourcesChecked": "OnePlus India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "OnePlus",
+      "series": "R Series",
+      "knownGenerations": "13R, 12R, 11R, 10R",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "OnePlus India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "OnePlus",
+      "series": "Open (Foldable)",
+      "knownGenerations": "1st Gen",
+      "modelsDiscovered": 1,
+      "modelsInDataset": 1,
+      "missingModelsAdded": 1,
+      "sourcesChecked": "OnePlus India",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "OnePlus",
+      "series": "Nord & Nord CE",
+      "knownGenerations": "Nord 4/3, CE4/CE4 Lite/CE3/CE3 Lite",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
+      "sourcesChecked": "OnePlus India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Google",
+      "series": "Pixel Pro & Fold",
+      "knownGenerations": "9 Pro Fold, 9 Pro XL, 9 Pro, 8 Pro, 7 Pro",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
+      "sourcesChecked": "Google Store IN, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Google",
+      "series": "Pixel Base & A Series",
+      "knownGenerations": "9, 8, 8a, 7, 7a, 6a",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
+      "sourcesChecked": "Google Store IN, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Xiaomi",
+      "series": "Xiaomi Flagships",
+      "knownGenerations": "14 Ultra, 14, 13 Pro, 12 Pro",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Mi India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "Xiaomi 15 waiting for official IN launch date"
+    },
+    {
+      "brand": "Xiaomi",
+      "series": "Xiaomi Civi & T Series",
+      "knownGenerations": "14 Civi, 11T Pro, 11 Lite NE",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "Mi India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Redmi",
+      "series": "Note Pro+ / Pro",
+      "knownGenerations": "Note 14 Pro/Pro+, Note 13 Pro/Pro+, Note 12 Pro/Pro+, Note 11 Pro+",
+      "modelsDiscovered": 7,
+      "modelsInDataset": 7,
+      "missingModelsAdded": 7,
+      "sourcesChecked": "Mi India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Redmi",
+      "series": "Note Base",
+      "knownGenerations": "Note 14 5G, Note 13 5G, Note 12 5G, Note 11",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Mi India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Redmi",
+      "series": "Numbered & Budget A/C",
+      "knownGenerations": "13 5G, 12 5G, 13C 5G, 13C, A3, A2+",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
+      "sourcesChecked": "Mi India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "POCO",
+      "series": "F Series",
+      "knownGenerations": "F6, F5, F4",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "POCO India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "POCO F6 Pro global only, not in India"
+    },
+    {
+      "brand": "POCO",
+      "series": "X Series",
+      "knownGenerations": "X6 Pro, X6, X6 Neo, X5 Pro",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "POCO India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "POCO",
+      "series": "M & C Series",
+      "knownGenerations": "M6 Plus, M6 Pro, M6 5G, C65, C61",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
+      "sourcesChecked": "POCO India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Vivo",
+      "series": "X Series & Fold",
+      "knownGenerations": "X200 Pro, X200, X100 Pro, X100, X90 Pro, X Fold3 Pro",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
+      "sourcesChecked": "Vivo India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "X100 Ultra China only"
+    },
+    {
+      "brand": "Vivo",
+      "series": "V Series",
+      "knownGenerations": "V40 Pro, V40, V40e, V30 Pro, V30, V29 Pro",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
+      "sourcesChecked": "Vivo India, Croma",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Vivo",
+      "series": "T & Y Series",
+      "knownGenerations": "T3 Ultra, T3 Pro, T3, T3x, T3 Lite, Y200, Y28",
+      "modelsDiscovered": 7,
+      "modelsInDataset": 7,
+      "missingModelsAdded": 7,
+      "sourcesChecked": "Vivo India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "iQOO",
+      "series": "Numbered Flagship",
+      "knownGenerations": "13, 12, 11",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "iQOO India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "iQOO",
+      "series": "Neo Series",
+      "knownGenerations": "Neo 9 Pro, Neo 7 Pro, Neo 7",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "iQOO India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "iQOO",
+      "series": "Z Series",
+      "knownGenerations": "Z9s Pro, Z9s, Z9, Z9x",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "iQOO India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "OPPO",
+      "series": "Find Series",
+      "knownGenerations": "Find X8 Pro, Find X8, Find N3 Flip",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "OPPO India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "Find X7 series skipped India officially"
+    },
+    {
+      "brand": "OPPO",
+      "series": "Reno Series",
+      "knownGenerations": "Reno 12 Pro, Reno 12, Reno 11 Pro, Reno 11, Reno 10 Pro+",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
+      "sourcesChecked": "OPPO India, Reliance Digital",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "OPPO",
+      "series": "F, K & A Series",
+      "knownGenerations": "F27 Pro+, F27, F25 Pro, K12x, A3 Pro",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
+      "sourcesChecked": "OPPO India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "realme",
+      "series": "GT Series",
+      "knownGenerations": "GT 7 Pro, GT 6, GT 6T",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "realme India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "realme",
+      "series": "Numbered Series",
+      "knownGenerations": "13 Pro+, 13 Pro, 13+, 13, 12 Pro+, 12 Pro, 12+, 12x",
+      "modelsDiscovered": 8,
+      "modelsInDataset": 8,
+      "missingModelsAdded": 8,
+      "sourcesChecked": "realme India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "realme",
+      "series": "P Series",
+      "knownGenerations": "P2 Pro, P1 Pro, P1",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "realme India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "realme",
+      "series": "Narzo & C Series",
+      "knownGenerations": "Narzo 70 Pro/Turbo/70x, C65, C63",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
+      "sourcesChecked": "realme India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Motorola",
+      "series": "Razr Series",
+      "knownGenerations": "Razr 50 Ultra, Razr 40 Ultra",
+      "modelsDiscovered": 2,
+      "modelsInDataset": 2,
+      "missingModelsAdded": 2,
+      "sourcesChecked": "Motorola India, Reliance Digital",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Motorola",
+      "series": "Edge Series",
+      "knownGenerations": "Edge 50 Ultra/Pro/Fusion/Neo, Edge 40/Neo, Edge 30 Ultra/Fusion/Pro",
+      "modelsDiscovered": 9,
+      "modelsInDataset": 9,
+      "missingModelsAdded": 9,
+      "sourcesChecked": "Motorola India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Motorola",
+      "series": "Moto G Series",
+      "knownGenerations": "G85, G84, G64, G54, G45, G24 Power, G73, G82",
+      "modelsDiscovered": 8,
+      "modelsInDataset": 8,
+      "missingModelsAdded": 8,
+      "sourcesChecked": "Motorola India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Nothing",
+      "series": "Phone Series",
+      "knownGenerations": "Phone (2), (2a) Plus, (2a), (1)",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Nothing India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "CMF",
+      "series": "CMF Phone",
+      "knownGenerations": "CMF Phone 1",
+      "modelsDiscovered": 1,
+      "modelsInDataset": 1,
+      "missingModelsAdded": 1,
+      "sourcesChecked": "Nothing India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "ASUS",
+      "series": "ROG Phone Series",
+      "knownGenerations": "ROG 9 Pro, ROG 8 Pro, ROG 7 Ultimate, ROG 6",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "ASUS India ROG, Vijay Sales",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "ASUS",
+      "series": "Compact Flagship",
+      "knownGenerations": "ASUS 8z",
+      "modelsDiscovered": 1,
+      "modelsInDataset": 1,
+      "missingModelsAdded": 1,
+      "sourcesChecked": "Flipkart, ASUS India",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "Zenfone 9/10/11 Ultra did not launch in India"
+    },
+    {
+      "brand": "Infinix",
+      "series": "GT & Zero Series",
+      "knownGenerations": "GT 20 Pro, GT 10 Pro, Zero 40, Zero 30, Zero Ultra, Zero 5G 2023",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
+      "sourcesChecked": "Infinix India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "Zero Flip pending broader retail release"
+    },
+    {
+      "brand": "Infinix",
+      "series": "Note, Hot & Smart",
+      "knownGenerations": "Note 30, Hot 40 Pro, Hot 30, Smart 8 HD",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Infinix India, Flipkart",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Tecno",
+      "series": "Phantom Series",
+      "knownGenerations": "Phantom V Fold, Phantom V Flip",
+      "modelsDiscovered": 2,
+      "modelsInDataset": 2,
+      "missingModelsAdded": 2,
+      "sourcesChecked": "Tecno India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "Phantom V Fold2 awaiting direct Indian MRP"
+    },
+    {
+      "brand": "Tecno",
+      "series": "Camon, Pova, Spark, Pop",
+      "knownGenerations": "Camon 30 Premier/30, Pova 6 Pro/5 Pro, Spark 20 Pro+, Pop 8",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
+      "sourcesChecked": "Tecno India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Lava",
+      "series": "Agni Series",
+      "knownGenerations": "Agni 3 5G, Agni 5G",
+      "modelsDiscovered": 2,
+      "modelsInDataset": 2,
+      "missingModelsAdded": 2,
+      "sourcesChecked": "Lava India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Lava",
+      "series": "Blaze Series",
+      "knownGenerations": "Blaze Curve, Blaze X, Blaze 5G, Blaze 2",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Lava India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Lava",
+      "series": "Storm & Yuva",
+      "knownGenerations": "Storm 5G, Yuva 3 Pro",
+      "modelsDiscovered": 2,
+      "modelsInDataset": 2,
+      "missingModelsAdded": 2,
+      "sourcesChecked": "Lava India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "HMD",
+      "series": "Skyline & Crest Series",
+      "knownGenerations": "Skyline, Crest Max 5G, Crest 5G",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
+      "sourcesChecked": "HMD India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Honor",
+      "series": "Magic, Numbered & X",
+      "knownGenerations": "Magic 6 Pro, 200 Pro, 200, X9b",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Explore Honor India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
+    },
+    {
+      "brand": "Itel",
+      "series": "Color Pro, P, S & A Series",
+      "knownGenerations": "Color Pro 5G, P55 5G, S24, A70",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
+      "sourcesChecked": "Itel India, Amazon IN",
+      "auditStatus": "Complete",
+      "unresolvedGaps": "None"
     }
   ]
 }
