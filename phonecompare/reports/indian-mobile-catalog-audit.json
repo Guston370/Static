@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-10-09T17:32:50.048Z",
+  "timestamp": "2026-10-12T08:33:57.765Z",
   "market": "India",
   "category": "Smartphones",
   "totalDiscoveredBrands": 22,
   "totalActiveBrands": 21,
   "brandsCoveredInStatic": 21,
-  "totalModels": 240,
-  "activeModels": 170,
-  "historicalModels": 70,
-  "totalVariants": 438,
-  "verifiedVariants": 438,
+  "totalModels": 255,
+  "activeModels": 184,
+  "historicalModels": 71,
+  "totalVariants": 467,
+  "verifiedVariants": 467,
   "independentBrands": [
     {
       "manufacturer": "Samsung Electronics Co., Ltd.",
@@ -20,6 +20,7 @@
         "Galaxy S25 Ultra",
         "Galaxy S25+",
         "Galaxy S25",
+        "Galaxy S25 FE",
         "Galaxy S24 Ultra",
         "Galaxy S24+",
         "Galaxy S24",
@@ -35,6 +36,7 @@
         "Galaxy Z Flip 5",
         "Galaxy A55 5G",
         "Galaxy A54 5G",
+        "Galaxy A36 5G",
         "Galaxy A35 5G",
         "Galaxy A34 5G",
         "Galaxy A25 5G",
@@ -61,6 +63,7 @@
         "iPhone 16 Pro",
         "iPhone 16 Plus",
         "iPhone 16",
+        "iPhone 16e",
         "iPhone 15 Pro Max",
         "iPhone 15 Pro",
         "iPhone 15 Plus",
@@ -111,6 +114,7 @@
         "Pixel 9 Pro",
         "Pixel 9",
         "Pixel 9 Pro Fold",
+        "Pixel 9a",
         "Pixel 8a",
         "Pixel 8",
         "Pixel 8 Pro",
@@ -126,6 +130,7 @@
       "officialIndiaWebsite": "https://www.mi.com/in/",
       "isActiveInIndia": true,
       "officialLineup": [
+        "Xiaomi 15",
         "Xiaomi 14 Ultra",
         "Xiaomi 14",
         "Xiaomi 14 Civi",
@@ -169,6 +174,8 @@
         "POCO F6 5G",
         "POCO F5 5G",
         "POCO F4 5G",
+        "POCO X7 Pro 5G",
+        "POCO X7 5G",
         "POCO X6 Pro 5G",
         "POCO X6 5G",
         "POCO X6 Neo 5G",
@@ -203,6 +210,7 @@
         "Vivo T3 5G",
         "Vivo T3x 5G",
         "Vivo T3 Lite 5G",
+        "Vivo Y300 5G",
         "Vivo Y200 5G",
         "Vivo Y28 5G"
       ]
@@ -222,7 +230,8 @@
         "iQOO Z9s Pro 5G",
         "iQOO Z9s 5G",
         "iQOO Z9 5G",
-        "iQOO Z9x 5G"
+        "iQOO Z9x 5G",
+        "iQOO Z9 Lite 5G"
       ]
     },
     {
@@ -280,9 +289,11 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "Motorola Razr 50 Ultra",
+        "Motorola Razr 50",
         "Motorola Razr 40 Ultra",
         "Motorola Edge 50 Ultra",
         "Motorola Edge 50 Pro",
+        "Motorola Edge 50",
         "Motorola Edge 50 Fusion",
         "Motorola Edge 50 Neo",
         "Motorola Edge 40",
@@ -306,6 +317,8 @@
       "officialIndiaWebsite": "https://in.nothing.tech/",
       "isActiveInIndia": true,
       "officialLineup": [
+        "Nothing Phone (3)",
+        "Nothing Phone (3a)",
         "Nothing Phone (2)",
         "Nothing Phone (2a) Plus",
         "Nothing Phone (2a)",
@@ -375,6 +388,7 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "Lava Agni 3 5G",
+        "Lava Agni 2 5G",
         "Lava Agni 5G",
         "Lava Blaze Curve 5G",
         "Lava Blaze X 5G",
@@ -391,6 +405,7 @@
       "isActiveInIndia": true,
       "officialLineup": [
         "HMD Skyline",
+        "HMD Fusion",
         "HMD Crest Max 5G",
         "HMD Crest 5G"
       ]
@@ -432,10 +447,10 @@
     {
       "brand": "Samsung",
       "series": "Galaxy S Series",
-      "knownGenerations": "S25, S24, S23, S22 Ultra, S21 FE",
-      "modelsDiscovered": 12,
-      "modelsInDataset": 12,
-      "missingModelsAdded": 12,
+      "knownGenerations": "S25 Ultra/+/Base/FE, S24 Ultra/+/Base/FE, S23 Ultra/Base/FE, S22 Ultra, S21 FE",
+      "modelsDiscovered": 13,
+      "modelsInDataset": 13,
+      "missingModelsAdded": 13,
       "sourcesChecked": "Samsung India, Amazon IN",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -454,10 +469,10 @@
     {
       "brand": "Samsung",
       "series": "Galaxy A Series",
-      "knownGenerations": "A55/A54, A35/A34, A25, A16, A15, A06",
-      "modelsDiscovered": 8,
-      "modelsInDataset": 8,
-      "missingModelsAdded": 8,
+      "knownGenerations": "A55/A54, A36/A35/A34, A25, A16, A15, A06",
+      "modelsDiscovered": 9,
+      "modelsInDataset": 9,
+      "missingModelsAdded": 9,
       "sourcesChecked": "Samsung India, Reliance Digital",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -498,10 +513,10 @@
     {
       "brand": "Apple",
       "series": "iPhone Standard/Plus/mini",
-      "knownGenerations": "16/Plus, 15/Plus, 14/Plus, 13/mini, 12",
-      "modelsDiscovered": 9,
-      "modelsInDataset": 9,
-      "missingModelsAdded": 9,
+      "knownGenerations": "16e, 16/Plus, 15/Plus, 14/Plus, 13/mini, 12",
+      "modelsDiscovered": 10,
+      "modelsInDataset": 10,
+      "missingModelsAdded": 10,
       "sourcesChecked": "Apple India, Amazon IN",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -575,10 +590,10 @@
     {
       "brand": "Google",
       "series": "Pixel Base & A Series",
-      "knownGenerations": "9, 8, 8a, 7, 7a, 6a",
-      "modelsDiscovered": 6,
-      "modelsInDataset": 6,
-      "missingModelsAdded": 6,
+      "knownGenerations": "9/9a, 8/8a, 7/7a, 6a",
+      "modelsDiscovered": 7,
+      "modelsInDataset": 7,
+      "missingModelsAdded": 7,
       "sourcesChecked": "Google Store IN, Flipkart",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -586,13 +601,13 @@
     {
       "brand": "Xiaomi",
       "series": "Xiaomi Flagships",
-      "knownGenerations": "14 Ultra, 14, 13 Pro, 12 Pro",
-      "modelsDiscovered": 4,
-      "modelsInDataset": 4,
-      "missingModelsAdded": 4,
+      "knownGenerations": "15, 14 Ultra, 14, 13 Pro, 12 Pro",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
       "sourcesChecked": "Mi India, Amazon IN",
       "auditStatus": "Complete",
-      "unresolvedGaps": "Xiaomi 15 waiting for official IN launch date"
+      "unresolvedGaps": "None"
     },
     {
       "brand": "Xiaomi",
@@ -652,10 +667,10 @@
     {
       "brand": "POCO",
       "series": "X Series",
-      "knownGenerations": "X6 Pro, X6, X6 Neo, X5 Pro",
-      "modelsDiscovered": 4,
-      "modelsInDataset": 4,
-      "missingModelsAdded": 4,
+      "knownGenerations": "X7 Pro/X7, X6 Pro, X6, X6 Neo, X5 Pro",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
       "sourcesChecked": "POCO India, Flipkart",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -696,10 +711,10 @@
     {
       "brand": "Vivo",
       "series": "T & Y Series",
-      "knownGenerations": "T3 Ultra, T3 Pro, T3, T3x, T3 Lite, Y200, Y28",
-      "modelsDiscovered": 7,
-      "modelsInDataset": 7,
-      "missingModelsAdded": 7,
+      "knownGenerations": "T3 Ultra, T3 Pro, T3, T3x, T3 Lite, Y300, Y200, Y28",
+      "modelsDiscovered": 8,
+      "modelsInDataset": 8,
+      "missingModelsAdded": 8,
       "sourcesChecked": "Vivo India, Flipkart",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -729,10 +744,10 @@
     {
       "brand": "iQOO",
       "series": "Z Series",
-      "knownGenerations": "Z9s Pro, Z9s, Z9, Z9x",
-      "modelsDiscovered": 4,
-      "modelsInDataset": 4,
-      "missingModelsAdded": 4,
+      "knownGenerations": "Z9s Pro, Z9s, Z9, Z9x, Z9 Lite",
+      "modelsDiscovered": 5,
+      "modelsInDataset": 5,
+      "missingModelsAdded": 5,
       "sourcesChecked": "iQOO India, Amazon IN",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -817,10 +832,10 @@
     {
       "brand": "Motorola",
       "series": "Razr Series",
-      "knownGenerations": "Razr 50 Ultra, Razr 40 Ultra",
-      "modelsDiscovered": 2,
-      "modelsInDataset": 2,
-      "missingModelsAdded": 2,
+      "knownGenerations": "Razr 50 Ultra/50, Razr 40 Ultra",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
       "sourcesChecked": "Motorola India, Reliance Digital",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -828,10 +843,10 @@
     {
       "brand": "Motorola",
       "series": "Edge Series",
-      "knownGenerations": "Edge 50 Ultra/Pro/Fusion/Neo, Edge 40/Neo, Edge 30 Ultra/Fusion/Pro",
-      "modelsDiscovered": 9,
-      "modelsInDataset": 9,
-      "missingModelsAdded": 9,
+      "knownGenerations": "Edge 50 Ultra/Pro/Base/Fusion/Neo, Edge 40/Neo, Edge 30 Ultra/Fusion/Pro",
+      "modelsDiscovered": 10,
+      "modelsInDataset": 10,
+      "missingModelsAdded": 10,
       "sourcesChecked": "Motorola India, Flipkart",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -850,10 +865,10 @@
     {
       "brand": "Nothing",
       "series": "Phone Series",
-      "knownGenerations": "Phone (2), (2a) Plus, (2a), (1)",
-      "modelsDiscovered": 4,
-      "modelsInDataset": 4,
-      "missingModelsAdded": 4,
+      "knownGenerations": "Phone (3), (3a), (2), (2a) Plus, (2a), (1)",
+      "modelsDiscovered": 6,
+      "modelsInDataset": 6,
+      "missingModelsAdded": 6,
       "sourcesChecked": "Nothing India, Flipkart",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -938,10 +953,10 @@
     {
       "brand": "Lava",
       "series": "Agni Series",
-      "knownGenerations": "Agni 3 5G, Agni 5G",
-      "modelsDiscovered": 2,
-      "modelsInDataset": 2,
-      "missingModelsAdded": 2,
+      "knownGenerations": "Agni 3 5G, Agni 2 5G, Agni 5G",
+      "modelsDiscovered": 3,
+      "modelsInDataset": 3,
+      "missingModelsAdded": 3,
       "sourcesChecked": "Lava India, Amazon IN",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"
@@ -971,10 +986,10 @@
     {
       "brand": "HMD",
       "series": "Skyline & Crest Series",
-      "knownGenerations": "Skyline, Crest Max 5G, Crest 5G",
-      "modelsDiscovered": 3,
-      "modelsInDataset": 3,
-      "missingModelsAdded": 3,
+      "knownGenerations": "Skyline, Fusion, Crest Max 5G, Crest 5G",
+      "modelsDiscovered": 4,
+      "modelsInDataset": 4,
+      "missingModelsAdded": 4,
       "sourcesChecked": "HMD India, Amazon IN",
       "auditStatus": "Complete",
       "unresolvedGaps": "None"

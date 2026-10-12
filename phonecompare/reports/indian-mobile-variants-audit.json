@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-09T17:32:50.464Z",
+  "timestamp": "2026-10-12T08:33:58.534Z",
   "marketDate": "October 2026",
   "summary": {
-    "totalActiveModels": 170,
-    "totalVariants": 438,
-    "coverage100Percent": 170,
+    "totalActiveModels": 184,
+    "totalVariants": 467,
+    "coverage100Percent": 184,
     "coverage80to99Percent": 0,
     "coverage50to80Percent": 0,
     "coverageUnder50Percent": 0,
@@ -455,6 +455,46 @@
         "status": "COMPLETE"
       },
       {
+        "modelId": "samsung-galaxy-s25-fe",
+        "modelName": "Galaxy S25 FE",
+        "brand": "Samsung",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "8GB + 512GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "8GB + 512GB"
+        ],
+        "officialCount": 3,
+        "staticCount": 3,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "samsung-galaxy-a36-5g",
+        "modelName": "Galaxy A36 5G",
+        "brand": "Samsung",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "12GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "12GB + 256GB"
+        ],
+        "officialCount": 3,
+        "staticCount": 3,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
         "modelId": "apple-iphone-16-pro-max",
         "modelName": "iPhone 16 Pro Max",
         "brand": "Apple",
@@ -678,6 +718,26 @@
         ],
         "officialCount": 2,
         "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "apple-iphone-16e",
+        "modelName": "iPhone 16e",
+        "brand": "Apple",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "8GB + 512GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "8GB + 512GB"
+        ],
+        "officialCount": 3,
+        "staticCount": 3,
         "coveragePercent": 100,
         "missingVariants": [],
         "status": "COMPLETE"
@@ -985,6 +1045,24 @@
         "status": "COMPLETE"
       },
       {
+        "modelId": "google-pixel-9a",
+        "modelName": "Pixel 9a",
+        "brand": "Google",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
         "modelId": "xiaomi-14-ultra",
         "modelName": "Xiaomi 14 Ultra",
         "brand": "Xiaomi",
@@ -1027,6 +1105,24 @@
         "staticVariants": [
           "8GB + 256GB",
           "12GB + 512GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "xiaomi-15",
+        "modelName": "Xiaomi 15",
+        "brand": "Xiaomi",
+        "officialExpectedVariants": [
+          "12GB + 256GB",
+          "16GB + 512GB"
+        ],
+        "staticVariants": [
+          "12GB + 256GB",
+          "16GB + 512GB"
         ],
         "officialCount": 2,
         "staticCount": 2,
@@ -1395,6 +1491,42 @@
         "status": "COMPLETE"
       },
       {
+        "modelId": "poco-x7-pro-5g",
+        "modelName": "POCO X7 Pro 5G",
+        "brand": "POCO",
+        "officialExpectedVariants": [
+          "8GB + 256GB",
+          "12GB + 512GB"
+        ],
+        "staticVariants": [
+          "8GB + 256GB",
+          "12GB + 512GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "poco-x7-5g",
+        "modelName": "POCO X7 5G",
+        "brand": "POCO",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
         "modelId": "vivo-x200-pro",
         "modelName": "Vivo X200 Pro",
         "brand": "Vivo",
@@ -1695,6 +1827,24 @@
         "status": "COMPLETE"
       },
       {
+        "modelId": "vivo-y300-5g",
+        "modelName": "Vivo Y300 5G",
+        "brand": "Vivo",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
         "modelId": "iqoo-13-5g",
         "modelName": "iQOO 13 5G",
         "brand": "iQOO",
@@ -1813,6 +1963,24 @@
         "staticVariants": [
           "4GB + 128GB",
           "8GB + 128GB"
+        ],
+        "officialCount": 2,
+        "staticCount": 2,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "iqoo-z9-lite-5g",
+        "modelName": "iQOO Z9 Lite 5G",
+        "brand": "iQOO",
+        "officialExpectedVariants": [
+          "4GB + 128GB",
+          "6GB + 128GB"
+        ],
+        "staticVariants": [
+          "4GB + 128GB",
+          "6GB + 128GB"
         ],
         "officialCount": 2,
         "staticCount": 2,
@@ -2491,6 +2659,38 @@
         "status": "COMPLETE"
       },
       {
+        "modelId": "motorola-razr-50",
+        "modelName": "Motorola Razr 50",
+        "brand": "Motorola",
+        "officialExpectedVariants": [
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 256GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "motorola-edge-50",
+        "modelName": "Motorola Edge 50",
+        "brand": "Motorola",
+        "officialExpectedVariants": [
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 256GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
         "modelId": "nothing-phone-2",
         "modelName": "Nothing Phone (2)",
         "brand": "Nothing",
@@ -2544,6 +2744,42 @@
         ],
         "officialCount": 3,
         "staticCount": 3,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "nothing-phone-3a",
+        "modelName": "Nothing Phone (3a)",
+        "brand": "Nothing",
+        "officialExpectedVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "12GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 128GB",
+          "8GB + 256GB",
+          "12GB + 256GB"
+        ],
+        "officialCount": 3,
+        "staticCount": 3,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "nothing-phone-3",
+        "modelName": "Nothing Phone (3)",
+        "brand": "Nothing",
+        "officialExpectedVariants": [
+          "12GB + 256GB"
+        ],
+        "staticVariants": [
+          "12GB + 256GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
         "coveragePercent": 100,
         "missingVariants": [],
         "status": "COMPLETE"
@@ -2895,6 +3131,22 @@
         ],
         "staticVariants": [
           "6GB + 128GB"
+        ],
+        "officialCount": 1,
+        "staticCount": 1,
+        "coveragePercent": 100,
+        "missingVariants": [],
+        "status": "COMPLETE"
+      },
+      {
+        "modelId": "hmd-fusion",
+        "modelName": "HMD Fusion",
+        "brand": "HMD",
+        "officialExpectedVariants": [
+          "8GB + 256GB"
+        ],
+        "staticVariants": [
+          "8GB + 256GB"
         ],
         "officialCount": 1,
         "staticCount": 1,
@@ -3478,6 +3730,46 @@
       "status": "COMPLETE"
     },
     {
+      "modelId": "samsung-galaxy-s25-fe",
+      "modelName": "Galaxy S25 FE",
+      "brand": "Samsung",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "8GB + 512GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "8GB + 512GB"
+      ],
+      "officialCount": 3,
+      "staticCount": 3,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "samsung-galaxy-a36-5g",
+      "modelName": "Galaxy A36 5G",
+      "brand": "Samsung",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "12GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "12GB + 256GB"
+      ],
+      "officialCount": 3,
+      "staticCount": 3,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
       "modelId": "apple-iphone-16-pro-max",
       "modelName": "iPhone 16 Pro Max",
       "brand": "Apple",
@@ -3701,6 +3993,26 @@
       ],
       "officialCount": 2,
       "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "apple-iphone-16e",
+      "modelName": "iPhone 16e",
+      "brand": "Apple",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "8GB + 512GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "8GB + 512GB"
+      ],
+      "officialCount": 3,
+      "staticCount": 3,
       "coveragePercent": 100,
       "missingVariants": [],
       "status": "COMPLETE"
@@ -4008,6 +4320,24 @@
       "status": "COMPLETE"
     },
     {
+      "modelId": "google-pixel-9a",
+      "modelName": "Pixel 9a",
+      "brand": "Google",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
       "modelId": "xiaomi-14-ultra",
       "modelName": "Xiaomi 14 Ultra",
       "brand": "Xiaomi",
@@ -4050,6 +4380,24 @@
       "staticVariants": [
         "8GB + 256GB",
         "12GB + 512GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "xiaomi-15",
+      "modelName": "Xiaomi 15",
+      "brand": "Xiaomi",
+      "officialExpectedVariants": [
+        "12GB + 256GB",
+        "16GB + 512GB"
+      ],
+      "staticVariants": [
+        "12GB + 256GB",
+        "16GB + 512GB"
       ],
       "officialCount": 2,
       "staticCount": 2,
@@ -4418,6 +4766,42 @@
       "status": "COMPLETE"
     },
     {
+      "modelId": "poco-x7-pro-5g",
+      "modelName": "POCO X7 Pro 5G",
+      "brand": "POCO",
+      "officialExpectedVariants": [
+        "8GB + 256GB",
+        "12GB + 512GB"
+      ],
+      "staticVariants": [
+        "8GB + 256GB",
+        "12GB + 512GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "poco-x7-5g",
+      "modelName": "POCO X7 5G",
+      "brand": "POCO",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
       "modelId": "vivo-x200-pro",
       "modelName": "Vivo X200 Pro",
       "brand": "Vivo",
@@ -4718,6 +5102,24 @@
       "status": "COMPLETE"
     },
     {
+      "modelId": "vivo-y300-5g",
+      "modelName": "Vivo Y300 5G",
+      "brand": "Vivo",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
       "modelId": "iqoo-13-5g",
       "modelName": "iQOO 13 5G",
       "brand": "iQOO",
@@ -4836,6 +5238,24 @@
       "staticVariants": [
         "4GB + 128GB",
         "8GB + 128GB"
+      ],
+      "officialCount": 2,
+      "staticCount": 2,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "iqoo-z9-lite-5g",
+      "modelName": "iQOO Z9 Lite 5G",
+      "brand": "iQOO",
+      "officialExpectedVariants": [
+        "4GB + 128GB",
+        "6GB + 128GB"
+      ],
+      "staticVariants": [
+        "4GB + 128GB",
+        "6GB + 128GB"
       ],
       "officialCount": 2,
       "staticCount": 2,
@@ -5514,6 +5934,38 @@
       "status": "COMPLETE"
     },
     {
+      "modelId": "motorola-razr-50",
+      "modelName": "Motorola Razr 50",
+      "brand": "Motorola",
+      "officialExpectedVariants": [
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 256GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "motorola-edge-50",
+      "modelName": "Motorola Edge 50",
+      "brand": "Motorola",
+      "officialExpectedVariants": [
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 256GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
       "modelId": "nothing-phone-2",
       "modelName": "Nothing Phone (2)",
       "brand": "Nothing",
@@ -5567,6 +6019,42 @@
       ],
       "officialCount": 3,
       "staticCount": 3,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "nothing-phone-3a",
+      "modelName": "Nothing Phone (3a)",
+      "brand": "Nothing",
+      "officialExpectedVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "12GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 128GB",
+        "8GB + 256GB",
+        "12GB + 256GB"
+      ],
+      "officialCount": 3,
+      "staticCount": 3,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "nothing-phone-3",
+      "modelName": "Nothing Phone (3)",
+      "brand": "Nothing",
+      "officialExpectedVariants": [
+        "12GB + 256GB"
+      ],
+      "staticVariants": [
+        "12GB + 256GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
       "coveragePercent": 100,
       "missingVariants": [],
       "status": "COMPLETE"
@@ -5918,6 +6406,22 @@
       ],
       "staticVariants": [
         "6GB + 128GB"
+      ],
+      "officialCount": 1,
+      "staticCount": 1,
+      "coveragePercent": 100,
+      "missingVariants": [],
+      "status": "COMPLETE"
+    },
+    {
+      "modelId": "hmd-fusion",
+      "modelName": "HMD Fusion",
+      "brand": "HMD",
+      "officialExpectedVariants": [
+        "8GB + 256GB"
+      ],
+      "staticVariants": [
+        "8GB + 256GB"
       ],
       "officialCount": 1,
       "staticCount": 1,

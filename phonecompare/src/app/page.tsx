@@ -12,10 +12,11 @@ import { MobileCard } from '@/components/MobileCard';
 import {
   getPopularMobiles,
   getAllMobileBrands,
-  getMobileCount,
   getMobileBrandCount,
   getAllMobiles,
   getMobileVariants,
+  getActiveMobileCount,
+  getTotalMobileCount,
 } from '@/lib/mobiles';
 import { HeroSearch } from '@/components/HeroSearch';
 
@@ -59,7 +60,8 @@ const mobileFeatures = [
 export default function HomePage() {
   const popularMobiles = getPopularMobiles(6);
   const brands = getAllMobileBrands();
-  const mobileCount = getMobileCount();
+  const totalMobileCount = getTotalMobileCount();
+  const activeMobileCount = getActiveMobileCount();
   const brandCount = getMobileBrandCount();
   const allMobiles = getAllMobiles();
   const totalVariants = allMobiles.reduce(
@@ -268,10 +270,10 @@ export default function HomePage() {
                     letterSpacing: '-0.03em',
                   }}
                 >
-                  {mobileCount}
+                  {totalMobileCount}
                 </div>
                 <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)' }}>
-                  Active Smartphones
+                  Smartphones ({activeMobileCount} Active)
                 </div>
               </div>
               <div>
@@ -367,7 +369,7 @@ export default function HomePage() {
                 textDecoration: 'none',
               }}
             >
-              View all {mobileCount} phones <ArrowRight size={16} />
+              View all {totalMobileCount} phones <ArrowRight size={16} />
             </Link>
           </div>
 

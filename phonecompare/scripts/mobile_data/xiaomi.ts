@@ -649,6 +649,117 @@ const models: MobileModel[] = [
       verifiedDate: '2021-09',
     },
   },
+
+  {
+    id: 'xiaomi-15',
+    slug: 'xiaomi-15',
+    brand: 'Xiaomi',
+    modelName: 'Xiaomi 15',
+    generation: '15',
+    status: 'active',
+    launchDate: '2025-03',
+    pricing: {
+      startingPrice: 69999,
+      maximumPrice: 75999,
+      launchPrice: 69999,
+      currentPrice: 69999,
+      currency: 'INR',
+      priceEffectiveDate: '2025-03',
+      source: 'Mi India Official Store',
+    },
+    display: {
+      displaySize: 6.36,
+      displayType: '1.5K 120Hz LTPO OLED, 3200 nits peak',
+      resolution: '2670 x 1200 pixels',
+      refreshRate: 120,
+      peakBrightness: 3200,
+      hdr: 'Dolby Vision, HDR10+',
+      protection: 'Xiaomi Dragon Crystal Glass',
+      screenToBodyRatio: '90.4%',
+    },
+    performance: {
+      chipset: 'Qualcomm Snapdragon 8 Elite (3nm)',
+      cpu: 'Octa-core (2x4.32 GHz Oryon & 6x3.53 GHz)',
+      gpu: 'Adreno 830',
+      ramOptions: ['12GB', '16GB'],
+      storageOptions: ['256GB', '512GB'],
+      storageType: 'UFS 4.0',
+      antutuScore: 2900000,
+      geekbenchSingle: 3200,
+      geekbenchMulti: 9700,
+    },
+    cameras: {
+      rearCameraSetup: 'Triple 50MP Leica Optics (50MP Light Hunter 900 OIS + 50MP Leica 60mm Telephoto OIS + 50MP Leica Ultrawide)',
+      mainCamera: '50 MP Light Hunter 900, f/1.62, 23mm, OIS',
+      ultrawideCamera: '50 MP Leica, f/2.2, 14mm, 115˚',
+      telephotoCamera: '50 MP Leica floating telephoto, f/2.0, 60mm, 3.2x optical, OIS',
+      frontCamera: '32 MP, f/2.0, 4K60',
+      videoRecording: '8K@30fps, 4K@60fps, Dolby Vision HDR',
+      ois: true,
+    },
+    battery: {
+      batteryCapacity: 5400,
+      wiredCharging: 90,
+      wirelessCharging: 50,
+      reverseCharging: true,
+    },
+    connectivity: {
+      has5G: true,
+      has4G: true,
+      wifi: 'Wi-Fi 7',
+      bluetooth: 'Bluetooth 5.4',
+      nfc: true,
+      usb: 'USB Type-C 3.2 Gen 1',
+      simConfig: 'Dual SIM',
+    },
+    physical: {
+      dimensions: '152.3 x 71.2 x 8.08 mm',
+      weight: 191,
+      materials: 'Aviation-grade aluminum frame, Dragon Crystal glass, IP68',
+      waterResistance: 'IP68 water and dust resistance (up to 1.5m for 30 min)',
+      colors: ['Black', 'White', 'Silver', 'Green'],
+    },
+    software: {
+      operatingSystem: 'Android',
+      ui: 'Xiaomi HyperOS 2',
+      launchOS: 'Android 15',
+      promisedMajorUpdates: 4,
+      securityUpdatePolicy: '5 years',
+    },
+    audio: {
+      speakers: 'Stereo speakers with Dolby Atmos & Hi-Res Wireless',
+      stereo: true,
+      headphoneJack: false,
+      dolbyAtmos: true,
+    },
+    security: {
+      fingerprint: 'Ultrasonic under display',
+      faceUnlock: true,
+    },
+    keyHighlights: [
+      'Compact 6.36-inch flagship form factor with ultra-narrow 1.38mm bezels',
+      'Qualcomm Snapdragon 8 Elite 3nm powerhouse',
+      'Leica Summilux triple 50MP optical lenses with 60mm floating telephoto',
+      'Massive 5,400 mAh high-density silicon-carbon battery',
+      '90W wired and 50W wireless HyperCharge with IP68 rating',
+    ],
+    pros: [
+      'Superb compact ergonomics with 6.36-inch display',
+      'Tremendous battery capacity (5,400mAh) for a compact flagship',
+      'Exceptional Leica camera versatility with floating telephoto',
+      'Snapdragon 8 Elite flagship speed',
+    ],
+    cons: [
+      'Premium pricing',
+      'HyperOS notification grouping takes getting used to',
+    ],
+    sources: {
+      officialWebsite: 'https://www.mi.com/in/product/xiaomi-15/',
+      productPage: 'https://store.mi.com/in/item/3250100001',
+      specSheetUrl: 'https://www.mi.com/in/product/xiaomi-15/specs',
+      verifiedDate: '2025-03',
+    },
+  },
 ];
 
 const variants: MobileVariant[] = [
@@ -791,6 +902,31 @@ const variants: MobileVariant[] = [
     verified: true,
     source: 'Mi India Official Store',
   },
+
+  {
+    id: 'xiaomi-15-12-256',
+    modelId: 'xiaomi-15',
+    ram: '12GB',
+    storage: '256GB',
+    price: 69999,
+    mrp: 74999,
+    colors: ['Black', 'White', 'Silver', 'Green'],
+    status: 'active',
+    verified: true,
+    source: 'Mi India Official Store',
+  },
+  {
+    id: 'xiaomi-15-16-512',
+    modelId: 'xiaomi-15',
+    ram: '16GB',
+    storage: '512GB',
+    price: 75999,
+    mrp: 79999,
+    colors: ['Black', 'White'],
+    status: 'active',
+    verified: true,
+    source: 'Mi India Official Store',
+  },
 ];
 
 const images: MobileImageCatalogEntry[] = [
@@ -905,7 +1041,23 @@ const images: MobileImageCatalogEntry[] = [
         "alt": "Xiaomi Xiaomi 11 Lite NE 5G official product photography"
       }
     ]
-  }
+  },
+
+  {
+    modelId: 'xiaomi-15',
+    modelName: 'Xiaomi 15',
+    brand: 'Xiaomi',
+    verifiedCoverage: true,
+    images: [
+      {
+        url: 'https://fdn2.gsmarena.com/vv/bigpic/xiaomi-15.jpg',
+        angle: 'front',
+        source: 'Xiaomi Official (GSMArena CDN)',
+        verified: true,
+        alt: 'Xiaomi 15 front view',
+      },
+    ],
+  },
 ];
 
 export const xiaomiBundle: MobileBrandBundle = {

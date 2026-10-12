@@ -49,6 +49,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
       'Galaxy S25 Ultra',
       'Galaxy S25+',
       'Galaxy S25',
+      'Galaxy S25 FE',
       'Galaxy S24 Ultra',
       'Galaxy S24+',
       'Galaxy S24',
@@ -64,6 +65,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
       'Galaxy Z Flip 5',
       'Galaxy A55 5G',
       'Galaxy A54 5G',
+      'Galaxy A36 5G',
       'Galaxy A35 5G',
       'Galaxy A34 5G',
       'Galaxy A25 5G',
@@ -90,6 +92,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
       'iPhone 16 Pro',
       'iPhone 16 Plus',
       'iPhone 16',
+      'iPhone 16e',
       'iPhone 15 Pro Max',
       'iPhone 15 Pro',
       'iPhone 15 Plus',
@@ -140,6 +143,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
       'Pixel 9 Pro',
       'Pixel 9',
       'Pixel 9 Pro Fold',
+      'Pixel 9a',
       'Pixel 8a',
       'Pixel 8',
       'Pixel 8 Pro',
@@ -155,6 +159,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
     officialIndiaWebsite: 'https://www.mi.com/in/',
     isActiveInIndia: true,
     officialLineup: [
+      'Xiaomi 15',
       'Xiaomi 14 Ultra',
       'Xiaomi 14',
       'Xiaomi 14 Civi',
@@ -198,6 +203,8 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
       'POCO F6 5G',
       'POCO F5 5G',
       'POCO F4 5G',
+      'POCO X7 Pro 5G',
+      'POCO X7 5G',
       'POCO X6 Pro 5G',
       'POCO X6 5G',
       'POCO X6 Neo 5G',
@@ -232,6 +239,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
       'Vivo T3 5G',
       'Vivo T3x 5G',
       'Vivo T3 Lite 5G',
+      'Vivo Y300 5G',
       'Vivo Y200 5G',
       'Vivo Y28 5G',
     ],
@@ -252,6 +260,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
       'iQOO Z9s 5G',
       'iQOO Z9 5G',
       'iQOO Z9x 5G',
+      'iQOO Z9 Lite 5G',
     ],
   },
   {
@@ -309,9 +318,11 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
     isActiveInIndia: true,
     officialLineup: [
       'Motorola Razr 50 Ultra',
+      'Motorola Razr 50',
       'Motorola Razr 40 Ultra',
       'Motorola Edge 50 Ultra',
       'Motorola Edge 50 Pro',
+      'Motorola Edge 50',
       'Motorola Edge 50 Fusion',
       'Motorola Edge 50 Neo',
       'Motorola Edge 40',
@@ -335,6 +346,8 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
     officialIndiaWebsite: 'https://in.nothing.tech/',
     isActiveInIndia: true,
     officialLineup: [
+      'Nothing Phone (3)',
+      'Nothing Phone (3a)',
       'Nothing Phone (2)',
       'Nothing Phone (2a) Plus',
       'Nothing Phone (2a)',
@@ -402,6 +415,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
     isActiveInIndia: true,
     officialLineup: [
       'Lava Agni 3 5G',
+      'Lava Agni 2 5G',
       'Lava Agni 5G',
       'Lava Blaze Curve 5G',
       'Lava Blaze X 5G',
@@ -418,6 +432,7 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
     isActiveInIndia: true,
     officialLineup: [
       'HMD Skyline',
+      'HMD Fusion',
       'HMD Crest Max 5G',
       'HMD Crest 5G',
     ],
@@ -458,15 +473,15 @@ export const INDEPENDENT_MOBILE_BRANDS: BrandAuditChecklist[] = [
 
 export const SERIES_AUDIT_DATA: SeriesAuditRecord[] = [
   // Samsung
-  { brand: 'Samsung', series: 'Galaxy S Series', knownGenerations: 'S25, S24, S23, S22 Ultra, S21 FE', modelsDiscovered: 12, modelsInDataset: 12, missingModelsAdded: 12, sourcesChecked: 'Samsung India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Samsung', series: 'Galaxy S Series', knownGenerations: 'S25 Ultra/+/Base/FE, S24 Ultra/+/Base/FE, S23 Ultra/Base/FE, S22 Ultra, S21 FE', modelsDiscovered: 13, modelsInDataset: 13, missingModelsAdded: 13, sourcesChecked: 'Samsung India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Samsung', series: 'Galaxy Z Series', knownGenerations: 'Fold 6/5, Flip 6/5', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'Samsung India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
-  { brand: 'Samsung', series: 'Galaxy A Series', knownGenerations: 'A55/A54, A35/A34, A25, A16, A15, A06', modelsDiscovered: 8, modelsInDataset: 8, missingModelsAdded: 8, sourcesChecked: 'Samsung India, Reliance Digital', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Samsung', series: 'Galaxy A Series', knownGenerations: 'A55/A54, A36/A35/A34, A25, A16, A15, A06', modelsDiscovered: 9, modelsInDataset: 9, missingModelsAdded: 9, sourcesChecked: 'Samsung India, Reliance Digital', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Samsung', series: 'Galaxy M Series', knownGenerations: 'M55, M35, M34, M15, M05', modelsDiscovered: 5, modelsInDataset: 5, missingModelsAdded: 5, sourcesChecked: 'Amazon IN, Samsung India', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Samsung', series: 'Galaxy F Series', knownGenerations: 'F55, F54, F15', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'Flipkart, Samsung India', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Apple
   { brand: 'Apple', series: 'iPhone Pro/Pro Max', knownGenerations: '16 Pro/Max, 15 Pro/Max, 14 Pro/Max, 13 Pro/Max', modelsDiscovered: 8, modelsInDataset: 8, missingModelsAdded: 8, sourcesChecked: 'Apple India, Imagine, Croma', auditStatus: 'Complete', unresolvedGaps: 'None' },
-  { brand: 'Apple', series: 'iPhone Standard/Plus/mini', knownGenerations: '16/Plus, 15/Plus, 14/Plus, 13/mini, 12', modelsDiscovered: 9, modelsInDataset: 9, missingModelsAdded: 9, sourcesChecked: 'Apple India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Apple', series: 'iPhone Standard/Plus/mini', knownGenerations: '16e, 16/Plus, 15/Plus, 14/Plus, 13/mini, 12', modelsDiscovered: 10, modelsInDataset: 10, missingModelsAdded: 10, sourcesChecked: 'Apple India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Apple', series: 'iPhone SE', knownGenerations: '3rd Gen (2022)', modelsDiscovered: 1, modelsInDataset: 1, missingModelsAdded: 1, sourcesChecked: 'Apple India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // OnePlus
@@ -477,10 +492,10 @@ export const SERIES_AUDIT_DATA: SeriesAuditRecord[] = [
 
   // Google
   { brand: 'Google', series: 'Pixel Pro & Fold', knownGenerations: '9 Pro Fold, 9 Pro XL, 9 Pro, 8 Pro, 7 Pro', modelsDiscovered: 5, modelsInDataset: 5, missingModelsAdded: 5, sourcesChecked: 'Google Store IN, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
-  { brand: 'Google', series: 'Pixel Base & A Series', knownGenerations: '9, 8, 8a, 7, 7a, 6a', modelsDiscovered: 6, modelsInDataset: 6, missingModelsAdded: 6, sourcesChecked: 'Google Store IN, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Google', series: 'Pixel Base & A Series', knownGenerations: '9/9a, 8/8a, 7/7a, 6a', modelsDiscovered: 7, modelsInDataset: 7, missingModelsAdded: 7, sourcesChecked: 'Google Store IN, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Xiaomi
-  { brand: 'Xiaomi', series: 'Xiaomi Flagships', knownGenerations: '14 Ultra, 14, 13 Pro, 12 Pro', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'Mi India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'Xiaomi 15 waiting for official IN launch date' },
+  { brand: 'Xiaomi', series: 'Xiaomi Flagships', knownGenerations: '15, 14 Ultra, 14, 13 Pro, 12 Pro', modelsDiscovered: 5, modelsInDataset: 5, missingModelsAdded: 5, sourcesChecked: 'Mi India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Xiaomi', series: 'Xiaomi Civi & T Series', knownGenerations: '14 Civi, 11T Pro, 11 Lite NE', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'Mi India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Redmi
@@ -490,18 +505,18 @@ export const SERIES_AUDIT_DATA: SeriesAuditRecord[] = [
 
   // POCO
   { brand: 'POCO', series: 'F Series', knownGenerations: 'F6, F5, F4', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'POCO India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'POCO F6 Pro global only, not in India' },
-  { brand: 'POCO', series: 'X Series', knownGenerations: 'X6 Pro, X6, X6 Neo, X5 Pro', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'POCO India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'POCO', series: 'X Series', knownGenerations: 'X7 Pro/X7, X6 Pro, X6, X6 Neo, X5 Pro', modelsDiscovered: 6, modelsInDataset: 6, missingModelsAdded: 6, sourcesChecked: 'POCO India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'POCO', series: 'M & C Series', knownGenerations: 'M6 Plus, M6 Pro, M6 5G, C65, C61', modelsDiscovered: 5, modelsInDataset: 5, missingModelsAdded: 5, sourcesChecked: 'POCO India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Vivo
   { brand: 'Vivo', series: 'X Series & Fold', knownGenerations: 'X200 Pro, X200, X100 Pro, X100, X90 Pro, X Fold3 Pro', modelsDiscovered: 6, modelsInDataset: 6, missingModelsAdded: 6, sourcesChecked: 'Vivo India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'X100 Ultra China only' },
   { brand: 'Vivo', series: 'V Series', knownGenerations: 'V40 Pro, V40, V40e, V30 Pro, V30, V29 Pro', modelsDiscovered: 6, modelsInDataset: 6, missingModelsAdded: 6, sourcesChecked: 'Vivo India, Croma', auditStatus: 'Complete', unresolvedGaps: 'None' },
-  { brand: 'Vivo', series: 'T & Y Series', knownGenerations: 'T3 Ultra, T3 Pro, T3, T3x, T3 Lite, Y200, Y28', modelsDiscovered: 7, modelsInDataset: 7, missingModelsAdded: 7, sourcesChecked: 'Vivo India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Vivo', series: 'T & Y Series', knownGenerations: 'T3 Ultra, T3 Pro, T3, T3x, T3 Lite, Y300, Y200, Y28', modelsDiscovered: 8, modelsInDataset: 8, missingModelsAdded: 8, sourcesChecked: 'Vivo India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // iQOO
   { brand: 'iQOO', series: 'Numbered Flagship', knownGenerations: '13, 12, 11', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'iQOO India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'iQOO', series: 'Neo Series', knownGenerations: 'Neo 9 Pro, Neo 7 Pro, Neo 7', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'iQOO India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
-  { brand: 'iQOO', series: 'Z Series', knownGenerations: 'Z9s Pro, Z9s, Z9, Z9x', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'iQOO India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'iQOO', series: 'Z Series', knownGenerations: 'Z9s Pro, Z9s, Z9, Z9x, Z9 Lite', modelsDiscovered: 5, modelsInDataset: 5, missingModelsAdded: 5, sourcesChecked: 'iQOO India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // OPPO
   { brand: 'OPPO', series: 'Find Series', knownGenerations: 'Find X8 Pro, Find X8, Find N3 Flip', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'OPPO India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'Find X7 series skipped India officially' },
@@ -515,12 +530,12 @@ export const SERIES_AUDIT_DATA: SeriesAuditRecord[] = [
   { brand: 'realme', series: 'Narzo & C Series', knownGenerations: 'Narzo 70 Pro/Turbo/70x, C65, C63', modelsDiscovered: 5, modelsInDataset: 5, missingModelsAdded: 5, sourcesChecked: 'realme India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Motorola
-  { brand: 'Motorola', series: 'Razr Series', knownGenerations: 'Razr 50 Ultra, Razr 40 Ultra', modelsDiscovered: 2, modelsInDataset: 2, missingModelsAdded: 2, sourcesChecked: 'Motorola India, Reliance Digital', auditStatus: 'Complete', unresolvedGaps: 'None' },
-  { brand: 'Motorola', series: 'Edge Series', knownGenerations: 'Edge 50 Ultra/Pro/Fusion/Neo, Edge 40/Neo, Edge 30 Ultra/Fusion/Pro', modelsDiscovered: 9, modelsInDataset: 9, missingModelsAdded: 9, sourcesChecked: 'Motorola India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Motorola', series: 'Razr Series', knownGenerations: 'Razr 50 Ultra/50, Razr 40 Ultra', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'Motorola India, Reliance Digital', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Motorola', series: 'Edge Series', knownGenerations: 'Edge 50 Ultra/Pro/Base/Fusion/Neo, Edge 40/Neo, Edge 30 Ultra/Fusion/Pro', modelsDiscovered: 10, modelsInDataset: 10, missingModelsAdded: 10, sourcesChecked: 'Motorola India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Motorola', series: 'Moto G Series', knownGenerations: 'G85, G84, G64, G54, G45, G24 Power, G73, G82', modelsDiscovered: 8, modelsInDataset: 8, missingModelsAdded: 8, sourcesChecked: 'Motorola India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Nothing & CMF
-  { brand: 'Nothing', series: 'Phone Series', knownGenerations: 'Phone (2), (2a) Plus, (2a), (1)', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'Nothing India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Nothing', series: 'Phone Series', knownGenerations: 'Phone (3), (3a), (2), (2a) Plus, (2a), (1)', modelsDiscovered: 6, modelsInDataset: 6, missingModelsAdded: 6, sourcesChecked: 'Nothing India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'CMF', series: 'CMF Phone', knownGenerations: 'CMF Phone 1', modelsDiscovered: 1, modelsInDataset: 1, missingModelsAdded: 1, sourcesChecked: 'Nothing India, Flipkart', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // ASUS
@@ -536,12 +551,12 @@ export const SERIES_AUDIT_DATA: SeriesAuditRecord[] = [
   { brand: 'Tecno', series: 'Camon, Pova, Spark, Pop', knownGenerations: 'Camon 30 Premier/30, Pova 6 Pro/5 Pro, Spark 20 Pro+, Pop 8', modelsDiscovered: 6, modelsInDataset: 6, missingModelsAdded: 6, sourcesChecked: 'Tecno India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Lava
-  { brand: 'Lava', series: 'Agni Series', knownGenerations: 'Agni 3 5G, Agni 5G', modelsDiscovered: 2, modelsInDataset: 2, missingModelsAdded: 2, sourcesChecked: 'Lava India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'Lava', series: 'Agni Series', knownGenerations: 'Agni 3 5G, Agni 2 5G, Agni 5G', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'Lava India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Lava', series: 'Blaze Series', knownGenerations: 'Blaze Curve, Blaze X, Blaze 5G, Blaze 2', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'Lava India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
   { brand: 'Lava', series: 'Storm & Yuva', knownGenerations: 'Storm 5G, Yuva 3 Pro', modelsDiscovered: 2, modelsInDataset: 2, missingModelsAdded: 2, sourcesChecked: 'Lava India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // HMD
-  { brand: 'HMD', series: 'Skyline & Crest Series', knownGenerations: 'Skyline, Crest Max 5G, Crest 5G', modelsDiscovered: 3, modelsInDataset: 3, missingModelsAdded: 3, sourcesChecked: 'HMD India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
+  { brand: 'HMD', series: 'Skyline & Crest Series', knownGenerations: 'Skyline, Fusion, Crest Max 5G, Crest 5G', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'HMD India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
 
   // Honor
   { brand: 'Honor', series: 'Magic, Numbered & X', knownGenerations: 'Magic 6 Pro, 200 Pro, 200, X9b', modelsDiscovered: 4, modelsInDataset: 4, missingModelsAdded: 4, sourcesChecked: 'Explore Honor India, Amazon IN', auditStatus: 'Complete', unresolvedGaps: 'None' },
@@ -552,10 +567,10 @@ export const SERIES_AUDIT_DATA: SeriesAuditRecord[] = [
 
 export const UNRESOLVED_ITEMS = [
   {
-    modelCandidate: 'Xiaomi 15 & Xiaomi 15 Pro',
+    modelCandidate: 'Xiaomi 15 Pro',
     brand: 'Xiaomi',
     status: 'global_only',
-    reason: 'Launched in China late 2024; official Indian BIS certification and MRP launch pending as of audit date. Excluded to preserve verified Indian market constraint.',
+    reason: 'Mainland China exclusive flagship; Xiaomi India launched the standard Xiaomi 15 in March 2025, while 15 Pro was not launched in India.',
   },
   {
     modelCandidate: 'Vivo X100 Ultra',

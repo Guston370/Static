@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-09T17:32:50.049Z",
+  "timestamp": "2026-10-12T08:33:57.766Z",
   "market": "India",
   "unresolvedItems": [
     {
-      "modelCandidate": "Xiaomi 15 & Xiaomi 15 Pro",
+      "modelCandidate": "Xiaomi 15 Pro",
       "brand": "Xiaomi",
       "status": "global_only",
-      "reason": "Launched in China late 2024; official Indian BIS certification and MRP launch pending as of audit date. Excluded to preserve verified Indian market constraint."
+      "reason": "Mainland China exclusive flagship; Xiaomi India launched the standard Xiaomi 15 in March 2025, while 15 Pro was not launched in India."
     },
     {
       "modelCandidate": "Vivo X100 Ultra",

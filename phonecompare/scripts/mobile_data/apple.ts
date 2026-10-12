@@ -1671,6 +1671,118 @@ const models: MobileModel[] = [
       verifiedDate: '2022-03',
     },
   },
+
+  {
+    id: 'apple-iphone-16e',
+    slug: 'apple-iphone-16e',
+    brand: 'Apple',
+    modelName: 'iPhone 16e',
+    generation: '16e',
+    status: 'active',
+    launchDate: '2025-02',
+    pricing: {
+      startingPrice: 59900,
+      maximumPrice: 89900,
+      launchPrice: 59900,
+      currentPrice: 59900,
+      currency: 'INR',
+      priceEffectiveDate: '2025-02',
+      source: 'Apple India Official Store',
+    },
+    display: {
+      displaySize: 6.1,
+      displayType: 'Super Retina XDR OLED',
+      resolution: '2532 x 1170 pixels',
+      refreshRate: 60,
+      peakBrightness: 1200,
+      hdr: 'HDR10, Dolby Vision',
+      protection: 'Ceramic Shield front',
+      screenToBodyRatio: '86.0%',
+    },
+    performance: {
+      chipset: 'Apple A18 (3nm)',
+      cpu: 'Hexa-core (2x4.04 GHz & 4x2.20 GHz)',
+      gpu: 'Apple GPU (4-core graphics)',
+      ramOptions: ['8GB'],
+      storageOptions: ['128GB', '256GB', '512GB'],
+      storageType: 'NVMe',
+      antutuScore: 1650000,
+      geekbenchSingle: 3300,
+      geekbenchMulti: 8100,
+    },
+    cameras: {
+      rearCameraSetup: 'Single (48MP Fusion)',
+      mainCamera: '48 MP Fusion, f/1.6, 26mm, sensor-shift OIS, 100% Focus Pixels',
+      ultrawideCamera: 'None',
+      telephotoCamera: '2x optical quality crop (12MP)',
+      frontCamera: '12 MP TrueDepth, f/1.9, autofocus, 4K60 Dolby Vision',
+      videoRecording: '4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, Cinematic mode',
+      ois: true,
+    },
+    battery: {
+      batteryCapacity: 4005,
+      wiredCharging: 20,
+      wirelessCharging: 15,
+      reverseCharging: false,
+    },
+    connectivity: {
+      has5G: true,
+      has4G: true,
+      wifi: 'Wi-Fi 7 (802.11be)',
+      bluetooth: 'Bluetooth 5.3',
+      nfc: true,
+      usb: 'USB Type-C 2.0',
+      simConfig: 'Dual SIM (nano-SIM and eSIM, or dual eSIM)',
+    },
+    physical: {
+      dimensions: '146.7 x 71.5 x 7.8 mm',
+      weight: 169,
+      materials: 'Aerospace-grade aluminum frame, Ceramic Shield glass front, colour-infused glass back',
+      waterResistance: 'IP68 (6m up to 30 mins)',
+      colors: ['Ultramarine', 'Teal', 'Pink', 'White', 'Black'],
+    },
+    software: {
+      operatingSystem: 'iOS',
+      ui: 'iOS 18',
+      launchOS: 'iOS 18',
+      promisedMajorUpdates: 5,
+      securityUpdatePolicy: '7+ years',
+    },
+    audio: {
+      speakers: 'Stereo speakers with Spatial Audio',
+      stereo: true,
+      headphoneJack: false,
+      dolbyAtmos: true,
+    },
+    security: {
+      fingerprint: 'None',
+      faceUnlock: true,
+      biometricNotes: 'Face ID enabled by TrueDepth camera',
+    },
+    keyHighlights: [
+      'Apple A18 chip designed for Apple Intelligence',
+      '48MP 2-in-1 Fusion camera system with 2x optical zoom',
+      'Action button and Camera Control accessibility',
+      'Super Retina XDR OLED display with Ceramic Shield',
+      'USB-C charging with all-day battery life',
+    ],
+    pros: [
+      'Fast A18 performance and Apple Intelligence support',
+      'Compact 6.1-inch form factor',
+      'Superb video recording and microphone audio',
+      'Industry-leading long-term software support',
+    ],
+    cons: [
+      '60Hz refresh rate display',
+      'Single rear camera with no ultra-wide lens',
+    ],
+    sources: {
+      officialWebsite: 'https://www.apple.com/in/iphone-16e/',
+      productPage: 'https://www.apple.com/in/shop/buy-iphone/iphone-16e',
+      specSheetUrl: 'https://www.apple.com/in/iphone-16e/specs/',
+      verifiedDate: '2025-02',
+    },
+  },
 ];
 
 const variants: MobileVariant[] = [
@@ -2213,6 +2325,46 @@ const variants: MobileVariant[] = [
     verified: true,
     source: 'Apple India Online Store',
   },
+
+  {
+    id: 'apple-iphone-16e-128gb',
+    modelId: 'apple-iphone-16e',
+    name: 'iPhone 16e (128GB)',
+    ram: '8GB',
+    storage: '128GB',
+    colors: ['Ultramarine', 'Teal', 'Pink', 'White', 'Black'],
+    price: 59900,
+    mrp: 59900,
+    status: 'active',
+    verified: true,
+    source: 'Apple India Official Store',
+  },
+  {
+    id: 'apple-iphone-16e-256gb',
+    modelId: 'apple-iphone-16e',
+    name: 'iPhone 16e (256GB)',
+    ram: '8GB',
+    storage: '256GB',
+    colors: ['Ultramarine', 'Teal', 'Pink', 'White', 'Black'],
+    price: 69900,
+    mrp: 69900,
+    status: 'active',
+    verified: true,
+    source: 'Apple India Official Store',
+  },
+  {
+    id: 'apple-iphone-16e-512gb',
+    modelId: 'apple-iphone-16e',
+    name: 'iPhone 16e (512GB)',
+    ram: '8GB',
+    storage: '512GB',
+    colors: ['White', 'Black'],
+    price: 89900,
+    mrp: 89900,
+    status: 'active',
+    verified: true,
+    source: 'Apple India Official Store',
+  },
 ];
 
 const images: MobileImageCatalogEntry[] = [
@@ -2739,6 +2891,22 @@ const images: MobileImageCatalogEntry[] = [
         "alt": "Apple iPhone SE rear view"
       }
     ]
+  },
+
+  {
+    modelId: 'apple-iphone-16e',
+    modelName: 'iPhone 16e',
+    brand: 'Apple',
+    verifiedCoverage: true,
+    images: [
+      {
+        url: 'https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg',
+        angle: 'front',
+        source: 'Apple Official (GSMArena CDN)',
+        verified: true,
+        alt: 'Apple iPhone 16e front view',
+      },
+    ],
   },
 ];
 

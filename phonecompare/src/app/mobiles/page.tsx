@@ -44,7 +44,7 @@ export default function MobilesPage() {
             Browse Smartphones
           </h1>
           <p style={{ color: 'var(--color-text-secondary)', fontSize: '1rem', maxWidth: '640px' }}>
-            Compare specifications, displays, chipsets, camera setups, and official ex-store pricing across active Indian smartphones.
+            Compare specifications, displays, chipsets, camera setups, and official ex-store pricing across active and classic Indian smartphones.
           </p>
         </div>
       </div>

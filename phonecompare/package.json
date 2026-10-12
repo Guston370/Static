@@ -10,6 +10,7 @@
     "validate:mobiles": "tsx scripts/validate_mobile_catalog.ts",
     "validate:mobile-variants": "tsx scripts/validate_mobile_variants.ts",
     "validate:mobile-images": "tsx scripts/validate_mobile_images.ts",
+    "test:listing": "tsx scripts/test_catalog_listing_regression.ts",
     "audit:mobiles": "tsx scripts/audit_mobile_catalog.ts",
     "audit:mobile-variants": "tsx scripts/audit_mobile_variants.ts"
   },

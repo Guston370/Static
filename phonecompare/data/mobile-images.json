@@ -2,8 +2,8 @@
   "metadata": {
     "country": "India",
     "marketDate": "October 2026",
-    "totalModelsWithImages": 240,
-    "modelsWithVerifiedCoverage": 240
+    "totalModelsWithImages": 255,
+    "modelsWithVerifiedCoverage": 255
   },
   "models": [
     {
@@ -795,6 +795,50 @@
       ]
     },
     {
+      "modelId": "samsung-galaxy-s25-fe",
+      "modelName": "Galaxy S25 FE",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-fe.jpg",
+          "angle": "front",
+          "source": "Samsung Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Samsung Galaxy S25 FE front view"
+        },
+        {
+          "url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-fe-1.jpg",
+          "angle": "back",
+          "source": "Samsung Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Samsung Galaxy S25 FE rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-galaxy-a36-5g",
+      "modelName": "Galaxy A36 5G",
+      "brand": "Samsung",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a36.jpg",
+          "angle": "front",
+          "source": "Samsung Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Samsung Galaxy A36 5G front view"
+        },
+        {
+          "url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a36-1.jpg",
+          "angle": "back",
+          "source": "Samsung Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Samsung Galaxy A36 5G rear view"
+        }
+      ]
+    },
+    {
       "modelId": "apple-iphone-16-pro-max",
       "modelName": "iPhone 16 Pro Max",
       "brand": "Apple",
@@ -1313,6 +1357,21 @@
           "source": "Apple Official (GSMArena CDN)",
           "verified": true,
           "alt": "Apple iPhone SE rear view"
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16e",
+      "modelName": "iPhone 16e",
+      "brand": "Apple",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16e.jpg",
+          "angle": "front",
+          "source": "Apple Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Apple iPhone 16e front view"
         }
       ]
     },
@@ -1967,6 +2026,21 @@
       ]
     },
     {
+      "modelId": "google-pixel-9a",
+      "modelName": "Pixel 9a",
+      "brand": "Google",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9a.jpg",
+          "angle": "front",
+          "source": "Google Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Google Pixel 9a front view"
+        }
+      ]
+    },
+    {
       "modelId": "xiaomi-14-ultra",
       "modelName": "Xiaomi 14 Ultra",
       "brand": "Xiaomi",
@@ -2075,6 +2149,21 @@
           "sourceUrl": "https://www.mi.com/in/product/xiaomi-11-lite-ne-5g/",
           "verified": true,
           "alt": "Xiaomi Xiaomi 11 Lite NE 5G official product photography"
+        }
+      ]
+    },
+    {
+      "modelId": "xiaomi-15",
+      "modelName": "Xiaomi 15",
+      "brand": "Xiaomi",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-15.jpg",
+          "angle": "front",
+          "source": "Xiaomi Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Xiaomi 15 front view"
         }
       ]
     },
@@ -2543,6 +2632,36 @@
       ]
     },
     {
+      "modelId": "poco-x7-pro-5g",
+      "modelName": "POCO X7 Pro 5G",
+      "brand": "POCO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x7-pro.jpg",
+          "angle": "front",
+          "source": "POCO Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "POCO X7 Pro 5G front view"
+        }
+      ]
+    },
+    {
+      "modelId": "poco-x7-5g",
+      "modelName": "POCO X7 5G",
+      "brand": "POCO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x7.jpg",
+          "angle": "front",
+          "source": "POCO Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "POCO X7 5G front view"
+        }
+      ]
+    },
+    {
       "modelId": "vivo-x200-pro",
       "modelName": "Vivo X200 Pro",
       "brand": "Vivo",
@@ -2847,6 +2966,21 @@
       ]
     },
     {
+      "modelId": "vivo-y300-5g",
+      "modelName": "Vivo Y300 5G",
+      "brand": "Vivo",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y300-5g.jpg",
+          "angle": "front",
+          "source": "Vivo Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Vivo Y300 5G front view"
+        }
+      ]
+    },
+    {
       "modelId": "iqoo-13-5g",
       "modelName": "iQOO 13 5G",
       "brand": "iQOO",
@@ -3003,6 +3137,21 @@
           "sourceUrl": "https://www.iqoo.com/in/products/z9x",
           "verified": true,
           "alt": "iQOO Z9x 5G front display view"
+        }
+      ]
+    },
+    {
+      "modelId": "iqoo-z9-lite-5g",
+      "modelName": "iQOO Z9 Lite 5G",
+      "brand": "iQOO",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9-lite.jpg",
+          "angle": "front",
+          "source": "iQOO Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "iQOO Z9 Lite 5G front view"
         }
       ]
     },
@@ -3824,6 +3973,36 @@
       ]
     },
     {
+      "modelId": "motorola-razr-50",
+      "modelName": "Motorola Razr 50",
+      "brand": "Motorola",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-50.jpg",
+          "angle": "front",
+          "source": "Motorola Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Motorola Razr 50 front view"
+        }
+      ]
+    },
+    {
+      "modelId": "motorola-edge-50",
+      "modelName": "Motorola Edge 50",
+      "brand": "Motorola",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-5g.jpg",
+          "angle": "front",
+          "source": "Motorola Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Motorola Edge 50 front view"
+        }
+      ]
+    },
+    {
       "modelId": "nothing-phone-2",
       "modelName": "Nothing Phone (2)",
       "brand": "Nothing",
@@ -3932,6 +4111,38 @@
           "sourceUrl": "https://in.nothing.tech/pages/phone-1",
           "verified": true,
           "alt": "Nothing Phone (1) front display view"
+        }
+      ]
+    },
+    {
+      "modelId": "nothing-phone-3a",
+      "modelName": "Nothing Phone (3a)",
+      "brand": "Nothing",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-3a.jpg",
+          "angle": "front",
+          "source": "Nothing Official (GSMArena CDN)",
+          "sourceUrl": "https://in.nothing.tech/pages/phone-3a",
+          "verified": true,
+          "alt": "Nothing Phone (3a) front AMOLED view"
+        }
+      ]
+    },
+    {
+      "modelId": "nothing-phone-3",
+      "modelName": "Nothing Phone (3)",
+      "brand": "Nothing",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-3.jpg",
+          "angle": "front",
+          "source": "Nothing Official (GSMArena CDN)",
+          "sourceUrl": "https://in.nothing.tech/pages/phone-3",
+          "verified": true,
+          "alt": "Nothing Phone (3) front display view"
         }
       ]
     },
@@ -4536,6 +4747,21 @@
       ]
     },
     {
+      "modelId": "lava-agni-2-5g",
+      "modelName": "Lava Agni 2 5G",
+      "brand": "Lava",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/lava-agni2-5g.jpg",
+          "angle": "front",
+          "source": "Lava Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "Lava Agni 2 5G front view"
+        }
+      ]
+    },
+    {
       "modelId": "hmd-skyline",
       "modelName": "HMD Skyline",
       "brand": "HMD",
@@ -4604,6 +4830,21 @@
           "sourceUrl": "https://www.hmd.com/en_in/hmd-crest-5g",
           "verified": true,
           "alt": "HMD Crest 5G front display view"
+        }
+      ]
+    },
+    {
+      "modelId": "hmd-fusion",
+      "modelName": "HMD Fusion",
+      "brand": "HMD",
+      "verifiedCoverage": true,
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/hmd-fusion.jpg",
+          "angle": "front",
+          "source": "HMD Official (GSMArena CDN)",
+          "verified": true,
+          "alt": "HMD Fusion front view"
         }
       ]
     },
