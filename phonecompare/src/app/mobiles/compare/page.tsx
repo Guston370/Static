@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { MobileComparisonPage } from '@/components/MobileComparisonPage';
 
 export const metadata: Metadata = {
-  title: 'Compare Smartphones Side by Side | Static — but dynamic',
+  title: 'Compare Phones Side by Side | PhoneCompare',
   description:
     'Compare Indian smartphones side-by-side across processors, camera sensors, displays, batteries, fast charging, and verified prices. Transparent benchmark scoring.',
 };

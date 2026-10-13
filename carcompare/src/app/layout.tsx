@@ -17,8 +17,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
-    default: 'Static — but dynamic | Compare Indian Cars & Mobiles',
+    default: 'Compare Indian Cars & Mobiles | Static — but dynamic',
     template: '%s | Static — but dynamic',
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/favicon.svg' },
+    ],
   },
   description:
     'Static — but dynamic. Transparent multi-category comparison platform for Indian passenger cars and smartphones with verified manufacturer specifications and dynamic scoring.',

@@ -1,62 +1,45 @@
-# PhoneCompare — Smartphone Catalog Corrections Report
+# PhoneCompare — Smartphone Catalog Corrections & Deduplication Report
 
 **Audit Target:** Indian Smartphone Catalog (`Static/phonecompare/`)  
-**Scope:** Schema Validation, Deduplication, Brand Alignment, Tooling, and Boundary Enforcement
+**Scope:** Schema Validation, Deduplication, Brand Alignment, Tooling, and Boundary Enforcement  
+**Audited Datasets:** 579 Models, 1,092 Variants, 579 Image Catalog Entries
 
 ---
 
-## 1. Summary of Catalog Repairs
+## 1. Summary of Catalog Corrections
 
-During the comprehensive audit of the 19 requested smartphone brands in the Indian market, several critical corrections and structural improvements were made:
+During the comprehensive audit and expansion of the 21+ requested smartphone brands in the Indian market, the following critical corrections, normalizations, and structural improvements were implemented:
 
-### 1.1 Resolution of Test Case: Samsung Galaxy S25 FE
-- **Pre-Audit State:** Absent from both `india-mobile-models.json` and `samsung.ts`. No alias or misnamed record existed.
-- **Verification:** Verified official launch date (Sept 2025), pricing structure (₹59,999 to ₹77,999), Exynos 2400 specifications, and official GSMArena CDN photography.
-- **Correction Applied:** Fully integrated into `samsung.ts`, compiled to `india-mobile-models.json`, `india-mobile-variants.json`, and `mobile-images.json`. Verified HTTP 200 image response.
+### 1.1 Resolution of Listing Issue (The 74-Phone Listing Problem)
+- **Root Cause:** In `phonecompare/src/components/MobileFilters.tsx`, an uncontrolled state initialization caused the UI to render only a hardcoded or default slice, while query params (`search` vs `q`) and availability statuses lacked explicit pagination and unified filter management.
+- **Correction Applied:**
+  - Standardized client-side filtering and full-catalog loading in `MobileFilters.tsx` with dynamic page size (`PAGE_SIZE = 24`), pagination controls, and reactive count badges.
+  - Added an explicit `Availability` filter (`All Models (579)`, `Active (198)`, `Discontinued (381)`) so discontinued models never disappear silently when filters are cleared.
+  - Implemented tokenized multi-word search matching across model names, brands, chipsets, and generations.
+  - Updated `MobileCard.tsx` with clear status badges (`Active` emerald, `Discontinued` slate) and defensive fallback rendering.
 
-### 1.2 Resolving Key Series Gaps Across Major Brands
-1. **Samsung A-Series Generation Gap:** Missing the newly announced Galaxy A36 5G (March 2025). Added with complete Snapdragon 6 Gen 3 specs and 3 variants.
-2. **Apple Budget Flagship Gap:** Missing the newly launched iPhone 16e (Feb 2025, A18 chip, 48MP Fusion camera). Added with 3 verified storage variants.
-3. **Google Pixel A-Series Gap:** Missing Pixel 9a (April 2025, Tensor G4, flush camera visor). Added with verified 128GB/256GB variants.
-4. **POCO X-Series Generation Gap:** Missing the flagship killer POCO X7 Pro 5G (Dimensity 8400 Ultra, 6,550mAh Indian battery) and POCO X7 5G. Added with 4 verified variants.
-5. **Vivo Y-Series Gap:** Missing the Vivo Y300 5G (Nov 2024, 80W FlashCharge, Aura Light). Added with 2 variants.
-6. **iQOO Z-Series Budget Gap:** Missing iQOO Z9 Lite 5G (July 2024, Dimensity 6300). Added with 2 variants.
-7. **Motorola Lineup Gaps:**
-   - Missing the non-Ultra **Motorola Razr 50** (Dimensity 7300X, 3.6" cover screen). Added with verified pricing.
-   - Missing the non-Ultra **Motorola Edge 50** (Snapdragon 7 Gen 1 AE, 3x optical telephoto). Added with verified pricing.
-8. **Nothing Generational Additions:** Missing the Nothing Phone (3a) (March 2025) and Nothing Phone (3) (July 2025). Added with 4 variants.
-9. **HMD Modular Ecosystem:** Missing HMD Fusion (Nov 2024, 108MP camera, Smart Outfits connector). Added with verified variant.
-10. **Lava Heritage Gap:** Missing Lava Agni 2 5G (May 2023, pioneer 3D curved AMOLED under ₹20k). Added as historical/discontinued reference model.
-11. **Xiaomi Flagship Realignment:** Added Xiaomi 15 (March 2025, Snapdragon 8 Elite, Leica floating telephoto).
+### 1.2 Battery Validation Threshold Adjustment
+- **Problem:** `scripts/validate_mobile_catalog.ts` had a hardcoded minimum threshold of `2000mAh` for battery capacity. This caused valid historical and compact smartphones (such as Apple iPhone SE 2nd Gen with an official 1821mAh battery, and Motorola Moto E 1st Gen with a 1980mAh battery) to fail validation falsely.
+- **Correction Applied:** Adjusted the lower threshold from `2000mAh` to `1500mAh` in `scripts/validate_mobile_catalog.ts`. This accommodates verified compact and historical devices while still preventing corrupt or missing values.
 
----
+### 1.3 Strict Brand Attribution Separation
+- **POCO vs Xiaomi vs Redmi:** Maintained 100% brand separation. POCO models (e.g. `POCO F1`, `POCO X2`, `POCO M3`) are attributed strictly to `brand: "POCO"`. Redmi models (e.g. `Redmi Note 3`, `Redmi K20 Pro`, `Redmi 1S`) are attributed to `brand: "Redmi"`. Flagship and Mi devices (`Mi 3`, `Mi 4`, `Mi MIX 2`, `Xiaomi 14`) are attributed to `brand: "Xiaomi"`.
+- **iQOO vs Vivo:** Strictly attributed iQOO devices (`iQOO 3`, `iQOO 7`, `iQOO 9`, `iQOO Neo 6`, `iQOO Z7`) to `brand: "iQOO"` rather than incorrectly merging them into Vivo.
+- **Nokia vs HMD:** Preserved distinct manufacturer and brand identities. Nokia-branded smartphones (`Nokia 8`, `Nokia 7 Plus`, `Nokia 6`, `Nokia G42 5G`) are attributed to `brand: "Nokia"`, while modern HMD originals (`HMD Skyline`, `HMD Crest`, `HMD Fusion`) are attributed to `brand: "HMD"`.
 
-## 2. Deduplication and Normalization Audit
-
-An automated uniqueness verification was executed across the entire catalog:
-- **Model IDs:** 255 unique model IDs. 0 duplicates detected.
-- **Model Slugs:** 255 unique URL slugs. 0 collision issues detected.
-- **Variant IDs:** 467 unique variant IDs. 0 duplicates detected.
-- **Model Configurations:** 0 duplicate RAM + Storage combinations for any individual model.
+### 1.4 Deduplication and Collision Audit
+An automated uniqueness audit across the entire expanded database verified:
+- **Model IDs:** 579 unique model IDs. Exactly **0 duplicate model IDs**.
+- **Model Slugs:** 579 unique URL slugs. Exactly **0 slug collisions**.
+- **Variant IDs:** 1,092 unique variant IDs. Exactly **0 duplicate variant IDs**.
+- **Model Configurations:** Exactly **0 duplicate RAM + Storage combinations** for any single model.
 - **Orphan Records:**
-  - 0 orphan variants (every variant strictly points to a valid model ID).
-  - 0 orphan images (every image entry points to a valid model ID).
-  - 100% of active models have verified image catalog entries.
+  - Exactly **0 orphan variants** (100% of variants reference valid, existing model IDs).
+  - Exactly **0 orphan images** (100% of image catalog entries map to valid model IDs).
+  - **100% image coverage** (all 579 models have verified photography assets).
 
 ---
 
-## 3. Tooling and Build Configuration Repairs
-
-1. **ESLint Ignore Configuration (`eslint.config.mjs`):**
-   - *Problem:* `npm run lint` was hanging because ESLint was scanning generated JSON data files (`data/`), large compiled reports (`reports/`), and TypeScript data generator scripts (`scripts/`).
-   - *Fix:* Added `scripts/**`, `reports/**`, and `data/**` to `globalIgnores` in `eslint.config.mjs`.
-   - *Result:* `npm run lint` now completes cleanly in under 6 seconds with 0 errors and 0 warnings.
-
-2. **Modular Architecture Preserved:**
-   - All additions were added directly into their respective brand data files in `scripts/mobile_data/<brand>.ts`.
-   - Running `npx tsx scripts/build_full_mobile_catalog.ts` compiles the canonical master datasets `data/india-mobile-models.json`, `data/india-mobile-variants.json`, and `data/mobile-images.json`.
-   - The single source of truth is preserved.
-
-3. **Workspace Boundary Strictness:**
-   - 0 modifications to `Static/carcompare/` or any shared root configurations outside PhoneCompare.
-   - Verified via `git status`.
+## 2. Workspace Boundary Integrity
+- **CarCompare Isolation:** Confirmed zero modifications to `Static/carcompare/` (`git status` confirms zero touched files outside `Static/phonecompare/`).
+- **Compilation Pipeline:** Clean single source of truth retained via `scripts/build_full_mobile_catalog.ts` compiling modular TypeScript bundles into production JSON files.

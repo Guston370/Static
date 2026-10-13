@@ -29,6 +29,11 @@ import type { ModelImageEntry } from '@/types/car-images';
 import { CANONICAL_FEATURES, calculateUpgradeDiff, type UpgradeDiff } from '@/lib/featureMatrix';
 import { formatVariantPrice } from '@/lib/variants';
 import { AddToCompareButton } from '@/components/AddToCompareButton';
+import { getCarPriceSnapshot } from '@/lib/pricing/service';
+import { PriceFreshnessBadge } from '@/components/pricing/PriceFreshnessBadge';
+import { PlatformLinksList } from '@/components/pricing/PlatformLinksList';
+import { OnRoadCalculator } from '@/components/pricing/OnRoadCalculator';
+import { PriceHistoryTable } from '@/components/pricing/PriceHistoryTable';
 
 interface ModelVariantViewProps {
   car: Car;
@@ -209,6 +214,10 @@ export function ModelVariantView({
       fill={i < ncapRating ? '#f59e0b' : 'none'}
     />
   )) : null;
+
+  const priceSnapshot = getCarPriceSnapshot(car);
+  const selectedExShowroomInr = selectedVariant.pricing.exShowroom ||
+    Math.round((selectedVariant.pricing.exShowroomLakh || car.pricing.minPriceLakh) * 100000);
 
   return (
     <>
@@ -458,29 +467,36 @@ export function ModelVariantView({
                   background: 'var(--color-bg)',
                   border: '1px solid var(--color-border)',
                   borderRadius: 'var(--radius-md)',
-                  padding: '1rem',
+                  padding: '1.1rem',
                   marginBottom: '1.25rem',
                 }}
               >
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-                  <p style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 500 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: '6px' }}>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 600, margin: 0 }}>
                     Ex-showroom price ({selectedVariant.name})
                   </p>
-                  <span style={{ fontSize: '0.72rem', color: 'var(--color-text-tertiary)' }}>
-                    Range: ₹{modelGroup.priceRangeLakh.min.toFixed(2)}L – {modelGroup.priceRangeLakh.max.toFixed(2)}L
+                  <PriceFreshnessBadge
+                    status={priceSnapshot.priceFreshness}
+                    observedAt={priceSnapshot.lastCheckedAt}
+                    sourceName={`${car.brand} Official Ex-Showroom`}
+                  />
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginTop: '0.35rem' }}>
+                  <p
+                    style={{
+                      fontSize: '1.75rem',
+                      fontWeight: 800,
+                      letterSpacing: '-0.025em',
+                      color: 'var(--color-text-primary)',
+                      margin: 0,
+                    }}
+                  >
+                    {formatVariantPrice(selectedVariant)}
+                  </p>
+                  <span style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)' }}>
+                    Model Range: ₹{modelGroup.priceRangeLakh.min.toFixed(2)}L – {modelGroup.priceRangeLakh.max.toFixed(2)}L
                   </span>
                 </div>
-                <p
-                  style={{
-                    fontSize: '1.6rem',
-                    fontWeight: 800,
-                    letterSpacing: '-0.025em',
-                    color: 'var(--color-text-primary)',
-                    marginTop: '0.25rem',
-                  }}
-                >
-                  {formatVariantPrice(selectedVariant)}
-                </p>
 
                 {/* Variant Verified Mileage */}
                 {selectedVariant.powertrain.fuelType === 'Electric' ? (
@@ -990,6 +1006,9 @@ export function ModelVariantView({
                 </ul>
               </div>
             </div>
+
+            {/* Price History Log */}
+            <PriceHistoryTable history={priceSnapshot.history} />
           </div>
 
           {/* Sidebar */}
@@ -1038,6 +1057,25 @@ export function ModelVariantView({
                   );
                 })}
               </div>
+            </div>
+
+            {/* Interactive On-Road Price Calculator */}
+            <OnRoadCalculator
+              carName={car.displayName}
+              exShowroomInr={selectedExShowroomInr}
+              fuelType={selectedVariant.powertrain.fuelType}
+              variantName={selectedVariant.name}
+            />
+
+            {/* Verified Manufacturer & Automotive Research Portals */}
+            <div className="card" style={{ padding: '1.25rem' }}>
+              <h3 style={{ fontSize: '0.9rem', fontWeight: 700, marginBottom: '0.625rem', letterSpacing: '0.03em', textTransform: 'uppercase' }}>
+                Official & Research Links
+              </h3>
+              <PlatformLinksList
+                links={priceSnapshot.sources}
+                productName={car.displayName}
+              />
             </div>
 
             {/* Quick compare widget */}

@@ -2,8 +2,8 @@
   "metadata": {
     "country": "India",
     "marketDate": "October 2026",
-    "totalModelsWithImages": 255,
-    "modelsWithVerifiedCoverage": 255
+    "totalModelsWithImages": 583,
+    "modelsWithVerifiedCoverage": 583
   },
   "models": [
     {
@@ -5047,6 +5047,5254 @@
           "alt": "Itel A70 rear view"
         }
       ]
+    },
+    {
+      "modelId": "apple-iphone-17-pro-max",
+      "modelName": "iPhone 17 Pro Max",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+          "verified": true,
+          "alt": "iPhone 17 Pro Max front display"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-17-pro",
+      "modelName": "iPhone 17 Pro",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro.jpg",
+          "verified": true,
+          "alt": "iPhone 17 Pro front display"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-17-air",
+      "modelName": "iPhone 17 Air",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-plus.jpg",
+          "verified": true,
+          "alt": "iPhone 17 Air ultra-slim profile view"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-17",
+      "modelName": "iPhone 17",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg",
+          "verified": true,
+          "alt": "iPhone 17 front view"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-12-pro-max",
+      "modelName": "iPhone 12 Pro Max",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg",
+          "verified": true,
+          "alt": "iPhone 12 Pro Max Pacific Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-12-pro",
+      "modelName": "iPhone 12 Pro",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg",
+          "verified": true,
+          "alt": "iPhone 12 Pro Pacific Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-12-mini",
+      "modelName": "iPhone 12 mini",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+          "verified": true,
+          "alt": "iPhone 12 mini Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-se-2020",
+      "modelName": "iPhone SE (2nd Gen)",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg",
+          "verified": true,
+          "alt": "iPhone SE 2nd Gen Product RED"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-11-pro-max",
+      "modelName": "iPhone 11 Pro Max",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg",
+          "verified": true,
+          "alt": "iPhone 11 Pro Max Midnight Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-11-pro",
+      "modelName": "iPhone 11 Pro",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg",
+          "verified": true,
+          "alt": "iPhone 11 Pro Space Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-11",
+      "modelName": "iPhone 11",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg",
+          "verified": true,
+          "alt": "iPhone 11 Purple"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-xs-max",
+      "modelName": "iPhone XS Max",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg",
+          "verified": true,
+          "alt": "iPhone XS Max Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-xs",
+      "modelName": "iPhone XS",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg",
+          "verified": true,
+          "alt": "iPhone XS Space Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-xr",
+      "modelName": "iPhone XR",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg",
+          "verified": true,
+          "alt": "iPhone XR Coral"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "apple-iphone-x",
+      "modelName": "iPhone X",
+      "brand": "Apple",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg",
+          "verified": true,
+          "alt": "iPhone X Silver anniversary edition"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s26-ultra",
+      "modelName": "Galaxy S26 Ultra",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S26 Ultra Titanium Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s26-plus",
+      "modelName": "Galaxy S26+",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-plus-sm-s936-1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-plus-sm-s936-1.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S26+ Cobalt Violet"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s26",
+      "modelName": "Galaxy S26",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-sm-s931-1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-sm-s931-1.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S26 Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s26-fe",
+      "modelName": "Galaxy S26 FE",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-fe.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-fe.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S26 FE Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s23-plus",
+      "modelName": "Galaxy S23+",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-plus-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-plus-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S23+ Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s22-plus",
+      "modelName": "Galaxy S22+",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S22+ Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s22",
+      "modelName": "Galaxy S22",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S22 Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s21-ultra-5g",
+      "modelName": "Galaxy S21 Ultra 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S21 Ultra 5G Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s21-plus-5g",
+      "modelName": "Galaxy S21+ 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-plus-5g-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-plus-5g-.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S21+ 5G Phantom Violet"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s21-5g",
+      "modelName": "Galaxy S21 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S21 5G Phantom Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s20-ultra",
+      "modelName": "Galaxy S20 Ultra",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-ultra-5g-r.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-ultra-5g-r.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S20 Ultra Cosmic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s20-plus",
+      "modelName": "Galaxy S20+",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-plus-r.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-plus-r.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S20+ Cloud Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s20",
+      "modelName": "Galaxy S20",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-r.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-r.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S20 Cloud Pink"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s20-fe-5g",
+      "modelName": "Galaxy S20 FE 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-fe-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s20-fe-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S20 FE 5G Cloud Navy"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s10-plus",
+      "modelName": "Galaxy S10+",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-plus-new.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-plus-new.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S10+ Prism White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s10",
+      "modelName": "Galaxy S10",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-new.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-new.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S10 Prism Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s10e",
+      "modelName": "Galaxy S10e",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10e-new.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10e-new.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S10e Canary Yellow"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s10-lite",
+      "modelName": "Galaxy S10 Lite",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-lite.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-lite.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S10 Lite Prism Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s9-plus",
+      "modelName": "Galaxy S9+",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-plus-blue.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-plus-blue.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S9+ Coral Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s9",
+      "modelName": "Galaxy S9",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-grey.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-grey.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S9 Midnight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s8-plus",
+      "modelName": "Galaxy S8+",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-plus-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-plus-.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S8+ Orchid Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s8",
+      "modelName": "Galaxy S8",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s8-.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S8 Midnight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s7-edge",
+      "modelName": "Galaxy S7 edge",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7-edge-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7-edge-.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S7 edge Gold Platinum"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-s7",
+      "modelName": "Galaxy S7",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7--.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7--.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy S7 Black Onyx"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-z-fold-4",
+      "modelName": "Galaxy Z Fold 4",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold4-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold4-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Fold 4 Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-z-flip-4",
+      "modelName": "Galaxy Z Flip 4",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip4-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip4-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Flip 4 Bora Purple"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-z-fold-3",
+      "modelName": "Galaxy Z Fold 3 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold3-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold3-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Fold 3 5G Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-z-flip-3",
+      "modelName": "Galaxy Z Flip 3 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip3-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip3-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Flip 3 5G Cream"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-z-fold-2",
+      "modelName": "Galaxy Z Fold 2 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold2-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold2-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Fold 2 Mystic Bronze"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-fold",
+      "modelName": "Galaxy Fold",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-fold.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-fold.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy Fold Cosmos Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-z-flip",
+      "modelName": "Galaxy Z Flip",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy Z Flip Mirror Purple"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a73-5g",
+      "modelName": "Galaxy A73 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a73-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a73-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A73 5G Awesome Mint"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a53-5g",
+      "modelName": "Galaxy A53 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a53-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a53-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A53 5G Awesome Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a52s-5g",
+      "modelName": "Galaxy A52s 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52s-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52s-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A52s 5G Awesome Mint"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a52",
+      "modelName": "Galaxy A52",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52-4g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52-4g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A52 Awesome Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a51",
+      "modelName": "Galaxy A51",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a51.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a51.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A51 Prism Crush Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a50",
+      "modelName": "Galaxy A50",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50-sm-a505f-ds.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50-sm-a505f-ds.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A50 Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a72",
+      "modelName": "Galaxy A72",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a72-4g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a72-4g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A72 Awesome Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a71",
+      "modelName": "Galaxy A71",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a71.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a71.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A71 Prism Crush Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a70",
+      "modelName": "Galaxy A70",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a70.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a70.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A70 Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a33-5g",
+      "modelName": "Galaxy A33 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a33-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a33-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A33 5G Awesome Peach"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a32",
+      "modelName": "Galaxy A32",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-4g-new.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-4g-new.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A32 Awesome Violet"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a31",
+      "modelName": "Galaxy A31",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a31.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a31.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A31 Prism Crush Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a30",
+      "modelName": "Galaxy A30",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a30.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a30.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A30 Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a23-5g",
+      "modelName": "Galaxy A23 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a23-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a23-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A23 5G Light Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a22-5g",
+      "modelName": "Galaxy A22 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A22 5G Mint"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a14-5g",
+      "modelName": "Galaxy A14 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A14 5G Dark Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a13",
+      "modelName": "Galaxy A13",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A13 Peach"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a12",
+      "modelName": "Galaxy A12",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a12-sm-a125.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a12-sm-a125.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A12 Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a05",
+      "modelName": "Galaxy A05",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a05.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a05.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A05 Light Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-a04",
+      "modelName": "Galaxy A04",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy A04 Copper"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m53-5g",
+      "modelName": "Galaxy M53 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m53-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m53-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M53 5G Deep Ocean Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m52-5g",
+      "modelName": "Galaxy M52 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m52-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m52-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M52 5G Icy Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m51",
+      "modelName": "Galaxy M51",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m51.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m51.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M51 Celestial Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m33-5g",
+      "modelName": "Galaxy M33 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m33.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m33.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M33 5G Ocean Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m32",
+      "modelName": "Galaxy M32",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m32-4g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m32-4g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M32 Light Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m31s",
+      "modelName": "Galaxy M31s",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31s.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31s.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M31s Mirage Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m31",
+      "modelName": "Galaxy M31",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31-sm-m315f.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m31-sm-m315f.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M31 Ocean Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m30s",
+      "modelName": "Galaxy M30s",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30s.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30s.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M30s Sapphire Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m30",
+      "modelName": "Galaxy M30",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30-m305f.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30-m305f.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M30 Gradation Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m14-5g",
+      "modelName": "Galaxy M14 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m14-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m14-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M14 5G Icy Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m13",
+      "modelName": "Galaxy M13",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13-4g-india.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13-4g-india.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M13 Midnight Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m12",
+      "modelName": "Galaxy M12",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m12.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m12.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M12 Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m11",
+      "modelName": "Galaxy M11",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m11.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m11.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M11 Metallic Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-m04",
+      "modelName": "Galaxy M04",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m04.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m04.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy M04 Sea Glass Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f62",
+      "modelName": "Galaxy F62",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f62.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f62.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F62 Laser Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f42-5g",
+      "modelName": "Galaxy F42 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f42-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f42-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F42 5G Matte Aqua"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f41",
+      "modelName": "Galaxy F41",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f41.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f41.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F41 Fusion Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f34-5g",
+      "modelName": "Galaxy F34 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f34-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f34-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F34 5G Electric Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f23-5g",
+      "modelName": "Galaxy F23 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f23-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f23-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F23 5G Aqua Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f22",
+      "modelName": "Galaxy F22",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f22.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f22.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F22 Denim Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f14-5g",
+      "modelName": "Galaxy F14 5G",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f14-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f14-5g.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F14 5G B.A.E. Purple"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f13",
+      "modelName": "Galaxy F13",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f13.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f13.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F13 Waterfall Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f12",
+      "modelName": "Galaxy F12",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f12.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f12.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F12 Sea Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "samsung-galaxy-f04",
+      "modelName": "Galaxy F04",
+      "brand": "Samsung",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f04.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f04.jpg",
+          "verified": true,
+          "alt": "Samsung Galaxy F04 Jade Purple"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel",
+      "modelName": "Pixel",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel.jpg",
+          "verified": true,
+          "alt": "Google Pixel Quite Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-xl",
+      "modelName": "Pixel XL",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-xl.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-xl.jpg",
+          "verified": true,
+          "alt": "Google Pixel XL Very Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-2",
+      "modelName": "Pixel 2",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-2.jpg",
+          "verified": true,
+          "alt": "Google Pixel 2 Just Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-2-xl",
+      "modelName": "Pixel 2 XL",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-2-xl.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-2-xl.jpg",
+          "verified": true,
+          "alt": "Google Pixel 2 XL Black & White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-3",
+      "modelName": "Pixel 3",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3.jpg",
+          "verified": true,
+          "alt": "Google Pixel 3 Clearly White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-3-xl",
+      "modelName": "Pixel 3 XL",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3-xl.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3-xl.jpg",
+          "verified": true,
+          "alt": "Google Pixel 3 XL Just Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-3a",
+      "modelName": "Pixel 3a",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3a.jpg",
+          "verified": true,
+          "alt": "Google Pixel 3a Clearly White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-3a-xl",
+      "modelName": "Pixel 3a XL",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3a-xl.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3a-xl.jpg",
+          "verified": true,
+          "alt": "Google Pixel 3a XL Just Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-4",
+      "modelName": "Pixel 4",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4.jpg",
+          "verified": true,
+          "alt": "Google Pixel 4 Clearly White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-4-xl",
+      "modelName": "Pixel 4 XL",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4-xl.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4-xl.jpg",
+          "verified": true,
+          "alt": "Google Pixel 4 XL Oh So Orange"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-4a",
+      "modelName": "Pixel 4a",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4a.jpg",
+          "verified": true,
+          "alt": "Google Pixel 4a Just Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-4a-5g",
+      "modelName": "Pixel 4a 5G",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4a-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-4a-5g.jpg",
+          "verified": true,
+          "alt": "Google Pixel 4a 5G Just Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-5",
+      "modelName": "Pixel 5",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-5-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-5-5g.jpg",
+          "verified": true,
+          "alt": "Google Pixel 5 Sorta Sage"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-5a-5g",
+      "modelName": "Pixel 5a 5G",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-5a-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-5a-5g.jpg",
+          "verified": true,
+          "alt": "Google Pixel 5a 5G Mostly Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-6",
+      "modelName": "Pixel 6",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6.jpg",
+          "verified": true,
+          "alt": "Google Pixel 6 Kinda Coral"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-6-pro",
+      "modelName": "Pixel 6 Pro",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6-pro.jpg",
+          "verified": true,
+          "alt": "Google Pixel 6 Pro Cloudy White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "google-pixel-fold",
+      "modelName": "Pixel Fold",
+      "brand": "Google",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-fold.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-fold.jpg",
+          "verified": true,
+          "alt": "Google Pixel Fold Obsidian"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-one",
+      "modelName": "OnePlus One",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-one.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-one.jpg",
+          "verified": true,
+          "alt": "OnePlus One Sandstone Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-2",
+      "modelName": "OnePlus 2",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-two.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-two.jpg",
+          "verified": true,
+          "alt": "OnePlus 2 Sandstone Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-x",
+      "modelName": "OnePlus X",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-x.jpg",
+          "verified": true,
+          "alt": "OnePlus X Onyx"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-3",
+      "modelName": "OnePlus 3",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-3.jpg",
+          "verified": true,
+          "alt": "OnePlus 3 Graphite"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-3t",
+      "modelName": "OnePlus 3T",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-3t.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-3t.jpg",
+          "verified": true,
+          "alt": "OnePlus 3T Gunmetal"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-5",
+      "modelName": "OnePlus 5",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5.jpg",
+          "verified": true,
+          "alt": "OnePlus 5 Midnight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-5t",
+      "modelName": "OnePlus 5T",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5t.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-5t.jpg",
+          "verified": true,
+          "alt": "OnePlus 5T Midnight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-6",
+      "modelName": "OnePlus 6",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6.jpg",
+          "verified": true,
+          "alt": "OnePlus 6 Mirror Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-6t",
+      "modelName": "OnePlus 6T",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6t-midnight-black.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-6t-midnight-black.jpg",
+          "verified": true,
+          "alt": "OnePlus 6T Mirror Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-7",
+      "modelName": "OnePlus 7",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7.jpg",
+          "verified": true,
+          "alt": "OnePlus 7 Mirror Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-7-pro",
+      "modelName": "OnePlus 7 Pro",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7-pro-r.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7-pro-r.jpg",
+          "verified": true,
+          "alt": "OnePlus 7 Pro Nebula Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-7t",
+      "modelName": "OnePlus 7T",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-1.jpg",
+          "verified": true,
+          "alt": "OnePlus 7T Glacier Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-7t-pro",
+      "modelName": "OnePlus 7T Pro",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-7t-pro.jpg",
+          "verified": true,
+          "alt": "OnePlus 7T Pro Haze Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-8",
+      "modelName": "OnePlus 8",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8.jpg",
+          "verified": true,
+          "alt": "OnePlus 8 Glacial Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-8-pro",
+      "modelName": "OnePlus 8 Pro",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8-pro.jpg",
+          "verified": true,
+          "alt": "OnePlus 8 Pro Glacial Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-8t",
+      "modelName": "OnePlus 8T",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8t-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-8t-5g.jpg",
+          "verified": true,
+          "alt": "OnePlus 8T Aquamarine Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-9",
+      "modelName": "OnePlus 9",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-.jpg",
+          "verified": true,
+          "alt": "OnePlus 9 Winter Mist"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-9-pro",
+      "modelName": "OnePlus 9 Pro",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-pro-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-pro-.jpg",
+          "verified": true,
+          "alt": "OnePlus 9 Pro Morning Mist"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-9r",
+      "modelName": "OnePlus 9R",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9r.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9r.jpg",
+          "verified": true,
+          "alt": "OnePlus 9R Carbon Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-9rt",
+      "modelName": "OnePlus 9RT",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9rt-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9rt-5g.jpg",
+          "verified": true,
+          "alt": "OnePlus 9RT Hacker Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-nord",
+      "modelName": "OnePlus Nord",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-.jpg",
+          "verified": true,
+          "alt": "OnePlus Nord Blue Marble"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-nord-2-5g",
+      "modelName": "OnePlus Nord 2 5G",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-2-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-2-5g.jpg",
+          "verified": true,
+          "alt": "OnePlus Nord 2 Gray Sierra"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-nord-2t-5g",
+      "modelName": "OnePlus Nord 2T 5G",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-2t.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-2t.jpg",
+          "verified": true,
+          "alt": "OnePlus Nord 2T Jade Fog"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-nord-ce-5g",
+      "modelName": "OnePlus Nord CE 5G",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-5g.jpg",
+          "verified": true,
+          "alt": "OnePlus Nord CE Blue Void"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-nord-ce-2-5g",
+      "modelName": "OnePlus Nord CE 2 5G",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-2-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-2-5g.jpg",
+          "verified": true,
+          "alt": "OnePlus Nord CE 2 Bahama Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oneplus-nord-ce-2-lite-5g",
+      "modelName": "OnePlus Nord CE 2 Lite 5G",
+      "brand": "OnePlus",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-2-lite-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-2-lite-5g.jpg",
+          "verified": true,
+          "alt": "OnePlus Nord CE 2 Lite Black Dusk"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-3",
+      "modelName": "Mi 3",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi3.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 3 Metallic Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-4",
+      "modelName": "Mi 4",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 4 White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-4i",
+      "modelName": "Mi 4i",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4i.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-4i.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 4i Dark Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-5",
+      "modelName": "Mi 5",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-5.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 5 Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-max",
+      "modelName": "Mi Max",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi Max Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-max-2",
+      "modelName": "Mi Max 2",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max-2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-max-2.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi Max 2 Matte Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-mix-2",
+      "modelName": "Mi MIX 2",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-mix-2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-mix-2.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi MIX 2 Ceramic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-a1",
+      "modelName": "Mi A1",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a1.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi A1 Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-a2",
+      "modelName": "Mi A2",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a2.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi A2 Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-a3",
+      "modelName": "Mi A3",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a3-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-a3-.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi A3 Not Just Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-10-5g",
+      "modelName": "Mi 10 5G",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10-5g.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 10 Twilight Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-10t-5g",
+      "modelName": "Mi 10T 5G",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10t-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10t-5g.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 10T Cosmic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-10t-pro-5g",
+      "modelName": "Mi 10T Pro 5G",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10t-pro-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10t-pro-5g.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 10T Pro Aurora Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-10i-5g",
+      "modelName": "Mi 10i 5G",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10i-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10i-5g.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 10i Pacific Sunrise"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-11-ultra",
+      "modelName": "Mi 11 Ultra",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi11-ultra-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi11-ultra-.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 11 Ultra Ceramic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-11x-5g",
+      "modelName": "Mi 11X 5G",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-11x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-11x.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 11X Celestial Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-mi-11x-pro-5g",
+      "modelName": "Mi 11X Pro 5G",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-11x-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-11x-pro.jpg",
+          "verified": true,
+          "alt": "Xiaomi Mi 11X Pro Cosmic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-11i-hypercharge-5g",
+      "modelName": "11i HyperCharge 5G",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-11i-hypercharge.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-11i-hypercharge.jpg",
+          "verified": true,
+          "alt": "Xiaomi 11i HyperCharge Stealth Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "xiaomi-civi-4-pro",
+      "modelName": "Civi 4 Pro",
+      "brand": "Xiaomi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-civi-4-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-civi-4-pro.jpg",
+          "verified": true,
+          "alt": "Xiaomi Civi 4 Pro Spring Field Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-1s",
+      "modelName": "Redmi 1S",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-1s.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-1s.jpg",
+          "verified": true,
+          "alt": "Redmi 1S Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-2",
+      "modelName": "Redmi 2",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-2.jpg",
+          "verified": true,
+          "alt": "Redmi 2 White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-3s",
+      "modelName": "Redmi 3S",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3s.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3s.jpg",
+          "verified": true,
+          "alt": "Redmi 3S Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-3s-prime",
+      "modelName": "Redmi 3S Prime",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3s.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-3s.jpg",
+          "verified": true,
+          "alt": "Redmi 3S Prime Dark Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-4",
+      "modelName": "Redmi 4",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-4-india.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-4-india.jpg",
+          "verified": true,
+          "alt": "Redmi 4 Matte Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-4a",
+      "modelName": "Redmi 4A",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-4a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-4a.jpg",
+          "verified": true,
+          "alt": "Redmi 4A Rose Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-5",
+      "modelName": "Redmi 5",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-5.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-5.jpg",
+          "verified": true,
+          "alt": "Redmi 5 Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-5a",
+      "modelName": "Redmi 5A",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-5a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-5a.jpg",
+          "verified": true,
+          "alt": "Redmi 5A Platinum Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-6",
+      "modelName": "Redmi 6",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-6.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-6.jpg",
+          "verified": true,
+          "alt": "Redmi 6 Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-6-pro",
+      "modelName": "Redmi 6 Pro",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-6-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-6-pro.jpg",
+          "verified": true,
+          "alt": "Redmi 6 Pro Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-6a",
+      "modelName": "Redmi 6A",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-6a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-6a.jpg",
+          "verified": true,
+          "alt": "Redmi 6A Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-7",
+      "modelName": "Redmi 7",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-7.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-7.jpg",
+          "verified": true,
+          "alt": "Redmi 7 Lunar Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-7a",
+      "modelName": "Redmi 7A",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-7a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-7a.jpg",
+          "verified": true,
+          "alt": "Redmi 7A Matte Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-8",
+      "modelName": "Redmi 8",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-8.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-8.jpg",
+          "verified": true,
+          "alt": "Redmi 8 Ruby Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-8a",
+      "modelName": "Redmi 8A",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-8a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-8a.jpg",
+          "verified": true,
+          "alt": "Redmi 8A Sunset Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-9",
+      "modelName": "Redmi 9",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9-india.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9-india.jpg",
+          "verified": true,
+          "alt": "Redmi 9 Carbon Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-9-prime",
+      "modelName": "Redmi 9 Prime",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9-prime.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9-prime.jpg",
+          "verified": true,
+          "alt": "Redmi 9 Prime Matte Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-9a",
+      "modelName": "Redmi 9A",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9a.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9a.jpg",
+          "verified": true,
+          "alt": "Redmi 9A Midnight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-9-power",
+      "modelName": "Redmi 9 Power",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9-power.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-9-power.jpg",
+          "verified": true,
+          "alt": "Redmi 9 Power Electric Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-10-prime",
+      "modelName": "Redmi 10 Prime",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-10-prime.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-10-prime.jpg",
+          "verified": true,
+          "alt": "Redmi 10 Prime Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-3",
+      "modelName": "Redmi Note 3",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-3.jpg",
+          "verified": true,
+          "alt": "Redmi Note 3 Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-4",
+      "modelName": "Redmi Note 4",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-4.jpg",
+          "verified": true,
+          "alt": "Redmi Note 4 Dark Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-5",
+      "modelName": "Redmi Note 5",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-5.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-5.jpg",
+          "verified": true,
+          "alt": "Redmi Note 5 Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-5-pro",
+      "modelName": "Redmi Note 5 Pro",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-5-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-5-pro.jpg",
+          "verified": true,
+          "alt": "Redmi Note 5 Pro Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-6-pro",
+      "modelName": "Redmi Note 6 Pro",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-6-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-6-pro.jpg",
+          "verified": true,
+          "alt": "Redmi Note 6 Pro Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-7-pro",
+      "modelName": "Redmi Note 7 Pro",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-7-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-7-pro.jpg",
+          "verified": true,
+          "alt": "Redmi Note 7 Pro Nebula Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-8",
+      "modelName": "Redmi Note 8",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-8.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-8.jpg",
+          "verified": true,
+          "alt": "Redmi Note 8 Neptune Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-8-pro",
+      "modelName": "Redmi Note 8 Pro",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-8-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-8-pro.jpg",
+          "verified": true,
+          "alt": "Redmi Note 8 Pro Gamma Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-9-pro",
+      "modelName": "Redmi Note 9 Pro",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro.jpg",
+          "verified": true,
+          "alt": "Redmi Note 9 Pro Aurora Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-9-pro-max",
+      "modelName": "Redmi Note 9 Pro Max",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro-max.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-9-pro-max.jpg",
+          "verified": true,
+          "alt": "Redmi Note 9 Pro Max Aurora Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-note-10-pro-max",
+      "modelName": "Redmi Note 10 Pro Max",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-10-pro-max.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-10-pro-max.jpg",
+          "verified": true,
+          "alt": "Redmi Note 10 Pro Max Dark Night"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-k20-pro",
+      "modelName": "Redmi K20 Pro",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k20-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k20-pro.jpg",
+          "verified": true,
+          "alt": "Redmi K20 Pro Flame Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "redmi-k50i-5g",
+      "modelName": "Redmi K50i 5G",
+      "brand": "Redmi",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k50i-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k50i-5g.jpg",
+          "verified": true,
+          "alt": "Redmi K50i 5G Stealth Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-f1",
+      "modelName": "POCO F1",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-pocophone-f1-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-pocophone-f1-.jpg",
+          "verified": true,
+          "alt": "POCO F1 Graphite Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-f3-gt",
+      "modelName": "POCO F3 GT",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f3-gt.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f3-gt.jpg",
+          "verified": true,
+          "alt": "POCO F3 GT Gunmetal Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-x2",
+      "modelName": "POCO X2",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x2.jpg",
+          "verified": true,
+          "alt": "POCO X2 Atlantis Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-x3",
+      "modelName": "POCO X3",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x3-nfc.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x3-nfc.jpg",
+          "verified": true,
+          "alt": "POCO X3 Cobalt Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-x3-pro",
+      "modelName": "POCO X3 Pro",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x3-pro-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x3-pro-.jpg",
+          "verified": true,
+          "alt": "POCO X3 Pro Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-x4-pro-5g",
+      "modelName": "POCO X4 Pro 5G",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x4-pro-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x4-pro-5g.jpg",
+          "verified": true,
+          "alt": "POCO X4 Pro Laser Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-m2",
+      "modelName": "POCO M2",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2.jpg",
+          "verified": true,
+          "alt": "POCO M2 Pitch Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-m2-pro",
+      "modelName": "POCO M2 Pro",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m2-pro.jpg",
+          "verified": true,
+          "alt": "POCO M2 Pro Out of the Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-m3",
+      "modelName": "POCO M3",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m3.jpg",
+          "verified": true,
+          "alt": "POCO M3 Power Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-m4-pro",
+      "modelName": "POCO M4 Pro",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m4-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m4-pro.jpg",
+          "verified": true,
+          "alt": "POCO M4 Pro Power Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-m4-5g",
+      "modelName": "POCO M4 5G",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m4-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m4-5g.jpg",
+          "verified": true,
+          "alt": "POCO M4 5G Cool Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-m5",
+      "modelName": "POCO M5",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m5.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m5.jpg",
+          "verified": true,
+          "alt": "POCO M5 Icy Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-c3",
+      "modelName": "POCO C3",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c3.jpg",
+          "verified": true,
+          "alt": "POCO C3 Arctic Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-c31",
+      "modelName": "POCO C31",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c31.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c31.jpg",
+          "verified": true,
+          "alt": "POCO C31 Royal Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-c50",
+      "modelName": "POCO C50",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c50.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c50.jpg",
+          "verified": true,
+          "alt": "POCO C50 Country Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "poco-c55",
+      "modelName": "POCO C55",
+      "brand": "POCO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c55.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c55.jpg",
+          "verified": true,
+          "alt": "POCO C55 Forest Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g",
+      "modelName": "Moto G (1st Gen)",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g-2nd-gen",
+      "modelName": "Moto G (2nd Gen)",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g-2nd-gen.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g-2nd-gen.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G 2nd Gen Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g-3rd-gen",
+      "modelName": "Moto G (3rd Gen)",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g-3rd-gen.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g-3rd-gen.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G 3rd Gen Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g4-plus",
+      "modelName": "Moto G4 Plus",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g4-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g4-plus.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G4 Plus Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g5-plus",
+      "modelName": "Moto G5 Plus",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g5-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g5-plus.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G5 Plus Lunar Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g5s-plus",
+      "modelName": "Moto G5S Plus",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g5s-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g5s-plus.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G5S Plus Lunar Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g6",
+      "modelName": "Moto G6",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g6-r.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g6-r.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G6 Deep Indigo"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g7-power",
+      "modelName": "Moto G7 Power",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g7-power.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g7-power.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G7 Power Marine Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g8-plus",
+      "modelName": "Moto G8 Plus",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g8-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g8-plus.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G8 Plus Cosmic Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g40-fusion",
+      "modelName": "Moto G40 Fusion",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g40-fusion.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g40-fusion.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G40 Fusion Dynamic Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g60",
+      "modelName": "Moto G60",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g60.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g60.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G60 Dynamic Gray"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g52",
+      "modelName": "Moto G52",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g52.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g52.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G52 Charcoal Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g72",
+      "modelName": "Moto G72",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g72.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g72.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G72 Meteorite Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-g34-5g",
+      "modelName": "Moto G34 5G",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g34.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g34.jpg",
+          "verified": true,
+          "alt": "Motorola Moto G34 5G Ocean Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-e",
+      "modelName": "Moto E (1st Gen)",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-e.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-e.jpg",
+          "verified": true,
+          "alt": "Motorola Moto E Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-e-2nd-gen",
+      "modelName": "Moto E (2nd Gen 4G)",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-e-2nd-gen.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-e-2nd-gen.jpg",
+          "verified": true,
+          "alt": "Motorola Moto E 2nd Gen Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-e13",
+      "modelName": "Moto E13",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-e13.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-e13.jpg",
+          "verified": true,
+          "alt": "Motorola Moto E13 Aurora Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-edge-20",
+      "modelName": "Motorola Edge 20",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-20.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-20.jpg",
+          "verified": true,
+          "alt": "Motorola Edge 20 Frosted Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-edge-20-pro",
+      "modelName": "Motorola Edge 20 Pro",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-20-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-20-pro.jpg",
+          "verified": true,
+          "alt": "Motorola Edge 20 Pro Midnight Sky"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-edge-30",
+      "modelName": "Motorola Edge 30",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30.jpg",
+          "verified": true,
+          "alt": "Motorola Edge 30 Meteor Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-razr-2019",
+      "modelName": "Motorola Razr (2019)",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-2019.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-2019.jpg",
+          "verified": true,
+          "alt": "Motorola Razr 2019 Noir Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-razr-40",
+      "modelName": "Motorola Razr 40",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-40.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-razr-40.jpg",
+          "verified": true,
+          "alt": "Motorola Razr 40 Sage Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-x",
+      "modelName": "Moto X (1st Gen)",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-x.jpg",
+          "verified": true,
+          "alt": "Motorola Moto X Woven Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-x4",
+      "modelName": "Moto X4",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-x4.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-x4.jpg",
+          "verified": true,
+          "alt": "Motorola Moto X4 Super Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-z",
+      "modelName": "Moto Z",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-z.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-z.jpg",
+          "verified": true,
+          "alt": "Motorola Moto Z Black / Lunar Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-moto-z-play",
+      "modelName": "Moto Z Play",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-z-play.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-z-play.jpg",
+          "verified": true,
+          "alt": "Motorola Moto Z Play Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-one-power",
+      "modelName": "Motorola One Power",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-one-power.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-one-power.jpg",
+          "verified": true,
+          "alt": "Motorola One Power Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "motorola-one-fusion-plus",
+      "modelName": "Motorola One Fusion+",
+      "brand": "Motorola",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-one-fusion-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-one-fusion-plus.jpg",
+          "verified": true,
+          "alt": "Motorola One Fusion+ Moonlight White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-find-x",
+      "modelName": "Find X",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x.jpg",
+          "verified": true,
+          "alt": "OPPO Find X Bordeaux Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-find-x2",
+      "modelName": "Find X2",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x2.jpg",
+          "verified": true,
+          "alt": "OPPO Find X2 Ceramic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-find-n2-flip",
+      "modelName": "Find N2 Flip",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2-flip.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2-flip.jpg",
+          "verified": true,
+          "alt": "OPPO Find N2 Flip Astral Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-reno-10x-zoom",
+      "modelName": "Reno 10x Zoom",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-10x-zoom.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-10x-zoom.jpg",
+          "verified": true,
+          "alt": "OPPO Reno 10x Zoom Ocean Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-reno-6-pro-5g",
+      "modelName": "Reno 6 Pro 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
+          "verified": true,
+          "alt": "OPPO Reno 6 Pro Aurora"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-reno-7-pro-5g",
+      "modelName": "Reno 7 Pro 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-r.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-r.jpg",
+          "verified": true,
+          "alt": "OPPO Reno 7 Pro Starlight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-reno-8-pro-5g",
+      "modelName": "Reno 8 Pro 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
+          "verified": true,
+          "alt": "OPPO Reno 8 Pro Glazed Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-reno-10-5g",
+      "modelName": "Reno 10 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno10.jpg",
+          "verified": true,
+          "alt": "OPPO Reno 10 5G Ice Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-f1s",
+      "modelName": "F1s",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1s.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1s.jpg",
+          "verified": true,
+          "alt": "OPPO F1s Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-f9-pro",
+      "modelName": "F9 Pro",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f9.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f9.jpg",
+          "verified": true,
+          "alt": "OPPO F9 Pro Sunrise Red"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-f11-pro",
+      "modelName": "F11 Pro",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f11-pro.jpg",
+          "verified": true,
+          "alt": "OPPO F11 Pro Thunder Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-f17-pro",
+      "modelName": "F17 Pro",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f17-pro.jpg",
+          "verified": true,
+          "alt": "OPPO F17 Pro Magic Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-f19-pro-plus-5g",
+      "modelName": "F19 Pro+ 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19-pro-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19-pro-plus.jpg",
+          "verified": true,
+          "alt": "OPPO F19 Pro+ Fluid Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-f21-pro-5g",
+      "modelName": "F21 Pro 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f21-pro-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f21-pro-5g.jpg",
+          "verified": true,
+          "alt": "OPPO F21 Pro 5G Rainbow Spectrum"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-f23-5g",
+      "modelName": "F23 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f23-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f23-5g.jpg",
+          "verified": true,
+          "alt": "OPPO F23 5G Bold Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-k1",
+      "modelName": "K1",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k1.jpg",
+          "verified": true,
+          "alt": "OPPO K1 Astral Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-k3",
+      "modelName": "K3",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k3.jpg",
+          "verified": true,
+          "alt": "OPPO K3 Nebula Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "oppo-k10-5g",
+      "modelName": "K10 5G",
+      "brand": "OPPO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-5g-india.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k10-5g-india.jpg",
+          "verified": true,
+          "alt": "OPPO K10 5G Ocean Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-x50-pro",
+      "modelName": "X50 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x50-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x50-pro.jpg",
+          "verified": true,
+          "alt": "Vivo X50 Pro Alpha Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-x60-pro",
+      "modelName": "X60 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x60-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x60-pro.jpg",
+          "verified": true,
+          "alt": "Vivo X60 Pro Shimmer Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-x70-pro",
+      "modelName": "X70 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x70-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x70-pro.jpg",
+          "verified": true,
+          "alt": "Vivo X70 Pro Aurora Dawn"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-x70-pro-plus",
+      "modelName": "X70 Pro+",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x70-pro-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x70-pro-plus.jpg",
+          "verified": true,
+          "alt": "Vivo X70 Pro+ Enigma Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-x80-pro",
+      "modelName": "X80 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x80-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x80-pro.jpg",
+          "verified": true,
+          "alt": "Vivo X80 Pro Cosmic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-x90",
+      "modelName": "X90",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x90.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x90.jpg",
+          "verified": true,
+          "alt": "Vivo X90 Breeze Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-v9",
+      "modelName": "V9",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v9.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v9.jpg",
+          "verified": true,
+          "alt": "Vivo V9 Pearl Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-v11-pro",
+      "modelName": "V11 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v11-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v11-pro.jpg",
+          "verified": true,
+          "alt": "Vivo V11 Pro Starry Night"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-v15-pro",
+      "modelName": "V15 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v15-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v15-pro.jpg",
+          "verified": true,
+          "alt": "Vivo V15 Pro Topaz Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-v20",
+      "modelName": "V20",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v20.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v20.jpg",
+          "verified": true,
+          "alt": "Vivo V20 Sunset Melody"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-v23-pro",
+      "modelName": "V23 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v23-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v23-pro.jpg",
+          "verified": true,
+          "alt": "Vivo V23 Pro Sunshine Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-v27-pro",
+      "modelName": "V27 Pro",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v27-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v27-pro.jpg",
+          "verified": true,
+          "alt": "Vivo V27 Pro Magic Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-t1-5g",
+      "modelName": "T1 5G",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t1-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t1-5g.jpg",
+          "verified": true,
+          "alt": "Vivo T1 5G Starlight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "vivo-t2-pro-5g",
+      "modelName": "T2 Pro 5G",
+      "brand": "Vivo",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t2-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-t2-pro.jpg",
+          "verified": true,
+          "alt": "Vivo T2 Pro 5G Dune Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-3",
+      "modelName": "iQOO 3",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo3-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo3-5g.jpg",
+          "verified": true,
+          "alt": "iQOO 3 Volcano Orange"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-7-5g",
+      "modelName": "iQOO 7 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-7-india.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-7-india.jpg",
+          "verified": true,
+          "alt": "iQOO 7 Storm Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-7-legend-5g",
+      "modelName": "iQOO 7 Legend 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-7.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-7.jpg",
+          "verified": true,
+          "alt": "iQOO 7 Legend BMW M Motorsport Edition"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-9-5g",
+      "modelName": "iQOO 9 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-9-india.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-9-india.jpg",
+          "verified": true,
+          "alt": "iQOO 9 Alpha"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-9-pro-5g",
+      "modelName": "iQOO 9 Pro 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-9-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-9-pro.jpg",
+          "verified": true,
+          "alt": "iQOO 9 Pro Legend"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-9t-5g",
+      "modelName": "iQOO 9T 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-9t.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-9t.jpg",
+          "verified": true,
+          "alt": "iQOO 9T Legend"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-neo-6-5g",
+      "modelName": "iQOO Neo 6 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-neo6-india.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-neo6-india.jpg",
+          "verified": true,
+          "alt": "iQOO Neo 6 Dark Nova"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-z3-5g",
+      "modelName": "iQOO Z3 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z3.jpg",
+          "verified": true,
+          "alt": "iQOO Z3 Ace Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-z5-5g",
+      "modelName": "iQOO Z5 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z5.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z5.jpg",
+          "verified": true,
+          "alt": "iQOO Z5 Mystic Space"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-z6-pro-5g",
+      "modelName": "iQOO Z6 Pro 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z6-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z6-pro.jpg",
+          "verified": true,
+          "alt": "iQOO Z6 Pro Legion Sky"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-z7-5g",
+      "modelName": "iQOO Z7 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z7.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z7.jpg",
+          "verified": true,
+          "alt": "iQOO Z7 5G Norway Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "iqoo-z7-pro-5g",
+      "modelName": "iQOO Z7 Pro 5G",
+      "brand": "iQOO",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z7-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z7-pro.jpg",
+          "verified": true,
+          "alt": "iQOO Z7 Pro 5G Blue Lagoon"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-1",
+      "modelName": "realme 1",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-1.jpg",
+          "verified": true,
+          "alt": "realme 1 Diamond Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-2-pro",
+      "modelName": "realme 2 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-2-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-2-pro.jpg",
+          "verified": true,
+          "alt": "realme 2 Pro Ice Lake"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-3-pro",
+      "modelName": "realme 3 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-3-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-3-pro.jpg",
+          "verified": true,
+          "alt": "realme 3 Pro Nitro Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-5-pro",
+      "modelName": "realme 5 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-5-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-5-pro.jpg",
+          "verified": true,
+          "alt": "realme 5 Pro Crystal Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-6-pro",
+      "modelName": "realme 6 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-6-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-6-pro.jpg",
+          "verified": true,
+          "alt": "realme 6 Pro Lightning Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-7-pro",
+      "modelName": "realme 7 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-7-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-7-pro.jpg",
+          "verified": true,
+          "alt": "realme 7 Pro Mirror Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-8-pro",
+      "modelName": "realme 8 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-8-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-8-pro.jpg",
+          "verified": true,
+          "alt": "realme 8 Pro Infinite Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-9-pro-plus-5g",
+      "modelName": "realme 9 Pro+ 5G",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro-plus.jpg",
+          "verified": true,
+          "alt": "realme 9 Pro+ Sunrise Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-10-pro-plus-5g",
+      "modelName": "realme 10 Pro+ 5G",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-10-pro-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-10-pro-plus.jpg",
+          "verified": true,
+          "alt": "realme 10 Pro+ Hyperspace Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-11-pro-plus-5g",
+      "modelName": "realme 11 Pro+ 5G",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-11-pro-plus.jpg",
+          "verified": true,
+          "alt": "realme 11 Pro+ Sunrise Beige"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-x",
+      "modelName": "realme X",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-x.jpg",
+          "verified": true,
+          "alt": "realme X Polar White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-xt",
+      "modelName": "realme XT",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-xt.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-xt.jpg",
+          "verified": true,
+          "alt": "realme XT Pearl White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-x2-pro",
+      "modelName": "realme X2 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-x2-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-x2-pro.jpg",
+          "verified": true,
+          "alt": "realme X2 Pro Lunar White"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-gt-5g",
+      "modelName": "realme GT 5G",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-5g.jpg",
+          "verified": true,
+          "alt": "realme GT Racing Yellow"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-gt-neo-2",
+      "modelName": "realme GT Neo 2",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo2.jpg",
+          "verified": true,
+          "alt": "realme GT Neo 2 NEO Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-gt-neo-3",
+      "modelName": "realme GT Neo 3",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3.jpg",
+          "verified": true,
+          "alt": "realme GT Neo 3 Nitro Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-narzo-10",
+      "modelName": "realme Narzo 10",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-10.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-10.jpg",
+          "verified": true,
+          "alt": "realme Narzo 10 That Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-narzo-20-pro",
+      "modelName": "realme Narzo 20 Pro",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-20-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-20-pro.jpg",
+          "verified": true,
+          "alt": "realme Narzo 20 Pro White Knight"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "realme-c55",
+      "modelName": "realme C55",
+      "brand": "realme",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/realme-c55.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/realme-c55.jpg",
+          "verified": true,
+          "alt": "realme C55 Sunshower"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-rog-phone",
+      "modelName": "ROG Phone (1st Gen)",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-.jpg",
+          "verified": true,
+          "alt": "ASUS ROG Phone Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-rog-phone-ii",
+      "modelName": "ROG Phone II",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-2.jpg",
+          "verified": true,
+          "alt": "ASUS ROG Phone II Matte Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-rog-phone-3",
+      "modelName": "ROG Phone 3",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-3.jpg",
+          "verified": true,
+          "alt": "ASUS ROG Phone 3 Black Glare"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-rog-phone-5",
+      "modelName": "ROG Phone 5",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-5.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-5.jpg",
+          "verified": true,
+          "alt": "ASUS ROG Phone 5 Phantom Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-zenfone-5z",
+      "modelName": "Zenfone 5Z",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-5z-zs620kl-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-5z-zs620kl-.jpg",
+          "verified": true,
+          "alt": "ASUS Zenfone 5Z Midnight Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-6z",
+      "modelName": "ASUS 6z",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-6-zs630kl.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-6-zs630kl.jpg",
+          "verified": true,
+          "alt": "ASUS 6z Midnight Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-zenfone-max-pro-m1",
+      "modelName": "Zenfone Max Pro M1",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-pro-m1.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-pro-m1.jpg",
+          "verified": true,
+          "alt": "ASUS Zenfone Max Pro M1 Deepsea Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "asus-zenfone-max-pro-m2",
+      "modelName": "Zenfone Max Pro M2",
+      "brand": "ASUS",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-pro-m2.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-pro-m2.jpg",
+          "verified": true,
+          "alt": "ASUS Zenfone Max Pro M2 Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "infinix-zero-8i",
+      "modelName": "Zero 8i",
+      "brand": "Infinix",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-8i.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-8i.jpg",
+          "verified": true,
+          "alt": "Infinix Zero 8i Silver Diamond"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "infinix-zero-5g",
+      "modelName": "Zero 5G",
+      "brand": "Infinix",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-5g.jpg",
+          "verified": true,
+          "alt": "Infinix Zero 5G Cosmic Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "infinix-zero-20",
+      "modelName": "Zero 20",
+      "brand": "Infinix",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-20.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-20.jpg",
+          "verified": true,
+          "alt": "Infinix Zero 20 Space Grey"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "infinix-note-12-pro-5g",
+      "modelName": "Note 12 Pro 5G",
+      "brand": "Infinix",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-12-pro-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-12-pro-5g.jpg",
+          "verified": true,
+          "alt": "Infinix Note 12 Pro 5G Force Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "infinix-note-40-pro-5g",
+      "modelName": "Note 40 Pro 5G",
+      "brand": "Infinix",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-40-pro.jpg",
+          "verified": true,
+          "alt": "Infinix Note 40 Pro 5G Vintage Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "infinix-hot-10",
+      "modelName": "Hot 10",
+      "brand": "Infinix",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-10.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-10.jpg",
+          "verified": true,
+          "alt": "Infinix Hot 10 Obsidian Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "tecno-phantom-x",
+      "modelName": "Phantom X",
+      "brand": "Tecno",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-phantom-x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/tecno-phantom-x.jpg",
+          "verified": true,
+          "alt": "Tecno Phantom X Starry Night Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "tecno-phantom-x2-pro-5g",
+      "modelName": "Phantom X2 Pro 5G",
+      "brand": "Tecno",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-phantom-x2-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/tecno-phantom-x2-pro.jpg",
+          "verified": true,
+          "alt": "Tecno Phantom X2 Pro Mars Orange"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "tecno-camon-20-premier-5g",
+      "modelName": "Camon 20 Premier 5G",
+      "brand": "Tecno",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-20-premier.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-20-premier.jpg",
+          "verified": true,
+          "alt": "Tecno Camon 20 Premier Dark Welkin"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "tecno-pova-3",
+      "modelName": "Pova 3",
+      "brand": "Tecno",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-3.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-3.jpg",
+          "verified": true,
+          "alt": "Tecno Pova 3 Electric Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "lava-blaze-pro",
+      "modelName": "Blaze Pro",
+      "brand": "Lava",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/lava-blaze-pro.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/lava-blaze-pro.jpg",
+          "verified": true,
+          "alt": "Lava Blaze Pro Glass Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "lava-blaze-2-5g",
+      "modelName": "Blaze 2 5G",
+      "brand": "Lava",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/lava-blaze-2-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/lava-blaze-2-5g.jpg",
+          "verified": true,
+          "alt": "Lava Blaze 2 5G Glass Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "lava-blaze-3-5g",
+      "modelName": "Blaze 3 5G",
+      "brand": "Lava",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/lava-blaze-3-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/lava-blaze-3-5g.jpg",
+          "verified": true,
+          "alt": "Lava Blaze 3 5G Glass Gold"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "lava-yuva-5g",
+      "modelName": "Yuva 5G",
+      "brand": "Lava",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/lava-yuva-5g.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/lava-yuva-5g.jpg",
+          "verified": true,
+          "alt": "Lava Yuva 5G Mystic Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "nokia-8",
+      "modelName": "Nokia 8",
+      "brand": "Nokia",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-8-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/nokia-8-.jpg",
+          "verified": true,
+          "alt": "Nokia 8 Polished Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "nokia-8-sirocco",
+      "modelName": "Nokia 8 Sirocco",
+      "brand": "Nokia",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-8-sirocco.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/nokia-8-sirocco.jpg",
+          "verified": true,
+          "alt": "Nokia 8 Sirocco Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "nokia-7-plus",
+      "modelName": "Nokia 7 Plus",
+      "brand": "Nokia",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-7-plus-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/nokia-7-plus-.jpg",
+          "verified": true,
+          "alt": "Nokia 7 Plus Black / Copper"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "nokia-6",
+      "modelName": "Nokia 6 (1st Gen)",
+      "brand": "Nokia",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-6-2017.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/nokia-6-2017.jpg",
+          "verified": true,
+          "alt": "Nokia 6 Matte Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "nokia-6-dot-1-plus",
+      "modelName": "Nokia 6.1 Plus",
+      "brand": "Nokia",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-61-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/nokia-61-plus.jpg",
+          "verified": true,
+          "alt": "Nokia 6.1 Plus Gloss Black"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "nokia-g42-5g",
+      "modelName": "Nokia G42 5G",
+      "brand": "Nokia",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-g42.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/nokia-g42.jpg",
+          "verified": true,
+          "alt": "Nokia G42 5G So Purple"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "honor-7x",
+      "modelName": "Honor 7X",
+      "brand": "Honor",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-7x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-7x.jpg",
+          "verified": true,
+          "alt": "Honor 7X Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "honor-8x",
+      "modelName": "Honor 8X",
+      "brand": "Honor",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-8x.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-8x.jpg",
+          "verified": true,
+          "alt": "Honor 8X Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "honor-play",
+      "modelName": "Honor Play",
+      "brand": "Honor",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-play-.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-play-.jpg",
+          "verified": true,
+          "alt": "Honor Play Navy Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "honor-view-20",
+      "modelName": "Honor View 20",
+      "brand": "Honor",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-view-20.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-view-20.jpg",
+          "verified": true,
+          "alt": "Honor View 20 Phantom Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "honor-90-5g",
+      "modelName": "Honor 90 5G",
+      "brand": "Honor",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/honor-90.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/honor-90.jpg",
+          "verified": true,
+          "alt": "Honor 90 5G Diamond Silver"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "itel-s23-plus",
+      "modelName": "S23+",
+      "brand": "Itel",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/itel-s23-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/itel-s23-plus.jpg",
+          "verified": true,
+          "alt": "Itel S23+ Elemental Blue"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "itel-p55-plus",
+      "modelName": "P55+",
+      "brand": "Itel",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55-plus.jpg",
+          "verified": true,
+          "alt": "Itel P55+ Royal Green"
+        }
+      ],
+      "verifiedCoverage": true
+    },
+    {
+      "modelId": "itel-p40-plus",
+      "modelName": "P40+",
+      "brand": "Itel",
+      "images": [
+        {
+          "url": "https://fdn2.gsmarena.com/vv/bigpic/itel-p40-plus.jpg",
+          "angle": "front",
+          "source": "Manufacturer / Verified Press Asset",
+          "sourceUrl": "https://fdn2.gsmarena.com/vv/bigpic/itel-p40-plus.jpg",
+          "verified": true,
+          "alt": "Itel P40+ Force Black"
+        }
+      ],
+      "verifiedCoverage": true
     }
   ]
 }

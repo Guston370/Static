@@ -18,7 +18,6 @@ const footerLinks = {
   ],
   Platform: [
     { href: '/', label: 'Home' },
-    { href: '/cars', label: 'Cars Catalog' },
     { href: '/mobiles', label: 'Mobiles Catalog' },
     { href: '/mobiles/compare', label: 'Direct Comparison' },
   ],
@@ -28,7 +27,7 @@ export function Footer() {
   return (
     <footer
       style={{
-        background: 'var(--color-text-primary)',
+        background: '#1A2332',
         color: '#fff',
         marginTop: 'auto',
         paddingBottom: '5rem', // space for comparison tray
@@ -36,33 +35,31 @@ export function Footer() {
     >
       {/* Main footer content */}
       <div className="container" style={{ paddingTop: '3.5rem', paddingBottom: '2.5rem' }}>
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
-            gap: '2.5rem',
-          }}
-        >
+        <div className="footer-grid">
           {/* Brand column */}
-          <div style={{ gridColumn: 'span 1' }}>
-            <div
+          <div>
+            <Link
+              href="/"
               style={{
-                display: 'flex',
+                display: 'inline-flex',
                 alignItems: 'center',
                 gap: '0.5rem',
                 marginBottom: '1rem',
+                textDecoration: 'none',
               }}
+              aria-label="PhoneCompare Home"
             >
               <span
                 style={{
                   background: 'var(--color-accent)',
-                  borderRadius: '8px',
+                  borderRadius: 'var(--radius-sm)',
                   width: '32px',
                   height: '32px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   flexShrink: 0,
+                  boxShadow: '0 2px 8px rgba(53,106,230,0.35)',
                 }}
               >
                 <Smartphone size={18} color="#fff" />
@@ -89,10 +86,10 @@ export function Footer() {
                   but dynamic
                 </span>
               </div>
-            </div>
+            </Link>
             <p
               style={{
-                color: '#9b9b97',
+                color: 'rgba(255,255,255,0.55)',
                 fontSize: '0.875rem',
                 lineHeight: 1.7,
                 marginBottom: '1.5rem',
@@ -105,7 +102,7 @@ export function Footer() {
               style={{
                 display: 'flex',
                 gap: '1.25rem',
-                color: '#9b9b97',
+                color: 'rgba(255,255,255,0.55)',
                 fontSize: '0.8rem',
               }}
             >
@@ -129,7 +126,7 @@ export function Footer() {
                   fontWeight: 700,
                   textTransform: 'uppercase',
                   letterSpacing: '0.08em',
-                  color: '#e5e5e3',
+                  color: 'rgba(255,255,255,0.9)',
                   marginBottom: '1.25rem',
                 }}
               >
@@ -140,12 +137,7 @@ export function Footer() {
                   <li key={link.href} style={{ marginBottom: '0.65rem' }}>
                     <Link
                       href={link.href}
-                      style={{
-                        color: '#9b9b97',
-                        fontSize: '0.875rem',
-                        textDecoration: 'none',
-                        transition: 'color 0.15s ease',
-                      }}
+                      className="footer-link"
                     >
                       {link.label}
                     </Link>
@@ -159,7 +151,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div
           style={{
-            borderTop: '1px solid #2a2a28',
+            borderTop: '1px solid rgba(255,255,255,0.08)',
             marginTop: '3rem',
             paddingTop: '2rem',
             display: 'flex',
@@ -168,7 +160,7 @@ export function Footer() {
             alignItems: 'center',
             gap: '1rem',
             fontSize: '0.8rem',
-            color: '#6b6b68',
+            color: 'rgba(255,255,255,0.45)',
           }}
         >
           <div>

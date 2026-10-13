@@ -25,6 +25,16 @@ import { hmdBundle } from './hmd';
 import { honorBundle } from './honor';
 import { itelBundle } from './itel';
 
+// Addition bundles covering historical and newly audited smartphone lineups
+import { appleAdditionsBundle } from './additions_apple';
+import { samsungAdditionsBundle } from './additions_samsung';
+import { googleAdditionsBundle } from './additions_google';
+import { oneplusAdditionsBundle } from './additions_oneplus';
+import { xiaomiAdditionsBundle } from './additions_xiaomi';
+import { motorolaAdditionsBundle } from './additions_motorola';
+import { bbkAdditionsBundle } from './additions_bbk';
+import { othersAdditionsBundle } from './additions_others';
+
 const bundles = [
   samsungBundle,
   appleBundle,
@@ -47,6 +57,15 @@ const bundles = [
   hmdBundle,
   honorBundle,
   itelBundle,
+  // Additions
+  appleAdditionsBundle,
+  samsungAdditionsBundle,
+  googleAdditionsBundle,
+  oneplusAdditionsBundle,
+  xiaomiAdditionsBundle,
+  motorolaAdditionsBundle,
+  bbkAdditionsBundle,
+  othersAdditionsBundle,
 ];
 
 export const allMobileModels: MobileModel[] = bundles.flatMap((b) => b.models);

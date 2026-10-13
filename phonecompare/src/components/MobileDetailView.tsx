@@ -12,6 +12,10 @@ import {
 import type { MobileModel, MobileVariant, MobileImageItem } from '@/types/mobile';
 import { formatMobilePrice, calculateUpgradeDifference } from '@/lib/mobiles';
 import { useMobileCompare } from '@/context/MobileCompareContext';
+import { getMobilePriceSnapshot } from '@/lib/pricing/service';
+import { PriceFreshnessBadge } from '@/components/pricing/PriceFreshnessBadge';
+import { PlatformLinksList } from '@/components/pricing/PlatformLinksList';
+import { PriceHistoryTable } from '@/components/pricing/PriceHistoryTable';
 
 interface MobileDetailViewProps {
   mobile: MobileModel;
@@ -40,8 +44,10 @@ export function MobileDetailView({
   const selectedVariant =
     variants.find((v) => v.id === selectedVariantId) || variants[0];
 
-  const currentPrice = selectedVariant?.price || mobile.pricing.startingPrice;
-  const currentMrp = selectedVariant?.mrp;
+  const priceSnapshot = getMobilePriceSnapshot(mobile, variants);
+  const variantSnapshot = selectedVariant ? priceSnapshot.variantPrices[selectedVariant.id] : null;
+  const currentPrice = variantSnapshot?.currentPrice || selectedVariant?.price || mobile.pricing.startingPrice;
+  const currentMrp = variantSnapshot?.mrp || selectedVariant?.mrp;
   const activeImage = images[activeImageIndex] || {
     url: mobile.primaryImage || '/mobiles/images/phone-placeholder.svg',
     alt: `${mobile.brand} ${mobile.modelName}`,
@@ -231,39 +237,64 @@ export function MobileDetailView({
           {/* Dynamic Price Display */}
           <div
             style={{
-              padding: '1rem 1.25rem',
+              padding: '1.1rem 1.25rem',
               background: 'var(--color-surface-sunken)',
               border: '1px solid var(--color-border-subtle)',
-              borderRadius: '10px',
+              borderRadius: '12px',
               display: 'flex',
-              alignItems: 'baseline',
-              gap: '0.75rem',
+              flexDirection: 'column',
+              gap: '0.45rem',
             }}
           >
-            <span
-              style={{
-                fontSize: '1.9rem',
-                fontWeight: 800,
-                color: 'var(--color-text-primary)',
-                letterSpacing: '-0.02em',
-              }}
-            >
-              {formatMobilePrice(currentPrice)}
-            </span>
-            {currentMrp && currentMrp > currentPrice && (
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', flexWrap: 'wrap' }}>
               <span
                 style={{
-                  fontSize: '1.1rem',
-                  color: 'var(--color-text-tertiary)',
-                  textDecoration: 'line-through',
+                  fontSize: '2rem',
+                  fontWeight: 800,
+                  color: 'var(--color-text-primary)',
+                  letterSpacing: '-0.02em',
                 }}
               >
-                {formatMobilePrice(currentMrp)}
+                {formatMobilePrice(currentPrice)}
               </span>
-            )}
-            <span style={{ fontSize: '0.8rem', color: 'var(--color-text-secondary)', marginLeft: 'auto' }}>
-              Official Ex-Store Price
-            </span>
+              {currentMrp && currentMrp > currentPrice && (
+                <span
+                  style={{
+                    fontSize: '1.1rem',
+                    color: 'var(--color-text-tertiary)',
+                    textDecoration: 'line-through',
+                  }}
+                >
+                  {formatMobilePrice(currentMrp)}
+                </span>
+              )}
+              {currentMrp && currentMrp > currentPrice && (
+                <span
+                  style={{
+                    fontSize: '0.78rem',
+                    fontWeight: 700,
+                    color: 'var(--color-success)',
+                    background: 'rgba(33, 134, 91, 0.12)',
+                    padding: '2px 7px',
+                    borderRadius: '4px',
+                  }}
+                >
+                  {Math.round(((currentMrp - currentPrice) / currentMrp) * 100)}% Off
+                </span>
+              )}
+              <div style={{ marginLeft: 'auto' }}>
+                <PriceFreshnessBadge
+                  status={priceSnapshot.priceFreshness}
+                  observedAt={priceSnapshot.lastCheckedAt}
+                  sourceName={priceSnapshot.bestPlatform === 'amazon_in' ? 'Amazon India' : 'Official Portal'}
+                />
+              </div>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.75rem', color: 'var(--color-text-tertiary)' }}>
+              <span>Price Type: <strong style={{ color: 'var(--color-text-secondary)' }}>Current Verified Retail</strong></span>
+              <span>·</span>
+              <span>Variant: <strong style={{ color: 'var(--color-text-secondary)' }}>{selectedVariant ? `${selectedVariant.ram} + ${selectedVariant.storage}` : 'Base'}</strong></span>
+            </div>
           </div>
 
           {/* Variant Selector (RAM + Storage) */}
@@ -391,6 +422,135 @@ export function MobileDetailView({
         </div>
       </div>
 
+      {/* ── Multi-Platform Prices & Where to Buy ── */}
+      <section
+        style={{
+          background: 'var(--color-surface)',
+          border: '1px solid var(--color-border)',
+          borderRadius: '16px',
+          padding: '1.75rem',
+          marginBottom: '2.5rem',
+        }}
+        aria-labelledby="where-to-buy-heading"
+      >
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '1.25rem' }}>
+          <div>
+            <h2
+              id="where-to-buy-heading"
+              style={{
+                fontSize: '1.25rem',
+                fontWeight: 800,
+                letterSpacing: '-0.02em',
+                margin: 0,
+                color: 'var(--color-text-primary)',
+              }}
+            >
+              Where to Buy & Verified Platform Prices
+            </h2>
+            <p style={{ fontSize: '0.8rem', color: 'var(--color-text-tertiary)', margin: '2px 0 0 0' }}>
+              Prices tracked across authorized Indian retailers for {selectedVariant ? `${selectedVariant.ram} + ${selectedVariant.storage}` : 'official models'}.
+            </p>
+          </div>
+          <PriceFreshnessBadge
+            status={priceSnapshot.priceFreshness}
+            observedAt={priceSnapshot.lastCheckedAt}
+          />
+        </div>
+
+        {/* Platform Price Cards */}
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+            gap: '1rem',
+            marginBottom: '1.5rem',
+          }}
+        >
+          {priceSnapshot.platformPrices.map((plat) => {
+            const isLowest = plat.price === priceSnapshot.currentLowestPrice;
+            return (
+              <div
+                key={plat.platform}
+                className="neu-inset"
+                style={{
+                  padding: '1.25rem',
+                  borderRadius: '12px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '0.75rem',
+                  position: 'relative',
+                  border: isLowest ? '1px solid var(--color-accent)' : '1px solid var(--color-border-subtle)',
+                }}
+              >
+                {isLowest && (
+                  <span
+                    style={{
+                      position: 'absolute',
+                      top: '10px',
+                      right: '10px',
+                      fontSize: '0.68rem',
+                      fontWeight: 700,
+                      padding: '2px 6px',
+                      borderRadius: '4px',
+                      background: 'rgba(33, 134, 91, 0.15)',
+                      color: 'var(--color-success)',
+                    }}
+                  >
+                    Best Current Deal
+                  </span>
+                )}
+
+                <div>
+                  <span style={{ fontSize: '0.74rem', textTransform: 'uppercase', letterSpacing: '0.04em', color: 'var(--color-text-tertiary)', fontWeight: 600 }}>
+                    {plat.platform === 'official' ? 'Official Brand' : 'Authorized Retailer'}
+                  </span>
+                  <h3 style={{ fontSize: '1.1rem', fontWeight: 800, margin: '2px 0 0 0', color: 'var(--color-text-primary)' }}>
+                    {plat.platformName}
+                  </h3>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '8px' }}>
+                  <span style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--color-accent)' }}>
+                    {formatMobilePrice(plat.price)}
+                  </span>
+                  {plat.mrp && plat.mrp > plat.price && (
+                    <span style={{ fontSize: '0.9rem', color: 'var(--color-text-tertiary)', textDecoration: 'line-through' }}>
+                      {formatMobilePrice(plat.mrp)}
+                    </span>
+                  )}
+                </div>
+
+                {plat.offerNote && (
+                  <p style={{ fontSize: '0.75rem', color: 'var(--color-text-secondary)', margin: 0, lineHeight: 1.35 }}>
+                    {plat.offerNote}
+                  </p>
+                )}
+
+                <div style={{ marginTop: 'auto', paddingTop: '0.5rem' }}>
+                  <a
+                    href={plat.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`btn btn-sm ${isLowest ? 'btn-primary' : 'btn-secondary'}`}
+                    style={{ width: '100%', justifyContent: 'center' }}
+                  >
+                    View Offer on {plat.platformName}
+                  </a>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Directory of verified source links */}
+        <div>
+          <span style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: 'var(--color-text-secondary)', marginBottom: '0.5rem' }}>
+            Direct Product Pages & Brand Hubs:
+          </span>
+          <PlatformLinksList links={priceSnapshot.sources} productName={`${mobile.brand} ${mobile.modelName}`} />
+        </div>
+      </section>
+
       {/* ── Key Highlights, Pros & Cons ── */}
       {Boolean(mobile.pros?.length || mobile.cons?.length) && (
         <div
@@ -498,9 +658,9 @@ export function MobileDetailView({
       {upgradeDiff && (
         <div
           style={{
-            background: 'linear-gradient(135deg, rgba(193,56,42,0.06) 0%, rgba(20,22,26,0.95) 100%)',
-            border: '1px solid rgba(193,56,42,0.25)',
-            borderRadius: '14px',
+            background: 'linear-gradient(135deg, rgba(53,106,230,0.06) 0%, rgba(20,22,26,0.95) 100%)',
+            border: '1px solid rgba(53,106,230,0.25)',
+            borderRadius: 'var(--radius-lg)',
             padding: '1.75rem',
             marginBottom: '2.5rem',
           }}
@@ -736,6 +896,11 @@ export function MobileDetailView({
             </table>
           </div>
         </div>
+      </div>
+
+      {/* ── Price History & Trends ── */}
+      <div style={{ marginBottom: '2.5rem' }}>
+        <PriceHistoryTable history={priceSnapshot.history} />
       </div>
 
       {/* ── Similar Alternatives ── */}

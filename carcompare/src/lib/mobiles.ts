@@ -51,7 +51,7 @@ export function resolveMobileCardImage(model: MobileModel): { url: string; alt: 
   }
 
   return {
-    url: '/images/phone-placeholder.png',
+    url: '/images/phone-placeholder.svg',
     alt: `${model.brand} ${model.modelName}`,
     angle: 'Front',
   };
@@ -68,6 +68,57 @@ export function getAllMobiles(): MobileModel[] {
       primaryImage: img.url,
       primaryImageAlt: img.alt,
     };
+  });
+}
+
+/**
+ * Get active mobiles only
+ */
+export function getActiveMobiles(): MobileModel[] {
+  return getAllMobiles().filter((m) => m.status === 'active');
+}
+
+/**
+ * Get discontinued mobiles only
+ */
+export function getDiscontinuedMobiles(): MobileModel[] {
+  return getAllMobiles().filter((m) => m.status === 'discontinued');
+}
+
+/**
+ * Get upcoming mobiles only
+ */
+export function getUpcomingMobiles(): MobileModel[] {
+  return getAllMobiles().filter((m) => m.status === 'upcoming');
+}
+
+/**
+ * Search mobiles by text query across brand, modelName, and chipset.
+ * By default searches all canonical models (both active and discontinued).
+ */
+export function searchMobiles(query: string, includeDiscontinued = true): MobileModel[] {
+  const q = query.toLowerCase().trim();
+  const source = includeDiscontinued ? getAllMobiles() : getActiveMobiles();
+  if (!q) return source;
+
+  const terms = q.split(/[\s,]+/).filter(Boolean);
+  return source.filter((m) => {
+    const identityText = `${m.brand} ${m.modelName} ${m.generation || ''} ${m.id} ${m.slug} ${m.performance?.chipset || ''} ${m.software?.operatingSystem || ''} ${m.software?.ui || ''}`.toLowerCase();
+    const compactIdentity = `${m.brand}${m.modelName}${m.id}${m.slug}`.toLowerCase().replace(/[\s\-_]/g, '');
+    const displayNormalized = (m.display?.displayType || '')
+      .toLowerCase()
+      .replace(/samsung\s+/g, '')
+      .replace(/sony\s+/g, '');
+    const cameraNormalized = (m.cameras?.rearCameraSetup || '')
+      .toLowerCase()
+      .replace(/sony\s+/g, '')
+      .replace(/samsung\s+/g, '');
+
+    const fullSearchable = `${identityText} ${compactIdentity} ${displayNormalized} ${cameraNormalized}`;
+    return terms.every((term) => {
+      const cleanTerm = term.replace(/[\s\-_]/g, '');
+      return fullSearchable.includes(term) || compactIdentity.includes(cleanTerm) || fullSearchable.includes(cleanTerm);
+    });
   });
 }
 
@@ -137,10 +188,35 @@ export function getAllMobileBrands(): string[] {
 }
 
 /**
- * Get counts
+ * Get counts by status or overall total
  */
-export function getMobileCount(): number {
+export function getMobileCount(status?: 'active' | 'discontinued' | 'upcoming' | 'all'): number {
+  if (status === 'active') {
+    return modelsCatalog.filter((m) => m.status === 'active').length;
+  }
+  if (status === 'discontinued') {
+    return modelsCatalog.filter((m) => m.status === 'discontinued').length;
+  }
+  if (status === 'upcoming') {
+    return modelsCatalog.filter((m) => m.status === 'upcoming').length;
+  }
+  return modelsCatalog.length;
+}
+
+export function getActiveMobileCount(): number {
   return modelsCatalog.filter((m) => m.status === 'active').length;
+}
+
+export function getDiscontinuedMobileCount(): number {
+  return modelsCatalog.filter((m) => m.status === 'discontinued').length;
+}
+
+export function getUpcomingMobileCount(): number {
+  return modelsCatalog.filter((m) => m.status === 'upcoming').length;
+}
+
+export function getTotalMobileCount(): number {
+  return modelsCatalog.length;
 }
 
 export function getMobileBrandCount(): number {
@@ -151,6 +227,7 @@ export function getMobileBrandCount(): number {
  * Format currency in Indian numbering format: e.g. ₹54,999 or ₹1,29,999
  */
 export function formatMobilePrice(amount: number): string {
+  if (!amount || amount <= 0) return 'Price TBA';
   return '₹' + amount.toLocaleString('en-IN');
 }
 
@@ -158,10 +235,17 @@ export function formatMobilePrice(amount: number): string {
  * Format price range or starting price
  */
 export function formatMobilePriceRange(model: MobileModel): string {
-  if (model.pricing.startingPrice === model.pricing.maximumPrice) {
-    return formatMobilePrice(model.pricing.startingPrice);
+  const start = model.pricing?.startingPrice;
+  const max = model.pricing?.maximumPrice;
+
+  if (!start || start <= 0) {
+    return model.status === 'discontinued' ? 'Discontinued' : 'Price TBA';
   }
-  return `${formatMobilePrice(model.pricing.startingPrice)} – ${formatMobilePrice(model.pricing.maximumPrice)}`;
+
+  if (!max || start === max) {
+    return formatMobilePrice(start);
+  }
+  return `${formatMobilePrice(start)} – ${formatMobilePrice(max)}`;
 }
 
 /**

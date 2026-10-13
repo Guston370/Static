@@ -28,8 +28,8 @@ if (!fs.existsSync(modelsPath) || !fs.existsSync(imagesPath)) {
 const modelsCatalog = JSON.parse(fs.readFileSync(modelsPath, 'utf8'));
 const imagesCatalog = JSON.parse(fs.readFileSync(imagesPath, 'utf8'));
 
-const activeModels: MobileModel[] = modelsCatalog.models.filter((m: MobileModel) => m.status === 'active');
-const activeModelIds = new Set<string>(activeModels.map((m) => m.id));
+const allModels: MobileModel[] = modelsCatalog.models;
+const allModelIds = new Set<string>(allModels.map((m) => m.id));
 
 const imageEntries: MobileImageCatalogEntry[] = imagesCatalog.models;
 const imageModelIds = new Set<string>();
@@ -51,8 +51,8 @@ console.log('══════════════════════�
 
 for (const entry of imageEntries) {
   // Check if model exists
-  if (!activeModelIds.has(entry.modelId)) {
-    console.error(`[FAIL] Image entry has unknown/non-active modelId '${entry.modelId}'`);
+  if (!allModelIds.has(entry.modelId)) {
+    console.error(`[FAIL] Image entry has unknown modelId '${entry.modelId}'`);
     wrongModelImagesCount++;
     errors++;
   }
@@ -93,16 +93,16 @@ for (const entry of imageEntries) {
 }
 
 // Missing images check
-for (const m of activeModels) {
+for (const m of allModels) {
   if (!imageModelIds.has(m.id)) {
-    console.error(`[FAIL] Active model '${m.id}' has no images`);
+    console.error(`[FAIL] Model '${m.id}' has no images`);
     missingImagesCount++;
     errors++;
   }
 }
 
-console.log(`Total Active Models:         ${activeModels.length}`);
-console.log(`Models with Images:          ${modelsWithImages} / ${activeModels.length} (${Math.round((modelsWithImages / activeModels.length) * 100)}%)`);
+console.log(`Total Models:                ${allModels.length}`);
+console.log(`Models with Images:          ${modelsWithImages} / ${allModels.length} (${Math.round((modelsWithImages / allModels.length) * 100)}%)`);
 console.log(`Models with 4+ Views:        ${modelsWith4PlusViews}`);
 console.log(`Missing Images:              ${missingImagesCount}`);
 console.log(`Wrong-Model Images:          ${wrongModelImagesCount}`);

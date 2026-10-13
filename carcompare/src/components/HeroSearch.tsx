@@ -43,7 +43,7 @@ export function HeroSearch() {
             display: 'flex',
             alignItems: 'center',
             background: 'rgba(255,255,255,0.08)',
-            border: '1px solid rgba(255,255,255,0.15)',
+            border: '1px solid rgba(255,255,255,0.2)',
             borderRadius: '14px',
             padding: '0.25rem 0.25rem 0.25rem 1.25rem',
             gap: '0.75rem',
@@ -114,8 +114,8 @@ export function HeroSearch() {
             right: 0,
             background: 'var(--color-surface)',
             border: '1px solid var(--color-border)',
-            borderRadius: '12px',
-            boxShadow: '0 8px 32px rgba(0,0,0,0.2)',
+            borderRadius: 'var(--radius-md)',
+            boxShadow: 'var(--shadow-dropdown)',
             overflow: 'hidden',
             zIndex: 50,
           }}
@@ -138,15 +138,16 @@ export function HeroSearch() {
               }}
               role="option"
               aria-selected="false"
-              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = 'var(--color-bg)')}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = 'var(--color-surface-inset)')}
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = 'transparent')}
             >
               <div
                 style={{
                   width: '36px',
                   height: '36px',
-                  background: 'var(--color-bg)',
-                  borderRadius: '8px',
+                  background: 'var(--color-surface-inset)',
+                  borderRadius: 'var(--radius-sm)',
+                  boxShadow: 'var(--shadow-neu-inset)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -172,7 +173,7 @@ export function HeroSearch() {
           <div
             style={{
               padding: '0.625rem 1.125rem',
-              background: 'var(--color-bg)',
+              background: 'var(--color-surface-sunken)',
               borderTop: '1px solid var(--color-border)',
             }}
           >
@@ -201,10 +202,10 @@ export function HeroSearch() {
             right: 0,
             background: 'var(--color-surface)',
             border: '1px solid var(--color-border)',
-            borderRadius: '12px',
+            borderRadius: 'var(--radius-md)',
             padding: '1.25rem',
             textAlign: 'center',
-            boxShadow: '0 8px 32px rgba(0,0,0,0.2)',
+            boxShadow: 'var(--shadow-dropdown)',
             zIndex: 50,
           }}
         >

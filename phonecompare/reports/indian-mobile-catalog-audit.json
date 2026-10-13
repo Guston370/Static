@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-10-12T08:33:57.765Z",
+  "timestamp": "2026-10-12T10:11:41.415Z",
   "market": "India",
   "category": "Smartphones",
   "totalDiscoveredBrands": 22,
   "totalActiveBrands": 21,
   "brandsCoveredInStatic": 21,
-  "totalModels": 255,
-  "activeModels": 184,
-  "historicalModels": 71,
-  "totalVariants": 467,
-  "verifiedVariants": 467,
+  "totalModels": 579,
+  "activeModels": 198,
+  "historicalModels": 381,
+  "totalVariants": 1092,
+  "verifiedVariants": 1092,
   "independentBrands": [
     {
       "manufacturer": "Samsung Electronics Co., Ltd.",

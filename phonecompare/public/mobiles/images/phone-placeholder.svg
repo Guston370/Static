@@ -10,8 +10,8 @@
       <stop offset="100%" stop-color="#090a0c" />
     </linearGradient>
     <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#c1382a" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#e04e3e" stop-opacity="0.05" />
+      <stop offset="0%" stop-color="#356AE6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#5a8bf5" stop-opacity="0.05" />
     </linearGradient>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.6" />
@@ -39,7 +39,7 @@
   <line x1="140" y1="280" x2="260" y2="280" stroke="#26282f" stroke-width="1" stroke-dasharray="4 4" />
 
   <!-- Static Phone Icon / Branding -->
-  <g transform="translate(180, 310)" stroke="#c1382a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(180, 310)" stroke="#356AE6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="0" y="0" width="40" height="64" rx="6" />
     <line x1="14" y1="52" x2="26" y2="52" />
   </g>

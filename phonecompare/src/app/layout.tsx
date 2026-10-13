@@ -15,12 +15,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
-    default: 'Static — but dynamic | Compare Indian Smartphones',
-    template: '%s | Static — but dynamic',
+    default: 'PhoneCompare — Compare Indian Smartphones | Static',
+    template: '%s | PhoneCompare',
   },
   description:
-    'Static — but dynamic. Independent Indian smartphone comparison platform with verified manufacturer specifications, real product photography, and transparent category scoring.',
+    'PhoneCompare by Static. Independent Indian smartphone comparison platform with verified manufacturer specifications, real product photography, and transparent category scoring.',
   keywords: [
+    'PhoneCompare',
     'Static mobiles',
     'compare mobiles India',
     'Indian smartphones',
@@ -28,20 +29,24 @@ export const metadata: Metadata = {
     'phone price in India',
     'phone comparison',
   ],
-  authors: [{ name: 'Static' }],
+  authors: [{ name: 'PhoneCompare' }],
   creator: 'Static',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    siteName: 'Static — but dynamic',
-    title: 'Static — but dynamic | Compare Indian Smartphones',
+    siteName: 'PhoneCompare | Static',
+    title: 'PhoneCompare — Compare Indian Smartphones | Static',
     description:
       'Compare Indian smartphones side by side with verified manufacturer specifications and transparent category scoring.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Static — but dynamic',
-    description: 'Compare Indian smartphones side by side with verified data.',
+    title: 'PhoneCompare — Compare Indian Smartphones | Static',
+    description: 'Compare Indian smartphones side by side with verified data on PhoneCompare.',
   },
 };
 

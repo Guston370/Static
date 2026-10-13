@@ -21,7 +21,7 @@ import {
 import { HeroSearch } from '@/components/HeroSearch';
 
 export const metadata: Metadata = {
-  title: 'Static — but dynamic | Compare Indian Smartphones',
+  title: 'Compare Indian Smartphones | PhoneCompare',
   description:
     'Compare smartphones across performance, cameras, display, battery and software. Independent specifications, verified Indian pricing, and transparent category scoring.',
 };
@@ -76,7 +76,7 @@ export default function HomePage() {
       ═══════════════════════════════════════ */}
       <section
         style={{
-          background: 'var(--color-text-primary)',
+          background: '#1A2332',
           color: '#fff',
           paddingTop: '4.5rem',
           paddingBottom: '4.5rem',
@@ -119,8 +119,8 @@ export default function HomePage() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '0.5rem',
-                background: 'rgba(193,56,42,0.15)',
-                border: '1px solid rgba(193,56,42,0.3)',
+                background: 'rgba(53,106,230,0.15)',
+                border: '1px solid rgba(53,106,230,0.3)',
                 borderRadius: '9999px',
                 padding: '0.28rem 0.95rem',
                 marginBottom: '1.5rem',
@@ -212,19 +212,7 @@ export default function HomePage() {
             >
               <Link
                 href="/mobiles"
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  background: 'var(--color-accent)',
-                  color: '#fff',
-                  padding: '0.75rem 1.75rem',
-                  borderRadius: '10px',
-                  fontWeight: 600,
-                  fontSize: '0.95rem',
-                  textDecoration: 'none',
-                  transition: 'background 150ms',
-                }}
+                className="btn btn-primary btn-lg"
               >
                 <Smartphone size={18} />
                 Browse All Phones
@@ -238,10 +226,10 @@ export default function HomePage() {
                   background: 'rgba(255,255,255,0.1)',
                   border: '1px solid rgba(255,255,255,0.2)',
                   color: '#fff',
-                  padding: '0.75rem 1.75rem',
-                  borderRadius: '10px',
+                  padding: '0.875rem 1.75rem',
+                  borderRadius: 'var(--radius-lg)',
                   fontWeight: 600,
-                  fontSize: '0.95rem',
+                  fontSize: '1rem',
                   textDecoration: 'none',
                   transition: 'background 150ms',
                 }}
@@ -251,7 +239,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            {/* Dynamic Market Statistics */}
+            {/* Dynamic Market Statistics with Inset Backgrounds */}
             <div
               style={{
                 display: 'grid',
@@ -261,7 +249,14 @@ export default function HomePage() {
                 paddingTop: '2rem',
               }}
             >
-              <div>
+              <div
+                style={{
+                  background: 'rgba(255,255,255,0.08)',
+                  borderRadius: 'var(--radius-md)',
+                  padding: '1.25rem 1rem',
+                  border: '1px solid rgba(255,255,255,0.06)',
+                }}
+              >
                 <div
                   style={{
                     fontSize: '2rem',
@@ -272,11 +267,18 @@ export default function HomePage() {
                 >
                   {totalMobileCount}
                 </div>
-                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)' }}>
+                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)' }}>
                   Smartphones ({activeMobileCount} Active)
                 </div>
               </div>
-              <div>
+              <div
+                style={{
+                  background: 'rgba(255,255,255,0.08)',
+                  borderRadius: 'var(--radius-md)',
+                  padding: '1.25rem 1rem',
+                  border: '1px solid rgba(255,255,255,0.06)',
+                }}
+              >
                 <div
                   style={{
                     fontSize: '2rem',
@@ -287,11 +289,18 @@ export default function HomePage() {
                 >
                   {brandCount}
                 </div>
-                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)' }}>
+                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)' }}>
                   Official Brands
                 </div>
               </div>
-              <div>
+              <div
+                style={{
+                  background: 'rgba(255,255,255,0.08)',
+                  borderRadius: 'var(--radius-md)',
+                  padding: '1.25rem 1rem',
+                  border: '1px solid rgba(255,255,255,0.06)',
+                }}
+              >
                 <div
                   style={{
                     fontSize: '2rem',
@@ -302,11 +311,18 @@ export default function HomePage() {
                 >
                   {totalVariants}
                 </div>
-                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)' }}>
+                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)' }}>
                   Verified Variants
                 </div>
               </div>
-              <div>
+              <div
+                style={{
+                  background: 'rgba(255,255,255,0.08)',
+                  borderRadius: 'var(--radius-md)',
+                  padding: '1.25rem 1rem',
+                  border: '1px solid rgba(255,255,255,0.06)',
+                }}
+              >
                 <div
                   style={{
                     fontSize: '2rem',
@@ -317,7 +333,7 @@ export default function HomePage() {
                 >
                   100%
                 </div>
-                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)' }}>
+                <div style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)' }}>
                   Real Photography
                 </div>
               </div>
@@ -329,7 +345,7 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════
           POPULAR / FEATURED PHONES SECTION
       ═══════════════════════════════════════ */}
-      <section style={{ padding: '4rem 0', background: 'var(--color-bg)' }}>
+      <section className="section-sm" style={{ background: 'var(--color-bg)' }}>
         <div className="container">
           <div
             style={{
@@ -430,20 +446,7 @@ export default function HomePage() {
               <Link
                 key={brand}
                 href={`/mobiles?brand=${encodeURIComponent(brand)}`}
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  padding: '0.6rem 1.15rem',
-                  borderRadius: '999px',
-                  background: 'var(--color-bg)',
-                  border: '1px solid var(--color-border)',
-                  color: 'var(--color-text-primary)',
-                  fontWeight: 600,
-                  fontSize: '0.88rem',
-                  textDecoration: 'none',
-                  transition: 'all 150ms',
-                }}
+                className="brand-pill"
               >
                 <span>{brand}</span>
               </Link>
@@ -455,7 +458,7 @@ export default function HomePage() {
       {/* ═══════════════════════════════════════
           PLATFORM CAPABILITIES
       ═══════════════════════════════════════ */}
-      <section style={{ padding: '4.5rem 0', background: 'var(--color-bg)' }}>
+      <section className="section" style={{ background: 'var(--color-bg)' }}>
         <div className="container">
           <div style={{ maxWidth: '640px', margin: '0 auto 3rem', textAlign: 'center' }}>
             <h2
@@ -486,10 +489,8 @@ export default function HomePage() {
               return (
                 <div
                   key={feat.title}
+                  className="card"
                   style={{
-                    background: 'var(--color-surface)',
-                    border: '1px solid var(--color-border)',
-                    borderRadius: '14px',
                     padding: '1.75rem',
                     display: 'flex',
                     flexDirection: 'column',
@@ -500,8 +501,8 @@ export default function HomePage() {
                     style={{
                       width: '42px',
                       height: '42px',
-                      borderRadius: '10px',
-                      background: 'rgba(193,56,42,0.08)',
+                      borderRadius: 'var(--radius-md)',
+                      background: 'var(--color-accent-muted)',
                       color: 'var(--color-accent)',
                       display: 'flex',
                       alignItems: 'center',

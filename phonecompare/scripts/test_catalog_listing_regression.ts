@@ -4,10 +4,12 @@ import {
   getAllMobiles,
   getActiveMobiles,
   getDiscontinuedMobiles,
+  getUpcomingMobiles,
   getAllMobileBrands,
   getMobileCount,
   getActiveMobileCount,
   getDiscontinuedMobileCount,
+  getUpcomingMobileCount,
   getTotalMobileCount,
   searchMobiles,
   formatMobilePriceRange,
@@ -67,6 +69,7 @@ assert(
 console.log('\nTest Group 2: Availability Status Handling');
 const activeMobiles = getActiveMobiles();
 const discontinuedMobiles = getDiscontinuedMobiles();
+const upcomingMobiles = getUpcomingMobiles();
 
 assert(
   activeMobiles.length === getActiveMobileCount(),
@@ -81,9 +84,15 @@ assert(
 );
 
 assert(
-  activeMobiles.length + discontinuedMobiles.length === allMobiles.length,
-  'Active + Discontinued models exactly equals total catalog models (no leaks or unclassified models)',
-  `${activeMobiles.length} + ${discontinuedMobiles.length} = ${allMobiles.length}`
+  upcomingMobiles.length === getUpcomingMobileCount(),
+  'getUpcomingMobiles() matches getUpcomingMobileCount()',
+  `${upcomingMobiles.length} === ${getUpcomingMobileCount()}`
+);
+
+assert(
+  activeMobiles.length + discontinuedMobiles.length + upcomingMobiles.length === allMobiles.length,
+  'Active + Discontinued + Upcoming models exactly equals total catalog models (no leaks or unclassified models)',
+  `${activeMobiles.length} + ${discontinuedMobiles.length} + ${upcomingMobiles.length} = ${allMobiles.length}`
 );
 
 assert(

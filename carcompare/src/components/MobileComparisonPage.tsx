@@ -318,7 +318,7 @@ export function MobileComparisonPage() {
       )}
 
       {/* ── Side-by-Side Comparison Matrix ── */}
-      <div style={{ overflowX: 'auto', paddingBottom: '2rem' }}>
+      <div className="table-responsive-container" style={{ overflowX: 'auto', paddingBottom: '2rem' }}>
         <table
           className="table comparison-table"
           style={{

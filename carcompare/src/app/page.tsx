@@ -136,8 +136,8 @@ export default function HomePage() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '0.5rem',
-                background: 'rgba(193,56,42,0.15)',
-                border: '1px solid rgba(193,56,42,0.3)',
+                background: 'rgba(196,69,69,0.15)',
+                border: '1px solid rgba(196,69,69,0.3)',
                 borderRadius: '9999px',
                 padding: '0.28rem 0.95rem',
                 marginBottom: '1.5rem',
@@ -213,6 +213,7 @@ export default function HomePage() {
                     alignItems: 'center',
                     justifyContent: 'center',
                     flexShrink: 0,
+                    boxShadow: '0 2px 8px rgba(196, 69, 69, 0.4)',
                   }}
                 >
                   <Car size={22} />
@@ -251,12 +252,13 @@ export default function HomePage() {
                     width: '46px',
                     height: '46px',
                     borderRadius: '10px',
-                    background: '#2563eb',
+                    background: 'var(--color-accent-blue)',
                     color: '#fff',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     flexShrink: 0,
+                    boxShadow: '0 2px 8px rgba(53, 106, 230, 0.4)',
                   }}
                 >
                   <Smartphone size={22} />
@@ -353,7 +355,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#2563eb', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', marginBottom: '0.25rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-accent-blue)', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', marginBottom: '0.25rem' }}>
                 <Smartphone size={14} />
                 <span>Mobiles Category</span>
               </div>
@@ -510,6 +512,7 @@ export default function HomePage() {
                         alignItems: 'center',
                         justifyContent: 'center',
                         flexShrink: 0,
+                        boxShadow: feature.available ? '0 2px 8px rgba(196, 69, 69, 0.4)' : 'none',
                       }}
                     >
                       <Icon size={20} color="#fff" />
@@ -560,7 +563,7 @@ export default function HomePage() {
         className="section-sm"
         style={{
           background: 'var(--color-accent-light)',
-          borderTop: '1px solid rgba(193,56,42,0.12)',
+          borderTop: '1px solid rgba(196,69,69,0.12)',
         }}
       >
         <div

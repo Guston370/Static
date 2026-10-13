@@ -7,6 +7,8 @@ import { Plus, Check, Cpu, Battery, Smartphone, ShieldCheck } from 'lucide-react
 import type { MobileModel } from '@/types/mobile';
 import { formatMobilePriceRange } from '@/lib/mobiles';
 import { useMobileCompare } from '@/context/MobileCompareContext';
+import { getMobilePriceSnapshot } from '@/lib/pricing/service';
+import { PriceFreshnessBadge } from '@/components/pricing/PriceFreshnessBadge';
 
 interface MobileCardProps {
   mobile: MobileModel;
@@ -16,6 +18,7 @@ interface MobileCardProps {
 export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
   const { isMobileSelected, addMobile, removeMobile, isFull } = useMobileCompare();
   const selected = isMobileSelected(mobile.slug);
+  const priceSnapshot = getMobilePriceSnapshot(mobile);
   const [imgSrc, setImgSrc] = useState<string>(
     mobile.primaryImage || '/mobiles/images/phone-placeholder.svg'
   );
@@ -29,7 +32,6 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
       addMobile(mobile.slug);
     }
   };
-
 
   return (
     <article
@@ -50,20 +52,21 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
             overflow: 'hidden',
             borderTopLeftRadius: 'inherit',
             borderTopRightRadius: 'inherit',
+            border: '1px solid rgba(255, 255, 255, 0.05)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             padding: '1.25rem',
           }}
         >
-          {/* Subtle phone halo background effect */}
+          {/* Subtle phone halo background effect in blue */}
           <div
             style={{
               position: 'absolute',
               width: '140px',
               height: '140px',
               borderRadius: '50%',
-              background: 'radial-gradient(circle, rgba(193,56,42,0.18) 0%, transparent 70%)',
+              background: 'radial-gradient(circle, rgba(53, 106, 230, 0.22) 0%, transparent 70%)',
               top: '50%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
@@ -94,7 +97,7 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
               fontSize: '0.68rem',
               fontWeight: 600,
               padding: '2px 7px',
-              borderRadius: '4px',
+              borderRadius: 'var(--radius-sm)',
               background: 'rgba(0,0,0,0.7)',
               color: 'rgba(255,255,255,0.9)',
               backdropFilter: 'blur(4px)',
@@ -118,7 +121,7 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
                 fontSize: '0.68rem',
                 fontWeight: 700,
                 padding: '2px 8px',
-                borderRadius: '4px',
+                borderRadius: 'var(--radius-sm)',
                 background: 'rgba(71, 85, 105, 0.9)',
                 color: '#f8fafc',
                 letterSpacing: '0.03em',
@@ -130,6 +133,27 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
             >
               Discontinued
             </span>
+          ) : mobile.status === 'upcoming' ? (
+            <span
+              style={{
+                position: 'absolute',
+                top: '10px',
+                right: '10px',
+                fontSize: '0.68rem',
+                fontWeight: 700,
+                padding: '2px 8px',
+                borderRadius: 'var(--radius-sm)',
+                background: 'rgba(183, 121, 31, 0.25)',
+                color: '#fbbf24',
+                letterSpacing: '0.03em',
+                textTransform: 'uppercase',
+                border: '1px solid rgba(183, 121, 31, 0.5)',
+                backdropFilter: 'blur(4px)',
+                zIndex: 2,
+              }}
+            >
+              Upcoming
+            </span>
           ) : (
             <span
               style={{
@@ -139,10 +163,10 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
                 fontSize: '0.68rem',
                 fontWeight: 600,
                 padding: '2px 7px',
-                borderRadius: '4px',
-                background: 'rgba(16, 185, 129, 0.22)',
+                borderRadius: 'var(--radius-sm)',
+                background: 'rgba(33, 134, 91, 0.22)',
                 color: '#34d399',
-                border: '1px solid rgba(16, 185, 129, 0.45)',
+                border: '1px solid rgba(33, 134, 91, 0.45)',
                 letterSpacing: '0.02em',
                 backdropFilter: 'blur(4px)',
                 zIndex: 2,
@@ -162,7 +186,7 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
                 fontSize: '0.68rem',
                 fontWeight: 700,
                 padding: '2px 7px',
-                borderRadius: '4px',
+                borderRadius: 'var(--radius-sm)',
                 background: 'var(--color-accent)',
                 color: '#fff',
                 letterSpacing: '0.02em',
@@ -217,21 +241,32 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
           </h3>
         </div>
 
-        {/* Pricing */}
+        {/* Pricing & Freshness */}
         <div>
-          <div
-            style={{
-              fontSize: '1.2rem',
-              fontWeight: 800,
-              color: 'var(--color-text-primary)',
-              letterSpacing: '-0.02em',
-            }}
-          >
-            {formatMobilePriceRange(mobile)}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '6px', flexWrap: 'wrap', marginBottom: '2px' }}>
+            <div
+              style={{
+                fontSize: '1.2rem',
+                fontWeight: 800,
+                color: 'var(--color-accent)',
+                letterSpacing: '-0.02em',
+              }}
+            >
+              {formatMobilePriceRange(mobile)}
+            </div>
+            <PriceFreshnessBadge
+              status={priceSnapshot.priceFreshness}
+              observedAt={priceSnapshot.lastCheckedAt}
+              sourceName={priceSnapshot.bestPlatform === 'amazon_in' ? 'Amazon India' : 'Official Store'}
+            />
           </div>
-          <span style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)' }}>
-            Ex-store starting price
-          </span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.74rem', color: 'var(--color-text-tertiary)' }}>
+            <span>Starting Ex-Store Price</span>
+            <span>·</span>
+            <span style={{ color: 'var(--color-text-secondary)', fontWeight: 500 }}>
+              {priceSnapshot.sources.length} Verified Stores
+            </span>
+          </div>
         </div>
 
         {/* Quick Specs Grid */}
@@ -242,7 +277,7 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
             gap: '0.45rem',
             background: 'var(--color-surface-sunken)',
             padding: '0.65rem 0.75rem',
-            borderRadius: '6px',
+            borderRadius: 'var(--radius-md)',
             border: '1px solid var(--color-border-subtle)',
             fontSize: '0.78rem',
           }}
@@ -275,32 +310,11 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
 
         {/* Feature Pills */}
         <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap' }}>
-          <span
-            style={{
-              fontSize: '0.72rem',
-              padding: '2px 6px',
-              borderRadius: '4px',
-              background: 'var(--color-surface-raised)',
-              border: '1px solid var(--color-border)',
-              color: 'var(--color-text-secondary)',
-            }}
-          >
+          <span className="badge badge-neutral">
             {mobile.software?.operatingSystem || 'Android'} {mobile.software?.ui ? `(${mobile.software.ui})` : ''}
           </span>
           {mobile.physical?.waterResistance && (
-            <span
-              style={{
-                fontSize: '0.72rem',
-                padding: '2px 6px',
-                borderRadius: '4px',
-                background: 'var(--color-surface-raised)',
-                border: '1px solid var(--color-border)',
-                color: 'var(--color-text-secondary)',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '3px',
-              }}
-            >
+            <span className="badge badge-neutral" style={{ display: 'inline-flex', alignItems: 'center', gap: '3px' }}>
               <ShieldCheck size={11} color="var(--color-success)" />
               {mobile.physical.waterResistance.split(' ')[0]}
             </span>
@@ -327,33 +341,39 @@ export function MobileCard({ mobile, showCompare = true }: MobileCardProps) {
           </Link>
 
           {showCompare && (
-            <button
-              onClick={handleCompareToggle}
-              className={`btn btn-sm ${selected ? 'btn-primary' : 'btn-outline'}`}
-              style={{
-                flexShrink: 0,
-                padding: '0.45rem 0.65rem',
-                minWidth: selected ? '88px' : '82px',
-              }}
-              disabled={!selected && isFull}
-              aria-label={
-                selected
-                  ? `Remove ${mobile.brand} ${mobile.modelName} from compare`
-                  : `Add ${mobile.brand} ${mobile.modelName} to compare`
-              }
-            >
-              {selected ? (
-                <>
-                  <Check size={13} />
-                  Added
-                </>
-              ) : (
-                <>
-                  <Plus size={13} />
-                  Compare
-                </>
-              )}
-            </button>
+            <div style={{ position: 'relative', flexShrink: 0 }}>
+              <button
+                onClick={handleCompareToggle}
+                className={`btn btn-sm ${selected ? 'btn-primary' : 'btn-secondary'}`}
+                style={{
+                  padding: '0.45rem 0.65rem',
+                  minWidth: selected ? '88px' : '82px',
+                  transition: 'all 150ms ease',
+                }}
+                disabled={!selected && isFull}
+                aria-pressed={selected}
+                aria-label={
+                  selected
+                    ? `Remove ${mobile.brand} ${mobile.modelName} from compare`
+                    : `Add ${mobile.brand} ${mobile.modelName} to compare`
+                }
+              >
+                {selected ? (
+                  <>
+                    <Check size={13} />
+                    Added
+                  </>
+                ) : (
+                  <>
+                    <Plus size={13} />
+                    Compare
+                  </>
+                )}
+              </button>
+              <span className="sr-only" role="status" aria-live="polite">
+                {selected ? `${mobile.brand} ${mobile.modelName} added to comparison list` : ''}
+              </span>
+            </div>
           )}
         </div>
       </div>

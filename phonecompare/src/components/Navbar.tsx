@@ -2,27 +2,57 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import { Menu, X, Smartphone, Layers, Car } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Menu, X, Smartphone, Layers } from 'lucide-react';
 import { useMobileCompare } from '@/context/MobileCompareContext';
 
 export function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const { selectedMobileSlugs } = useMobileCompare();
+  const headerRef = useRef<HTMLElement>(null);
 
   const isBrowseActive = pathname === '/mobiles';
   const isCompareActive = pathname.startsWith('/mobiles/compare');
 
+  // Close mobile menu on route change
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [pathname]);
+
+  // Handle escape key and outside clicks
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setMobileOpen(false);
+      }
+    };
+
+    const handleClickOutside = (e: MouseEvent) => {
+      if (headerRef.current && !headerRef.current.contains(e.target as Node)) {
+        setMobileOpen(false);
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [mobileOpen]);
+
   return (
     <header
+      ref={headerRef}
       style={{
         background: 'var(--color-surface)',
-        borderBottom: '1px solid var(--color-border)',
+        boxShadow: 'var(--shadow-nav)',
         position: 'sticky',
         top: 0,
         zIndex: 40,
-        boxShadow: '0 1px 0 var(--color-border)',
       }}
     >
       <div className="container">
@@ -35,7 +65,7 @@ export function Navbar() {
           }}
           aria-label="Main navigation"
         >
-          {/* Logo & Category Branding */}
+          {/* Logo & Brand Identity */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
             <Link
               href="/"
@@ -46,19 +76,20 @@ export function Navbar() {
                 textDecoration: 'none',
                 flexShrink: 0,
               }}
-              aria-label="Static - but dynamic Mobiles Home"
+              aria-label="PhoneCompare Home"
             >
               <span
                 style={{
                   background: 'var(--color-accent)',
                   color: '#fff',
-                  borderRadius: '8px',
+                  borderRadius: 'var(--radius-sm)',
                   width: '34px',
                   height: '34px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   flexShrink: 0,
+                  boxShadow: 'var(--shadow-neu-button)',
                 }}
               >
                 <Layers size={19} strokeWidth={2.2} />
@@ -88,86 +119,13 @@ export function Navbar() {
                 </span>
               </div>
             </Link>
-
-            {/* Category Switcher Pill Toggle */}
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                background: 'var(--color-surface-sunken)',
-                padding: '3px',
-                borderRadius: '8px',
-                border: '1px solid var(--color-border)',
-              }}
-            >
-              <Link
-                href="/cars"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.35rem',
-                  padding: '0.35rem 0.75rem',
-                  borderRadius: '6px',
-                  fontSize: '0.82rem',
-                  fontWeight: 500,
-                  color: 'var(--color-text-tertiary)',
-                  background: 'transparent',
-                  textDecoration: 'none',
-                  transition: 'all 150ms ease',
-                }}
-              >
-                <Car size={14} />
-                Cars
-              </Link>
-
-              <Link
-                href="/mobiles"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.35rem',
-                  padding: '0.35rem 0.75rem',
-                  borderRadius: '6px',
-                  fontSize: '0.82rem',
-                  fontWeight: 700,
-                  color: 'var(--color-text-primary)',
-                  background: 'var(--color-surface)',
-                  boxShadow: '0 1px 2px rgba(0,0,0,0.06)',
-                  textDecoration: 'none',
-                  transition: 'all 150ms ease',
-                }}
-              >
-                <Smartphone size={14} />
-                Mobiles
-              </Link>
-            </div>
           </div>
 
           {/* Desktop Navigation Links */}
-          <div
-            className="navbar-desktop-nav"
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '0.5rem',
-            }}
-          >
+          <div className="navbar-desktop-nav">
             <Link
               href="/mobiles"
               className={`nav-link ${isBrowseActive ? 'active' : ''}`}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.4rem',
-                fontSize: '0.9rem',
-                fontWeight: 500,
-                padding: '0.5rem 0.85rem',
-                borderRadius: '8px',
-                textDecoration: 'none',
-                color: isBrowseActive ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                background: isBrowseActive ? 'var(--color-accent-light)' : 'transparent',
-                transition: 'all 0.15s ease',
-              }}
             >
               <Smartphone size={16} />
               Browse Phones
@@ -176,20 +134,6 @@ export function Navbar() {
             <Link
               href="/mobiles/compare"
               className={`nav-link ${isCompareActive ? 'active' : ''}`}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.4rem',
-                fontSize: '0.9rem',
-                fontWeight: 500,
-                padding: '0.5rem 0.85rem',
-                borderRadius: '8px',
-                textDecoration: 'none',
-                color: isCompareActive ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                background: isCompareActive ? 'var(--color-accent-light)' : 'transparent',
-                transition: 'all 0.15s ease',
-                position: 'relative',
-              }}
             >
               Compare
               {selectedMobileSlugs.length > 0 && (
@@ -197,7 +141,7 @@ export function Navbar() {
                   style={{
                     background: 'var(--color-accent)',
                     color: '#fff',
-                    borderRadius: '999px',
+                    borderRadius: 'var(--radius-full)',
                     fontSize: '0.72rem',
                     fontWeight: 700,
                     padding: '0.1rem 0.45rem',
@@ -215,15 +159,10 @@ export function Navbar() {
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="navbar-mobile-toggle"
-            style={{
-              display: 'none',
-              background: 'none',
-              border: 'none',
-              padding: '0.5rem',
-              color: 'var(--color-text-primary)',
-              cursor: 'pointer',
-            }}
-            aria-label="Toggle navigation menu"
+            type="button"
+            aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            aria-expanded={mobileOpen}
+            aria-controls="navbar-mobile-dropdown"
           >
             {mobileOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -232,71 +171,51 @@ export function Navbar() {
         {/* Mobile dropdown */}
         {mobileOpen && (
           <div
+            id="navbar-mobile-dropdown"
+            role="region"
+            aria-label="Mobile navigation links"
             style={{
-              borderTop: '1px solid var(--color-border)',
-              padding: '0.75rem 0 1rem',
+              background: 'var(--color-surface)',
+              boxShadow: 'var(--shadow-dropdown)',
+              borderRadius: '0 0 var(--radius-lg) var(--radius-lg)',
+              borderTop: '1px solid var(--color-border-subtle)',
+              padding: '0.75rem 0.5rem 1rem',
               display: 'flex',
               flexDirection: 'column',
               gap: '0.5rem',
             }}
           >
             <Link
-              href="/cars"
-              onClick={() => setMobileOpen(false)}
-              style={{
-                padding: '0.6rem 0.75rem',
-                fontSize: '0.92rem',
-                fontWeight: 500,
-                color: 'var(--color-text-primary)',
-                textDecoration: 'none',
-                borderRadius: '6px',
-                background: 'transparent',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.4rem',
-              }}
-            >
-              <Car size={16} />
-              Browse Cars
-            </Link>
-            <Link
               href="/mobiles"
               onClick={() => setMobileOpen(false)}
+              className={`nav-link ${isBrowseActive ? 'active' : ''}`}
               style={{
-                padding: '0.6rem 0.75rem',
-                fontSize: '0.92rem',
-                fontWeight: 500,
-                color: isBrowseActive ? 'var(--color-accent)' : 'var(--color-text-primary)',
-                textDecoration: 'none',
-                borderRadius: '6px',
-                background: isBrowseActive ? 'var(--color-accent-light)' : 'transparent',
+                padding: '0.75rem 1rem',
+                borderRadius: 'var(--radius-md)',
               }}
             >
+              <Smartphone size={16} />
               Browse Phones
             </Link>
             <Link
               href="/mobiles/compare"
               onClick={() => setMobileOpen(false)}
+              className={`nav-link ${isCompareActive ? 'active' : ''}`}
               style={{
-                padding: '0.6rem 0.75rem',
-                fontSize: '0.92rem',
-                fontWeight: 500,
-                color: isCompareActive ? 'var(--color-accent)' : 'var(--color-text-primary)',
-                textDecoration: 'none',
-                borderRadius: '6px',
-                background: isCompareActive ? 'var(--color-accent-light)' : 'transparent',
-                display: 'flex',
+                padding: '0.75rem 1rem',
+                borderRadius: 'var(--radius-md)',
                 justifyContent: 'space-between',
-                alignItems: 'center',
               }}
             >
-              <span>Compare Phones</span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                Compare Phones
+              </span>
               {selectedMobileSlugs.length > 0 && (
                 <span
                   style={{
                     background: 'var(--color-accent)',
                     color: '#fff',
-                    borderRadius: '999px',
+                    borderRadius: 'var(--radius-full)',
                     fontSize: '0.75rem',
                     fontWeight: 700,
                     padding: '0.1rem 0.5rem',

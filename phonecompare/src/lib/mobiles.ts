@@ -86,6 +86,13 @@ export function getDiscontinuedMobiles(): MobileModel[] {
 }
 
 /**
+ * Get upcoming mobiles only
+ */
+export function getUpcomingMobiles(): MobileModel[] {
+  return getAllMobiles().filter((m) => m.status === 'upcoming');
+}
+
+/**
  * Search mobiles by text query across brand, modelName, and chipset.
  * By default searches all canonical models (both active and discontinued).
  */
@@ -94,9 +101,10 @@ export function searchMobiles(query: string, includeDiscontinued = true): Mobile
   const source = includeDiscontinued ? getAllMobiles() : getActiveMobiles();
   if (!q) return source;
 
-  const terms = q.split(/\s+/).filter(Boolean);
+  const terms = q.split(/[\s,]+/).filter(Boolean);
   return source.filter((m) => {
-    const identityText = `${m.brand} ${m.modelName} ${m.generation || ''} ${m.performance?.chipset || ''} ${m.software?.operatingSystem || ''} ${m.software?.ui || ''}`.toLowerCase();
+    const identityText = `${m.brand} ${m.modelName} ${m.generation || ''} ${m.id} ${m.slug} ${m.performance?.chipset || ''} ${m.software?.operatingSystem || ''} ${m.software?.ui || ''}`.toLowerCase();
+    const compactIdentity = `${m.brand}${m.modelName}${m.id}${m.slug}`.toLowerCase().replace(/[\s\-_]/g, '');
     const displayNormalized = (m.display?.displayType || '')
       .toLowerCase()
       .replace(/samsung\s+/g, '')
@@ -106,8 +114,11 @@ export function searchMobiles(query: string, includeDiscontinued = true): Mobile
       .replace(/sony\s+/g, '')
       .replace(/samsung\s+/g, '');
 
-    const fullSearchable = `${identityText} ${displayNormalized} ${cameraNormalized}`;
-    return terms.every((term) => fullSearchable.includes(term));
+    const fullSearchable = `${identityText} ${compactIdentity} ${displayNormalized} ${cameraNormalized}`;
+    return terms.every((term) => {
+      const cleanTerm = term.replace(/[\s\-_]/g, '');
+      return fullSearchable.includes(term) || compactIdentity.includes(cleanTerm) || fullSearchable.includes(cleanTerm);
+    });
   });
 }
 
@@ -179,12 +190,15 @@ export function getAllMobileBrands(): string[] {
 /**
  * Get counts by status or overall total
  */
-export function getMobileCount(status?: 'active' | 'discontinued' | 'all'): number {
+export function getMobileCount(status?: 'active' | 'discontinued' | 'upcoming' | 'all'): number {
   if (status === 'active') {
     return modelsCatalog.filter((m) => m.status === 'active').length;
   }
   if (status === 'discontinued') {
     return modelsCatalog.filter((m) => m.status === 'discontinued').length;
+  }
+  if (status === 'upcoming') {
+    return modelsCatalog.filter((m) => m.status === 'upcoming').length;
   }
   return modelsCatalog.length;
 }
@@ -195,6 +209,10 @@ export function getActiveMobileCount(): number {
 
 export function getDiscontinuedMobileCount(): number {
   return modelsCatalog.filter((m) => m.status === 'discontinued').length;
+}
+
+export function getUpcomingMobileCount(): number {
+  return modelsCatalog.filter((m) => m.status === 'upcoming').length;
 }
 
 export function getTotalMobileCount(): number {

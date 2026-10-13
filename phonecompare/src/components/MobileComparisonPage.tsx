@@ -19,6 +19,9 @@ import {
 } from '@/lib/mobiles';
 import { useMobileCompare } from '@/context/MobileCompareContext';
 import type { MobileModel } from '@/types/mobile';
+import { getMobilePriceSnapshot } from '@/lib/pricing/service';
+import { PriceFreshnessBadge } from '@/components/pricing/PriceFreshnessBadge';
+import { PlatformLinksList } from '@/components/pricing/PlatformLinksList';
 
 export function MobileComparisonPage() {
   const router = useRouter();
@@ -318,7 +321,7 @@ export function MobileComparisonPage() {
       )}
 
       {/* ── Side-by-Side Comparison Matrix ── */}
-      <div style={{ overflowX: 'auto', paddingBottom: '2rem' }}>
+      <div className="comparison-table-scroll" style={{ overflowX: 'auto', paddingBottom: '2rem' }}>
         <table
           className="table comparison-table"
           style={{
@@ -352,6 +355,7 @@ export function MobileComparisonPage() {
                 const variants = getMobileVariants(mobile.id);
                 const selectedVarId = selectedVariants[mobile.id] || variants[0]?.id;
                 const activeVar = variants.find((v) => v.id === selectedVarId) || variants[0];
+                const priceSnapshot = getMobilePriceSnapshot(mobile, variants);
                 const activePrice = activeVar?.price || mobile.pricing.startingPrice;
 
                 return (
@@ -366,7 +370,11 @@ export function MobileComparisonPage() {
                   >
                     {/* Header Card */}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                      <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <PriceFreshnessBadge
+                          status={priceSnapshot.priceFreshness}
+                          observedAt={priceSnapshot.lastCheckedAt}
+                        />
                         <button
                           onClick={() => removePhone(mobile.slug)}
                           style={{
@@ -420,6 +428,9 @@ export function MobileComparisonPage() {
                         <div style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--color-accent)' }}>
                           {formatMobilePrice(activePrice)}
                         </div>
+                        <span style={{ fontSize: '0.72rem', color: 'var(--color-text-tertiary)' }}>
+                          Current Verified Retail
+                        </span>
                       </div>
 
                       {/* Variant Selector */}
@@ -432,7 +443,7 @@ export function MobileComparisonPage() {
                             className="select"
                             value={selectedVarId}
                             onChange={(e) => handleVariantChange(mobile.id, e.target.value)}
-                            style={{ fontSize: '0.8rem', padding: '0.35rem 0.5rem' }}
+                            style={{ fontSize: '0.8rem', padding: '0.35rem 0.5rem', width: '100%' }}
                           >
                             {variants.map((v) => (
                               <option key={v.id} value={v.id}>
@@ -442,6 +453,18 @@ export function MobileComparisonPage() {
                           </select>
                         </div>
                       )}
+
+                      {/* Store Links */}
+                      <div style={{ marginTop: '4px' }}>
+                        <span style={{ fontSize: '0.68rem', color: 'var(--color-text-tertiary)', display: 'block', marginBottom: '3px' }}>
+                          Verified Store Links:
+                        </span>
+                        <PlatformLinksList
+                          links={priceSnapshot.sources}
+                          productName={`${mobile.brand} ${mobile.modelName}`}
+                          compact
+                        />
+                      </div>
                     </div>
                   </th>
                 );

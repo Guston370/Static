@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Menu, X, Car, Smartphone, Layers } from 'lucide-react';
 import { useCompare } from '@/context/CompareContext';
 import { useMobileCompare } from '@/context/MobileCompareContext';
@@ -12,6 +12,31 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { selectedSlugs } = useCompare();
   const { selectedMobileSlugs } = useMobileCompare();
+  const headerRef = useRef<HTMLElement>(null);
+
+  // Close mobile navigation on Escape key or outside click
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setMobileOpen(false);
+      }
+    };
+
+    const handleClickOutside = (e: MouseEvent) => {
+      if (headerRef.current && !headerRef.current.contains(e.target as Node)) {
+        setMobileOpen(false);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [mobileOpen]);
 
   const isCarsActive =
     pathname.startsWith('/cars') ||
@@ -22,13 +47,13 @@ export function Navbar() {
 
   return (
     <header
+      ref={headerRef}
       style={{
         background: 'var(--color-surface)',
-        borderBottom: '1px solid var(--color-border)',
         position: 'sticky',
         top: 0,
         zIndex: 40,
-        boxShadow: '0 1px 0 var(--color-border)',
+        boxShadow: 'var(--shadow-nav)',
       }}
     >
       <div className="container">
@@ -48,7 +73,7 @@ export function Navbar() {
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.5rem',
+                gap: '0.625rem',
                 textDecoration: 'none',
                 flexShrink: 0,
               }}
@@ -57,17 +82,18 @@ export function Navbar() {
               <span
                 style={{
                   background: 'var(--color-accent)',
-                  color: '#fff',
-                  borderRadius: '8px',
-                  width: '34px',
-                  height: '34px',
+                  color: '#ffffff',
+                  borderRadius: 'var(--radius-sm)',
+                  width: '36px',
+                  height: '36px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   flexShrink: 0,
+                  boxShadow: '2px 2px 8px rgba(196, 69, 69, 0.35)',
                 }}
               >
-                <Layers size={19} strokeWidth={2.2} />
+                <Layers size={20} strokeWidth={2.2} />
               </span>
               <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.45rem' }}>
                 <span
@@ -97,33 +123,19 @@ export function Navbar() {
 
             {/* Category Switcher Tabs */}
             <div
-              className="category-switch-desktop"
+              className="category-switch-desktop neu-inset"
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                background: 'var(--color-surface-sunken)',
                 padding: '3px',
-                borderRadius: '8px',
-                border: '1px solid var(--color-border)',
+                borderRadius: 'var(--radius-md)',
+                gap: '3px',
               }}
             >
               <Link
                 href="/cars"
+                className={`nav-link ${isCarsActive ? 'active' : ''}`}
                 style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.35rem',
                   padding: '0.35rem 0.75rem',
-                  borderRadius: '6px',
                   fontSize: '0.82rem',
-                  fontWeight: isCarsActive ? 700 : 500,
-                  color: isCarsActive
-                    ? 'var(--color-text-primary)'
-                    : 'var(--color-text-tertiary)',
-                  background: isCarsActive ? 'var(--color-surface)' : 'transparent',
-                  boxShadow: isCarsActive ? '0 1px 2px rgba(0,0,0,0.06)' : 'none',
-                  textDecoration: 'none',
-                  transition: 'all 150ms ease',
                 }}
               >
                 <Car size={14} />
@@ -132,21 +144,10 @@ export function Navbar() {
 
               <Link
                 href="/mobiles"
+                className={`nav-link ${isMobilesActive ? 'active' : ''}`}
                 style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.35rem',
                   padding: '0.35rem 0.75rem',
-                  borderRadius: '6px',
                   fontSize: '0.82rem',
-                  fontWeight: isMobilesActive ? 700 : 500,
-                  color: isMobilesActive
-                    ? 'var(--color-text-primary)'
-                    : 'var(--color-text-tertiary)',
-                  background: isMobilesActive ? 'var(--color-surface)' : 'transparent',
-                  boxShadow: isMobilesActive ? '0 1px 2px rgba(0,0,0,0.06)' : 'none',
-                  textDecoration: 'none',
-                  transition: 'all 150ms ease',
                 }}
               >
                 <Smartphone size={14} />
@@ -156,70 +157,31 @@ export function Navbar() {
           </div>
 
           {/* Desktop Nav Links */}
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '0.35rem',
-            }}
-            className="nav-desktop"
-          >
+          <div className="nav-desktop">
             <Link
               href="/"
-              style={{
-                padding: '0.5rem 0.85rem',
-                borderRadius: '8px',
-                fontSize: '0.9rem',
-                fontWeight: pathname === '/' ? 600 : 400,
-                color: pathname === '/' ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                background: pathname === '/' ? 'var(--color-accent-light)' : 'transparent',
-                textDecoration: 'none',
-              }}
+              className={`nav-link ${pathname === '/' ? 'active' : ''}`}
             >
               Home
             </Link>
 
             <Link
               href="/cars"
-              style={{
-                padding: '0.5rem 0.85rem',
-                borderRadius: '8px',
-                fontSize: '0.9rem',
-                fontWeight: pathname.startsWith('/cars') ? 600 : 400,
-                color: pathname.startsWith('/cars') ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                background: pathname.startsWith('/cars') ? 'var(--color-accent-light)' : 'transparent',
-                textDecoration: 'none',
-              }}
+              className={`nav-link ${pathname.startsWith('/cars') ? 'active' : ''}`}
             >
               Browse Cars
             </Link>
 
             <Link
               href="/mobiles"
-              style={{
-                padding: '0.5rem 0.85rem',
-                borderRadius: '8px',
-                fontSize: '0.9rem',
-                fontWeight: pathname.startsWith('/mobiles') && !pathname.includes('/compare') ? 600 : 400,
-                color: pathname.startsWith('/mobiles') && !pathname.includes('/compare') ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                background: pathname.startsWith('/mobiles') && !pathname.includes('/compare') ? 'var(--color-accent-light)' : 'transparent',
-                textDecoration: 'none',
-              }}
+              className={`nav-link ${pathname.startsWith('/mobiles') && !pathname.includes('/compare') ? 'active' : ''}`}
             >
               Browse Mobiles
             </Link>
 
             <Link
               href={isMobilesActive ? '/mobiles/compare' : '/compare'}
-              style={{
-                padding: '0.5rem 0.85rem',
-                borderRadius: '8px',
-                fontSize: '0.9rem',
-                fontWeight: pathname.includes('/compare') ? 600 : 400,
-                color: pathname.includes('/compare') ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                background: pathname.includes('/compare') ? 'var(--color-accent-light)' : 'transparent',
-                textDecoration: 'none',
-              }}
+              className={`nav-link ${pathname.includes('/compare') ? 'active' : ''}`}
             >
               Compare
             </Link>
@@ -241,8 +203,11 @@ export function Navbar() {
             {selectedMobileSlugs.length > 0 && (
               <Link
                 href={`/mobiles/compare?mobiles=${selectedMobileSlugs.join(',')}`}
-                className="btn btn-secondary btn-sm"
-                style={{ borderColor: 'var(--color-accent)', color: 'var(--color-accent)' }}
+                className="btn btn-primary btn-sm"
+                style={{
+                  background: 'var(--color-accent-blue)',
+                  borderColor: 'var(--color-accent-blue)',
+                }}
                 aria-label={`Compare ${selectedMobileSlugs.length} selected mobiles`}
               >
                 <Smartphone size={13} />
@@ -252,13 +217,13 @@ export function Navbar() {
 
             {/* Mobile menu toggle */}
             <button
-              className="btn btn-ghost btn-sm nav-mobile-toggle"
+              className="btn btn-secondary btn-sm nav-mobile-toggle"
               onClick={() => setMobileOpen((o) => !o)}
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={mobileOpen}
               aria-controls="mobile-nav"
             >
-              {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+              {mobileOpen ? <X size={18} /> : <Menu size={18} />}
             </button>
           </div>
         </nav>
@@ -270,18 +235,19 @@ export function Navbar() {
           id="mobile-nav"
           style={{
             background: 'var(--color-surface)',
+            boxShadow: 'var(--shadow-dropdown)',
             borderTop: '1px solid var(--color-border)',
-            padding: '1rem 1.5rem 1.5rem',
+            padding: '1.25rem 1.5rem 1.75rem',
           }}
           role="navigation"
           aria-label="Mobile navigation"
         >
-          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
+          <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.25rem' }}>
             <Link
               href="/cars"
               onClick={() => setMobileOpen(false)}
               className={`btn btn-sm ${isCarsActive ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ flex: 1 }}
+              style={{ flex: 1, padding: '0.625rem 1rem' }}
             >
               <Car size={14} /> Cars
             </Link>
@@ -289,57 +255,39 @@ export function Navbar() {
               href="/mobiles"
               onClick={() => setMobileOpen(false)}
               className={`btn btn-sm ${isMobilesActive ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ flex: 1 }}
+              style={{ flex: 1, padding: '0.625rem 1rem' }}
             >
               <Smartphone size={14} /> Mobiles
             </Link>
           </div>
 
-          {[
-            { href: '/', label: 'Home' },
-            { href: '/cars', label: 'Browse Cars' },
-            { href: '/compare', label: 'Compare Cars' },
-            { href: '/mobiles', label: 'Browse Mobiles' },
-            { href: '/mobiles/compare', label: 'Compare Mobiles' },
-          ].map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setMobileOpen(false)}
-              style={{
-                display: 'block',
-                padding: '0.75rem 0',
-                fontSize: '1rem',
-                color: 'var(--color-text-secondary)',
-                borderBottom: '1px solid var(--color-border-subtle)',
-                textDecoration: 'none',
-              }}
-            >
-              {link.label}
-            </Link>
-          ))}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+            {[
+              { href: '/', label: 'Home' },
+              { href: '/cars', label: 'Browse Cars' },
+              { href: '/compare', label: 'Compare Cars' },
+              { href: '/mobiles', label: 'Browse Mobiles' },
+              { href: '/mobiles/compare', label: 'Compare Mobiles' },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMobileOpen(false)}
+                className={`nav-link ${pathname === link.href ? 'active' : ''}`}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  padding: '0.85rem 1rem',
+                  fontSize: '0.95rem',
+                  borderRadius: 'var(--radius-md)',
+                }}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
-
-      <style>{`
-        .nav-desktop {
-          display: flex;
-        }
-        .category-switch-desktop {
-          display: flex;
-        }
-        .nav-mobile-toggle {
-          display: none;
-        }
-        @media (max-width: 768px) {
-          .nav-desktop, .category-switch-desktop {
-            display: none !important;
-          }
-          .nav-mobile-toggle {
-            display: flex !important;
-          }
-        }
-      `}</style>
     </header>
   );
 }

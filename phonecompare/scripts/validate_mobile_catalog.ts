@@ -154,7 +154,7 @@ for (let i = 0; i < models.length; i++) {
     console.error(`[FAIL] ${ref}: Missing 'battery' object`);
     errors++;
   } else {
-    if (!m.battery.batteryCapacity || m.battery.batteryCapacity < 2000 || m.battery.batteryCapacity > 10000) {
+    if (!m.battery.batteryCapacity || m.battery.batteryCapacity < 1500 || m.battery.batteryCapacity > 10000) {
       console.error(`[FAIL] ${ref}: Battery capacity ${m.battery.batteryCapacity}mAh is outside realistic range`);
       errors++;
     }

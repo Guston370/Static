@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { ComparisonPage } from '@/components/ComparisonPage';
 
 export const metadata: Metadata = {
-  title: 'Compare Cars',
+  title: 'Compare Cars Side by Side',
   description:
     'Compare Indian cars side by side. View specs, safety ratings, features, and platform scores for up to 5 cars at once.',
 };
@@ -16,7 +16,8 @@ export default function ComparePage() {
         style={{
           background: 'var(--color-surface)',
           borderBottom: '1px solid var(--color-border)',
-          padding: '2rem 0',
+          boxShadow: 'var(--shadow-nav)',
+          padding: '2.5rem 0 2rem',
         }}
       >
         <div className="container">

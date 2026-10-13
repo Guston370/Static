@@ -16,9 +16,12 @@ import {
 import { getCarsBySlugs, getAllCars } from '@/lib/cars';
 import { getVariantsByModelSlug, formatVariantPrice } from '@/lib/variants';
 import type { CarVariant } from '@/types/variant';
-import { compareCars, CATEGORY_LABELS } from '@/lib/comparison';
 import { useCompare } from '@/context/CompareContext';
 import type { Car, ComparisonCategory } from '@/types/car';
+import { compareCars, CATEGORY_LABELS } from '@/lib/comparison';
+import { getCarPriceSnapshot } from '@/lib/pricing/service';
+import { PriceFreshnessBadge } from '@/components/pricing/PriceFreshnessBadge';
+import { PlatformLinksList } from '@/components/pricing/PlatformLinksList';
 
 // ─────────────────────────────────────────
 // Comparison cell helpers
@@ -476,19 +479,21 @@ export function ComparisonPage() {
     <div>
       {/* Car header row */}
       <div
+        className="table-responsive-container"
         style={{
           background: 'var(--color-surface)',
           border: '1px solid var(--color-border)',
           borderRadius: 'var(--radius-lg)',
-          overflow: 'hidden',
           marginBottom: '1.5rem',
+          overflowX: 'auto',
         }}
       >
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: `200px repeat(${Math.max(cars.length + (cars.length < 5 ? 1 : 0), 1)}, 1fr)`,
+            gridTemplateColumns: `200px repeat(${Math.max(cars.length + (cars.length < 5 ? 1 : 0), 1)}, minmax(170px, 1fr))`,
             borderBottom: '1px solid var(--color-border)',
+            minWidth: `${200 + Math.max(cars.length + (cars.length < 5 ? 1 : 0), 1) * 170}px`,
           }}
         >
           {/* Label column header */}
@@ -579,42 +584,65 @@ export function ComparisonPage() {
               {(() => {
                 const modelVariants = getVariantsByModelSlug(car.slug);
                 const curVar = resolvedVariants[i];
-                if (modelVariants.length > 1) {
-                  return (
-                    <div style={{ marginTop: '0.4rem', textAlign: 'left' }}>
-                      <label style={{ fontSize: '0.68rem', color: 'var(--color-text-tertiary)', display: 'block', marginBottom: '2px' }}>
-                        Trim:
-                      </label>
-                      <select
-                        value={curVar?.slug}
-                        onChange={(e) => {
-                          const val = e.target.value;
-                          handleVariantChange(car.slug, val);
-                        }}
-                        className="input"
-                        style={{
-                          fontSize: '0.75rem',
-                          padding: '0.2rem 0.4rem',
-                          height: 'auto',
-                          borderRadius: '6px',
-                          width: '100%',
-                          cursor: 'pointer',
-                        }}
-                        aria-label={`Select variant for ${car.displayName}`}
-                      >
-                        {modelVariants.map((v) => (
-                          <option key={v.slug} value={v.slug}>
-                            {v.name} ({formatVariantPrice(v)})
-                          </option>
-                        ))}
-                      </select>
-                    </div>
-                  );
-                }
+                const priceSnapshot = getCarPriceSnapshot(car);
+
                 return (
-                  <p style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--color-accent)', marginTop: '0.375rem' }}>
-                    {curVar ? formatVariantPrice(curVar) : `₹${car.pricing.minPriceLakh.toFixed(1)}L+`}
-                  </p>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem', marginTop: '0.4rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                      <PriceFreshnessBadge
+                        status={priceSnapshot.priceFreshness}
+                        observedAt={priceSnapshot.lastCheckedAt}
+                      />
+                    </div>
+
+                    {modelVariants.length > 1 ? (
+                      <div style={{ textAlign: 'left' }}>
+                        <label style={{ fontSize: '0.68rem', color: 'var(--color-text-tertiary)', display: 'block', marginBottom: '2px' }}>
+                          Trim:
+                        </label>
+                        <select
+                          value={curVar?.slug}
+                          onChange={(e) => {
+                            const val = e.target.value;
+                            handleVariantChange(car.slug, val);
+                          }}
+                          className="input"
+                          style={{
+                            fontSize: '0.75rem',
+                            padding: '0.2rem 0.4rem',
+                            height: 'auto',
+                            borderRadius: '6px',
+                            width: '100%',
+                            cursor: 'pointer',
+                          }}
+                          aria-label={`Select variant for ${car.displayName}`}
+                        >
+                          {modelVariants.map((v) => (
+                            <option key={v.slug} value={v.slug}>
+                              {v.name} ({formatVariantPrice(v)})
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                    ) : (
+                      <p style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent)', margin: 0 }}>
+                        {curVar ? formatVariantPrice(curVar) : `₹${car.pricing.minPriceLakh.toFixed(1)}L+`}
+                      </p>
+                    )}
+
+                    <span style={{ fontSize: '0.7rem', color: 'var(--color-text-tertiary)' }}>
+                      Ex-Showroom Price
+                    </span>
+
+                    {/* Store / Research links */}
+                    <div style={{ marginTop: '4px' }}>
+                      <PlatformLinksList
+                        links={priceSnapshot.sources}
+                        productName={car.displayName}
+                        compact
+                      />
+                    </div>
+                  </div>
                 );
               })()}
             </div>
@@ -794,7 +822,7 @@ export function ComparisonPage() {
 
       {/* Scrollable comparison tables */}
       {cars.length >= 2 && (
-        <div style={{ overflowX: 'auto' }}>
+        <div className="table-responsive-container" style={{ overflowX: 'auto' }}>
 
           <CompareSection title="Price & Trim">
             <table className="comparison-table" style={{ minWidth: `${200 + cars.length * 180}px` }}>

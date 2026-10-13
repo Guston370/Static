@@ -6,6 +6,8 @@ import { Plus, Check, Zap, Fuel, Star, Users } from 'lucide-react';
 import type { Car } from '@/types/car';
 import { formatPriceRange } from '@/lib/cars';
 import { useCompare } from '@/context/CompareContext';
+import { getCarPriceSnapshot } from '@/lib/pricing/service';
+import { PriceFreshnessBadge } from '@/components/pricing/PriceFreshnessBadge';
 
 interface CarCardProps {
   car: Car;
@@ -36,6 +38,7 @@ function NCAPStars({ rating }: { rating: number | null }) {
 export function CarCard({ car, showCompare = true }: CarCardProps) {
   const { isSelected, addCar, removeCar, isFull } = useCompare();
   const selected = isSelected(car.slug);
+  const priceSnapshot = getCarPriceSnapshot(car);
 
   const handleCompareToggle = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -211,31 +214,44 @@ export function CarCard({ car, showCompare = true }: CarCardProps) {
           </Link>
         </div>
 
-        {/* Price */}
+        {/* Price & Freshness */}
         <div>
-          <p
-            style={{
-              fontSize: '1.05rem',
-              fontWeight: 700,
-              color: 'var(--color-text-primary)',
-              letterSpacing: '-0.02em',
-            }}
-          >
-            {formatPriceRange(car)}
-          </p>
-          <p style={{ fontSize: '0.72rem', color: 'var(--color-text-tertiary)', marginTop: '1px' }}>
-            Ex-showroom price
-          </p>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '6px', flexWrap: 'wrap', marginBottom: '2px' }}>
+            <p
+              style={{
+                fontSize: '1.05rem',
+                fontWeight: 700,
+                color: 'var(--color-text-primary)',
+                letterSpacing: '-0.02em',
+                margin: 0,
+              }}
+            >
+              {formatPriceRange(car)}
+            </p>
+            <PriceFreshnessBadge
+              status={priceSnapshot.priceFreshness}
+              observedAt={priceSnapshot.lastCheckedAt}
+              sourceName={`${car.brand} Official Ex-Showroom`}
+            />
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.72rem', color: 'var(--color-text-tertiary)' }}>
+            <span>Ex-showroom price</span>
+            <span>·</span>
+            <span style={{ color: 'var(--color-text-secondary)', fontWeight: 500 }}>
+              {priceSnapshot.sources.length} Verified Sources
+            </span>
+          </div>
         </div>
 
         {/* Quick specs */}
         <div
+          className="neu-inset"
           style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
             gap: '0.5rem',
-            paddingTop: '0.5rem',
-            borderTop: '1px solid var(--color-border-subtle)',
+            padding: '0.625rem 0.75rem',
+            borderRadius: 'var(--radius-sm)',
           }}
         >
           {/* Mileage / Range */}

@@ -11,12 +11,12 @@
 
 | Metric | Count | Details |
 | :--- | :--- | :--- |
-| **Total Unique Smartphone Models** | **255** | Fully deduplicated models across all tiers |
-| **Active In-Market Models** | **184** | Officially available or active retail in India |
-| **Historical / Discontinued Models** | **71** | Discontinued models preserved for comparison |
-| **Total Commercial Variants** | **467** | RAM / Storage / Color combinations |
-| **Verified Variants** | **467** | 100% verified with authentic INR prices |
-| **Verified Image Coverage** | **255 / 255 (100%)** | Real front photography verified via HTTP 200 |
+| **Total Unique Smartphone Models** | **579** | Fully deduplicated models across all tiers |
+| **Active In-Market Models** | **198** | Officially available or active retail in India |
+| **Historical / Discontinued Models** | **381** | Discontinued models preserved for comparison |
+| **Total Commercial Variants** | **1092** | RAM / Storage / Color combinations |
+| **Verified Variants** | **1092** | 100% verified with authentic INR prices |
+| **Verified Image Coverage** | **579 / 579 (100%)** | Real front photography verified via HTTP 200 |
 | **Active Brands Audited** | **21 / 21** | 19 primary brands + 2 preserved brands |
 | **Audited Lineup Verification** | **255 / 255 (100%)** | Zero unaccounted Indian smartphone models |
 
@@ -26,26 +26,27 @@
 
 | Brand | Models in Catalog | Active | Discontinued | Key Series Covered |
 | :--- | :--- | :--- | :--- | :--- |
-| **Samsung** | 34 | 26 | 8 | Galaxy S Series, Galaxy Z Series, Galaxy A Series, Galaxy M Series, Galaxy F Series |
-| **Motorola** | 21 | 11 | 10 | Razr Series, Edge Series, Moto G Series |
-| **Vivo** | 20 | 18 | 2 | X Series & Fold, V Series, T & Y Series |
-| **Apple** | 19 | 13 | 6 | iPhone Pro/Pro Max, iPhone Standard/Plus/mini, iPhone SE |
-| **realme** | 19 | 17 | 2 | GT Series, Numbered Series, P Series, Narzo & C Series |
-| **Redmi** | 17 | 11 | 6 | Note Pro+ / Pro, Note Base, Numbered & Budget A/C |
-| **OnePlus** | 16 | 9 | 7 | Numbered Flagship, R Series, Open (Foldable), Nord & Nord CE |
-| **POCO** | 14 | 11 | 3 | F Series, X Series, M & C Series |
-| **OPPO** | 13 | 12 | 1 | Find Series, Reno Series, F, K & A Series |
-| **Google** | 12 | 9 | 3 | Pixel Pro & Fold, Pixel Base & A Series |
-| **iQOO** | 11 | 8 | 3 | Numbered Flagship, Neo Series, Z Series |
-| **Infinix** | 10 | 4 | 6 | GT & Zero Series, Note, Hot & Smart |
-| **Lava** | 9 | 6 | 3 | Agni Series, Blaze Series, Storm & Yuva |
-| **Xiaomi** | 8 | 4 | 4 | Xiaomi Flagships, Xiaomi Civi & T Series |
-| **Tecno** | 8 | 5 | 3 | Phantom Series, Camon, Pova, Spark, Pop |
+| **Samsung** | 105 | 28 | 77 | Galaxy S Series, Galaxy Z Series, Galaxy A Series, Galaxy M Series, Galaxy F Series |
+| **Redmi** | 50 | 11 | 39 | Note Pro+ / Pro, Note Base, Numbered & Budget A/C |
+| **Motorola** | 49 | 13 | 36 | Razr Series, Edge Series, Moto G Series |
+| **OnePlus** | 42 | 9 | 33 | Numbered Flagship, R Series, Open (Foldable), Nord & Nord CE |
+| **realme** | 38 | 17 | 21 | GT Series, Numbered Series, P Series, Narzo & C Series |
+| **Apple** | 34 | 17 | 17 | iPhone Pro/Pro Max, iPhone Standard/Plus/mini, iPhone SE |
+| **Vivo** | 34 | 18 | 16 | X Series & Fold, V Series, T & Y Series |
+| **OPPO** | 31 | 12 | 19 | Find Series, Reno Series, F, K & A Series |
+| **POCO** | 30 | 11 | 19 | F Series, X Series, M & C Series |
+| **Google** | 29 | 9 | 20 | Pixel Pro & Fold, Pixel Base & A Series |
+| **Xiaomi** | 27 | 4 | 23 | Xiaomi Flagships, Xiaomi Civi & T Series |
+| **iQOO** | 23 | 8 | 15 | Numbered Flagship, Neo Series, Z Series |
+| **Infinix** | 16 | 5 | 11 | GT & Zero Series, Note, Hot & Smart |
+| **ASUS** | 13 | 2 | 11 | ROG Phone Series, Compact Flagship |
+| **Lava** | 13 | 8 | 5 | Agni Series, Blaze Series, Storm & Yuva |
+| **Tecno** | 12 | 5 | 7 | Phantom Series, Camon, Pova, Spark, Pop |
+| **Honor** | 9 | 5 | 4 | Magic, Numbered & X |
+| **Itel** | 7 | 5 | 2 | Color Pro, P, S & A Series |
 | **Nothing** | 6 | 5 | 1 | Phone Series |
-| **ASUS** | 5 | 2 | 3 | ROG Phone Series, Compact Flagship |
+| **Nokia** | 6 | 1 | 5 | General |
 | **HMD** | 4 | 4 | 0 | Skyline & Crest Series |
-| **Honor** | 4 | 4 | 0 | Magic, Numbered & X |
-| **Itel** | 4 | 4 | 0 | Color Pro, P, S & A Series |
 | **CMF** | 1 | 1 | 0 | CMF Phone |
 
 ---

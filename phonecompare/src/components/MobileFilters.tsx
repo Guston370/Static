@@ -84,6 +84,10 @@ export function MobileFilters() {
     () => allMobiles.filter((m) => m.status === 'discontinued').length,
     [allMobiles]
   );
+  const upcomingCount = useMemo(
+    () => allMobiles.filter((m) => m.status === 'upcoming').length,
+    [allMobiles]
+  );
   const brandCountMap = useMemo(() => {
     const map = new Map<string, number>();
     for (const m of allMobiles) {
@@ -95,14 +99,14 @@ export function MobileFilters() {
   // Initial filter state from URL
   const initialQuery = searchParams.get('q') || searchParams.get('search') || '';
   const initialStatusParam = searchParams.get('status');
-  const initialAvailability =
-    initialStatusParam === 'active' || initialStatusParam === 'discontinued'
+  const initialAvailability: 'all' | 'active' | 'discontinued' | 'upcoming' =
+    initialStatusParam === 'active' || initialStatusParam === 'discontinued' || initialStatusParam === 'upcoming'
       ? initialStatusParam
       : 'all';
 
   // Filter state
   const [query, setQuery] = useState(initialQuery);
-  const [selectedAvailability, setSelectedAvailability] = useState<'all' | 'active' | 'discontinued'>(
+  const [selectedAvailability, setSelectedAvailability] = useState<'all' | 'active' | 'discontinued' | 'upcoming'>(
     initialAvailability
   );
   const [selectedBrands, setSelectedBrands] = useState<string[]>(
@@ -132,18 +136,22 @@ export function MobileFilters() {
   const filteredMobiles = useMemo(() => {
     return allMobiles
       .filter((m) => {
-        // Availability Status filter (all, active, discontinued)
+        // Availability Status filter (all, active, discontinued, upcoming)
         if (selectedAvailability === 'active' && m.status !== 'active') {
           return false;
         }
         if (selectedAvailability === 'discontinued' && m.status !== 'discontinued') {
           return false;
         }
+        if (selectedAvailability === 'upcoming' && m.status !== 'upcoming') {
+          return false;
+        }
 
         // Search query
         if (query.trim()) {
           const q = query.toLowerCase().trim();
-          const identityText = `${m.brand} ${m.modelName} ${m.generation || ''} ${m.performance?.chipset || ''} ${m.software?.operatingSystem || ''} ${m.software?.ui || ''}`.toLowerCase();
+          const identityText = `${m.brand} ${m.modelName} ${m.generation || ''} ${m.id} ${m.slug} ${m.performance?.chipset || ''} ${m.software?.operatingSystem || ''} ${m.software?.ui || ''}`.toLowerCase();
+          const compactIdentity = `${m.brand}${m.modelName}${m.id}${m.slug}`.toLowerCase().replace(/[\s\-_]/g, '');
           const displayNormalized = (m.display?.displayType || '')
             .toLowerCase()
             .replace(/samsung\s+/g, '')
@@ -152,7 +160,7 @@ export function MobileFilters() {
             .toLowerCase()
             .replace(/sony\s+/g, '')
             .replace(/samsung\s+/g, '');
-          const fullString = `${identityText} ${displayNormalized} ${cameraNormalized}`;
+          const fullString = `${identityText} ${compactIdentity} ${displayNormalized} ${cameraNormalized}`;
 
           // Handle direct numeric price searches like "50000" or "₹50,000"
           const numMatch = q.replace(/[^0-9]/g, '');
@@ -164,8 +172,11 @@ export function MobileFilters() {
           );
 
           // Word tokens matching: all words in query should appear in model searchable text
-          const words = q.split(/\s+/).filter(Boolean);
-          const wordsMatch = words.every((word) => fullString.includes(word));
+          const words = q.split(/[\s,]+/).filter(Boolean);
+          const wordsMatch = words.every((word) => {
+            const cleanWord = word.replace(/[\s\-_]/g, '');
+            return fullString.includes(word) || compactIdentity.includes(cleanWord) || fullString.includes(cleanWord);
+          });
 
           if (!withinPrice && !wordsMatch) {
             return false;
@@ -418,7 +429,7 @@ export function MobileFilters() {
 
           {selectedAvailability !== 'all' && (
             <span className="badge badge-secondary">
-              Status: {selectedAvailability === 'active' ? 'Active Only' : 'Discontinued Only'}
+              Status: {selectedAvailability === 'active' ? 'Active Only' : selectedAvailability === 'discontinued' ? 'Discontinued Only' : 'Upcoming Only'}
               <button
                 onClick={() => setSelectedAvailability('all')}
                 style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
@@ -598,6 +609,7 @@ export function MobileFilters() {
               {[
                 { id: 'all', label: `All Models (${allMobiles.length})` },
                 { id: 'active', label: `Active (${activeCount})` },
+                { id: 'upcoming', label: `Upcoming (${upcomingCount})` },
                 { id: 'discontinued', label: `Discontinued (${discontinuedCount})` },
               ].map((item) => (
                 <label
@@ -616,7 +628,7 @@ export function MobileFilters() {
                     type="radio"
                     name="availabilityStatus"
                     checked={selectedAvailability === item.id}
-                    onChange={() => setSelectedAvailability(item.id as 'all' | 'active' | 'discontinued')}
+                    onChange={() => setSelectedAvailability(item.id as 'all' | 'active' | 'discontinued' | 'upcoming')}
                   />
                   {item.label}
                 </label>
@@ -792,7 +804,7 @@ export function MobileFilters() {
                   border: '1px solid var(--color-border)',
                 }}
               >
-                Availability: {selectedAvailability === 'active' ? 'Active models' : 'Discontinued models'}
+                Availability: {selectedAvailability === 'active' ? 'Active models' : selectedAvailability === 'discontinued' ? 'Discontinued models' : 'Upcoming models'}
               </span>
             )}
           </div>

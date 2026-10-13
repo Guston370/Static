@@ -28,7 +28,7 @@ export function Footer() {
   return (
     <footer
       style={{
-        background: 'var(--color-text-primary)',
+        background: '#1A2332',
         color: '#fff',
         marginTop: 'auto',
         paddingBottom: '5rem', // space for comparison tray
@@ -36,33 +36,31 @@ export function Footer() {
     >
       {/* Main footer content */}
       <div className="container" style={{ paddingTop: '3.5rem', paddingBottom: '2.5rem' }}>
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
-            gap: '2.5rem',
-          }}
-        >
+        <div className="footer-grid">
           {/* Brand column */}
           <div style={{ gridColumn: 'span 1' }}>
-            <div
+            <Link
+              href="/"
               style={{
-                display: 'flex',
+                display: 'inline-flex',
                 alignItems: 'center',
                 gap: '0.5rem',
                 marginBottom: '1rem',
+                textDecoration: 'none',
               }}
+              aria-label="Static — but dynamic Home"
             >
               <span
                 style={{
                   background: 'var(--color-accent)',
-                  borderRadius: '8px',
+                  borderRadius: 'var(--radius-sm)',
                   width: '32px',
                   height: '32px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   flexShrink: 0,
+                  boxShadow: '0 2px 8px rgba(196, 69, 69, 0.4)',
                 }}
               >
                 <Car size={18} color="#fff" />
@@ -89,10 +87,10 @@ export function Footer() {
                   but dynamic
                 </span>
               </div>
-            </div>
+            </Link>
             <p
               style={{
-                color: '#9b9b97',
+                color: '#8FA0B4',
                 fontSize: '0.875rem',
                 lineHeight: 1.7,
                 marginBottom: '1.5rem',
@@ -107,7 +105,7 @@ export function Footer() {
                   alignItems: 'center',
                   gap: '0.375rem',
                   fontSize: '0.78rem',
-                  color: '#9b9b97',
+                  color: '#8FA0B4',
                 }}
               >
                 <Shield size={13} />
@@ -119,7 +117,7 @@ export function Footer() {
                   alignItems: 'center',
                   gap: '0.375rem',
                   fontSize: '0.78rem',
-                  color: '#9b9b97',
+                  color: '#8FA0B4',
                 }}
               >
                 <BarChart3 size={13} />
@@ -137,7 +135,7 @@ export function Footer() {
                   fontWeight: 600,
                   textTransform: 'uppercase',
                   letterSpacing: '0.08em',
-                  color: '#9b9b97',
+                  color: '#8FA0B4',
                   marginBottom: '1rem',
                 }}
               >
@@ -178,12 +176,12 @@ export function Footer() {
             gap: '0.75rem',
           }}
         >
-          <p style={{ color: '#9b9b97', fontSize: '0.8rem' }}>
+          <p style={{ color: '#8FA0B4', fontSize: '0.8rem' }}>
             © {new Date().getFullYear()} Static — but dynamic. All specifications are sourced from public manufacturer data and verified documents.
           </p>
           <p
             style={{
-              color: '#9b9b97',
+              color: '#8FA0B4',
               fontSize: '0.8rem',
               display: 'flex',
               alignItems: 'center',

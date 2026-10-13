@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { MobileFilters } from '@/components/MobileFilters';
 
 export const metadata: Metadata = {
-  title: 'Browse Indian Smartphones & Mobiles | Static — but dynamic',
+  title: 'Browse Indian Smartphones & Mobiles',
   description:
     'Browse and compare Indian smartphones by brand, chipset, RAM, storage, 5G, display refresh rate, and verified prices. Transparent specifications and side-by-side comparison.',
   keywords: [
