@@ -3,8 +3,9 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
-import { Menu, X, Smartphone, Layers } from 'lucide-react';
+import { Menu, X, Smartphone, Layers, Mail, Car, Bike } from 'lucide-react';
 import { useMobileCompare } from '@/context/MobileCompareContext';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 export function Navbar() {
   const pathname = usePathname();
@@ -14,6 +15,7 @@ export function Navbar() {
 
   const isBrowseActive = pathname === '/mobiles';
   const isCompareActive = pathname.startsWith('/mobiles/compare');
+  const isContactActive = pathname === '/contact';
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -115,10 +117,57 @@ export function Navbar() {
                     fontStyle: 'italic',
                   }}
                 >
-                  but dynamic
+                  mobiles
                 </span>
               </div>
             </Link>
+
+            {/* Category Switcher Tabs */}
+            <div
+              className="category-switch-desktop neu-inset"
+              style={{
+                padding: '3px',
+                borderRadius: 'var(--radius-md)',
+                display: 'flex',
+                gap: '3px',
+              }}
+            >
+              <Link
+                href="/cars"
+                className="nav-link"
+                style={{
+                  padding: '0.35rem 0.75rem',
+                  fontSize: '0.82rem',
+                }}
+              >
+                <Car size={14} />
+                Cars
+              </Link>
+
+              <Link
+                href="/mobiles"
+                className="nav-link active"
+                style={{
+                  padding: '0.35rem 0.75rem',
+                  fontSize: '0.82rem',
+                }}
+              >
+                <Smartphone size={14} />
+                Mobiles
+              </Link>
+
+              <Link
+                href="/bikes"
+                className="nav-link"
+                style={{
+                  padding: '0.35rem 0.75rem',
+                  fontSize: '0.82rem',
+                }}
+              >
+                <Bike size={14} />
+                Bikes
+              </Link>
+            </div>
           </div>
 
           {/* Desktop Navigation Links */}
@@ -153,19 +202,48 @@ export function Navbar() {
                 </span>
               )}
             </Link>
+
+            <Link
+              href="/contact"
+              className={`nav-link ${isContactActive ? 'active' : ''}`}
+            >
+              <Mail size={16} />
+              Contact
+            </Link>
+
+            <div style={{ marginLeft: '0.5rem' }}>
+              <ThemeToggle />
+            </div>
           </div>
 
-          {/* Mobile hamburger menu toggle */}
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="navbar-mobile-toggle"
-            type="button"
-            aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'}
-            aria-expanded={mobileOpen}
-            aria-controls="navbar-mobile-dropdown"
-          >
-            {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-          </button>
+          {/* Mobile actions: Compare badge + Theme toggle + hamburger menu */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            {selectedMobileSlugs.length > 0 && (
+              <Link
+                href={`/mobiles/compare?mobiles=${selectedMobileSlugs.join(',')}`}
+                className="btn btn-primary btn-sm mobile-compare-badge"
+                style={{ fontSize: '0.78rem', padding: '0.3rem 0.6rem' }}
+                aria-label={`Compare ${selectedMobileSlugs.length} phones`}
+              >
+                <Smartphone size={13} /> ({selectedMobileSlugs.length})
+              </Link>
+            )}
+
+            <div className="navbar-mobile-toggle" style={{ border: 'none', background: 'none', boxShadow: 'none', padding: 0 }}>
+              <ThemeToggle />
+            </div>
+
+            <button
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="navbar-mobile-toggle"
+              type="button"
+              aria-label={mobileOpen ? 'Close navigation menu' : 'Open navigation menu'}
+              aria-expanded={mobileOpen}
+              aria-controls="navbar-mobile-dropdown"
+            >
+              {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+            </button>
+          </div>
         </nav>
 
         {/* Mobile dropdown */}
@@ -185,6 +263,34 @@ export function Navbar() {
               gap: '0.5rem',
             }}
           >
+            {/* Quick Category Switcher */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem', marginBottom: '0.5rem' }}>
+              <Link
+                href="/cars"
+                onClick={() => setMobileOpen(false)}
+                className="btn btn-secondary btn-sm"
+                style={{ padding: '0.5rem', justifyContent: 'center', fontSize: '0.8rem' }}
+              >
+                <Car size={13} /> Cars
+              </Link>
+              <Link
+                href="/mobiles"
+                onClick={() => setMobileOpen(false)}
+                className="btn btn-primary btn-sm"
+                style={{ padding: '0.5rem', justifyContent: 'center', fontSize: '0.8rem' }}
+              >
+                <Smartphone size={13} /> Mobiles
+              </Link>
+              <Link
+                href="/bikes"
+                onClick={() => setMobileOpen(false)}
+                className="btn btn-secondary btn-sm"
+                style={{ padding: '0.5rem', justifyContent: 'center', fontSize: '0.8rem' }}
+              >
+                <Bike size={13} /> Bikes
+              </Link>
+            </div>
+
             <Link
               href="/mobiles"
               onClick={() => setMobileOpen(false)}
@@ -225,9 +331,35 @@ export function Navbar() {
                 </span>
               )}
             </Link>
+            <Link
+              href="/contact"
+              onClick={() => setMobileOpen(false)}
+              className={`nav-link ${isContactActive ? 'active' : ''}`}
+              style={{
+                padding: '0.75rem 1rem',
+                borderRadius: 'var(--radius-md)',
+              }}
+            >
+              <Mail size={16} />
+              Contact Us
+            </Link>
+            <div style={{ padding: '0.5rem 1rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderTop: '1px solid var(--color-border-subtle)', marginTop: '0.25rem' }}>
+              <span style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', fontWeight: 500 }}>
+                Display Theme
+              </span>
+              <ThemeToggle showLabel />
+            </div>
           </div>
         )}
       </div>
+
+      <style>{`
+        @media (max-width: 860px) {
+          .category-switch-desktop {
+            display: none !important;
+          }
+        }
+      `}</style>
     </header>
   );
 }

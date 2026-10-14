@@ -308,5 +308,11 @@ export interface CarFilters {
   transmissions: TransmissionType[];
   minPrice: number | null;
   maxPrice: number | null;
-  sortBy: 'price-asc' | 'price-desc' | 'popularity' | 'power';
+  seatingCapacities?: number[];
+  minNcap?: number | null;
+  requireSunroof?: boolean;
+  requireVentilatedSeats?: boolean;
+  requireADAS?: boolean;
+  require360Camera?: boolean;
+  sortBy: 'price-asc' | 'price-desc' | 'popularity' | 'power' | 'mileage';
 }

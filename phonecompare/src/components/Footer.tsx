@@ -16,10 +16,11 @@ const footerLinks = {
     { href: '/mobiles?has5G=true', label: '5G Smartphones' },
     { href: '/mobiles?ram=12GB', label: '12GB+ RAM Flagships' },
   ],
-  Platform: [
-    { href: '/', label: 'Home' },
-    { href: '/mobiles', label: 'Mobiles Catalog' },
-    { href: '/mobiles/compare', label: 'Direct Comparison' },
+  Ecosystem: [
+    { href: '/', label: 'Home Portal' },
+    { href: '/cars', label: 'CarCompare' },
+    { href: '/bikes', label: 'BikeCompare' },
+    { href: '/contact', label: 'Contact Us' },
   ],
 };
 
@@ -27,8 +28,9 @@ export function Footer() {
   return (
     <footer
       style={{
-        background: '#1A2332',
-        color: '#fff',
+        background: 'var(--hero-bg)',
+        color: 'var(--hero-text)',
+        borderTop: '1px solid var(--color-border)',
         marginTop: 'auto',
         paddingBottom: '5rem', // space for comparison tray
       }}
@@ -70,7 +72,7 @@ export function Footer() {
                     fontWeight: 800,
                     fontSize: '1.25rem',
                     letterSpacing: '-0.03em',
-                    color: '#fff',
+                    color: 'var(--hero-text)',
                   }}
                 >
                   Static
@@ -83,13 +85,13 @@ export function Footer() {
                     fontStyle: 'italic',
                   }}
                 >
-                  but dynamic
+                  mobiles
                 </span>
               </div>
             </Link>
             <p
               style={{
-                color: 'rgba(255,255,255,0.55)',
+                color: 'rgba(255,255,255,0.65)',
                 fontSize: '0.875rem',
                 lineHeight: 1.7,
                 marginBottom: '1.5rem',
@@ -102,7 +104,7 @@ export function Footer() {
               style={{
                 display: 'flex',
                 gap: '1.25rem',
-                color: 'rgba(255,255,255,0.55)',
+                color: 'rgba(255,255,255,0.6)',
                 fontSize: '0.8rem',
               }}
             >

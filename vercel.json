@@ -8,6 +8,10 @@
     "phonecompare": {
       "root": "phonecompare",
       "framework": "nextjs"
+    },
+    "bikecompare": {
+      "root": "bikecompare",
+      "framework": "nextjs"
     }
   },
   "rewrites": [
@@ -35,6 +39,32 @@
       "source": "/mobiles/(.*)",
       "destination": {
         "service": "phonecompare"
+      }
+    },
+    {
+      "source": "/bikes/_next/(.*)",
+      "destination": {
+        "service": "bikecompare",
+        "path": "/_next/$1"
+      }
+    },
+    {
+      "source": "/bikes/images/(.*)",
+      "destination": {
+        "service": "bikecompare",
+        "path": "/images/$1"
+      }
+    },
+    {
+      "source": "/bikes",
+      "destination": {
+        "service": "bikecompare"
+      }
+    },
+    {
+      "source": "/bikes/(.*)",
+      "destination": {
+        "service": "bikecompare"
       }
     },
     {

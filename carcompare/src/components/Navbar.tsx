@@ -3,9 +3,10 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
-import { Menu, X, Car, Smartphone, Layers } from 'lucide-react';
+import { Menu, X, Car, Smartphone, Bike, Layers, Mail } from 'lucide-react';
 import { useCompare } from '@/context/CompareContext';
 import { useMobileCompare } from '@/context/MobileCompareContext';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 export function Navbar() {
   const pathname = usePathname();
@@ -41,9 +42,10 @@ export function Navbar() {
   const isCarsActive =
     pathname.startsWith('/cars') ||
     pathname === '/compare' ||
-    (pathname === '/' && !pathname.includes('mobiles'));
+    (pathname === '/' && !pathname.includes('mobiles') && !pathname.includes('bikes'));
 
   const isMobilesActive = pathname.startsWith('/mobiles');
+  const isBikesActive = pathname.startsWith('/bikes');
 
   return (
     <header
@@ -153,6 +155,18 @@ export function Navbar() {
                 <Smartphone size={14} />
                 Mobiles
               </Link>
+
+              <Link
+                href="/bikes"
+                className={`nav-link ${isBikesActive ? 'active' : ''}`}
+                style={{
+                  padding: '0.35rem 0.75rem',
+                  fontSize: '0.82rem',
+                }}
+              >
+                <Bike size={14} />
+                Bikes
+              </Link>
             </div>
           </div>
 
@@ -180,14 +194,32 @@ export function Navbar() {
             </Link>
 
             <Link
-              href={isMobilesActive ? '/mobiles/compare' : '/compare'}
+              href="/bikes"
+              className={`nav-link ${pathname.startsWith('/bikes') && !pathname.includes('/compare') ? 'active' : ''}`}
+            >
+              Browse Bikes
+            </Link>
+
+            <Link
+              href={isMobilesActive ? '/mobiles/compare' : isBikesActive ? '/bikes/compare' : '/compare'}
               className={`nav-link ${pathname.includes('/compare') ? 'active' : ''}`}
             >
               Compare
             </Link>
+
+            <Link
+              href="/contact"
+              className={`nav-link ${pathname === '/contact' ? 'active' : ''}`}
+            >
+              Contact
+            </Link>
+
+            <div style={{ marginLeft: '0.4rem' }}>
+              <ThemeToggle />
+            </div>
           </div>
 
-          {/* Active Compare CTA Badges */}
+          {/* Active Compare CTA Badges & Mobile controls */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
             {selectedSlugs.length > 0 && (
               <Link
@@ -214,6 +246,11 @@ export function Navbar() {
                 Mobiles ({selectedMobileSlugs.length})
               </Link>
             )}
+
+            {/* Mobile theme toggle */}
+            <div className="nav-mobile-toggle" style={{ border: 'none', background: 'none', boxShadow: 'none', padding: 0 }}>
+              <ThemeToggle />
+            </div>
 
             {/* Mobile menu toggle */}
             <button
@@ -242,12 +279,12 @@ export function Navbar() {
           role="navigation"
           aria-label="Mobile navigation"
         >
-          <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.25rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem', marginBottom: '1.25rem' }}>
             <Link
               href="/cars"
               onClick={() => setMobileOpen(false)}
               className={`btn btn-sm ${isCarsActive ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ flex: 1, padding: '0.625rem 1rem' }}
+              style={{ padding: '0.625rem 0.5rem', justifyContent: 'center' }}
             >
               <Car size={14} /> Cars
             </Link>
@@ -255,9 +292,17 @@ export function Navbar() {
               href="/mobiles"
               onClick={() => setMobileOpen(false)}
               className={`btn btn-sm ${isMobilesActive ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ flex: 1, padding: '0.625rem 1rem' }}
+              style={{ padding: '0.625rem 0.5rem', justifyContent: 'center' }}
             >
               <Smartphone size={14} /> Mobiles
+            </Link>
+            <Link
+              href="/bikes"
+              onClick={() => setMobileOpen(false)}
+              className={`btn btn-sm ${isBikesActive ? 'btn-primary' : 'btn-secondary'}`}
+              style={{ padding: '0.625rem 0.5rem', justifyContent: 'center' }}
+            >
+              <Bike size={14} /> Bikes
             </Link>
           </div>
 
@@ -268,6 +313,9 @@ export function Navbar() {
               { href: '/compare', label: 'Compare Cars' },
               { href: '/mobiles', label: 'Browse Mobiles' },
               { href: '/mobiles/compare', label: 'Compare Mobiles' },
+              { href: '/bikes', label: 'Browse Bikes' },
+              { href: '/bikes/compare', label: 'Compare Bikes' },
+              { href: '/contact', label: 'Contact Us' },
             ].map((link) => (
               <Link
                 key={link.href}
@@ -285,6 +333,13 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
+          </div>
+
+          <div style={{ padding: '0.75rem 1rem 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderTop: '1px solid var(--color-border)', marginTop: '0.75rem' }}>
+            <span style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', fontWeight: 500 }}>
+              Display Theme
+            </span>
+            <ThemeToggle showLabel />
           </div>
         </div>
       )}

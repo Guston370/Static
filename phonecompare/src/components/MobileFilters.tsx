@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import {
   Search,
@@ -10,30 +10,58 @@ import {
   RotateCcw,
   ChevronLeft,
   ChevronRight,
+  Filter,
+  Check,
 } from 'lucide-react';
 import { MobileCard } from '@/components/MobileCard';
 import { getAllMobiles, getAllMobileBrands } from '@/lib/mobiles';
+import { PriceRangeSlider, formatPriceDisplay } from '@/components/pricing/PriceRangeSlider';
 
 const PAGE_SIZE = 24;
 
-const PRICE_TIERS = [
-  { label: 'Under ₹25,000', min: 0, max: 25000 },
-  { label: '₹25,000 – ₹45,000', min: 25000, max: 45000 },
-  { label: '₹45,000 – ₹80,000', min: 45000, max: 80000 },
-  { label: 'Above ₹80,000', min: 80000, max: 999999 },
+const PRICE_MIN_LIMIT = 5000;
+const PRICE_MAX_LIMIT = 180000;
+
+const RAM_OPTIONS = ['4GB', '6GB', '8GB', '12GB', '16GB'];
+const STORAGE_OPTIONS = ['64GB', '128GB', '256GB', '512GB', '1TB'];
+const DISPLAY_TECH_OPTIONS = ['AMOLED', 'OLED', 'LCD'];
+const REFRESH_RATE_OPTIONS = [60, 90, 120, 144];
+const CHIPSET_FAMILIES = [
+  { label: 'Snapdragon', keyword: 'snapdragon' },
+  { label: 'MediaTek Dimensity', keyword: 'dimensity' },
+  { label: 'Apple A-Series', keyword: 'apple' },
+  { label: 'Google Tensor', keyword: 'tensor' },
+  { label: 'Exynos', keyword: 'exynos' },
 ];
 
-const REFRESH_RATES = [120, 144, 165];
-const OS_OPTIONS = ['Android', 'iOS'];
+const BATTERY_TIERS = [
+  { label: '5000 mAh & above', min: 5000, max: 99999 },
+  { label: '6000 mAh & above (High Endurance)', min: 6000, max: 99999 },
+  { label: 'Compact (< 5000 mAh)', min: 0, max: 4999 },
+];
+
+const CHARGING_TIERS = [
+  { label: '33W+ Fast Charging', minWatts: 33 },
+  { label: '67W+ Superfast', minWatts: 67 },
+  { label: '100W+ Ultra-rapid', minWatts: 100 },
+];
+
+const CAMERA_TIERS = [
+  { label: '50MP+ Primary', minMp: 50 },
+  { label: '108MP+ Ultra-res', minMp: 108 },
+  { label: '200MP Flagship', minMp: 200 },
+];
 
 function FilterSection({
   title,
+  defaultOpen = true,
   children,
 }: {
   title: string;
+  defaultOpen?: boolean;
   children: React.ReactNode;
 }) {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(defaultOpen);
   return (
     <div style={{ borderBottom: '1px solid var(--color-border-subtle)', paddingBottom: '1rem', marginBottom: '1rem' }}>
       <button
@@ -71,23 +99,41 @@ function FilterSection({
 
 export function MobileFilters() {
   const searchParams = useSearchParams();
-
   const allMobiles = useMemo(() => getAllMobiles(), []);
   const allBrands = useMemo(() => getAllMobileBrands(), []);
 
-  // Precompute counts
-  const activeCount = useMemo(
-    () => allMobiles.filter((m) => m.status === 'active').length,
-    [allMobiles]
-  );
-  const discontinuedCount = useMemo(
-    () => allMobiles.filter((m) => m.status === 'discontinued').length,
-    [allMobiles]
-  );
-  const upcomingCount = useMemo(
-    () => allMobiles.filter((m) => m.status === 'upcoming').length,
-    [allMobiles]
-  );
+  // Initial params
+  const initialQuery = searchParams.get('q') || searchParams.get('search') || '';
+  const initialBrand = searchParams.get('brand') ? searchParams.get('brand')!.split(',') : [];
+  const initialMinPrice = searchParams.get('minPrice') ? parseInt(searchParams.get('minPrice')!, 10) : PRICE_MIN_LIMIT;
+  const initialMaxPrice = searchParams.get('maxPrice') ? parseInt(searchParams.get('maxPrice')!, 10) : PRICE_MAX_LIMIT;
+  const initialRam = searchParams.get('ram') ? searchParams.get('ram')!.split(',') : [];
+  const initialStorage = searchParams.get('storage') ? searchParams.get('storage')!.split(',') : [];
+  const initialStatus = searchParams.get('status') || 'all';
+  const initial5G = searchParams.get('has5G') === 'true';
+
+  // Filter States
+  const [query, setQuery] = useState(initialQuery);
+  const [selectedBrands, setSelectedBrands] = useState<string[]>(initialBrand);
+  const [priceMin, setPriceMin] = useState(isNaN(initialMinPrice) ? PRICE_MIN_LIMIT : initialMinPrice);
+  const [priceMax, setPriceMax] = useState(isNaN(initialMaxPrice) ? PRICE_MAX_LIMIT : initialMaxPrice);
+  const [selectedRam, setSelectedRam] = useState<string[]>(initialRam);
+  const [selectedStorage, setSelectedStorage] = useState<string[]>(initialStorage);
+  const [selectedDisplayTech, setSelectedDisplayTech] = useState<string[]>([]);
+  const [selectedRefresh, setSelectedRefresh] = useState<number[]>([]);
+  const [selectedChipsets, setSelectedChipsets] = useState<string[]>([]);
+  const [selectedBatteryIndex, setSelectedBatteryIndex] = useState<number | null>(null);
+  const [selectedChargingWatts, setSelectedChargingWatts] = useState<number | null>(null);
+  const [selectedCameraMp, setSelectedCameraMp] = useState<number | null>(null);
+  const [requireOis, setRequireOis] = useState(false);
+  const [only5G, setOnly5G] = useState(initial5G);
+  const [selectedOS, setSelectedOS] = useState<string[]>([]);
+  const [selectedAvailability, setSelectedAvailability] = useState<string>(initialStatus);
+  const [sortBy, setSortBy] = useState<'popularity' | 'price-asc' | 'price-desc' | 'battery' | 'name-asc'>('popularity');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+
+  // Brand count map
   const brandCountMap = useMemo(() => {
     const map = new Map<string, number>();
     for (const m of allMobiles) {
@@ -96,169 +142,184 @@ export function MobileFilters() {
     return map;
   }, [allMobiles]);
 
-  // Initial filter state from URL
-  const initialQuery = searchParams.get('q') || searchParams.get('search') || '';
-  const initialStatusParam = searchParams.get('status');
-  const initialAvailability: 'all' | 'active' | 'discontinued' | 'upcoming' =
-    initialStatusParam === 'active' || initialStatusParam === 'discontinued' || initialStatusParam === 'upcoming'
-      ? initialStatusParam
-      : 'all';
+  // Sync URL query params with state
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams();
+    if (query.trim()) params.set('q', query.trim());
+    if (selectedBrands.length > 0) params.set('brand', selectedBrands.join(','));
+    if (priceMin > PRICE_MIN_LIMIT) params.set('minPrice', priceMin.toString());
+    if (priceMax < PRICE_MAX_LIMIT) params.set('maxPrice', priceMax.toString());
+    if (selectedRam.length > 0) params.set('ram', selectedRam.join(','));
+    if (selectedStorage.length > 0) params.set('storage', selectedStorage.join(','));
+    if (only5G) params.set('has5G', 'true');
+    if (selectedAvailability !== 'all') params.set('status', selectedAvailability);
 
-  // Filter state
-  const [query, setQuery] = useState(initialQuery);
-  const [selectedAvailability, setSelectedAvailability] = useState<'all' | 'active' | 'discontinued' | 'upcoming'>(
-    initialAvailability
-  );
-  const [selectedBrands, setSelectedBrands] = useState<string[]>(
-    searchParams.get('brand') ? searchParams.get('brand')!.split(',') : []
-  );
-  const [selectedPriceTier, setSelectedPriceTier] = useState<number | null>(null);
-  const [selectedRefresh, setSelectedRefresh] = useState<number | null>(null);
-  const [selectedRam, setSelectedRam] = useState<string | null>(null);
-  const [selectedStorage, setSelectedStorage] = useState<string | null>(null);
-  const [selectedOS, setSelectedOS] = useState<string | null>(null);
-  const [only5G, setOnly5G] = useState(false);
-  const [hasTelephoto, setHasTelephoto] = useState(false);
-  const [fastCharging, setFastCharging] = useState(false);
-  const [sortBy, setSortBy] = useState<'popularity' | 'price-asc' | 'price-desc' | 'battery' | 'name-asc'>('popularity');
-  const [currentPage, setCurrentPage] = useState(1);
-  const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+    const queryString = params.toString();
+    const newUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
+    window.history.replaceState(null, '', newUrl);
+  }, [query, selectedBrands, priceMin, priceMax, selectedRam, selectedStorage, only5G, selectedAvailability]);
 
-  // Reset page when filter configuration changes
-  const filterKey = `${query}|${selectedAvailability}|${selectedBrands.join()}|${selectedPriceTier}|${selectedRefresh}|${selectedRam}|${selectedStorage}|${selectedOS}|${only5G}|${hasTelephoto}|${fastCharging}|${sortBy}`;
-  const [prevFilterKey, setPrevFilterKey] = useState(filterKey);
-  if (prevFilterKey !== filterKey) {
-    setPrevFilterKey(filterKey);
+  // Reset pagination on filter change
+  const filterSignature = `${query}|${selectedBrands.join()}|${priceMin}|${priceMax}|${selectedRam.join()}|${selectedStorage.join()}|${selectedDisplayTech.join()}|${selectedRefresh.join()}|${selectedChipsets.join()}|${selectedBatteryIndex}|${selectedChargingWatts}|${selectedCameraMp}|${requireOis}|${only5G}|${selectedOS.join()}|${selectedAvailability}|${sortBy}`;
+  const [prevFilterSig, setPrevFilterSig] = useState(filterSignature);
+  if (prevFilterSig !== filterSignature) {
+    setPrevFilterSig(filterSignature);
     setCurrentPage(1);
   }
 
-  // Filter logic
+  // Multi-select toggle helpers
+  const toggleItem = (list: string[], item: string, setter: (val: string[]) => void) => {
+    setter(list.includes(item) ? list.filter((x) => x !== item) : [...list, item]);
+  };
+  const toggleNumItem = (list: number[], item: number, setter: (val: number[]) => void) => {
+    setter(list.includes(item) ? list.filter((x) => x !== item) : [...list, item]);
+  };
+
+  // Main Filtering Logic
   const filteredMobiles = useMemo(() => {
-    return allMobiles
-      .filter((m) => {
-        // Availability Status filter (all, active, discontinued, upcoming)
-        if (selectedAvailability === 'active' && m.status !== 'active') {
+    return allMobiles.filter((m) => {
+      // 1. Availability Status
+      if (selectedAvailability === 'active' && m.status !== 'active') return false;
+      if (selectedAvailability === 'discontinued' && m.status !== 'discontinued') return false;
+      if (selectedAvailability === 'upcoming' && m.status !== 'upcoming') return false;
+
+      // 2. Query Search
+      if (query.trim()) {
+        const q = query.toLowerCase().trim();
+        const searchable = `${m.brand} ${m.modelName} ${m.id} ${m.slug} ${m.performance?.chipset || ''} ${m.software?.operatingSystem || ''}`.toLowerCase();
+        const words = q.split(/[\s,]+/).filter(Boolean);
+        const match = words.every((w) => searchable.includes(w));
+        if (!match) return false;
+      }
+
+      // 3. Brands
+      if (selectedBrands.length > 0 && !selectedBrands.includes(m.brand)) {
+        return false;
+      }
+
+      // 4. Price Bounds (using effective startingPrice or currentPrice)
+      const effectivePrice = m.pricing?.currentPrice || m.pricing?.startingPrice || 0;
+      if (effectivePrice > 0) {
+        if (effectivePrice < priceMin || effectivePrice > priceMax) {
           return false;
         }
-        if (selectedAvailability === 'discontinued' && m.status !== 'discontinued') {
-          return false;
-        }
-        if (selectedAvailability === 'upcoming' && m.status !== 'upcoming') {
-          return false;
-        }
+      }
 
-        // Search query
-        if (query.trim()) {
-          const q = query.toLowerCase().trim();
-          const identityText = `${m.brand} ${m.modelName} ${m.generation || ''} ${m.id} ${m.slug} ${m.performance?.chipset || ''} ${m.software?.operatingSystem || ''} ${m.software?.ui || ''}`.toLowerCase();
-          const compactIdentity = `${m.brand}${m.modelName}${m.id}${m.slug}`.toLowerCase().replace(/[\s\-_]/g, '');
-          const displayNormalized = (m.display?.displayType || '')
-            .toLowerCase()
-            .replace(/samsung\s+/g, '')
-            .replace(/sony\s+/g, '');
-          const cameraNormalized = (m.cameras?.rearCameraSetup || '')
-            .toLowerCase()
-            .replace(/sony\s+/g, '')
-            .replace(/samsung\s+/g, '');
-          const fullString = `${identityText} ${compactIdentity} ${displayNormalized} ${cameraNormalized}`;
+      // 5. RAM
+      if (selectedRam.length > 0) {
+        const phoneRams = m.performance?.ramOptions || [];
+        const hasMatchingRam = selectedRam.some((r) =>
+          phoneRams.some((pr) => pr.toLowerCase().includes(r.toLowerCase()))
+        );
+        if (!hasMatchingRam) return false;
+      }
 
-          // Handle direct numeric price searches like "50000" or "₹50,000"
-          const numMatch = q.replace(/[^0-9]/g, '');
-          const withinPrice = Boolean(
-            numMatch &&
-              numMatch.length >= 4 &&
-              m.pricing?.startingPrice &&
-              Math.abs(m.pricing.startingPrice - parseInt(numMatch, 10)) < 15000
-          );
+      // 6. Storage
+      if (selectedStorage.length > 0) {
+        const phoneStorages = m.performance?.storageOptions || [];
+        const hasMatchingStorage = selectedStorage.some((s) =>
+          phoneStorages.some((ps) => ps.toLowerCase().includes(s.toLowerCase()))
+        );
+        if (!hasMatchingStorage) return false;
+      }
 
-          // Word tokens matching: all words in query should appear in model searchable text
-          const words = q.split(/[\s,]+/).filter(Boolean);
-          const wordsMatch = words.every((word) => {
-            const cleanWord = word.replace(/[\s\-_]/g, '');
-            return fullString.includes(word) || compactIdentity.includes(cleanWord) || fullString.includes(cleanWord);
-          });
+      // 7. Display Technology
+      if (selectedDisplayTech.length > 0) {
+        const dType = (m.display?.displayType || '').toLowerCase();
+        const matchesTech = selectedDisplayTech.some((dt) => dType.includes(dt.toLowerCase()));
+        if (!matchesTech) return false;
+      }
 
-          if (!withinPrice && !wordsMatch) {
-            return false;
-          }
-        }
+      // 8. Refresh Rate
+      if (selectedRefresh.length > 0) {
+        const phoneHz = m.display?.refreshRate;
+        if (!phoneHz || !selectedRefresh.includes(phoneHz)) return false;
+      }
 
-        // Brand
-        if (selectedBrands.length > 0 && !selectedBrands.includes(m.brand)) {
-          return false;
-        }
+      // 9. Chipset Family
+      if (selectedChipsets.length > 0) {
+        const phoneChipset = (m.performance?.chipset || '').toLowerCase();
+        const matchesChip = selectedChipsets.some((c) => phoneChipset.includes(c.toLowerCase()));
+        if (!matchesChip) return false;
+      }
 
-        // Price Tier
-        if (selectedPriceTier !== null) {
-          const tier = PRICE_TIERS[selectedPriceTier];
-          const price = m.pricing?.startingPrice || 0;
-          if (price < tier.min || price > tier.max) {
-            return false;
-          }
-        }
+      // 10. Battery Tier
+      if (selectedBatteryIndex !== null) {
+        const tier = BATTERY_TIERS[selectedBatteryIndex];
+        const capacity = m.battery?.batteryCapacity || 0;
+        if (capacity < tier.min || capacity > tier.max) return false;
+      }
 
-        // Refresh rate
-        if (selectedRefresh !== null && (m.display?.refreshRate || 0) < selectedRefresh) {
-          return false;
-        }
+      // 11. Charging Speed
+      if (selectedChargingWatts !== null) {
+        const watts = m.battery?.wiredCharging || 0;
+        if (watts < selectedChargingWatts) return false;
+      }
 
-        // RAM
-        if (selectedRam && !(m.performance?.ramOptions || []).includes(selectedRam)) {
-          return false;
-        }
+      // 12. Camera Megapixels & OIS
+      if (selectedCameraMp !== null) {
+        const mainCamStr = m.cameras?.mainCamera || '';
+        const match = mainCamStr.match(/(\d+)\s*MP/i);
+        const mp = match ? parseInt(match[1], 10) : 0;
+        if (mp < selectedCameraMp) return false;
+      }
 
-        // Storage
-        if (selectedStorage && !(m.performance?.storageOptions || []).includes(selectedStorage)) {
-          return false;
-        }
+      if (requireOis) {
+        const hasOis = m.cameras?.ois || (m.cameras?.mainCamera || '').toLowerCase().includes('ois');
+        if (!hasOis) return false;
+      }
 
-        // OS
-        if (selectedOS && m.software?.operatingSystem !== selectedOS) {
-          return false;
-        }
+      // 13. 5G Connectivity
+      if (only5G && !m.connectivity?.has5G) {
+        return false;
+      }
 
-        // 5G
-        if (only5G && !m.connectivity?.has5G) {
-          return false;
-        }
+      // 14. Operating System
+      if (selectedOS.length > 0) {
+        const os = (m.software?.operatingSystem || '').toLowerCase();
+        const matchesOS = selectedOS.some((o) => os.includes(o.toLowerCase()));
+        if (!matchesOS) return false;
+      }
 
-        // Telephoto camera
-        if (hasTelephoto && !m.cameras?.telephotoCamera) {
-          return false;
-        }
-
-        // Fast Charging (>= 65W)
-        if (fastCharging && (m.battery?.wiredCharging || 0) < 65) {
-          return false;
-        }
-
-        return true;
-      })
-      .sort((a, b) => {
-        if (sortBy === 'price-asc') return (a.pricing?.startingPrice || 0) - (b.pricing?.startingPrice || 0);
-        if (sortBy === 'price-desc') return (b.pricing?.startingPrice || 0) - (a.pricing?.startingPrice || 0);
-        if (sortBy === 'battery') return (b.battery?.batteryCapacity || 0) - (a.battery?.batteryCapacity || 0);
-        if (sortBy === 'name-asc') return `${a.brand} ${a.modelName}`.localeCompare(`${b.brand} ${b.modelName}`);
-        // popularity default
-        return 0;
-      });
+      return true;
+    }).sort((a, b) => {
+      switch (sortBy) {
+        case 'price-asc':
+          return (a.pricing?.startingPrice || 0) - (b.pricing?.startingPrice || 0);
+        case 'price-desc':
+          return (b.pricing?.startingPrice || 0) - (a.pricing?.startingPrice || 0);
+        case 'battery':
+          return (b.battery?.batteryCapacity || 0) - (a.battery?.batteryCapacity || 0);
+        case 'name-asc':
+          return `${a.brand} ${a.modelName}`.localeCompare(`${b.brand} ${b.modelName}`);
+        case 'popularity':
+        default:
+          return 0; // retain catalog order
+      }
+    });
   }, [
     allMobiles,
     selectedAvailability,
     query,
     selectedBrands,
-    selectedPriceTier,
-    selectedRefresh,
+    priceMin,
+    priceMax,
     selectedRam,
     selectedStorage,
-    selectedOS,
+    selectedDisplayTech,
+    selectedRefresh,
+    selectedChipsets,
+    selectedBatteryIndex,
+    selectedChargingWatts,
+    selectedCameraMp,
+    requireOis,
     only5G,
-    hasTelephoto,
-    fastCharging,
+    selectedOS,
     sortBy,
   ]);
 
-  // Pagination calculation
+  // Pagination
   const totalPages = Math.max(1, Math.ceil(filteredMobiles.length / PAGE_SIZE));
   const safeCurrentPage = Math.min(currentPage, totalPages);
   const startIndex = (safeCurrentPage - 1) * PAGE_SIZE;
@@ -266,38 +327,42 @@ export function MobileFilters() {
 
   const clearAllFilters = useCallback(() => {
     setQuery('');
-    setSelectedAvailability('all');
     setSelectedBrands([]);
-    setSelectedPriceTier(null);
-    setSelectedRefresh(null);
-    setSelectedRam(null);
-    setSelectedStorage(null);
-    setSelectedOS(null);
+    setPriceMin(PRICE_MIN_LIMIT);
+    setPriceMax(PRICE_MAX_LIMIT);
+    setSelectedRam([]);
+    setSelectedStorage([]);
+    setSelectedDisplayTech([]);
+    setSelectedRefresh([]);
+    setSelectedChipsets([]);
+    setSelectedBatteryIndex(null);
+    setSelectedChargingWatts(null);
+    setSelectedCameraMp(null);
+    setRequireOis(false);
     setOnly5G(false);
-    setHasTelephoto(false);
-    setFastCharging(false);
+    setSelectedOS([]);
+    setSelectedAvailability('all');
     setSortBy('popularity');
     setCurrentPage(1);
   }, []);
 
   const hasActiveFilters =
     Boolean(query) ||
-    selectedAvailability !== 'all' ||
     selectedBrands.length > 0 ||
-    selectedPriceTier !== null ||
-    selectedRefresh !== null ||
-    selectedRam !== null ||
-    selectedStorage !== null ||
-    selectedOS !== null ||
+    priceMin > PRICE_MIN_LIMIT ||
+    priceMax < PRICE_MAX_LIMIT ||
+    selectedRam.length > 0 ||
+    selectedStorage.length > 0 ||
+    selectedDisplayTech.length > 0 ||
+    selectedRefresh.length > 0 ||
+    selectedChipsets.length > 0 ||
+    selectedBatteryIndex !== null ||
+    selectedChargingWatts !== null ||
+    selectedCameraMp !== null ||
+    requireOis ||
     only5G ||
-    hasTelephoto ||
-    fastCharging;
-
-  const toggleBrand = (brand: string) => {
-    setSelectedBrands((prev) =>
-      prev.includes(brand) ? prev.filter((b) => b !== brand) : [...prev, brand]
-    );
-  };
+    selectedOS.length > 0 ||
+    selectedAvailability !== 'all';
 
   const handlePageChange = (newPage: number) => {
     setCurrentPage(newPage);
@@ -306,38 +371,349 @@ export function MobileFilters() {
     }
   };
 
+  const renderSidebarContent = () => (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+      {/* Price Dual-Handle Range Slider */}
+      <FilterSection title="Budget Range">
+        <PriceRangeSlider
+          minLimit={PRICE_MIN_LIMIT}
+          maxLimit={PRICE_MAX_LIMIT}
+          minValue={priceMin}
+          maxValue={priceMax}
+          step={1000}
+          formatType="inr"
+          onChange={(min, max) => {
+            setPriceMin(min);
+            setPriceMax(max);
+          }}
+          onReset={() => {
+            setPriceMin(PRICE_MIN_LIMIT);
+            setPriceMax(PRICE_MAX_LIMIT);
+          }}
+        />
+      </FilterSection>
+
+      {/* Brand Selection */}
+      <FilterSection title="Brand">
+        <div style={{ maxHeight: '220px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.4rem', paddingRight: '0.4rem' }}>
+          {allBrands.map((brand) => {
+            const count = brandCountMap.get(brand) || 0;
+            const isChecked = selectedBrands.includes(brand);
+            return (
+              <label
+                key={brand}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  cursor: 'pointer',
+                  fontSize: '0.86rem',
+                  padding: '0.3rem 0.5rem',
+                  borderRadius: 'var(--radius-sm)',
+                  background: isChecked ? 'var(--color-surface-inset)' : 'transparent',
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <input
+                    type="checkbox"
+                    checked={isChecked}
+                    onChange={() => toggleItem(selectedBrands, brand, setSelectedBrands)}
+                    style={{ accentColor: 'var(--color-accent)' }}
+                  />
+                  <span style={{ color: isChecked ? 'var(--color-accent)' : 'var(--color-text-primary)', fontWeight: isChecked ? 600 : 400 }}>
+                    {brand}
+                  </span>
+                </div>
+                <span style={{ fontSize: '0.74rem', color: 'var(--color-text-tertiary)' }}>
+                  {count}
+                </span>
+              </label>
+            );
+          })}
+        </div>
+      </FilterSection>
+
+      {/* RAM Options */}
+      <FilterSection title="RAM Capacity">
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+          {RAM_OPTIONS.map((ram) => {
+            const active = selectedRam.includes(ram);
+            return (
+              <button
+                key={ram}
+                type="button"
+                onClick={() => toggleItem(selectedRam, ram, setSelectedRam)}
+                className={`btn btn-sm ${active ? 'btn-primary' : 'btn-secondary'}`}
+                style={{ padding: '0.35rem 0.7rem', fontSize: '0.8rem' }}
+              >
+                {ram}
+              </button>
+            );
+          })}
+        </div>
+      </FilterSection>
+
+      {/* Storage Options */}
+      <FilterSection title="Internal Storage">
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+          {STORAGE_OPTIONS.map((storage) => {
+            const active = selectedStorage.includes(storage);
+            return (
+              <button
+                key={storage}
+                type="button"
+                onClick={() => toggleItem(selectedStorage, storage, setSelectedStorage)}
+                className={`btn btn-sm ${active ? 'btn-primary' : 'btn-secondary'}`}
+                style={{ padding: '0.35rem 0.7rem', fontSize: '0.8rem' }}
+              >
+                {storage}
+              </button>
+            );
+          })}
+        </div>
+      </FilterSection>
+
+      {/* Display & Refresh Rate */}
+      <FilterSection title="Display & Screen">
+        <div style={{ marginBottom: '0.75rem' }}>
+          <div style={{ fontSize: '0.76rem', color: 'var(--color-text-tertiary)', marginBottom: '0.4rem' }}>Display Panel</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+            {DISPLAY_TECH_OPTIONS.map((tech) => {
+              const active = selectedDisplayTech.includes(tech);
+              return (
+                <button
+                  key={tech}
+                  type="button"
+                  onClick={() => toggleItem(selectedDisplayTech, tech, setSelectedDisplayTech)}
+                  className={`btn btn-sm ${active ? 'btn-primary' : 'btn-secondary'}`}
+                  style={{ padding: '0.3rem 0.6rem', fontSize: '0.78rem' }}
+                >
+                  {tech}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        <div>
+          <div style={{ fontSize: '0.76rem', color: 'var(--color-text-tertiary)', marginBottom: '0.4rem' }}>Refresh Rate</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+            {REFRESH_RATE_OPTIONS.map((hz) => {
+              const active = selectedRefresh.includes(hz);
+              return (
+                <button
+                  key={hz}
+                  type="button"
+                  onClick={() => toggleNumItem(selectedRefresh, hz, setSelectedRefresh)}
+                  className={`btn btn-sm ${active ? 'btn-primary' : 'btn-secondary'}`}
+                  style={{ padding: '0.3rem 0.6rem', fontSize: '0.78rem' }}
+                >
+                  {hz}Hz
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </FilterSection>
+
+      {/* Processor Family */}
+      <FilterSection title="Processor / Chipset">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+          {CHIPSET_FAMILIES.map((c) => {
+            const isChecked = selectedChipsets.includes(c.keyword);
+            return (
+              <label
+                key={c.keyword}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  cursor: 'pointer',
+                  fontSize: '0.84rem',
+                  color: isChecked ? 'var(--color-accent)' : 'var(--color-text-primary)',
+                }}
+              >
+                <input
+                  type="checkbox"
+                  checked={isChecked}
+                  onChange={() => toggleItem(selectedChipsets, c.keyword, setSelectedChipsets)}
+                  style={{ accentColor: 'var(--color-accent)' }}
+                />
+                {c.label}
+              </label>
+            );
+          })}
+        </div>
+      </FilterSection>
+
+      {/* Battery & Charging */}
+      <FilterSection title="Battery & Power">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '0.75rem' }}>
+          {BATTERY_TIERS.map((tier, idx) => (
+            <label
+              key={tier.label}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', fontSize: '0.84rem' }}
+            >
+              <input
+                type="radio"
+                name="batteryTier"
+                checked={selectedBatteryIndex === idx}
+                onChange={() => setSelectedBatteryIndex(selectedBatteryIndex === idx ? null : idx)}
+                onClick={() => {
+                  if (selectedBatteryIndex === idx) setSelectedBatteryIndex(null);
+                }}
+                style={{ accentColor: 'var(--color-accent)' }}
+              />
+              {tier.label}
+            </label>
+          ))}
+        </div>
+
+        <div>
+          <div style={{ fontSize: '0.76rem', color: 'var(--color-text-tertiary)', marginBottom: '0.4rem' }}>Fast Charging</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+            {CHARGING_TIERS.map((tier) => {
+              const active = selectedChargingWatts === tier.minWatts;
+              return (
+                <button
+                  key={tier.label}
+                  type="button"
+                  onClick={() => setSelectedChargingWatts(active ? null : tier.minWatts)}
+                  className={`btn btn-sm ${active ? 'btn-primary' : 'btn-secondary'}`}
+                  style={{ padding: '0.3rem 0.6rem', fontSize: '0.76rem' }}
+                >
+                  {tier.minWatts}W+
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </FilterSection>
+
+      {/* Camera & Optics */}
+      <FilterSection title="Camera & Optics">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginBottom: '0.75rem' }}>
+          {CAMERA_TIERS.map((tier) => {
+            const active = selectedCameraMp === tier.minMp;
+            return (
+              <label
+                key={tier.label}
+                style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', fontSize: '0.84rem' }}
+              >
+                <input
+                  type="checkbox"
+                  checked={active}
+                  onChange={() => setSelectedCameraMp(active ? null : tier.minMp)}
+                  style={{ accentColor: 'var(--color-accent)' }}
+                />
+                {tier.label}
+              </label>
+            );
+          })}
+        </div>
+        <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', fontSize: '0.84rem' }}>
+          <input
+            type="checkbox"
+            checked={requireOis}
+            onChange={(e) => setRequireOis(e.target.checked)}
+            style={{ accentColor: 'var(--color-accent)' }}
+          />
+          Optical Image Stabilization (OIS)
+        </label>
+      </FilterSection>
+
+      {/* Connectivity & OS */}
+      <FilterSection title="Connectivity & Platform">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+          <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', fontSize: '0.84rem' }}>
+            <input
+              type="checkbox"
+              checked={only5G}
+              onChange={(e) => setOnly5G(e.target.checked)}
+              style={{ accentColor: 'var(--color-accent)' }}
+            />
+            5G Enabled Only
+          </label>
+          <div style={{ display: 'flex', gap: '0.4rem', marginTop: '0.4rem' }}>
+            {['Android', 'iOS'].map((os) => {
+              const active = selectedOS.includes(os);
+              return (
+                <button
+                  key={os}
+                  type="button"
+                  onClick={() => toggleItem(selectedOS, os, setSelectedOS)}
+                  className={`btn btn-sm ${active ? 'btn-primary' : 'btn-secondary'}`}
+                  style={{ flex: 1, padding: '0.35rem 0.5rem', fontSize: '0.8rem', justifyContent: 'center' }}
+                >
+                  {os}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </FilterSection>
+
+      {/* Catalog Status */}
+      <FilterSection title="Status" defaultOpen={false}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+          {[
+            { id: 'all', label: 'All Models' },
+            { id: 'active', label: 'In Production (Active)' },
+            { id: 'upcoming', label: 'Upcoming in India' },
+            { id: 'discontinued', label: 'Discontinued / Legacy' },
+          ].map((status) => (
+            <label
+              key={status.id}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', fontSize: '0.84rem' }}
+            >
+              <input
+                type="radio"
+                name="availabilityStatus"
+                checked={selectedAvailability === status.id}
+                onChange={() => setSelectedAvailability(status.id)}
+                style={{ accentColor: 'var(--color-accent)' }}
+              />
+              {status.label}
+            </label>
+          ))}
+        </div>
+      </FilterSection>
+    </div>
+  );
+
   return (
     <div>
-      {/* ── Top Bar: Search & Sort ── */}
+      {/* ── Top Bar: Search, Quick Stats, Sort, and Mobile Toggle ── */}
       <div
         style={{
           display: 'flex',
           gap: '1rem',
           alignItems: 'center',
+          justifyContent: 'space-between',
           flexWrap: 'wrap',
           marginBottom: '1.5rem',
         }}
       >
-        {/* Search Input */}
-        <div style={{ position: 'relative', flex: '1 1 320px' }}>
+        {/* Search Field */}
+        <div style={{ position: 'relative', flex: '1 1 320px', minWidth: '240px' }}>
           <Search
             size={18}
             style={{
               position: 'absolute',
-              left: '0.875rem',
+              left: '1rem',
               top: '50%',
               transform: 'translateY(-50%)',
               color: 'var(--color-text-tertiary)',
-              pointerEvents: 'none',
             }}
           />
           <input
-            type="search"
-            className="input"
-            style={{ paddingLeft: '2.5rem' }}
-            placeholder="Search phones, brands, chipsets, AMOLED, ₹50,000..."
+            type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search phones by brand, model, processor, or specs..."
+            className="input"
+            style={{ paddingLeft: '2.75rem', paddingRight: query ? '2.5rem' : '1rem' }}
+            aria-label="Search smartphones"
           />
           {query && (
             <button
@@ -351,491 +727,343 @@ export function MobileFilters() {
                 border: 'none',
                 cursor: 'pointer',
                 color: 'var(--color-text-tertiary)',
-                display: 'flex',
-                alignItems: 'center',
+                padding: '0.25rem',
               }}
-              aria-label="Clear search query"
+              aria-label="Clear search"
             >
               <X size={16} />
             </button>
           )}
         </div>
 
-        {/* Sort Select */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <span style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', flexShrink: 0 }}>
-            Sort by:
-          </span>
-          <select
-            className="select"
-            value={sortBy}
-            onChange={(e) =>
-              setSortBy(
-                e.target.value as 'popularity' | 'price-asc' | 'price-desc' | 'battery' | 'name-asc'
-              )
-            }
-            style={{ width: 'auto', minWidth: '160px' }}
+        {/* Sort and Mobile Filter Button */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          {/* Mobile Filter Toggle Button */}
+          <button
+            type="button"
+            onClick={() => setMobileFilterOpen(true)}
+            className="btn btn-secondary mobile-filter-btn"
+            style={{ display: 'none', gap: '0.4rem', padding: '0.625rem 1rem' }}
+            aria-label="Open filter drawer"
           >
-            <option value="popularity">Popular Flagships</option>
-            <option value="price-asc">Price: Low to High</option>
-            <option value="price-desc">Price: High to Low</option>
-            <option value="battery">Largest Battery</option>
-            <option value="name-asc">Alphabetical (A–Z)</option>
-          </select>
-        </div>
+            <SlidersHorizontal size={16} />
+            Filters {hasActiveFilters && '•'}
+          </button>
 
-        {/* Mobile Filter Toggle */}
-        <button
-          className="btn btn-secondary mobile-filter-btn"
-          onClick={() => setMobileFilterOpen((o) => !o)}
-          style={{ display: 'none' }}
-        >
-          <SlidersHorizontal size={16} />
-          Filters {hasActiveFilters && '(Active)'}
-        </button>
+          {/* Sort Dropdown */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <span style={{ fontSize: '0.85rem', color: 'var(--color-text-tertiary)', whiteSpace: 'nowrap' }}>
+              Sort:
+            </span>
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value as any)}
+              className="input"
+              style={{ width: 'auto', padding: '0.55rem 0.85rem', fontSize: '0.86rem', cursor: 'pointer' }}
+              aria-label="Sort smartphones"
+            >
+              <option value="popularity">Catalog Popularity</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="battery">Battery Capacity</option>
+              <option value="name-asc">Model Name (A–Z)</option>
+            </select>
+          </div>
+        </div>
       </div>
 
-      {/* ── Active Filter Badges ── */}
+      {/* ── Active Filter Chips Row ── */}
       {hasActiveFilters && (
         <div
           style={{
             display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem',
             flexWrap: 'wrap',
-            marginBottom: '1.25rem',
+            gap: '0.5rem',
+            alignItems: 'center',
+            marginBottom: '1.5rem',
             padding: '0.75rem 1rem',
             background: 'var(--color-surface)',
-            border: '1px solid var(--color-border)',
-            borderRadius: '8px',
+            borderRadius: 'var(--radius-md)',
+            boxShadow: 'var(--shadow-neu-card)',
           }}
         >
-          <span style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--color-text-secondary)' }}>
-            Active Filters:
+          <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--color-text-secondary)', marginRight: '0.25rem' }}>
+            Active Filters ({filteredMobiles.length} matches):
           </span>
 
           {query && (
-            <span className="badge badge-accent">
-              &quot;{query}&quot;
-              <button
-                onClick={() => setQuery('')}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove search query filter"
-              >
-                <X size={11} />
-              </button>
+            <span className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              Search: &quot;{query}&quot;
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => setQuery('')} />
             </span>
           )}
 
-          {selectedAvailability !== 'all' && (
-            <span className="badge badge-secondary">
-              Status: {selectedAvailability === 'active' ? 'Active Only' : selectedAvailability === 'discontinued' ? 'Discontinued Only' : 'Upcoming Only'}
-              <button
-                onClick={() => setSelectedAvailability('all')}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove availability filter"
-              >
-                <X size={11} />
-              </button>
+          {(priceMin > PRICE_MIN_LIMIT || priceMax < PRICE_MAX_LIMIT) && (
+            <span className="badge badge-accent" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              {formatPriceDisplay(priceMin)} – {formatPriceDisplay(priceMax)}
+              <X
+                size={12}
+                style={{ cursor: 'pointer' }}
+                onClick={() => {
+                  setPriceMin(PRICE_MIN_LIMIT);
+                  setPriceMax(PRICE_MAX_LIMIT);
+                }}
+              />
             </span>
           )}
 
           {selectedBrands.map((b) => (
-            <span key={b} className="badge badge-secondary">
+            <span key={b} className="badge badge-accent" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
               {b}
-              <button
-                onClick={() => toggleBrand(b)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label={`Remove ${b} brand filter`}
-              >
-                <X size={11} />
-              </button>
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => toggleItem(selectedBrands, b, setSelectedBrands)} />
             </span>
           ))}
 
-          {selectedPriceTier !== null && (
-            <span className="badge badge-secondary">
-              {PRICE_TIERS[selectedPriceTier].label}
-              <button
-                onClick={() => setSelectedPriceTier(null)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove price tier filter"
-              >
-                <X size={11} />
-              </button>
+          {selectedRam.map((r) => (
+            <span key={r} className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              {r} RAM
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => toggleItem(selectedRam, r, setSelectedRam)} />
             </span>
-          )}
+          ))}
 
-          {selectedRefresh !== null && (
-            <span className="badge badge-secondary">
-              {selectedRefresh}Hz+
-              <button
-                onClick={() => setSelectedRefresh(null)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove refresh rate filter"
-              >
-                <X size={11} />
-              </button>
+          {selectedStorage.map((s) => (
+            <span key={s} className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              {s} Storage
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => toggleItem(selectedStorage, s, setSelectedStorage)} />
             </span>
-          )}
+          ))}
 
-          {selectedRam && (
-            <span className="badge badge-secondary">
-              RAM: {selectedRam}
-              <button
-                onClick={() => setSelectedRam(null)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove RAM filter"
-              >
-                <X size={11} />
-              </button>
+          {selectedDisplayTech.map((dt) => (
+            <span key={dt} className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              {dt}
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => toggleItem(selectedDisplayTech, dt, setSelectedDisplayTech)} />
             </span>
-          )}
+          ))}
 
-          {selectedStorage && (
-            <span className="badge badge-secondary">
-              Storage: {selectedStorage}
-              <button
-                onClick={() => setSelectedStorage(null)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove storage filter"
-              >
-                <X size={11} />
-              </button>
+          {selectedRefresh.map((hz) => (
+            <span key={hz} className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              {hz}Hz
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => toggleNumItem(selectedRefresh, hz, setSelectedRefresh)} />
             </span>
-          )}
-
-          {selectedOS && (
-            <span className="badge badge-secondary">
-              OS: {selectedOS}
-              <button
-                onClick={() => setSelectedOS(null)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove OS filter"
-              >
-                <X size={11} />
-              </button>
-            </span>
-          )}
+          ))}
 
           {only5G && (
-            <span className="badge badge-secondary">
+            <span className="badge badge-success" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
               5G Only
-              <button
-                onClick={() => setOnly5G(false)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove 5G filter"
-              >
-                <X size={11} />
-              </button>
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => setOnly5G(false)} />
             </span>
           )}
 
-          {hasTelephoto && (
-            <span className="badge badge-secondary">
-              Optical Zoom Telephoto
-              <button
-                onClick={() => setHasTelephoto(false)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove telephoto camera filter"
-              >
-                <X size={11} />
-              </button>
+          {selectedBatteryIndex !== null && (
+            <span className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              {BATTERY_TIERS[selectedBatteryIndex].label}
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => setSelectedBatteryIndex(null)} />
             </span>
           )}
 
-          {fastCharging && (
-            <span className="badge badge-secondary">
-              Fast Charging ≥65W
-              <button
-                onClick={() => setFastCharging(false)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', marginLeft: '4px' }}
-                aria-label="Remove fast charging filter"
-              >
-                <X size={11} />
-              </button>
+          {selectedChargingWatts !== null && (
+            <span className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              {selectedChargingWatts}W+ Charging
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => setSelectedChargingWatts(null)} />
+            </span>
+          )}
+
+          {requireOis && (
+            <span className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              OIS Stabilized
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => setRequireOis(false)} />
+            </span>
+          )}
+
+          {selectedAvailability !== 'all' && (
+            <span className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem', textTransform: 'capitalize' }}>
+              Status: {selectedAvailability}
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => setSelectedAvailability('all')} />
             </span>
           )}
 
           <button
+            type="button"
             onClick={clearAllFilters}
             className="btn btn-ghost btn-sm"
-            style={{ marginLeft: 'auto', fontSize: '0.78rem', color: 'var(--color-accent)' }}
+            style={{ marginLeft: 'auto', color: 'var(--color-danger)', gap: '0.25rem' }}
           >
-            <RotateCcw size={13} />
-            Reset all
+            <RotateCcw size={12} /> Clear All
           </button>
         </div>
       )}
 
-      {/* ── Main Layout: Sidebar Filters + Cards Grid ── */}
-      <div style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: '2rem', alignItems: 'start' }}>
-        {/* Sidebar */}
+      {/* ── Main Layout: Sidebar + Product Grid ── */}
+      <div style={{ display: 'grid', gridTemplateColumns: '280px 1fr', gap: '2rem', alignItems: 'start' }} className="filter-layout-grid">
+        {/* Desktop Filter Sidebar */}
         <aside
-          className={`filter-sidebar ${mobileFilterOpen ? 'open' : ''}`}
+          className="filter-sidebar card"
           style={{
-            background: 'var(--color-surface)',
-            border: '1px solid var(--color-border)',
-            borderRadius: '12px',
-            padding: '1.25rem',
+            padding: '1.5rem',
             position: 'sticky',
             top: '80px',
+            maxHeight: 'calc(100vh - 100px)',
+            overflowY: 'auto',
           }}
+          aria-label="Filter options"
         >
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem' }}>
-            <span style={{ fontWeight: 700, fontSize: '1rem', color: 'var(--color-text-primary)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
+            <h2 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--color-text-primary)' }}>
               Filters
-            </span>
+            </h2>
             {hasActiveFilters && (
               <button
+                type="button"
                 onClick={clearAllFilters}
-                style={{
-                  background: 'none',
-                  border: 'none',
-                  cursor: 'pointer',
-                  color: 'var(--color-accent)',
-                  fontSize: '0.78rem',
-                  fontWeight: 600,
-                }}
+                className="btn btn-ghost btn-sm"
+                style={{ fontSize: '0.78rem', padding: '0.2rem 0.5rem' }}
               >
-                Clear all
+                Reset
               </button>
             )}
           </div>
-
-          {/* Availability / Status */}
-          <FilterSection title="Availability / Status">
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-              {[
-                { id: 'all', label: `All Models (${allMobiles.length})` },
-                { id: 'active', label: `Active (${activeCount})` },
-                { id: 'upcoming', label: `Upcoming (${upcomingCount})` },
-                { id: 'discontinued', label: `Discontinued (${discontinuedCount})` },
-              ].map((item) => (
-                <label
-                  key={item.id}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem',
-                    fontSize: '0.85rem',
-                    cursor: 'pointer',
-                    color: selectedAvailability === item.id ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                    fontWeight: selectedAvailability === item.id ? 600 : 400,
-                  }}
-                >
-                  <input
-                    type="radio"
-                    name="availabilityStatus"
-                    checked={selectedAvailability === item.id}
-                    onChange={() => setSelectedAvailability(item.id as 'all' | 'active' | 'discontinued' | 'upcoming')}
-                  />
-                  {item.label}
-                </label>
-              ))}
-            </div>
-          </FilterSection>
-
-          {/* Price Range */}
-          <FilterSection title="Budget / Price">
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
-              {PRICE_TIERS.map((tier, idx) => (
-                <label
-                  key={tier.label}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem',
-                    fontSize: '0.85rem',
-                    cursor: 'pointer',
-                    color: selectedPriceTier === idx ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                    fontWeight: selectedPriceTier === idx ? 600 : 400,
-                  }}
-                >
-                  <input
-                    type="radio"
-                    name="priceTier"
-                    checked={selectedPriceTier === idx}
-                    onChange={() => setSelectedPriceTier(selectedPriceTier === idx ? null : idx)}
-                  />
-                  {tier.label}
-                </label>
-              ))}
-            </div>
-          </FilterSection>
-
-          {/* Brands */}
-          <FilterSection title={`Brand (${allBrands.length})`}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem', maxHeight: '220px', overflowY: 'auto' }}>
-              {allBrands.map((brand) => {
-                const count = brandCountMap.get(brand) || 0;
-                return (
-                  <label
-                    key={brand}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.5rem',
-                      fontSize: '0.85rem',
-                      cursor: 'pointer',
-                      color: selectedBrands.includes(brand) ? 'var(--color-accent)' : 'var(--color-text-secondary)',
-                      fontWeight: selectedBrands.includes(brand) ? 600 : 400,
-                    }}
-                  >
-                    <input
-                      type="checkbox"
-                      checked={selectedBrands.includes(brand)}
-                      onChange={() => toggleBrand(brand)}
-                    />
-                    <span>{brand}</span>
-                    <span style={{ marginLeft: 'auto', fontSize: '0.74rem', color: 'var(--color-text-tertiary)' }}>
-                      {count}
-                    </span>
-                  </label>
-                );
-              })}
-            </div>
-          </FilterSection>
-
-          {/* Operating System */}
-          <FilterSection title="Operating System">
-            <div style={{ display: 'flex', gap: '0.5rem' }}>
-              {OS_OPTIONS.map((os) => (
-                <button
-                  key={os}
-                  onClick={() => setSelectedOS(selectedOS === os ? null : os)}
-                  className={`btn btn-sm ${selectedOS === os ? 'btn-primary' : 'btn-secondary'}`}
-                  style={{ flex: 1 }}
-                >
-                  {os}
-                </button>
-              ))}
-            </div>
-          </FilterSection>
-
-          {/* Refresh Rate */}
-          <FilterSection title="Refresh Rate">
-            <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
-              {REFRESH_RATES.map((hz) => (
-                <button
-                  key={hz}
-                  onClick={() => setSelectedRefresh(selectedRefresh === hz ? null : hz)}
-                  className={`btn btn-sm ${selectedRefresh === hz ? 'btn-primary' : 'btn-outline'}`}
-                  style={{ flex: '1 1 60px' }}
-                >
-                  {hz}Hz+
-                </button>
-              ))}
-            </div>
-          </FilterSection>
-
-          {/* Hardware Features */}
-          <FilterSection title="Hardware Features">
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.45rem' }}>
-              <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', cursor: 'pointer' }}>
-                <input
-                  type="checkbox"
-                  checked={only5G}
-                  onChange={(e) => setOnly5G(e.target.checked)}
-                />
-                5G Connectivity
-              </label>
-              <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', cursor: 'pointer' }}>
-                <input
-                  type="checkbox"
-                  checked={hasTelephoto}
-                  onChange={(e) => setHasTelephoto(e.target.checked)}
-                />
-                Dedicated Optical Telephoto
-              </label>
-              <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', cursor: 'pointer' }}>
-                <input
-                  type="checkbox"
-                  checked={fastCharging}
-                  onChange={(e) => setFastCharging(e.target.checked)}
-                />
-                Fast Charging (≥65W)
-              </label>
-            </div>
-          </FilterSection>
+          {renderSidebarContent()}
         </aside>
 
-        {/* Results Area */}
-        <div>
-          {/* Results count banner */}
+        {/* Mobile Filter Drawer Modal */}
+        {mobileFilterOpen && (
           <div
             style={{
+              position: 'fixed',
+              inset: 0,
+              zIndex: 100,
+              background: 'rgba(0, 0, 0, 0.6)',
+              backdropFilter: 'blur(4px)',
               display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              marginBottom: '1.25rem',
-              flexWrap: 'wrap',
-              gap: '0.5rem',
+              justifyContent: 'flex-end',
             }}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Mobile Filters"
           >
-            <div>
-              <span style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--color-text-primary)' }}>
-                {filteredMobiles.length > PAGE_SIZE ? (
-                  <>
-                    Showing {startIndex + 1}–{Math.min(startIndex + PAGE_SIZE, filteredMobiles.length)} of {filteredMobiles.length} smartphone{filteredMobiles.length === 1 ? '' : 's'}
-                  </>
-                ) : (
-                  <>
-                    Showing {filteredMobiles.length} smartphone{filteredMobiles.length === 1 ? '' : 's'}
-                  </>
-                )}
-              </span>
-              {totalPages > 1 && (
-                <span style={{ fontSize: '0.82rem', color: 'var(--color-text-tertiary)', marginLeft: '0.5rem' }}>
-                  (Page {safeCurrentPage} of {totalPages})
-                </span>
-              )}
-            </div>
-
-            {selectedAvailability !== 'all' && (
-              <span
-                style={{
-                  fontSize: '0.78rem',
-                  fontWeight: 600,
-                  color: 'var(--color-text-secondary)',
-                  background: 'var(--color-surface)',
-                  padding: '0.2rem 0.6rem',
-                  borderRadius: '4px',
-                  border: '1px solid var(--color-border)',
-                }}
-              >
-                Availability: {selectedAvailability === 'active' ? 'Active models' : selectedAvailability === 'discontinued' ? 'Discontinued models' : 'Upcoming models'}
-              </span>
-            )}
-          </div>
-
-          {filteredMobiles.length === 0 ? (
             <div
               style={{
-                textAlign: 'center',
-                padding: '4rem 1.5rem',
-                background: 'var(--color-surface)',
-                border: '1px solid var(--color-border)',
-                borderRadius: '12px',
+                width: '100%',
+                maxWidth: '380px',
+                height: '100%',
+                background: 'var(--color-bg)',
+                display: 'flex',
+                flexDirection: 'column',
+                boxShadow: 'var(--shadow-dropdown)',
               }}
             >
-              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '0.5rem' }}>
+              {/* Drawer Header */}
+              <div
+                style={{
+                  padding: '1.25rem 1.5rem',
+                  borderBottom: '1px solid var(--color-border)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  background: 'var(--color-surface)',
+                }}
+              >
+                <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--color-text-primary)' }}>
+                  Filter Smartphones
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setMobileFilterOpen(false)}
+                  className="btn btn-ghost btn-sm"
+                  aria-label="Close filters"
+                >
+                  <X size={20} />
+                </button>
+              </div>
+
+              {/* Drawer Body */}
+              <div style={{ padding: '1.5rem', overflowY: 'auto', flex: 1 }}>
+                {renderSidebarContent()}
+              </div>
+
+              {/* Drawer Footer */}
+              <div
+                style={{
+                  padding: '1rem 1.5rem',
+                  borderTop: '1px solid var(--color-border)',
+                  display: 'flex',
+                  gap: '0.75rem',
+                  background: 'var(--color-surface)',
+                }}
+              >
+                <button
+                  type="button"
+                  onClick={clearAllFilters}
+                  className="btn btn-secondary"
+                  style={{ flex: 1, justifyContent: 'center' }}
+                >
+                  Reset
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setMobileFilterOpen(false)}
+                  className="btn btn-primary"
+                  style={{ flex: 2, justifyContent: 'center' }}
+                >
+                  Show {filteredMobiles.length} Phones
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ── Products Grid & Pagination ── */}
+        <div style={{ minWidth: 0 }}>
+          {filteredMobiles.length === 0 ? (
+            <div
+              className="card"
+              style={{
+                padding: '4rem 2rem',
+                textAlign: 'center',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '1rem',
+              }}
+            >
+              <div
+                style={{
+                  width: '64px',
+                  height: '64px',
+                  borderRadius: '50%',
+                  background: 'var(--color-surface-inset)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: 'var(--color-text-tertiary)',
+                }}
+              >
+                <Filter size={28} />
+              </div>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-text-primary)' }}>
                 No smartphones match your filters
               </h3>
-              <p style={{ color: 'var(--color-text-secondary)', marginBottom: '1.5rem', fontSize: '0.9rem' }}>
-                Try adjusting your search terms, price tier, or clear brand and availability selections.
+              <p style={{ color: 'var(--color-text-secondary)', maxWidth: '420px', fontSize: '0.92rem' }}>
+                Try relaxing your price range or clearing specific filter criteria to browse available models.
               </p>
-              <button onClick={clearAllFilters} className="btn btn-primary">
-                Reset All Filters
+              <button type="button" onClick={clearAllFilters} className="btn btn-primary">
+                Clear All Filters
               </button>
             </div>
           ) : (
             <>
+              {/* Results summary text */}
+              <div style={{ marginBottom: '1rem', fontSize: '0.86rem', color: 'var(--color-text-tertiary)' }}>
+                Showing <strong>{startIndex + 1}</strong> – <strong>{Math.min(startIndex + PAGE_SIZE, filteredMobiles.length)}</strong> of <strong>{filteredMobiles.length}</strong> smartphones
+              </div>
+
+              {/* Grid */}
               <div
                 style={{
                   display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-                  gap: '1.25rem',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+                  gap: '1.5rem',
+                  marginBottom: '2.5rem',
                 }}
               >
                 {visibleMobiles.map((mobile) => (
@@ -843,36 +1071,27 @@ export function MobileFilters() {
                 ))}
               </div>
 
-              {/* Pagination Controls */}
+              {/* Pagination */}
               {totalPages > 1 && (
                 <nav
-                  aria-label="Pagination Navigation"
                   style={{
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    gap: '0.4rem',
-                    marginTop: '2.5rem',
-                    paddingTop: '1.5rem',
-                    borderTop: '1px solid var(--color-border-subtle)',
+                    gap: '0.5rem',
                     flexWrap: 'wrap',
+                    padding: '1.5rem 0',
                   }}
+                  aria-label="Pagination"
                 >
                   <button
+                    type="button"
                     className="btn btn-secondary btn-sm"
                     disabled={safeCurrentPage <= 1}
                     onClick={() => handlePageChange(Math.max(1, safeCurrentPage - 1))}
-                    style={{
-                      opacity: safeCurrentPage <= 1 ? 0.45 : 1,
-                      cursor: safeCurrentPage <= 1 ? 'not-allowed' : 'pointer',
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: '0.25rem',
-                    }}
                     aria-label="Previous page"
                   >
-                    <ChevronLeft size={14} />
-                    Prev
+                    <ChevronLeft size={14} /> Previous
                   </button>
 
                   {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
@@ -894,13 +1113,10 @@ export function MobileFilters() {
                     return (
                       <button
                         key={page}
+                        type="button"
                         onClick={() => handlePageChange(page)}
-                        className={`btn btn-sm ${isCurrent ? 'btn-primary' : 'btn-outline'}`}
-                        style={{
-                          minWidth: '36px',
-                          padding: '0.4rem 0.6rem',
-                          fontWeight: isCurrent ? 700 : 500,
-                        }}
+                        className={`btn btn-sm ${isCurrent ? 'btn-primary' : 'btn-secondary'}`}
+                        style={{ minWidth: '36px', justifyContent: 'center' }}
                         aria-current={isCurrent ? 'page' : undefined}
                       >
                         {page}
@@ -909,20 +1125,13 @@ export function MobileFilters() {
                   })}
 
                   <button
+                    type="button"
                     className="btn btn-secondary btn-sm"
                     disabled={safeCurrentPage >= totalPages}
                     onClick={() => handlePageChange(Math.min(totalPages, safeCurrentPage + 1))}
-                    style={{
-                      opacity: safeCurrentPage >= totalPages ? 0.45 : 1,
-                      cursor: safeCurrentPage >= totalPages ? 'not-allowed' : 'pointer',
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: '0.25rem',
-                    }}
                     aria-label="Next page"
                   >
-                    Next
-                    <ChevronRight size={14} />
+                    Next <ChevronRight size={14} />
                   </button>
                 </nav>
               )}
@@ -932,23 +1141,15 @@ export function MobileFilters() {
       </div>
 
       <style>{`
-        @media (max-width: 840px) {
-          .mobile-filter-btn {
-            display: inline-flex !important;
+        @media (max-width: 860px) {
+          .filter-layout-grid {
+            grid-template-columns: 1fr !important;
           }
           .filter-sidebar {
-            display: none;
+            display: none !important;
           }
-          .filter-sidebar.open {
-            display: block !important;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 100;
-            overflow-y: auto;
-            border-radius: 0;
+          .mobile-filter-btn {
+            display: inline-flex !important;
           }
         }
       `}</style>

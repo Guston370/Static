@@ -5,8 +5,10 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { CompareProvider } from '@/context/CompareContext';
 import { MobileCompareProvider } from '@/context/MobileCompareContext';
+import { BikeCompareProvider } from '@/context/BikeCompareContext';
 import { ComparisonTray } from '@/components/ComparisonTray';
 import { MobileComparisonTray } from '@/components/MobileComparisonTray';
+import { BikeComparisonTray } from '@/components/BikeComparisonTray';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -63,15 +65,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-IN" className={inter.variable} data-scroll-behavior="smooth">
+    <html lang="en-IN" className={inter.variable} data-scroll-behavior="smooth" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme');var prefersDark=window.matchMedia('(prefers-color-scheme: dark)').matches;var isDark=t==='dark'||((!t||t==='system')&&prefersDark);if(isDark){document.documentElement.classList.add('dark');document.documentElement.setAttribute('data-theme','dark');document.documentElement.style.colorScheme='dark';}else{document.documentElement.classList.remove('dark');document.documentElement.setAttribute('data-theme','light');document.documentElement.style.colorScheme='light';}}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body suppressHydrationWarning>
         <CompareProvider>
           <MobileCompareProvider>
-            <Navbar />
-            <main>{children}</main>
-            <ComparisonTray />
-            <MobileComparisonTray />
-            <Footer />
+            <BikeCompareProvider>
+              <Navbar />
+              <main>{children}</main>
+              <ComparisonTray />
+              <MobileComparisonTray />
+              <BikeComparisonTray />
+              <Footer />
+            </BikeCompareProvider>
           </MobileCompareProvider>
         </CompareProvider>
       </body>

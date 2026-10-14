@@ -2,19 +2,51 @@
 
 Multi-category comparison platform for the Indian consumer market.
 
-Static provides transparent, independent, side-by-side comparison for passenger cars and smartphones with verified manufacturer specifications, official Indian pricing, and formula-based category winners.
+Static provides transparent, independent, side-by-side comparison for passenger cars, smartphones, and two-wheelers with verified manufacturer specifications, official Indian pricing, and formula-based category winners.
 
 ---
 
 ## Projects
 
-### 1. CarCompare
+### 1. CarCompare (Main Portal & Automotive)
 - **Location:** `carcompare/`
+- **Public URL:** `/` (Main Portal) and `/cars` (Catalogue)
+- **Default Dev Port:** `3000`
 - **Purpose:** Indian passenger vehicle comparison platform covering 206 active models across 38 brands, 251 verified powertrain and trim variants, and real 4-angle vehicle photography.
 
-### 2. PhoneCompare
+### 2. PhoneCompare (Smartphones)
 - **Location:** `phonecompare/`
+- **Public URL:** `/mobiles`
+- **Default Dev Port:** `3001`
 - **Purpose:** Indian smartphone comparison platform covering 74 active smartphone models across 19 officially active brands, 153 verified RAM/storage configurations, and real multi-angle product photography.
+
+### 3. BikeCompare (Motorcycles & Scooters)
+- **Location:** `bikecompare/`
+- **Public URL:** `/bikes`
+- **Default Dev Port:** `3002`
+- **Purpose:** Indian two-wheeler comparison platform covering verified motorcycles, electric scooters, displacement/battery benchmarks, real-world mileage, and braking safety.
+
+---
+
+## Routing & Deployment Architecture
+
+The repository uses a multi-application micro-frontend architecture unified via `vercel.json`:
+
+```text
+Request URL            Target Service        Asset Prefix / Rewrites
+/                      carcompare (portal)   /_next/*
+/cars                  carcompare            /_next/*
+/cars/[slug]           carcompare            /_next/*
+/compare               carcompare            /_next/*
+/mobiles               phonecompare          /mobiles/_next/*
+/mobiles/[slug]        phonecompare          /mobiles/_next/*
+/mobiles/compare       phonecompare          /mobiles/_next/*
+/bikes                 bikecompare           /bikes/_next/*
+/bikes/[slug]          bikecompare           /bikes/_next/*
+/bikes/compare         bikecompare           /bikes/_next/*
+```
+
+In addition, `carcompare` hosts native mirror routes for `/bikes` and `/mobiles` so running only the root portal dev server locally provides seamless navigation across all three categories.
 
 ---
 
@@ -28,33 +60,42 @@ Static provides transparent, independent, side-by-side comparison for passenger 
 
 ## Environment Variables
 
-Both applications run out of the box without mandatory third-party API keys:
+All applications run out of the box without mandatory third-party API keys:
 
 - `NEXT_PUBLIC_SITE_URL`: (Optional) Base URL for canonical links and OpenGraph metadata (defaults to `http://localhost:3000`).
 
 ---
 
-## Quick Start — Development
+## Quick Start — Local Development
 
-### Run CarCompare
+Run each application in separate terminal windows:
+
+### Run CarCompare (Port 3000)
 
 ```bash
 cd carcompare
 npm install
-npm run dev
+npm run dev -- -p 3000
 ```
+Opens at `http://localhost:3000` (Main portal, `/cars`, `/compare`).
 
-Opens at `http://localhost:3000` (or `http://localhost:3001` if port 3000 is occupied).
-
-### Run PhoneCompare
+### Run PhoneCompare (Port 3001)
 
 ```bash
 cd phonecompare
 npm install
-npm run dev
+npm run dev -- -p 3001
 ```
+Opens at `http://localhost:3001` (`/mobiles`, `/mobiles/compare`).
 
-Opens at `http://localhost:3000` (or `http://localhost:3001` if port 3000 is occupied).
+### Run BikeCompare (Port 3002)
+
+```bash
+cd bikecompare
+npm install
+npm run dev -- -p 3002
+```
+Opens at `http://localhost:3002` (`/bikes`, `/bikes/compare`).
 
 ---
 
@@ -74,6 +115,14 @@ npm start
 ```bash
 cd phonecompare
 npm run lint
+npm run build
+npm start
+```
+
+### BikeCompare
+
+```bash
+cd bikecompare
 npm run build
 npm start
 ```
@@ -126,69 +175,73 @@ npm run audit:mobile-variants
 
 ---
 
+## Theme & Design System
+
+The platform features a customized Neumorphic design system with complete light and dark theme synchronization:
+- **Semantic CSS Variables:** Standardized across all applications (`--background`, `--surface`, `--surface-raised`, `--surface-inset`, `--foreground`, `--muted-foreground`, `--border`, `--accent`, `--card`, `--input`, `--shadow-raised`, `--shadow-inset`, `--hero-bg`, `--hero-text`).
+- **Synchronized Theme Toggle:** Updates `localStorage` key `'theme'` and broadcasts `static-theme-change` custom events.
+- **Flash-Free Initial Rendering:** Inline `<script>` in each `layout.tsx` sets `.dark` class, `data-theme="dark"`, and `style.colorScheme` immediately before first paint.
+- **Native Input Styling:** `<select>`, `<option>`, range sliders, and text inputs automatically adapt to dark mode with full contrast.
+
+---
+
 ## Project Structure
 
 ```text
 Static/
 ├── .gitignore
 ├── README.md
+├── vercel.json
 │
 ├── carcompare/
 │   ├── package.json
 │   ├── tsconfig.json
 │   ├── next.config.ts
-│   ├── eslint.config.mjs
-│   ├── postcss.config.mjs
 │   ├── data/
 │   │   ├── india-car-models.json
 │   │   ├── india-car-variants.json
-│   │   └── car-images.json
-│   ├── scripts/
-│   │   ├── validate_car_catalog.ts
-│   │   ├── validate_variants.ts
-│   │   ├── validate_car_images.ts
-│   │   ├── audit_car_catalog.ts
-│   │   └── audit_variants.ts
+│   │   ├── india-mobile-models.json
+│   │   └── india-bike-models.json
 │   ├── src/
 │   │   ├── app/
-│   │   │   ├── page.tsx
+│   │   │   ├── page.tsx          # Main Static Portal
 │   │   │   ├── layout.tsx
 │   │   │   ├── globals.css
-│   │   │   ├── cars/
-│   │   │   └── compare/
+│   │   │   ├── cars/             # Car listing & details
+│   │   │   ├── compare/          # Car comparison
+│   │   │   ├── mobiles/          # Smartphone portal mirror
+│   │   │   └── bikes/            # Bike portal mirror
 │   │   ├── components/
-│   │   ├── lib/
-│   │   └── types/
-│   └── public/
+│   │   ├── context/
+│   │   └── lib/
 │
-└── phonecompare/
+├── phonecompare/
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── next.config.ts
+│   ├── data/
+│   │   ├── india-mobile-models.json
+│   │   └── india-mobile-variants.json
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── mobiles/          # Smartphone catalogue & compare
+│   │   │   └── not-found.tsx
+│   │   ├── components/
+│   │   ├── context/
+│   │   └── lib/
+│
+└── bikecompare/
     ├── package.json
     ├── tsconfig.json
     ├── next.config.ts
-    ├── eslint.config.mjs
-    ├── postcss.config.mjs
     ├── data/
-    │   ├── india-mobile-models.json
-    │   ├── india-mobile-variants.json
-    │   └── mobile-images.json
-    ├── scripts/
-    │   ├── validate_mobile_catalog.ts
-    │   ├── validate_mobile_variants.ts
-    │   ├── validate_mobile_images.ts
-    │   ├── audit_mobile_catalog.ts
-    │   └── audit_mobile_variants.ts
+    │   └── india-bike-models.json
     ├── src/
     │   ├── app/
     │   │   ├── page.tsx
-    │   │   ├── layout.tsx
-    │   │   ├── globals.css
-    │   │   └── mobiles/
-    │   │       ├── page.tsx
-    │   │       ├── compare/
-    │   │       └── [slug]/
+    │   │   ├── bikes/            # Two-wheeler catalogue & compare
+    │   │   └── not-found.tsx
     │   ├── components/
-    │   ├── lib/
     │   ├── context/
-    │   └── types/
-    └── public/
+    │   └── lib/
 ```

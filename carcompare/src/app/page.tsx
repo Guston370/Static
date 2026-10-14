@@ -9,9 +9,13 @@ import {
   ArrowRight,
   CheckCircle2,
   Clock,
+  Car,
+  Smartphone,
+  Bike,
 } from 'lucide-react';
 import { CarCard } from '@/components/CarCard';
 import { MobileCard } from '@/components/MobileCard';
+import { BikeCard } from '@/components/BikeCard';
 import {
   getPopularCars,
   getAllBrands,
@@ -23,13 +27,17 @@ import {
   getMobileCount,
   getMobileBrandCount,
 } from '@/lib/mobiles';
+import {
+  getPopularBikes,
+  getBikeCount,
+  getBikeBrandCount,
+} from '@/lib/bikes';
 import { HeroSearch } from '@/components/HeroSearch';
-import { Car, Smartphone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Static — but dynamic | Compare Indian Cars & Mobiles',
+  title: 'Static — but dynamic | Compare Indian Cars, Mobiles & Bikes',
   description:
-    'Static — but dynamic. Multi-category comparison platform for Indian passenger cars and smartphones. Detailed verified specifications, honest data, and transparent comparison.',
+    'Static — but dynamic. Transparent multi-category comparison platform for Indian passenger cars, smartphones, and two-wheelers. Detailed verified specifications and honest comparisons.',
 };
 
 const bodyTypes = [
@@ -80,11 +88,14 @@ const brandColors: Record<string, string> = {
 export default function HomePage() {
   const popularCars = getPopularCars(6);
   const popularMobiles = getPopularMobiles(6);
+  const popularBikes = getPopularBikes(6);
   const brands = getAllBrands();
   const carCount = getCarCount();
   const brandCount = getBrandCount();
   const mobileCount = getMobileCount();
   const mobileBrandCount = getMobileBrandCount();
+  const bikeCount = getBikeCount();
+  const bikeBrandCount = getBikeBrandCount();
 
   return (
     <>
@@ -93,8 +104,8 @@ export default function HomePage() {
       ═══════════════════════════════════════ */}
       <section
         style={{
-          background: 'var(--color-text-primary)',
-          color: '#fff',
+          background: 'var(--hero-bg)',
+          color: 'var(--hero-text)',
           paddingTop: '4.5rem',
           paddingBottom: '4.5rem',
           position: 'relative',
@@ -129,7 +140,7 @@ export default function HomePage() {
         />
 
         <div className="container" style={{ position: 'relative' }}>
-          <div style={{ maxWidth: '780px', margin: '0 auto', textAlign: 'center' }}>
+          <div style={{ maxWidth: '880px', margin: '0 auto', textAlign: 'center' }}>
             {/* Tag */}
             <div
               style={{
@@ -173,14 +184,14 @@ export default function HomePage() {
                 lineHeight: 1.6,
               }}
             >
-              Side-by-side specifications, transparent performance benchmarks, and verified Indian pricing.
+              Side-by-side specifications, transparent performance benchmarks, and verified Indian pricing across Cars, Mobiles, and Two-Wheelers.
             </p>
 
             {/* Category Switcher Cards */}
             <div
               style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
                 gap: '1rem',
                 marginBottom: '2.5rem',
                 textAlign: 'left',
@@ -275,6 +286,51 @@ export default function HomePage() {
                   </span>
                 </div>
               </Link>
+
+              {/* Category 3: BIKES */}
+              <Link
+                href="/bikes"
+                style={{
+                  background: 'rgba(255,255,255,0.05)',
+                  border: '1px solid rgba(255,255,255,0.15)',
+                  borderRadius: '12px',
+                  padding: '1.25rem',
+                  textDecoration: 'none',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  transition: 'background 150ms, border-color 150ms',
+                }}
+                className="group hover:border-accent"
+              >
+                <div
+                  style={{
+                    width: '46px',
+                    height: '46px',
+                    borderRadius: '10px',
+                    background: '#EA580C',
+                    color: '#fff',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                    boxShadow: '0 2px 8px rgba(234, 88, 12, 0.4)',
+                  }}
+                >
+                  <Bike size={22} />
+                </div>
+                <div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                    <span style={{ fontWeight: 800, fontSize: '1.15rem', color: '#fff' }}>
+                      BIKES
+                    </span>
+                    <ArrowRight size={14} color="#F97316" />
+                  </div>
+                  <span style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.55)' }}>
+                    {bikeCount} models · Mileage · Electric
+                  </span>
+                </div>
+              </Link>
             </div>
 
             {/* Quick Hero Search */}
@@ -286,15 +342,15 @@ export default function HomePage() {
                 marginTop: '2.5rem',
                 display: 'flex',
                 justifyContent: 'center',
-                gap: '2.5rem',
+                gap: '2rem',
                 flexWrap: 'wrap',
               }}
             >
               {[
                 { label: `${carCount} Cars`, sub: 'in active catalog' },
                 { label: `${mobileCount} Phones`, sub: 'verified flagships & midrangers' },
-                { label: `${brandCount} Car Brands`, sub: 'officially in India' },
-                { label: `${mobileBrandCount} Mobile Brands`, sub: '100% active coverage' },
+                { label: `${bikeCount} Two-Wheelers`, sub: 'motorcycles, scooters & EVs' },
+                { label: `${brandCount + mobileBrandCount + bikeBrandCount} Brands`, sub: '100% active India coverage' },
               ].map(({ label, sub }) => (
                 <div key={label} style={{ textAlign: 'center' }}>
                   <p style={{ fontWeight: 700, fontSize: '1.2rem', color: '#fff', letterSpacing: '-0.02em', margin: 0 }}>
@@ -376,6 +432,39 @@ export default function HomePage() {
           >
             {popularMobiles.map((mobile) => (
               <MobileCard key={mobile.id} mobile={mobile} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════
+          POPULAR TWO-WHEELERS (BIKES & EVS)
+      ═══════════════════════════════════════ */}
+      <section className="section">
+        <div className="container">
+          <div className="section-header">
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#EA580C', fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', marginBottom: '0.25rem' }}>
+                <Bike size={14} />
+                <span>Bikes Category</span>
+              </div>
+              <h2 className="section-title">Popular Two-Wheelers</h2>
+              <p className="section-subtitle">Motorcycles, scooters, and high-efficiency electric vehicles</p>
+            </div>
+            <Link href="/bikes" className="btn btn-secondary btn-sm">
+              View all two-wheelers <ArrowRight size={14} />
+            </Link>
+          </div>
+
+          <div
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+              gap: '1.25rem',
+            }}
+          >
+            {popularBikes.map((bike) => (
+              <BikeCard key={bike.id} bike={bike} />
             ))}
           </div>
         </div>
@@ -467,8 +556,8 @@ export default function HomePage() {
       <section
         className="section"
         style={{
-          background: 'var(--color-text-primary)',
-          color: '#fff',
+          background: 'var(--hero-bg)',
+          color: 'var(--hero-text)',
         }}
       >
         <div className="container">
@@ -476,8 +565,8 @@ export default function HomePage() {
             <h2 style={{ color: '#fff', marginBottom: '0.5rem' }} className="section-title">
               Why Static?
             </h2>
-            <p style={{ color: 'rgba(255,255,255,0.55)' }} className="section-subtitle">
-              Static verified specifications, dynamic real-time insights — built for Indian car buyers
+            <p style={{ color: 'rgba(255,255,255,0.65)' }} className="section-subtitle">
+              Static verified specifications, dynamic real-time insights — built for Indian car, mobile, and bike buyers
             </p>
           </div>
 

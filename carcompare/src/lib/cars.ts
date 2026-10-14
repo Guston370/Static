@@ -723,6 +723,30 @@ export function filterCars(filters: CarFilters): Car[] {
     result = result.filter((c) => c.pricing.minPriceLakh <= filters.maxPrice!);
   }
 
+  // Seating Capacity
+  if (filters.seatingCapacities && filters.seatingCapacities.length > 0) {
+    result = result.filter((c) => filters.seatingCapacities!.includes(c.seatingCapacity));
+  }
+
+  // NCAP Safety Rating
+  if (filters.minNcap) {
+    result = result.filter((c) => (c.safety.ncapRating || 0) >= filters.minNcap!);
+  }
+
+  // Feature filters
+  if (filters.requireSunroof) {
+    result = result.filter((c) => c.features.sunroof);
+  }
+  if (filters.requireVentilatedSeats) {
+    result = result.filter((c) => c.features.ventilatedFrontSeats);
+  }
+  if (filters.requireADAS) {
+    result = result.filter((c) => c.safety.adas);
+  }
+  if (filters.require360Camera) {
+    result = result.filter((c) => c.safety.rearParkingCamera);
+  }
+
   // Sorting
   switch (filters.sortBy) {
     case 'price-asc':
@@ -743,6 +767,11 @@ export function filterCars(filters: CarFilters): Car[] {
     case 'power':
       result = [...result].sort(
         (a, b) => b.engine.maxPowerBhp - a.engine.maxPowerBhp
+      );
+      break;
+    case 'mileage':
+      result = [...result].sort(
+        (a, b) => (b.performance.mileageKmpl || b.performance.rangeKm || 0) - (a.performance.mileageKmpl || a.performance.rangeKm || 0)
       );
       break;
   }

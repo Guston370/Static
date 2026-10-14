@@ -15,12 +15,20 @@ const footerLinks = {
     { href: '/mobiles?brand=Samsung', label: 'Samsung Galaxy' },
     { href: '/mobiles?brand=Apple', label: 'Apple iPhone' },
     { href: '/mobiles?brand=OnePlus', label: 'OnePlus' },
-    { href: '/mobiles?brand=Google', label: 'Google Pixel' },
+  ],
+  Bikes: [
+    { href: '/bikes', label: 'Browse Two-Wheelers' },
+    { href: '/bikes/compare', label: 'Compare Bikes' },
+    { href: '/bikes?brand=Royal+Enfield', label: 'Royal Enfield' },
+    { href: '/bikes?type=Electric+Two-Wheeler', label: 'Electric Scooters' },
+    { href: '/bikes?type=Motorcycle', label: 'Motorcycles' },
   ],
   Platform: [
-    { href: '/', label: 'Home' },
+    { href: '/', label: 'Home Portal' },
     { href: '/cars', label: 'Cars Database' },
     { href: '/mobiles', label: 'Mobiles Database' },
+    { href: '/bikes', label: 'Two-Wheeler Database' },
+    { href: '/contact', label: 'Contact Us' },
   ],
 };
 
@@ -28,8 +36,9 @@ export function Footer() {
   return (
     <footer
       style={{
-        background: '#1A2332',
-        color: '#fff',
+        background: 'var(--hero-bg)',
+        color: 'var(--hero-text)',
+        borderTop: '1px solid var(--color-border)',
         marginTop: 'auto',
         paddingBottom: '5rem', // space for comparison tray
       }}
@@ -71,7 +80,7 @@ export function Footer() {
                     fontWeight: 800,
                     fontSize: '1.25rem',
                     letterSpacing: '-0.03em',
-                    color: '#fff',
+                    color: 'var(--hero-text)',
                   }}
                 >
                   Static
@@ -90,13 +99,13 @@ export function Footer() {
             </Link>
             <p
               style={{
-                color: '#8FA0B4',
+                color: 'rgba(255,255,255,0.65)',
                 fontSize: '0.875rem',
                 lineHeight: 1.7,
                 marginBottom: '1.5rem',
               }}
             >
-              Static — but dynamic. Empowering Indian car buyers with verified specifications, honest data, and transparent variant comparisons.
+              Static — but dynamic. Transparent, multi-category Indian consumer comparison covering passenger cars, smartphones, and two-wheelers.
             </p>
             <div style={{ display: 'flex', gap: '0.75rem' }}>
               <div
@@ -105,7 +114,7 @@ export function Footer() {
                   alignItems: 'center',
                   gap: '0.375rem',
                   fontSize: '0.78rem',
-                  color: '#8FA0B4',
+                  color: 'rgba(255,255,255,0.6)',
                 }}
               >
                 <Shield size={13} />
@@ -117,11 +126,11 @@ export function Footer() {
                   alignItems: 'center',
                   gap: '0.375rem',
                   fontSize: '0.78rem',
-                  color: '#8FA0B4',
+                  color: 'rgba(255,255,255,0.6)',
                 }}
               >
                 <BarChart3 size={13} />
-                <span>Real Specs</span>
+                <span>100% Real Specs</span>
               </div>
             </div>
           </div>
@@ -135,7 +144,7 @@ export function Footer() {
                   fontWeight: 600,
                   textTransform: 'uppercase',
                   letterSpacing: '0.08em',
-                  color: '#8FA0B4',
+                  color: 'rgba(255,255,255,0.85)',
                   marginBottom: '1rem',
                 }}
               >
@@ -176,12 +185,12 @@ export function Footer() {
             gap: '0.75rem',
           }}
         >
-          <p style={{ color: '#8FA0B4', fontSize: '0.8rem' }}>
+          <p style={{ color: 'rgba(255,255,255,0.45)', fontSize: '0.8rem' }}>
             © {new Date().getFullYear()} Static — but dynamic. All specifications are sourced from public manufacturer data and verified documents.
           </p>
           <p
             style={{
-              color: '#8FA0B4',
+              color: 'rgba(255,255,255,0.45)',
               fontSize: '0.8rem',
               display: 'flex',
               alignItems: 'center',
