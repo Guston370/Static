@@ -1,0 +1,12 @@
+{
+  "name": "static-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static — Multi-category comparison platform for the Indian consumer market (Cars, Mobiles, Bikes)",
+  "scripts": {
+    "dev": "powershell -ExecutionPolicy Bypass -File ./scripts/run-all.ps1",
+    "dev:cars": "cd carcompare && npm run dev -- -p 3000",
+    "dev:phones": "cd phonecompare && npm run dev -- -p 3001",
+    "dev:bikes": "cd bikecompare && npm run dev -- -p 3002"
+  }
+}

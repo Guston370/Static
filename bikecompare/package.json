@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "npx tsc --noEmit",
+    "validate:bikes": "npx tsx scripts/validate_bike_catalog.ts",
+    "validate:variants": "npx tsx scripts/validate_bike_variants.ts",
+    "validate:images": "npx tsx scripts/validate_bike_images.ts",
+    "audit:bikes": "npx tsx scripts/audit_bike_catalog.ts",
+    "test:regression": "npx tsx scripts/test_catalog_listing_regression.ts",
+    "catalog:build": "npx tsx scripts/build_full_bike_catalog.ts"
   },
   "dependencies": {
     "lucide-react": "^1.52.0",

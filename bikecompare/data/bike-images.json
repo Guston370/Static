@@ -1,0 +1,3413 @@
+{
+  "metadata": {
+    "lastUpdated": "2026-10-14",
+    "catalogVersion": "1.0.0",
+    "totalModels": 162,
+    "modelsWithImages": 162,
+    "modelsMissingImages": 0
+  },
+  "models": [
+    {
+      "modelId": "hero-splendor-plus",
+      "modelSlug": "hero-splendor-plus",
+      "brand": "Hero",
+      "modelName": "Splendor Plus",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Splendor Plus in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/practical/splendor-plus.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-splendor-plus-xtec",
+      "modelSlug": "hero-splendor-plus-xtec",
+      "brand": "Hero",
+      "modelName": "Splendor Plus XTEC",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Splendor Plus XTEC in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/practical/splendor-plus-xtec.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-super-splendor-xtec",
+      "modelSlug": "hero-super-splendor-xtec",
+      "brand": "Hero",
+      "modelName": "Super Splendor XTEC",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Super Splendor XTEC in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/executive/super-splendor-xtec.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-hf-deluxe",
+      "modelSlug": "hero-hf-deluxe",
+      "brand": "Hero",
+      "modelName": "HF Deluxe",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero HF Deluxe in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/practical/hf-deluxe.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-hf-100",
+      "modelSlug": "hero-hf-100",
+      "brand": "Hero",
+      "modelName": "HF 100",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero HF 100 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/practical/hf-100.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-passion-plus",
+      "modelSlug": "hero-passion-plus",
+      "brand": "Hero",
+      "modelName": "Passion Plus",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Passion Plus in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/practical/passion-plus.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-glamour-xtec",
+      "modelSlug": "hero-glamour-xtec",
+      "brand": "Hero",
+      "modelName": "Glamour XTEC",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Glamour XTEC in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/executive/glamour-xtec.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-xtreme-125r",
+      "modelSlug": "hero-xtreme-125r",
+      "brand": "Hero",
+      "modelName": "Xtreme 125R",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Xtreme 125R in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/performance/xtreme-125r.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-xtreme-160r-4v",
+      "modelSlug": "hero-xtreme-160r-4v",
+      "brand": "Hero",
+      "modelName": "Xtreme 160R 4V",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Xtreme 160R 4V in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/performance/xtreme-160r-4v.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-xpulse-200-4v",
+      "modelSlug": "hero-xpulse-200-4v",
+      "brand": "Hero",
+      "modelName": "XPulse 200 4V",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero XPulse 200 4V in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/performance/xpulse-200-4v.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-mavrick-440",
+      "modelSlug": "hero-mavrick-440",
+      "brand": "Hero",
+      "modelName": "Mavrick 440",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Mavrick 440 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/performance/mavrick-440.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-karizma-xmr",
+      "modelSlug": "hero-karizma-xmr",
+      "brand": "Hero",
+      "modelName": "Karizma XMR 210",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Karizma XMR 210 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/motorcycles/performance/karizma-xmr.html"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-shine-100",
+      "modelSlug": "honda-shine-100",
+      "brand": "Honda",
+      "modelName": "Shine 100",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Shine 100 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/shine100/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-shine-125",
+      "modelSlug": "honda-shine-125",
+      "brand": "Honda",
+      "modelName": "Shine 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Shine 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/shine/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-sp125",
+      "modelSlug": "honda-sp125",
+      "brand": "Honda",
+      "modelName": "SP 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda SP 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/sp125/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-sp160",
+      "modelSlug": "honda-sp160",
+      "brand": "Honda",
+      "modelName": "SP 160",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda SP 160 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/sp160/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-unicorn-160",
+      "modelSlug": "honda-unicorn-160",
+      "brand": "Honda",
+      "modelName": "Unicorn 160",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Unicorn 160 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/unicorn/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-hornet-2-0",
+      "modelSlug": "honda-hornet-2-0",
+      "brand": "Honda",
+      "modelName": "Hornet 2.0",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Hornet 2.0 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/hornet2-0/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-cb200x",
+      "modelSlug": "honda-cb200x",
+      "brand": "Honda",
+      "modelName": "CB200X",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda CB200X in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/cb200x/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-hness-cb350",
+      "modelSlug": "honda-hness-cb350",
+      "brand": "Honda",
+      "modelName": "H'ness CB350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda H'ness CB350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.hondabigwing.in/cb350"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-cb350rs",
+      "modelSlug": "honda-cb350rs",
+      "brand": "Honda",
+      "modelName": "CB350RS",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda CB350RS in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.hondabigwing.in/cb350rs"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-cb300r",
+      "modelSlug": "honda-cb300r",
+      "brand": "Honda",
+      "modelName": "CB300R",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda CB300R in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.hondabigwing.in/cb300r"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-125",
+      "modelSlug": "bajaj-pulsar-125",
+      "brand": "Bajaj",
+      "modelName": "Pulsar 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-125"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-150",
+      "modelSlug": "bajaj-pulsar-150",
+      "brand": "Bajaj",
+      "modelName": "Pulsar 150",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar 150 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-150"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-n160",
+      "modelSlug": "bajaj-pulsar-n160",
+      "brand": "Bajaj",
+      "modelName": "Pulsar N160",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar N160 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-n160"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-n250",
+      "modelSlug": "bajaj-pulsar-n250",
+      "brand": "Bajaj",
+      "modelName": "Pulsar N250",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar N250 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-n250"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-220f",
+      "modelSlug": "bajaj-pulsar-220f",
+      "brand": "Bajaj",
+      "modelName": "Pulsar 220F",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar 220F in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-220f"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-ns400z",
+      "modelSlug": "bajaj-pulsar-ns400z",
+      "brand": "Bajaj",
+      "modelName": "Pulsar NS400Z",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar NS400Z in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns400z"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-ns200",
+      "modelSlug": "bajaj-pulsar-ns200",
+      "brand": "Bajaj",
+      "modelName": "Pulsar NS200",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar NS200 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns200"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-rs200",
+      "modelSlug": "bajaj-pulsar-rs200",
+      "brand": "Bajaj",
+      "modelName": "Pulsar RS200",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar RS200 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-rs200"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-ns160",
+      "modelSlug": "bajaj-pulsar-ns160",
+      "brand": "Bajaj",
+      "modelName": "Pulsar NS160",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar NS160 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns160"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-freedom-125",
+      "modelSlug": "bajaj-freedom-125",
+      "brand": "Bajaj",
+      "modelName": "Freedom 125 CNG",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Freedom 125 CNG in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/freedom/freedom-125"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-platina-110-abs",
+      "modelSlug": "bajaj-platina-110-abs",
+      "brand": "Bajaj",
+      "modelName": "Platina 110 ABS",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Platina 110 ABS in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/platina/platina-110-abs"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-avenger-cruise-220",
+      "modelSlug": "bajaj-avenger-cruise-220",
+      "brand": "Bajaj",
+      "modelName": "Avenger Cruise 220",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Avenger Cruise 220 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/avenger/avenger-cruise-220"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-dominar-400",
+      "modelSlug": "bajaj-dominar-400",
+      "brand": "Bajaj",
+      "modelName": "Dominar 400",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Dominar 400 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bajajauto.com/bikes/dominar/dominar-400"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-ronin-225",
+      "modelSlug": "tvs-ronin-225",
+      "brand": "TVS",
+      "modelName": "Ronin 225",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Ronin 225 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-ronin"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-apache-rtr-200-4v",
+      "modelSlug": "tvs-apache-rtr-200-4v",
+      "brand": "TVS",
+      "modelName": "Apache RTR 200 4V",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Apache RTR 200 4V in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-apache/apache-rtr-200-4v"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-apache-rr-310",
+      "modelSlug": "tvs-apache-rr-310",
+      "brand": "TVS",
+      "modelName": "Apache RR 310",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Apache RR 310 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-apache/apache-rr-310"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-apache-rtr-310",
+      "modelSlug": "tvs-apache-rtr-310",
+      "brand": "TVS",
+      "modelName": "Apache RTR 310",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Apache RTR 310 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-apache/apache-rtr-310"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-radeon-110",
+      "modelSlug": "tvs-radeon-110",
+      "brand": "TVS",
+      "modelName": "Radeon 110",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Radeon 110 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-radeon"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-xl100-heavy-duty",
+      "modelSlug": "tvs-xl100-heavy-duty",
+      "brand": "TVS",
+      "modelName": "XL100 Heavy Duty",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS XL100 Heavy Duty in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-xl100"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-apache-rtr-160-4v",
+      "modelSlug": "tvs-apache-rtr-160-4v",
+      "brand": "TVS",
+      "modelName": "Apache RTR 160 4V",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Apache RTR 160 4V in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-apache/apache-rtr-160-4v"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-raider-125",
+      "modelSlug": "tvs-raider-125",
+      "brand": "TVS",
+      "modelName": "Raider 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Raider 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-raider"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-fzs-fi-v4",
+      "modelSlug": "yamaha-fzs-fi-v4",
+      "brand": "Yamaha",
+      "modelName": "FZ-S FI V4",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha FZ-S FI V4 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-fzs-fi-v4.html"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-classic-350",
+      "modelSlug": "royal-enfield-classic-350",
+      "brand": "Royal Enfield",
+      "modelName": "Classic 350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Classic 350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/classic-350/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-hunter-350",
+      "modelSlug": "royal-enfield-hunter-350",
+      "brand": "Royal Enfield",
+      "modelName": "Hunter 350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Hunter 350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/hunter-350/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-bullet-350",
+      "modelSlug": "royal-enfield-bullet-350",
+      "brand": "Royal Enfield",
+      "modelName": "Bullet 350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Bullet 350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/bullet-350/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-meteor-350",
+      "modelSlug": "royal-enfield-meteor-350",
+      "brand": "Royal Enfield",
+      "modelName": "Meteor 350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Meteor 350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/meteor-350/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-himalayan-450",
+      "modelSlug": "royal-enfield-himalayan-450",
+      "brand": "Royal Enfield",
+      "modelName": "Himalayan 450",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Himalayan 450 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/new-himalayan/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-guerrilla-450",
+      "modelSlug": "royal-enfield-guerrilla-450",
+      "brand": "Royal Enfield",
+      "modelName": "Guerrilla 450",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Guerrilla 450 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/guerrilla-450/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-interceptor-650",
+      "modelSlug": "royal-enfield-interceptor-650",
+      "brand": "Royal Enfield",
+      "modelName": "Interceptor 650",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Interceptor 650 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/interceptor/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-gt-650",
+      "modelSlug": "royal-enfield-gt-650",
+      "brand": "Royal Enfield",
+      "modelName": "Continental GT 650",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Continental GT 650 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/continental-gt-650/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-super-meteor-650",
+      "modelSlug": "royal-enfield-super-meteor-650",
+      "brand": "Royal Enfield",
+      "modelName": "Super Meteor 650",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Super Meteor 650 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/super-meteor-650/"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-shotgun-650",
+      "modelSlug": "royal-enfield-shotgun-650",
+      "brand": "Royal Enfield",
+      "modelName": "Shotgun 650",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Shotgun 650 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.royalenfield.com/in/en/motorcycles/shotgun-650/"
+        }
+      ]
+    },
+    {
+      "modelId": "ktm-200-duke",
+      "modelSlug": "ktm-200-duke",
+      "brand": "KTM",
+      "modelName": "200 Duke",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "KTM 200 Duke in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ktm.com/en-in/models/naked-bike/ktm-200-duke-2024.html"
+        }
+      ]
+    },
+    {
+      "modelId": "ktm-250-duke",
+      "modelSlug": "ktm-250-duke",
+      "brand": "KTM",
+      "modelName": "250 Duke",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "KTM 250 Duke in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ktm.com/en-in/models/naked-bike/ktm-250-duke-2024.html"
+        }
+      ]
+    },
+    {
+      "modelId": "ktm-390-duke",
+      "modelSlug": "ktm-390-duke",
+      "brand": "KTM",
+      "modelName": "390 Duke",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "KTM 390 Duke in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ktm.com/en-in/models/naked-bike/ktm-390-duke-2024.html"
+        }
+      ]
+    },
+    {
+      "modelId": "ktm-rc-200",
+      "modelSlug": "ktm-rc-200",
+      "brand": "KTM",
+      "modelName": "RC 200",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "KTM RC 200 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ktm.com/en-in/models/supersport/ktm-rc-200-2024.html"
+        }
+      ]
+    },
+    {
+      "modelId": "ktm-rc-390",
+      "modelSlug": "ktm-rc-390",
+      "brand": "KTM",
+      "modelName": "RC 390",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "KTM RC 390 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ktm.com/en-in/models/supersport/ktm-rc-390-2024.html"
+        }
+      ]
+    },
+    {
+      "modelId": "ktm-390-adventure",
+      "modelSlug": "ktm-390-adventure",
+      "brand": "KTM",
+      "modelName": "390 Adventure",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "KTM 390 Adventure in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ktm.com/en-in/models/travel/ktm-390-adventure2024.html"
+        }
+      ]
+    },
+    {
+      "modelId": "ktm-390-adventure-x",
+      "modelSlug": "ktm-390-adventure-x",
+      "brand": "KTM",
+      "modelName": "390 Adventure X",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "KTM 390 Adventure X in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ktm.com/en-in/models/travel/ktm-390-adventure-x.html"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-r15-v4",
+      "modelSlug": "yamaha-r15-v4",
+      "brand": "Yamaha",
+      "modelName": "YZF R15 V4",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha YZF R15 V4 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-r15-v4.html"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-r15m",
+      "modelSlug": "yamaha-r15m",
+      "brand": "Yamaha",
+      "modelName": "YZF R15M",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha YZF R15M in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-r15m.html"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-mt-15-v2",
+      "modelSlug": "yamaha-mt-15-v2",
+      "brand": "Yamaha",
+      "modelName": "MT-15 V2",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha MT-15 V2 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-mt-15-v2.html"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-r3",
+      "modelSlug": "yamaha-r3",
+      "brand": "Yamaha",
+      "modelName": "YZF R3",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha YZF R3 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-r3.html"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-gixxer-sf-250",
+      "modelSlug": "suzuki-gixxer-sf-250",
+      "brand": "Suzuki",
+      "modelName": "Gixxer SF 250",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Gixxer SF 250 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.suzukimotorcycle.co.in/product-details/gixxer-sf-250"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-v-strom-sx",
+      "modelSlug": "suzuki-v-strom-sx",
+      "brand": "Suzuki",
+      "modelName": "V-Strom SX 250",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki V-Strom SX 250 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.suzukimotorcycle.co.in/product-details/v-strom-sx"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-hayabusa",
+      "modelSlug": "suzuki-hayabusa",
+      "brand": "Suzuki",
+      "modelName": "Hayabusa GSX1300R",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Hayabusa GSX1300R in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.suzukimotorcycle.co.in/product-details/hayabusa"
+        }
+      ]
+    },
+    {
+      "modelId": "kawasaki-ninja-300",
+      "modelSlug": "kawasaki-ninja-300",
+      "brand": "Kawasaki",
+      "modelName": "Ninja 300",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Kawasaki Ninja 300 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://kawasaki-india.com/bikes/ninja-300/"
+        }
+      ]
+    },
+    {
+      "modelId": "kawasaki-ninja-500",
+      "modelSlug": "kawasaki-ninja-500",
+      "brand": "Kawasaki",
+      "modelName": "Ninja 500",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Kawasaki Ninja 500 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://kawasaki-india.com/bikes/ninja-500/"
+        }
+      ]
+    },
+    {
+      "modelId": "kawasaki-ninja-650",
+      "modelSlug": "kawasaki-ninja-650",
+      "brand": "Kawasaki",
+      "modelName": "Ninja 650",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Kawasaki Ninja 650 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://kawasaki-india.com/bikes/ninja-650/"
+        }
+      ]
+    },
+    {
+      "modelId": "kawasaki-z900",
+      "modelSlug": "kawasaki-z900",
+      "brand": "Kawasaki",
+      "modelName": "Z900",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Kawasaki Z900 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://kawasaki-india.com/bikes/z900/"
+        }
+      ]
+    },
+    {
+      "modelId": "kawasaki-ninja-zx-10r",
+      "modelSlug": "kawasaki-ninja-zx-10r",
+      "brand": "Kawasaki",
+      "modelName": "Ninja ZX-10R",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Kawasaki Ninja ZX-10R in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://kawasaki-india.com/bikes/ninja-zx-10r/"
+        }
+      ]
+    },
+    {
+      "modelId": "bmw-g-310-r",
+      "modelSlug": "bmw-g-310-r",
+      "brand": "BMW Motorrad",
+      "modelName": "G 310 R",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "BMW Motorrad G 310 R in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bmw-motorrad.in/en/models/roadster/g310r.html"
+        }
+      ]
+    },
+    {
+      "modelId": "bmw-g-310-gs",
+      "modelSlug": "bmw-g-310-gs",
+      "brand": "BMW Motorrad",
+      "modelName": "G 310 GS",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "BMW Motorrad G 310 GS in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bmw-motorrad.in/en/models/adventure/g310gs.html"
+        }
+      ]
+    },
+    {
+      "modelId": "bmw-s-1000-rr",
+      "modelSlug": "bmw-s-1000-rr",
+      "brand": "BMW Motorrad",
+      "modelName": "S 1000 RR",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "BMW Motorrad S 1000 RR in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bmw-motorrad.in/en/models/sport/s1000rr.html"
+        }
+      ]
+    },
+    {
+      "modelId": "triumph-speed-400",
+      "modelSlug": "triumph-speed-400",
+      "brand": "Triumph",
+      "modelName": "Speed 400",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Triumph Speed 400 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.triumphmotorcycles.in/motorcycles/classic/speed-400"
+        }
+      ]
+    },
+    {
+      "modelId": "triumph-scrambler-400-x",
+      "modelSlug": "triumph-scrambler-400-x",
+      "brand": "Triumph",
+      "modelName": "Scrambler 400 X",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Triumph Scrambler 400 X in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.triumphmotorcycles.in/motorcycles/classic/scrambler-400-x"
+        }
+      ]
+    },
+    {
+      "modelId": "triumph-street-triple-765-rs",
+      "modelSlug": "triumph-street-triple-765-rs",
+      "brand": "Triumph",
+      "modelName": "Street Triple 765 RS",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Triumph Street Triple 765 RS in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.triumphmotorcycles.in/motorcycles/roadsters/street-triple-765"
+        }
+      ]
+    },
+    {
+      "modelId": "harley-davidson-x440",
+      "modelSlug": "harley-davidson-x440",
+      "brand": "Harley-Davidson",
+      "modelName": "X440",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Harley-Davidson X440 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.harley-davidson.com/in/en/motorcycles/x-440.html"
+        }
+      ]
+    },
+    {
+      "modelId": "aprilia-rs-457",
+      "modelSlug": "aprilia-rs-457",
+      "brand": "Aprilia",
+      "modelName": "RS 457",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Aprilia RS 457 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.aprilia.com/in_EN/models/rs-457/"
+        }
+      ]
+    },
+    {
+      "modelId": "ducati-panigale-v4",
+      "modelSlug": "ducati-panigale-v4",
+      "brand": "Ducati",
+      "modelName": "Panigale V4",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ducati Panigale V4 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ducati.com/in/en/bikes/panigale/panigale-v4"
+        }
+      ]
+    },
+    {
+      "modelId": "jawa-350",
+      "modelSlug": "jawa-350",
+      "brand": "Jawa",
+      "modelName": "350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Jawa 350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.jawamotorcycles.com/motorcycles/jawa-350"
+        }
+      ]
+    },
+    {
+      "modelId": "jawa-42-bobber",
+      "modelSlug": "jawa-42-bobber",
+      "brand": "Jawa",
+      "modelName": "42 Bobber",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Jawa 42 Bobber in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.jawamotorcycles.com/motorcycles/42-bobber"
+        }
+      ]
+    },
+    {
+      "modelId": "yezdi-adventure",
+      "modelSlug": "yezdi-adventure",
+      "brand": "Yezdi",
+      "modelName": "Adventure",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yezdi Adventure in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yezdi.com/motorcycles/yezdi-adventure"
+        }
+      ]
+    },
+    {
+      "modelId": "bsa-gold-star-650",
+      "modelSlug": "bsa-gold-star-650",
+      "brand": "BSA",
+      "modelName": "Gold Star 650",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "BSA Gold Star 650 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.bsacompany.co.uk/gold-star/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-activa-6g",
+      "modelSlug": "honda-activa-6g",
+      "brand": "Honda",
+      "modelName": "Activa 6G",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Activa 6G in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/activa-6g/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-activa-125",
+      "modelSlug": "honda-activa-125",
+      "brand": "Honda",
+      "modelName": "Activa 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Activa 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/activa-125/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-dio-110",
+      "modelSlug": "honda-dio-110",
+      "brand": "Honda",
+      "modelName": "Dio 110",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Dio 110 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/dio-110/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-dio-125",
+      "modelSlug": "honda-dio-125",
+      "brand": "Honda",
+      "modelName": "Dio 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Dio 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.honda2wheelersindia.com/dio-125/"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-jupiter-110",
+      "modelSlug": "tvs-jupiter-110",
+      "brand": "TVS",
+      "modelName": "Jupiter 110",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Jupiter 110 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-jupiter-110"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-jupiter-125",
+      "modelSlug": "tvs-jupiter-125",
+      "brand": "TVS",
+      "modelName": "Jupiter 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Jupiter 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-jupiter-125"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-ntorq-125",
+      "modelSlug": "tvs-ntorq-125",
+      "brand": "TVS",
+      "modelName": "Ntorq 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Ntorq 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-ntorq"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-scooty-zest-110",
+      "modelSlug": "tvs-scooty-zest-110",
+      "brand": "TVS",
+      "modelName": "Scooty Zest 110",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Scooty Zest 110 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-scooty-zest-110"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-access-125",
+      "modelSlug": "suzuki-access-125",
+      "brand": "Suzuki",
+      "modelName": "Access 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Access 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.suzukimotorcycle.co.in/product-details/all-new-access-125"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-burgman-street",
+      "modelSlug": "suzuki-burgman-street",
+      "brand": "Suzuki",
+      "modelName": "Burgman Street 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Burgman Street 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.suzukimotorcycle.co.in/product-details/burgman-street"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-burgman-street-ex",
+      "modelSlug": "suzuki-burgman-street-ex",
+      "brand": "Suzuki",
+      "modelName": "Burgman Street EX",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Burgman Street EX in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.suzukimotorcycle.co.in/product-details/burgman-street-ex"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-avenis-125",
+      "modelSlug": "suzuki-avenis-125",
+      "brand": "Suzuki",
+      "modelName": "Avenis 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Avenis 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.suzukimotorcycle.co.in/product-details/avenis"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-aerox-155",
+      "modelSlug": "yamaha-aerox-155",
+      "brand": "Yamaha",
+      "modelName": "Aerox 155",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha Aerox 155 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-aerox-155.html"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-rayzr-125-hybrid",
+      "modelSlug": "yamaha-rayzr-125-hybrid",
+      "brand": "Yamaha",
+      "modelName": "RayZR 125 Fi Hybrid",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha RayZR 125 Fi Hybrid in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-rayzr-125-fi-hybrid.html"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-fascino-125-hybrid",
+      "modelSlug": "yamaha-fascino-125-hybrid",
+      "brand": "Yamaha",
+      "modelName": "Fascino 125 Fi Hybrid",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha Fascino 125 Fi Hybrid in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.yamaha-motor-india.com/yamaha-fascino-125-fi-hybrid.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-destini-125",
+      "modelSlug": "hero-destini-125",
+      "brand": "Hero",
+      "modelName": "Destini 125 XTEC",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Destini 125 XTEC in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/scooters/destini-125-xtec.html"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-xoom-110",
+      "modelSlug": "hero-xoom-110",
+      "brand": "Hero",
+      "modelName": "Xoom 110",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Xoom 110 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.heromotocorp.com/en-in/scooters/xoom.html"
+        }
+      ]
+    },
+    {
+      "modelId": "aprilia-sr-160",
+      "modelSlug": "aprilia-sr-160",
+      "brand": "Aprilia",
+      "modelName": "SR 160",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Aprilia SR 160 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.aprilia.com/in_EN/models/sr-160/"
+        }
+      ]
+    },
+    {
+      "modelId": "aprilia-sxr-160",
+      "modelSlug": "aprilia-sxr-160",
+      "brand": "Aprilia",
+      "modelName": "SXR 160",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Aprilia SXR 160 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.aprilia.com/in_EN/models/sxr-160/"
+        }
+      ]
+    },
+    {
+      "modelId": "vespa-vxl-125",
+      "modelSlug": "vespa-vxl-125",
+      "brand": "Vespa",
+      "modelName": "VXL 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Vespa VXL 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.vespa.com/in_EN/models/vxl/"
+        }
+      ]
+    },
+    {
+      "modelId": "vespa-sxl-150",
+      "modelSlug": "vespa-sxl-150",
+      "brand": "Vespa",
+      "modelName": "SXL 150",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Vespa SXL 150 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.vespa.com/in_EN/models/sxl/"
+        }
+      ]
+    },
+    {
+      "modelId": "ather-450x",
+      "modelSlug": "ather-450x",
+      "brand": "Ather",
+      "modelName": "450X Gen 3",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ather 450X Gen 3 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.atherenergy.com/450x"
+        }
+      ]
+    },
+    {
+      "modelId": "ather-450s",
+      "modelSlug": "ather-450s",
+      "brand": "Ather",
+      "modelName": "450S",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ather 450S in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.atherenergy.com/450s"
+        }
+      ]
+    },
+    {
+      "modelId": "ather-450-apex",
+      "modelSlug": "ather-450-apex",
+      "brand": "Ather",
+      "modelName": "450 Apex",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ather 450 Apex in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.atherenergy.com/450-apex"
+        }
+      ]
+    },
+    {
+      "modelId": "ather-rizta",
+      "modelSlug": "ather-rizta",
+      "brand": "Ather",
+      "modelName": "Rizta",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ather Rizta in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.atherenergy.com/rizta"
+        }
+      ]
+    },
+    {
+      "modelId": "ola-s1-pro",
+      "modelSlug": "ola-s1-pro",
+      "brand": "Ola Electric",
+      "modelName": "S1 Pro Gen 2",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ola Electric S1 Pro Gen 2 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.olaelectric.com/s1-pro"
+        }
+      ]
+    },
+    {
+      "modelId": "ola-s1-air",
+      "modelSlug": "ola-s1-air",
+      "brand": "Ola Electric",
+      "modelName": "S1 Air",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ola Electric S1 Air in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.olaelectric.com/s1-air"
+        }
+      ]
+    },
+    {
+      "modelId": "ola-s1-x",
+      "modelSlug": "ola-s1-x",
+      "brand": "Ola Electric",
+      "modelName": "S1 X",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ola Electric S1 X in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.olaelectric.com/s1-x"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-chetak-premium",
+      "modelSlug": "bajaj-chetak-premium",
+      "brand": "Bajaj",
+      "modelName": "Chetak Premium",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Chetak Premium in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.chetak.com/chetak-premium"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-chetak-2901",
+      "modelSlug": "bajaj-chetak-2901",
+      "brand": "Bajaj",
+      "modelName": "Chetak 2901",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Chetak 2901 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.chetak.com/chetak-2901"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-iqube",
+      "modelSlug": "tvs-iqube",
+      "brand": "TVS",
+      "modelName": "iQube Electric",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS iQube Electric in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-iqube"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-iqube-st",
+      "modelSlug": "tvs-iqube-st",
+      "brand": "TVS",
+      "modelName": "iQube ST 5.1 kWh",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS iQube ST 5.1 kWh in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-iqube/iqube-st"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-x",
+      "modelSlug": "tvs-x",
+      "brand": "TVS",
+      "modelName": "TVS X",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS TVS X in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.tvsmotor.com/tvs-x"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-vida-v1-pro",
+      "modelSlug": "hero-vida-v1-pro",
+      "brand": "Hero Vida",
+      "modelName": "Vida V1 Pro",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Vida Vida V1 Pro in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.vidaworld.com/vida-v1.html"
+        }
+      ]
+    },
+    {
+      "modelId": "river-indie",
+      "modelSlug": "river-indie",
+      "brand": "River",
+      "modelName": "Indie",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "River Indie in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.rideriver.com/"
+        }
+      ]
+    },
+    {
+      "modelId": "ultraviolette-f77-mach-2",
+      "modelSlug": "ultraviolette-f77-mach-2",
+      "brand": "Ultraviolette",
+      "modelName": "F77 Mach 2",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ultraviolette F77 Mach 2 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.ultraviolette.com/f77-mach2"
+        }
+      ]
+    },
+    {
+      "modelId": "revolt-rv400",
+      "modelSlug": "revolt-rv400",
+      "brand": "Revolt Motors",
+      "modelName": "RV400",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Revolt Motors RV400 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.revoltmotors.com/rv400"
+        }
+      ]
+    },
+    {
+      "modelId": "simple-one",
+      "modelSlug": "simple-one",
+      "brand": "Simple Energy",
+      "modelName": "Simple One",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Simple Energy Simple One in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.simpleenergy.in/"
+        }
+      ]
+    },
+    {
+      "modelId": "matter-aera-5000",
+      "modelSlug": "matter-aera-5000",
+      "brand": "Matter",
+      "modelName": "AERA 5000",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Matter AERA 5000 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.matter.in/"
+        }
+      ]
+    },
+    {
+      "modelId": "oben-rorr",
+      "modelSlug": "oben-rorr",
+      "brand": "Oben Electric",
+      "modelName": "Oben Rorr",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Oben Electric Oben Rorr in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.obenelectric.com/"
+        }
+      ]
+    },
+    {
+      "modelId": "tork-kratos-r",
+      "modelSlug": "tork-kratos-r",
+      "brand": "Tork Motors",
+      "modelName": "Kratos R",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Tork Motors Kratos R in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://torkmotors.com/kratos-r"
+        }
+      ]
+    },
+    {
+      "modelId": "ampere-nexus",
+      "modelSlug": "ampere-nexus",
+      "brand": "Ampere",
+      "modelName": "Nexus",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Ampere Nexus in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://ampere.greaveselectricmobility.com/nexus"
+        }
+      ]
+    },
+    {
+      "modelId": "kinetic-green-e-luna",
+      "modelSlug": "kinetic-green-e-luna",
+      "brand": "Kinetic Green",
+      "modelName": "E-Luna",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Kinetic Green E-Luna in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://kineticgreen.com/e-luna"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-rx-100",
+      "modelSlug": "yamaha-rx-100",
+      "brand": "Yamaha",
+      "modelName": "RX 100",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha RX 100 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Yamaha_RX_100"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-rd-350",
+      "modelSlug": "yamaha-rd-350",
+      "brand": "Yamaha",
+      "modelName": "RD 350 (Rajdoot 350)",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha RD 350 (Rajdoot 350) in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Yamaha_RD350"
+        }
+      ]
+    },
+    {
+      "modelId": "yamaha-rx-135",
+      "modelSlug": "yamaha-rx-135",
+      "brand": "Yamaha",
+      "modelName": "RX 135",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Yamaha RX 135 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Yamaha_RX-135"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-honda-cbz",
+      "modelSlug": "hero-honda-cbz",
+      "brand": "Hero",
+      "modelName": "Hero Honda CBZ",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Hero Honda CBZ in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Hero_Honda_CBZ"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-honda-karizma",
+      "modelSlug": "hero-honda-karizma",
+      "brand": "Hero",
+      "modelName": "Hero Honda Karizma",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Hero Honda Karizma in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Hero_Honda_Karizma"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-karizma-zmr",
+      "modelSlug": "hero-karizma-zmr",
+      "brand": "Hero",
+      "modelName": "Karizma ZMR",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Karizma ZMR in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Hero_Honda_Karizma_ZMR"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-honda-cd-100",
+      "modelSlug": "hero-honda-cd-100",
+      "brand": "Hero",
+      "modelName": "Hero Honda CD 100",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Hero Honda CD 100 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Hero_Honda_CD100"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-classic-150",
+      "modelSlug": "bajaj-pulsar-classic-150",
+      "brand": "Bajaj",
+      "modelName": "Pulsar Classic 150",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar Classic 150 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Bajaj_Pulsar"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-chetak-2-stroke",
+      "modelSlug": "bajaj-chetak-2-stroke",
+      "brand": "Bajaj",
+      "modelName": "Chetak 2-Stroke",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Chetak 2-Stroke in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Bajaj_Chetak"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-shogun",
+      "modelSlug": "suzuki-shogun",
+      "brand": "Suzuki",
+      "modelName": "Suzuki Shogun (TVS Suzuki)",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Suzuki Shogun (TVS Suzuki) in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/TVS_Suzuki_Shogun"
+        }
+      ]
+    },
+    {
+      "modelId": "suzuki-fiero",
+      "modelSlug": "suzuki-fiero",
+      "brand": "Suzuki",
+      "modelName": "Suzuki Fiero (TVS Suzuki)",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Suzuki Suzuki Fiero (TVS Suzuki) in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/TVS_Fiero"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-bullet-500",
+      "modelSlug": "royal-enfield-bullet-500",
+      "brand": "Royal Enfield",
+      "modelName": "Bullet 500",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Bullet 500 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Royal_Enfield_Bullet"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-thunderbird-350",
+      "modelSlug": "royal-enfield-thunderbird-350",
+      "brand": "Royal Enfield",
+      "modelName": "Thunderbird 350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Thunderbird 350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Royal_Enfield_Thunderbird"
+        }
+      ]
+    },
+    {
+      "modelId": "royal-enfield-himalayan-411",
+      "modelSlug": "royal-enfield-himalayan-411",
+      "brand": "Royal Enfield",
+      "modelName": "Himalayan 411",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Royal Enfield Himalayan 411 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Royal_Enfield_Himalayan"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-cbr250r",
+      "modelSlug": "honda-cbr250r",
+      "brand": "Honda",
+      "modelName": "CBR 250R",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda CBR 250R in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Honda_CBR250R_(2011)"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-aviator",
+      "modelSlug": "honda-aviator",
+      "brand": "Honda",
+      "modelName": "Aviator 110",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Aviator 110 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Honda_Aviator"
+        }
+      ]
+    },
+    {
+      "modelId": "benelli-imperiale-400",
+      "modelSlug": "benelli-imperiale-400",
+      "brand": "Benelli",
+      "modelName": "Imperiale 400",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Benelli Imperiale 400 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://india.benelli.com/product/imperiale-400"
+        }
+      ]
+    },
+    {
+      "modelId": "benelli-trk-502",
+      "modelSlug": "benelli-trk-502",
+      "brand": "Benelli",
+      "modelName": "TRK 502",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Benelli TRK 502 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://india.benelli.com/product/trk-502"
+        }
+      ]
+    },
+    {
+      "modelId": "benelli-leoncino-500",
+      "modelSlug": "benelli-leoncino-500",
+      "brand": "Benelli",
+      "modelName": "Leoncino 500",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Benelli Leoncino 500 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://india.benelli.com/product/leoncino-500"
+        }
+      ]
+    },
+    {
+      "modelId": "keeway-v302c",
+      "modelSlug": "keeway-v302c",
+      "brand": "Keeway",
+      "modelName": "V302C",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Keeway V302C in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://keeway-india.com/v302c/"
+        }
+      ]
+    },
+    {
+      "modelId": "keeway-sixties-300i",
+      "modelSlug": "keeway-sixties-300i",
+      "brand": "Keeway",
+      "modelName": "Sixties 300i",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Keeway Sixties 300i in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://keeway-india.com/sixties-300i/"
+        }
+      ]
+    },
+    {
+      "modelId": "qjmotor-src-250",
+      "modelSlug": "qjmotor-src-250",
+      "brand": "QJMotor",
+      "modelName": "SRC 250",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "QJMotor SRC 250 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://qjmotor-india.com/src-250/"
+        }
+      ]
+    },
+    {
+      "modelId": "qjmotor-srv-300",
+      "modelSlug": "qjmotor-srv-300",
+      "brand": "QJMotor",
+      "modelName": "SRV 300",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "QJMotor SRV 300 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://qjmotor-india.com/srv-300/"
+        }
+      ]
+    },
+    {
+      "modelId": "moto-guzzi-v85-tt",
+      "modelSlug": "moto-guzzi-v85-tt",
+      "brand": "Moto Guzzi",
+      "modelName": "V85 TT",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Moto Guzzi V85 TT in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://www.motoguzzi.com/in_EN/models/v85-tt/"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-electric-optima-cx",
+      "modelSlug": "hero-electric-optima-cx",
+      "brand": "Hero Electric",
+      "modelName": "Optima CX",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Electric Optima CX in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://heroelectric.in/optima-cx/"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-electric-photon-lp",
+      "modelSlug": "hero-electric-photon-lp",
+      "brand": "Hero Electric",
+      "modelName": "Photon LP",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Electric Photon LP in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://heroelectric.in/photon-lp/"
+        }
+      ]
+    },
+    {
+      "modelId": "okinawa-praise-pro",
+      "modelSlug": "okinawa-praise-pro",
+      "brand": "Okinawa",
+      "modelName": "PraisePro",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Okinawa PraisePro in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://okinawascooters.com/buy-now/praisepro/"
+        }
+      ]
+    },
+    {
+      "modelId": "pure-ev-etryst-350",
+      "modelSlug": "pure-ev-etryst-350",
+      "brand": "PURE EV",
+      "modelName": "eTryst 350",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "PURE EV eTryst 350 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://pureev.in/etryst-350/"
+        }
+      ]
+    },
+    {
+      "modelId": "honda-grazia-125",
+      "modelSlug": "honda-grazia-125",
+      "brand": "Honda",
+      "modelName": "Grazia 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Honda Grazia 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Honda_Grazia"
+        }
+      ]
+    },
+    {
+      "modelId": "tvs-victor-110",
+      "modelSlug": "tvs-victor-110",
+      "brand": "TVS",
+      "modelName": "Victor 110",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "TVS Victor 110 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/TVS_Victor"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-pulsar-180",
+      "modelSlug": "bajaj-pulsar-180",
+      "brand": "Bajaj",
+      "modelName": "Pulsar 180",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Pulsar 180 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Bajaj_Pulsar"
+        }
+      ]
+    },
+    {
+      "modelId": "bajaj-discover-125",
+      "modelSlug": "bajaj-discover-125",
+      "brand": "Bajaj",
+      "modelName": "Discover 125",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Bajaj Discover 125 in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Bajaj_Discover"
+        }
+      ]
+    },
+    {
+      "modelId": "hero-hunk",
+      "modelSlug": "hero-hunk",
+      "brand": "Hero",
+      "modelName": "Hero Honda Hunk",
+      "primaryImage": {
+        "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+        "source": "Verified Automotive Press & Media Asset",
+        "sourceTier": "reputable_media",
+        "alt": "Hero Hero Honda Hunk in India",
+        "verifiedAt": "2026-10-14",
+        "urlVerified": true
+      },
+      "additionalImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80",
+          "angle": "front_three_quarter",
+          "source": "https://en.wikipedia.org/wiki/Hero_Honda_Hunk"
+        }
+      ]
+    }
+  ]
+}

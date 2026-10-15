@@ -1,0 +1,4390 @@
+{
+  "metadata": {
+    "generatedAt": "2026-10-14T12:00:00.000Z",
+    "version": "1.0.0",
+    "totalBikes": 162,
+    "activeBikes": 141,
+    "discontinuedBikes": 21,
+    "coverage": [
+      "Official Manufacturer Portals",
+      "BikeWale India Verified Automotive Specs",
+      "BikeDekho India Road Tests and Ex-Showroom Price Snapshots"
+    ]
+  },
+  "snapshots": {
+    "hero-splendor-plus": {
+      "bikeId": "hero-splendor-plus",
+      "slug": "hero-splendor-plus",
+      "brand": "Hero",
+      "model": "Splendor Plus",
+      "exShowroomPriceINR": 75441,
+      "maxPriceINR": 78286,
+      "estimatedOnRoadDelhiINR": 84871,
+      "estimatedOnRoadMumbaiINR": 85475,
+      "estimatedOnRoadBengaluruINR": 85776,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/practical/splendor-plus.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-splendor-plus/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-splendor-plus-xtec": {
+      "bikeId": "hero-splendor-plus-xtec",
+      "slug": "hero-splendor-plus-xtec",
+      "brand": "Hero",
+      "model": "Splendor Plus XTEC",
+      "exShowroomPriceINR": 79911,
+      "maxPriceINR": 83461,
+      "estimatedOnRoadDelhiINR": 89900,
+      "estimatedOnRoadMumbaiINR": 90539,
+      "estimatedOnRoadBengaluruINR": 90859,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/practical/splendor-plus-xtec.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-splendor-plus-xtec/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-super-splendor-xtec": {
+      "bikeId": "hero-super-splendor-xtec",
+      "slug": "hero-super-splendor-xtec",
+      "brand": "Hero",
+      "model": "Super Splendor XTEC",
+      "exShowroomPriceINR": 85178,
+      "maxPriceINR": 89078,
+      "estimatedOnRoadDelhiINR": 95825,
+      "estimatedOnRoadMumbaiINR": 96507,
+      "estimatedOnRoadBengaluruINR": 96847,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/executive/super-splendor-xtec.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-super-splendor-xtec/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-hf-deluxe": {
+      "bikeId": "hero-hf-deluxe",
+      "slug": "hero-hf-deluxe",
+      "brand": "Hero",
+      "model": "HF Deluxe",
+      "exShowroomPriceINR": 59998,
+      "maxPriceINR": 69018,
+      "estimatedOnRoadDelhiINR": 67498,
+      "estimatedOnRoadMumbaiINR": 67978,
+      "estimatedOnRoadBengaluruINR": 68218,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/practical/hf-deluxe.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-hf-deluxe/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-hf-100": {
+      "bikeId": "hero-hf-100",
+      "slug": "hero-hf-100",
+      "brand": "Hero",
+      "model": "HF 100",
+      "exShowroomPriceINR": 56968,
+      "maxPriceINR": 56968,
+      "estimatedOnRoadDelhiINR": 64089,
+      "estimatedOnRoadMumbaiINR": 64545,
+      "estimatedOnRoadBengaluruINR": 64773,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/practical/hf-100.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-hf-100/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-passion-plus": {
+      "bikeId": "hero-passion-plus",
+      "slug": "hero-passion-plus",
+      "brand": "Hero",
+      "model": "Passion Plus",
+      "exShowroomPriceINR": 78426,
+      "maxPriceINR": 78426,
+      "estimatedOnRoadDelhiINR": 88229,
+      "estimatedOnRoadMumbaiINR": 88857,
+      "estimatedOnRoadBengaluruINR": 89170,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/practical/passion-plus.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-passion-plus/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-glamour-xtec": {
+      "bikeId": "hero-glamour-xtec",
+      "slug": "hero-glamour-xtec",
+      "brand": "Hero",
+      "model": "Glamour XTEC",
+      "exShowroomPriceINR": 89748,
+      "maxPriceINR": 94348,
+      "estimatedOnRoadDelhiINR": 100967,
+      "estimatedOnRoadMumbaiINR": 101684,
+      "estimatedOnRoadBengaluruINR": 102043,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/executive/glamour-xtec.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-glamour-xtec/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-xtreme-125r": {
+      "bikeId": "hero-xtreme-125r",
+      "slug": "hero-xtreme-125r",
+      "brand": "Hero",
+      "model": "Xtreme 125R",
+      "exShowroomPriceINR": 95000,
+      "maxPriceINR": 99500,
+      "estimatedOnRoadDelhiINR": 106875,
+      "estimatedOnRoadMumbaiINR": 107635,
+      "estimatedOnRoadBengaluruINR": 108015,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/performance/xtreme-125r.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-xtreme-125r/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-xtreme-160r-4v": {
+      "bikeId": "hero-xtreme-160r-4v",
+      "slug": "hero-xtreme-160r-4v",
+      "brand": "Hero",
+      "model": "Xtreme 160R 4V",
+      "exShowroomPriceINR": 127300,
+      "maxPriceINR": 136500,
+      "estimatedOnRoadDelhiINR": 145759,
+      "estimatedOnRoadMumbaiINR": 147032,
+      "estimatedOnRoadBengaluruINR": 147668,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/performance/xtreme-160r-4v.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-xtreme-160r-4v/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-xpulse-200-4v": {
+      "bikeId": "hero-xpulse-200-4v",
+      "slug": "hero-xpulse-200-4v",
+      "brand": "Hero",
+      "model": "XPulse 200 4V",
+      "exShowroomPriceINR": 147391,
+      "maxPriceINR": 154796,
+      "estimatedOnRoadDelhiINR": 168763,
+      "estimatedOnRoadMumbaiINR": 170237,
+      "estimatedOnRoadBengaluruINR": 170974,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/performance/xpulse-200-4v.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-xpulse-200-4v/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-mavrick-440": {
+      "bikeId": "hero-mavrick-440",
+      "slug": "hero-mavrick-440",
+      "brand": "Hero",
+      "model": "Mavrick 440",
+      "exShowroomPriceINR": 199000,
+      "maxPriceINR": 224000,
+      "estimatedOnRoadDelhiINR": 227855,
+      "estimatedOnRoadMumbaiINR": 229845,
+      "estimatedOnRoadBengaluruINR": 230840,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/performance/mavrick-440.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-mavrick-440/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-karizma-xmr": {
+      "bikeId": "hero-karizma-xmr",
+      "slug": "hero-karizma-xmr",
+      "brand": "Hero",
+      "model": "Karizma XMR 210",
+      "exShowroomPriceINR": 179900,
+      "maxPriceINR": 179900,
+      "estimatedOnRoadDelhiINR": 205986,
+      "estimatedOnRoadMumbaiINR": 207785,
+      "estimatedOnRoadBengaluruINR": 208684,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/motorcycles/performance/karizma-xmr.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-karizma-xmr/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-shine-100": {
+      "bikeId": "honda-shine-100",
+      "slug": "honda-shine-100",
+      "brand": "Honda",
+      "model": "Shine 100",
+      "exShowroomPriceINR": 64900,
+      "maxPriceINR": 64900,
+      "estimatedOnRoadDelhiINR": 73013,
+      "estimatedOnRoadMumbaiINR": 73532,
+      "estimatedOnRoadBengaluruINR": 73791,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/shine100/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-shine-100/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-shine-125": {
+      "bikeId": "honda-shine-125",
+      "slug": "honda-shine-125",
+      "brand": "Honda",
+      "model": "Shine 125",
+      "exShowroomPriceINR": 80800,
+      "maxPriceINR": 84800,
+      "estimatedOnRoadDelhiINR": 90900,
+      "estimatedOnRoadMumbaiINR": 91546,
+      "estimatedOnRoadBengaluruINR": 91870,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/shine/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-shine-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-sp125": {
+      "bikeId": "honda-sp125",
+      "slug": "honda-sp125",
+      "brand": "Honda",
+      "model": "SP 125",
+      "exShowroomPriceINR": 86017,
+      "maxPriceINR": 90017,
+      "estimatedOnRoadDelhiINR": 96769,
+      "estimatedOnRoadMumbaiINR": 97457,
+      "estimatedOnRoadBengaluruINR": 97801,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/sp125/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-sp125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-sp160": {
+      "bikeId": "honda-sp160",
+      "slug": "honda-sp160",
+      "brand": "Honda",
+      "model": "SP 160",
+      "exShowroomPriceINR": 117500,
+      "maxPriceINR": 121900,
+      "estimatedOnRoadDelhiINR": 134538,
+      "estimatedOnRoadMumbaiINR": 135713,
+      "estimatedOnRoadBengaluruINR": 136300,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/sp160/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-sp160/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-unicorn-160": {
+      "bikeId": "honda-unicorn-160",
+      "slug": "honda-unicorn-160",
+      "brand": "Honda",
+      "model": "Unicorn 160",
+      "exShowroomPriceINR": 109800,
+      "maxPriceINR": 109800,
+      "estimatedOnRoadDelhiINR": 125721,
+      "estimatedOnRoadMumbaiINR": 126819,
+      "estimatedOnRoadBengaluruINR": 127368,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/unicorn/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-unicorn-160/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-hornet-2-0": {
+      "bikeId": "honda-hornet-2-0",
+      "slug": "honda-hornet-2-0",
+      "brand": "Honda",
+      "model": "Hornet 2.0",
+      "exShowroomPriceINR": 139000,
+      "maxPriceINR": 140000,
+      "estimatedOnRoadDelhiINR": 159155,
+      "estimatedOnRoadMumbaiINR": 160545,
+      "estimatedOnRoadBengaluruINR": 161240,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/hornet2-0/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-hornet-2-0/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-cb200x": {
+      "bikeId": "honda-cb200x",
+      "slug": "honda-cb200x",
+      "brand": "Honda",
+      "model": "CB200X",
+      "exShowroomPriceINR": 147500,
+      "maxPriceINR": 147500,
+      "estimatedOnRoadDelhiINR": 168888,
+      "estimatedOnRoadMumbaiINR": 170363,
+      "estimatedOnRoadBengaluruINR": 171100,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/cb200x/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-cb200x/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-hness-cb350": {
+      "bikeId": "honda-hness-cb350",
+      "slug": "honda-hness-cb350",
+      "brand": "Honda",
+      "model": "H'ness CB350",
+      "exShowroomPriceINR": 209857,
+      "maxPriceINR": 216356,
+      "estimatedOnRoadDelhiINR": 240286,
+      "estimatedOnRoadMumbaiINR": 242385,
+      "estimatedOnRoadBengaluruINR": 243434,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.hondabigwing.in/cb350",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-hness-cb350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-cb350rs": {
+      "bikeId": "honda-cb350rs",
+      "slug": "honda-cb350rs",
+      "brand": "Honda",
+      "model": "CB350RS",
+      "exShowroomPriceINR": 214856,
+      "maxPriceINR": 217856,
+      "estimatedOnRoadDelhiINR": 246010,
+      "estimatedOnRoadMumbaiINR": 248159,
+      "estimatedOnRoadBengaluruINR": 249233,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.hondabigwing.in/cb350rs",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-cb350rs/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-cb300r": {
+      "bikeId": "honda-cb300r",
+      "slug": "honda-cb300r",
+      "brand": "Honda",
+      "model": "CB300R",
+      "exShowroomPriceINR": 240000,
+      "maxPriceINR": 240000,
+      "estimatedOnRoadDelhiINR": 274800,
+      "estimatedOnRoadMumbaiINR": 277200,
+      "estimatedOnRoadBengaluruINR": 278400,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.hondabigwing.in/cb300r",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-cb300r/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-125": {
+      "bikeId": "bajaj-pulsar-125",
+      "slug": "bajaj-pulsar-125",
+      "brand": "Bajaj",
+      "model": "Pulsar 125",
+      "exShowroomPriceINR": 81843,
+      "maxPriceINR": 94138,
+      "estimatedOnRoadDelhiINR": 92073,
+      "estimatedOnRoadMumbaiINR": 92728,
+      "estimatedOnRoadBengaluruINR": 93055,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-125",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-150": {
+      "bikeId": "bajaj-pulsar-150",
+      "slug": "bajaj-pulsar-150",
+      "brand": "Bajaj",
+      "model": "Pulsar 150",
+      "exShowroomPriceINR": 110419,
+      "maxPriceINR": 115418,
+      "estimatedOnRoadDelhiINR": 126430,
+      "estimatedOnRoadMumbaiINR": 127534,
+      "estimatedOnRoadBengaluruINR": 128086,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-150",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-150/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-n160": {
+      "bikeId": "bajaj-pulsar-n160",
+      "slug": "bajaj-pulsar-n160",
+      "brand": "Bajaj",
+      "model": "Pulsar N160",
+      "exShowroomPriceINR": 122854,
+      "maxPriceINR": 132525,
+      "estimatedOnRoadDelhiINR": 140668,
+      "estimatedOnRoadMumbaiINR": 141896,
+      "estimatedOnRoadBengaluruINR": 142511,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-n160",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-n160/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-n250": {
+      "bikeId": "bajaj-pulsar-n250",
+      "slug": "bajaj-pulsar-n250",
+      "brand": "Bajaj",
+      "model": "Pulsar N250",
+      "exShowroomPriceINR": 150829,
+      "maxPriceINR": 150829,
+      "estimatedOnRoadDelhiINR": 172699,
+      "estimatedOnRoadMumbaiINR": 174207,
+      "estimatedOnRoadBengaluruINR": 174962,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-n250",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-n250/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-220f": {
+      "bikeId": "bajaj-pulsar-220f",
+      "slug": "bajaj-pulsar-220f",
+      "brand": "Bajaj",
+      "model": "Pulsar 220F",
+      "exShowroomPriceINR": 141024,
+      "maxPriceINR": 141024,
+      "estimatedOnRoadDelhiINR": 161472,
+      "estimatedOnRoadMumbaiINR": 162883,
+      "estimatedOnRoadBengaluruINR": 163588,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-220f",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-220f/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-ns400z": {
+      "bikeId": "bajaj-pulsar-ns400z",
+      "slug": "bajaj-pulsar-ns400z",
+      "brand": "Bajaj",
+      "model": "Pulsar NS400Z",
+      "exShowroomPriceINR": 185000,
+      "maxPriceINR": 185000,
+      "estimatedOnRoadDelhiINR": 211825,
+      "estimatedOnRoadMumbaiINR": 213675,
+      "estimatedOnRoadBengaluruINR": 214600,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns400z",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-ns400z/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-ns200": {
+      "bikeId": "bajaj-pulsar-ns200",
+      "slug": "bajaj-pulsar-ns200",
+      "brand": "Bajaj",
+      "model": "Pulsar NS200",
+      "exShowroomPriceINR": 158336,
+      "maxPriceINR": 158336,
+      "estimatedOnRoadDelhiINR": 181295,
+      "estimatedOnRoadMumbaiINR": 182878,
+      "estimatedOnRoadBengaluruINR": 183670,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns200",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-ns200/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-rs200": {
+      "bikeId": "bajaj-pulsar-rs200",
+      "slug": "bajaj-pulsar-rs200",
+      "brand": "Bajaj",
+      "model": "Pulsar RS200",
+      "exShowroomPriceINR": 173318,
+      "maxPriceINR": 173318,
+      "estimatedOnRoadDelhiINR": 198449,
+      "estimatedOnRoadMumbaiINR": 200182,
+      "estimatedOnRoadBengaluruINR": 201049,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-rs200",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-rs200/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-ns160": {
+      "bikeId": "bajaj-pulsar-ns160",
+      "slug": "bajaj-pulsar-ns160",
+      "brand": "Bajaj",
+      "model": "Pulsar NS160",
+      "exShowroomPriceINR": 146701,
+      "maxPriceINR": 146701,
+      "estimatedOnRoadDelhiINR": 167973,
+      "estimatedOnRoadMumbaiINR": 169440,
+      "estimatedOnRoadBengaluruINR": 170173,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns160",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-ns160/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-freedom-125": {
+      "bikeId": "bajaj-freedom-125",
+      "slug": "bajaj-freedom-125",
+      "brand": "Bajaj",
+      "model": "Freedom 125 CNG",
+      "exShowroomPriceINR": 95000,
+      "maxPriceINR": 110000,
+      "estimatedOnRoadDelhiINR": 106875,
+      "estimatedOnRoadMumbaiINR": 107635,
+      "estimatedOnRoadBengaluruINR": 108015,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/freedom/freedom-125",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-freedom-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-platina-110-abs": {
+      "bikeId": "bajaj-platina-110-abs",
+      "slug": "bajaj-platina-110-abs",
+      "brand": "Bajaj",
+      "model": "Platina 110 ABS",
+      "exShowroomPriceINR": 79821,
+      "maxPriceINR": 79821,
+      "estimatedOnRoadDelhiINR": 89799,
+      "estimatedOnRoadMumbaiINR": 90437,
+      "estimatedOnRoadBengaluruINR": 90756,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/platina/platina-110-abs",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-platina-110-abs/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-avenger-cruise-220": {
+      "bikeId": "bajaj-avenger-cruise-220",
+      "slug": "bajaj-avenger-cruise-220",
+      "brand": "Bajaj",
+      "model": "Avenger Cruise 220",
+      "exShowroomPriceINR": 144346,
+      "maxPriceINR": 144346,
+      "estimatedOnRoadDelhiINR": 165276,
+      "estimatedOnRoadMumbaiINR": 166720,
+      "estimatedOnRoadBengaluruINR": 167441,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/avenger/avenger-cruise-220",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-avenger-cruise-220/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-dominar-400": {
+      "bikeId": "bajaj-dominar-400",
+      "slug": "bajaj-dominar-400",
+      "brand": "Bajaj",
+      "model": "Dominar 400",
+      "exShowroomPriceINR": 232040,
+      "maxPriceINR": 232040,
+      "estimatedOnRoadDelhiINR": 265686,
+      "estimatedOnRoadMumbaiINR": 268006,
+      "estimatedOnRoadBengaluruINR": 269166,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.bajajauto.com/bikes/dominar/dominar-400",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-dominar-400/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-ronin-225": {
+      "bikeId": "tvs-ronin-225",
+      "slug": "tvs-ronin-225",
+      "brand": "TVS",
+      "model": "Ronin 225",
+      "exShowroomPriceINR": 149200,
+      "maxPriceINR": 172700,
+      "estimatedOnRoadDelhiINR": 170834,
+      "estimatedOnRoadMumbaiINR": 172326,
+      "estimatedOnRoadBengaluruINR": 173072,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-ronin",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-ronin-225/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-apache-rtr-200-4v": {
+      "bikeId": "tvs-apache-rtr-200-4v",
+      "slug": "tvs-apache-rtr-200-4v",
+      "brand": "TVS",
+      "model": "Apache RTR 200 4V",
+      "exShowroomPriceINR": 141670,
+      "maxPriceINR": 146720,
+      "estimatedOnRoadDelhiINR": 162212,
+      "estimatedOnRoadMumbaiINR": 163629,
+      "estimatedOnRoadBengaluruINR": 164337,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-apache/apache-rtr-200-4v",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-apache-rtr-200-4v/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-apache-rr-310": {
+      "bikeId": "tvs-apache-rr-310",
+      "slug": "tvs-apache-rr-310",
+      "brand": "TVS",
+      "model": "Apache RR 310",
+      "exShowroomPriceINR": 275000,
+      "maxPriceINR": 297000,
+      "estimatedOnRoadDelhiINR": 314875,
+      "estimatedOnRoadMumbaiINR": 317625,
+      "estimatedOnRoadBengaluruINR": 319000,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-apache/apache-rr-310",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-apache-rr-310/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-apache-rtr-310": {
+      "bikeId": "tvs-apache-rtr-310",
+      "slug": "tvs-apache-rtr-310",
+      "brand": "TVS",
+      "model": "Apache RTR 310",
+      "exShowroomPriceINR": 242990,
+      "maxPriceINR": 263990,
+      "estimatedOnRoadDelhiINR": 278224,
+      "estimatedOnRoadMumbaiINR": 280653,
+      "estimatedOnRoadBengaluruINR": 281868,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-apache/apache-rtr-310",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-apache-rtr-310/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-radeon-110": {
+      "bikeId": "tvs-radeon-110",
+      "slug": "tvs-radeon-110",
+      "brand": "TVS",
+      "model": "Radeon 110",
+      "exShowroomPriceINR": 62405,
+      "maxPriceINR": 77705,
+      "estimatedOnRoadDelhiINR": 70206,
+      "estimatedOnRoadMumbaiINR": 70705,
+      "estimatedOnRoadBengaluruINR": 70954,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-radeon",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-radeon-110/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-xl100-heavy-duty": {
+      "bikeId": "tvs-xl100-heavy-duty",
+      "slug": "tvs-xl100-heavy-duty",
+      "brand": "TVS",
+      "model": "XL100 Heavy Duty",
+      "exShowroomPriceINR": 44999,
+      "maxPriceINR": 59700,
+      "estimatedOnRoadDelhiINR": 50624,
+      "estimatedOnRoadMumbaiINR": 50984,
+      "estimatedOnRoadBengaluruINR": 51164,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-xl100",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-xl100-heavy-duty/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-apache-rtr-160-4v": {
+      "bikeId": "tvs-apache-rtr-160-4v",
+      "slug": "tvs-apache-rtr-160-4v",
+      "brand": "TVS",
+      "model": "Apache RTR 160 4V",
+      "exShowroomPriceINR": 124870,
+      "maxPriceINR": 138670,
+      "estimatedOnRoadDelhiINR": 142976,
+      "estimatedOnRoadMumbaiINR": 144225,
+      "estimatedOnRoadBengaluruINR": 144849,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-apache/apache-rtr-160-4v",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-apache-rtr-160-4v/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-raider-125": {
+      "bikeId": "tvs-raider-125",
+      "slug": "tvs-raider-125",
+      "brand": "TVS",
+      "model": "Raider 125",
+      "exShowroomPriceINR": 95219,
+      "maxPriceINR": 104500,
+      "estimatedOnRoadDelhiINR": 107121,
+      "estimatedOnRoadMumbaiINR": 107883,
+      "estimatedOnRoadBengaluruINR": 108264,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-raider",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-raider-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-fzs-fi-v4": {
+      "bikeId": "yamaha-fzs-fi-v4",
+      "slug": "yamaha-fzs-fi-v4",
+      "brand": "Yamaha",
+      "model": "FZ-S FI V4",
+      "exShowroomPriceINR": 129700,
+      "maxPriceINR": 130200,
+      "estimatedOnRoadDelhiINR": 148507,
+      "estimatedOnRoadMumbaiINR": 149804,
+      "estimatedOnRoadBengaluruINR": 150452,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-fzs-fi-v4.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-fzs-fi-v4/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-classic-350": {
+      "bikeId": "royal-enfield-classic-350",
+      "slug": "royal-enfield-classic-350",
+      "brand": "Royal Enfield",
+      "model": "Classic 350",
+      "exShowroomPriceINR": 193000,
+      "maxPriceINR": 230000,
+      "estimatedOnRoadDelhiINR": 220985,
+      "estimatedOnRoadMumbaiINR": 222915,
+      "estimatedOnRoadBengaluruINR": 223880,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/classic-350/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-classic-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-hunter-350": {
+      "bikeId": "royal-enfield-hunter-350",
+      "slug": "royal-enfield-hunter-350",
+      "brand": "Royal Enfield",
+      "model": "Hunter 350",
+      "exShowroomPriceINR": 149900,
+      "maxPriceINR": 174655,
+      "estimatedOnRoadDelhiINR": 171636,
+      "estimatedOnRoadMumbaiINR": 173135,
+      "estimatedOnRoadBengaluruINR": 173884,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/hunter-350/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-hunter-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-bullet-350": {
+      "bikeId": "royal-enfield-bullet-350",
+      "slug": "royal-enfield-bullet-350",
+      "brand": "Royal Enfield",
+      "model": "Bullet 350",
+      "exShowroomPriceINR": 173562,
+      "maxPriceINR": 215801,
+      "estimatedOnRoadDelhiINR": 198728,
+      "estimatedOnRoadMumbaiINR": 200464,
+      "estimatedOnRoadBengaluruINR": 201332,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/bullet-350/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-bullet-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-meteor-350": {
+      "bikeId": "royal-enfield-meteor-350",
+      "slug": "royal-enfield-meteor-350",
+      "brand": "Royal Enfield",
+      "model": "Meteor 350",
+      "exShowroomPriceINR": 205844,
+      "maxPriceINR": 229900,
+      "estimatedOnRoadDelhiINR": 235691,
+      "estimatedOnRoadMumbaiINR": 237750,
+      "estimatedOnRoadBengaluruINR": 238779,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/meteor-350/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-meteor-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-himalayan-450": {
+      "bikeId": "royal-enfield-himalayan-450",
+      "slug": "royal-enfield-himalayan-450",
+      "brand": "Royal Enfield",
+      "model": "Himalayan 450",
+      "exShowroomPriceINR": 285000,
+      "maxPriceINR": 298000,
+      "estimatedOnRoadDelhiINR": 326325,
+      "estimatedOnRoadMumbaiINR": 329175,
+      "estimatedOnRoadBengaluruINR": 330600,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/new-himalayan/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-himalayan-450/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-guerrilla-450": {
+      "bikeId": "royal-enfield-guerrilla-450",
+      "slug": "royal-enfield-guerrilla-450",
+      "brand": "Royal Enfield",
+      "model": "Guerrilla 450",
+      "exShowroomPriceINR": 239000,
+      "maxPriceINR": 254000,
+      "estimatedOnRoadDelhiINR": 273655,
+      "estimatedOnRoadMumbaiINR": 276045,
+      "estimatedOnRoadBengaluruINR": 277240,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/guerrilla-450/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-guerrilla-450/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-interceptor-650": {
+      "bikeId": "royal-enfield-interceptor-650",
+      "slug": "royal-enfield-interceptor-650",
+      "brand": "Royal Enfield",
+      "model": "Interceptor 650",
+      "exShowroomPriceINR": 303000,
+      "maxPriceINR": 331000,
+      "estimatedOnRoadDelhiINR": 346935,
+      "estimatedOnRoadMumbaiINR": 349965,
+      "estimatedOnRoadBengaluruINR": 351480,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/interceptor/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-interceptor-650/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-gt-650": {
+      "bikeId": "royal-enfield-gt-650",
+      "slug": "royal-enfield-gt-650",
+      "brand": "Royal Enfield",
+      "model": "Continental GT 650",
+      "exShowroomPriceINR": 319000,
+      "maxPriceINR": 345000,
+      "estimatedOnRoadDelhiINR": 365255,
+      "estimatedOnRoadMumbaiINR": 368445,
+      "estimatedOnRoadBengaluruINR": 370040,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/continental-gt-650/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-gt-650/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-super-meteor-650": {
+      "bikeId": "royal-enfield-super-meteor-650",
+      "slug": "royal-enfield-super-meteor-650",
+      "brand": "Royal Enfield",
+      "model": "Super Meteor 650",
+      "exShowroomPriceINR": 363900,
+      "maxPriceINR": 394347,
+      "estimatedOnRoadDelhiINR": 416666,
+      "estimatedOnRoadMumbaiINR": 420305,
+      "estimatedOnRoadBengaluruINR": 422124,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/super-meteor-650/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-super-meteor-650/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-shotgun-650": {
+      "bikeId": "royal-enfield-shotgun-650",
+      "slug": "royal-enfield-shotgun-650",
+      "brand": "Royal Enfield",
+      "model": "Shotgun 650",
+      "exShowroomPriceINR": 359430,
+      "maxPriceINR": 373000,
+      "estimatedOnRoadDelhiINR": 411547,
+      "estimatedOnRoadMumbaiINR": 415142,
+      "estimatedOnRoadBengaluruINR": 416939,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://www.royalenfield.com/in/en/motorcycles/shotgun-650/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-shotgun-650/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ktm-200-duke": {
+      "bikeId": "ktm-200-duke",
+      "slug": "ktm-200-duke",
+      "brand": "KTM",
+      "model": "200 Duke",
+      "exShowroomPriceINR": 198000,
+      "maxPriceINR": 198000,
+      "estimatedOnRoadDelhiINR": 226710,
+      "estimatedOnRoadMumbaiINR": 228690,
+      "estimatedOnRoadBengaluruINR": 229680,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "KTM Official India Portal",
+          "url": "https://www.ktm.com/en-in/models/naked-bike/ktm-200-duke-2024.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ktm-200-duke/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ktm-250-duke": {
+      "bikeId": "ktm-250-duke",
+      "slug": "ktm-250-duke",
+      "brand": "KTM",
+      "model": "250 Duke",
+      "exShowroomPriceINR": 241000,
+      "maxPriceINR": 241000,
+      "estimatedOnRoadDelhiINR": 275945,
+      "estimatedOnRoadMumbaiINR": 278355,
+      "estimatedOnRoadBengaluruINR": 279560,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "KTM Official India Portal",
+          "url": "https://www.ktm.com/en-in/models/naked-bike/ktm-250-duke-2024.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ktm-250-duke/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ktm-390-duke": {
+      "bikeId": "ktm-390-duke",
+      "slug": "ktm-390-duke",
+      "brand": "KTM",
+      "model": "390 Duke",
+      "exShowroomPriceINR": 311000,
+      "maxPriceINR": 311000,
+      "estimatedOnRoadDelhiINR": 356095,
+      "estimatedOnRoadMumbaiINR": 359205,
+      "estimatedOnRoadBengaluruINR": 360760,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "KTM Official India Portal",
+          "url": "https://www.ktm.com/en-in/models/naked-bike/ktm-390-duke-2024.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ktm-390-duke/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ktm-rc-200": {
+      "bikeId": "ktm-rc-200",
+      "slug": "ktm-rc-200",
+      "brand": "KTM",
+      "model": "RC 200",
+      "exShowroomPriceINR": 218000,
+      "maxPriceINR": 218000,
+      "estimatedOnRoadDelhiINR": 249610,
+      "estimatedOnRoadMumbaiINR": 251790,
+      "estimatedOnRoadBengaluruINR": 252880,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "KTM Official India Portal",
+          "url": "https://www.ktm.com/en-in/models/supersport/ktm-rc-200-2024.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ktm-rc-200/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ktm-rc-390": {
+      "bikeId": "ktm-rc-390",
+      "slug": "ktm-rc-390",
+      "brand": "KTM",
+      "model": "RC 390",
+      "exShowroomPriceINR": 318000,
+      "maxPriceINR": 321000,
+      "estimatedOnRoadDelhiINR": 364110,
+      "estimatedOnRoadMumbaiINR": 367290,
+      "estimatedOnRoadBengaluruINR": 368880,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "KTM Official India Portal",
+          "url": "https://www.ktm.com/en-in/models/supersport/ktm-rc-390-2024.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ktm-rc-390/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ktm-390-adventure": {
+      "bikeId": "ktm-390-adventure",
+      "slug": "ktm-390-adventure",
+      "brand": "KTM",
+      "model": "390 Adventure",
+      "exShowroomPriceINR": 338000,
+      "maxPriceINR": 360000,
+      "estimatedOnRoadDelhiINR": 387010,
+      "estimatedOnRoadMumbaiINR": 390390,
+      "estimatedOnRoadBengaluruINR": 392080,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "KTM Official India Portal",
+          "url": "https://www.ktm.com/en-in/models/travel/ktm-390-adventure2024.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ktm-390-adventure/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ktm-390-adventure-x": {
+      "bikeId": "ktm-390-adventure-x",
+      "slug": "ktm-390-adventure-x",
+      "brand": "KTM",
+      "model": "390 Adventure X",
+      "exShowroomPriceINR": 281000,
+      "maxPriceINR": 281000,
+      "estimatedOnRoadDelhiINR": 321745,
+      "estimatedOnRoadMumbaiINR": 324555,
+      "estimatedOnRoadBengaluruINR": 325960,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "KTM Official India Portal",
+          "url": "https://www.ktm.com/en-in/models/travel/ktm-390-adventure-x.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ktm-390-adventure-x/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-r15-v4": {
+      "bikeId": "yamaha-r15-v4",
+      "slug": "yamaha-r15-v4",
+      "brand": "Yamaha",
+      "model": "YZF R15 V4",
+      "exShowroomPriceINR": 182600,
+      "maxPriceINR": 187600,
+      "estimatedOnRoadDelhiINR": 209077,
+      "estimatedOnRoadMumbaiINR": 210903,
+      "estimatedOnRoadBengaluruINR": 211816,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-r15-v4.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-r15-v4/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-r15m": {
+      "bikeId": "yamaha-r15m",
+      "slug": "yamaha-r15m",
+      "brand": "Yamaha",
+      "model": "YZF R15M",
+      "exShowroomPriceINR": 196800,
+      "maxPriceINR": 198300,
+      "estimatedOnRoadDelhiINR": 225336,
+      "estimatedOnRoadMumbaiINR": 227304,
+      "estimatedOnRoadBengaluruINR": 228288,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-r15m.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-r15m/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-mt-15-v2": {
+      "bikeId": "yamaha-mt-15-v2",
+      "slug": "yamaha-mt-15-v2",
+      "brand": "Yamaha",
+      "model": "MT-15 V2",
+      "exShowroomPriceINR": 168200,
+      "maxPriceINR": 173700,
+      "estimatedOnRoadDelhiINR": 192589,
+      "estimatedOnRoadMumbaiINR": 194271,
+      "estimatedOnRoadBengaluruINR": 195112,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-mt-15-v2.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-mt-15-v2/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-r3": {
+      "bikeId": "yamaha-r3",
+      "slug": "yamaha-r3",
+      "brand": "Yamaha",
+      "model": "YZF R3",
+      "exShowroomPriceINR": 464900,
+      "maxPriceINR": 464900,
+      "estimatedOnRoadDelhiINR": 532311,
+      "estimatedOnRoadMumbaiINR": 536960,
+      "estimatedOnRoadBengaluruINR": 539284,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-r3.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-r3/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-gixxer-sf-250": {
+      "bikeId": "suzuki-gixxer-sf-250",
+      "slug": "suzuki-gixxer-sf-250",
+      "brand": "Suzuki",
+      "model": "Gixxer SF 250",
+      "exShowroomPriceINR": 192100,
+      "maxPriceINR": 205500,
+      "estimatedOnRoadDelhiINR": 219955,
+      "estimatedOnRoadMumbaiINR": 221876,
+      "estimatedOnRoadBengaluruINR": 222836,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://www.suzukimotorcycle.co.in/product-details/gixxer-sf-250",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-gixxer-sf-250/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-v-strom-sx": {
+      "bikeId": "suzuki-v-strom-sx",
+      "slug": "suzuki-v-strom-sx",
+      "brand": "Suzuki",
+      "model": "V-Strom SX 250",
+      "exShowroomPriceINR": 211600,
+      "maxPriceINR": 211600,
+      "estimatedOnRoadDelhiINR": 242282,
+      "estimatedOnRoadMumbaiINR": 244398,
+      "estimatedOnRoadBengaluruINR": 245456,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://www.suzukimotorcycle.co.in/product-details/v-strom-sx",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-v-strom-sx/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-hayabusa": {
+      "bikeId": "suzuki-hayabusa",
+      "slug": "suzuki-hayabusa",
+      "brand": "Suzuki",
+      "model": "Hayabusa GSX1300R",
+      "exShowroomPriceINR": 1690000,
+      "maxPriceINR": 1770000,
+      "estimatedOnRoadDelhiINR": 1935050,
+      "estimatedOnRoadMumbaiINR": 1951950,
+      "estimatedOnRoadBengaluruINR": 1960400,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://www.suzukimotorcycle.co.in/product-details/hayabusa",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-hayabusa/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "kawasaki-ninja-300": {
+      "bikeId": "kawasaki-ninja-300",
+      "slug": "kawasaki-ninja-300",
+      "brand": "Kawasaki",
+      "model": "Ninja 300",
+      "exShowroomPriceINR": 343000,
+      "maxPriceINR": 343000,
+      "estimatedOnRoadDelhiINR": 392735,
+      "estimatedOnRoadMumbaiINR": 396165,
+      "estimatedOnRoadBengaluruINR": 397880,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Kawasaki Official India Portal",
+          "url": "https://kawasaki-india.com/bikes/ninja-300/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/kawasaki-ninja-300/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "kawasaki-ninja-500": {
+      "bikeId": "kawasaki-ninja-500",
+      "slug": "kawasaki-ninja-500",
+      "brand": "Kawasaki",
+      "model": "Ninja 500",
+      "exShowroomPriceINR": 524000,
+      "maxPriceINR": 524000,
+      "estimatedOnRoadDelhiINR": 599980,
+      "estimatedOnRoadMumbaiINR": 605220,
+      "estimatedOnRoadBengaluruINR": 607840,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Kawasaki Official India Portal",
+          "url": "https://kawasaki-india.com/bikes/ninja-500/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/kawasaki-ninja-500/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "kawasaki-ninja-650": {
+      "bikeId": "kawasaki-ninja-650",
+      "slug": "kawasaki-ninja-650",
+      "brand": "Kawasaki",
+      "model": "Ninja 650",
+      "exShowroomPriceINR": 716000,
+      "maxPriceINR": 716000,
+      "estimatedOnRoadDelhiINR": 819820,
+      "estimatedOnRoadMumbaiINR": 826980,
+      "estimatedOnRoadBengaluruINR": 830560,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Kawasaki Official India Portal",
+          "url": "https://kawasaki-india.com/bikes/ninja-650/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/kawasaki-ninja-650/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "kawasaki-z900": {
+      "bikeId": "kawasaki-z900",
+      "slug": "kawasaki-z900",
+      "brand": "Kawasaki",
+      "model": "Z900",
+      "exShowroomPriceINR": 938000,
+      "maxPriceINR": 938000,
+      "estimatedOnRoadDelhiINR": 1074010,
+      "estimatedOnRoadMumbaiINR": 1083390,
+      "estimatedOnRoadBengaluruINR": 1088080,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Kawasaki Official India Portal",
+          "url": "https://kawasaki-india.com/bikes/z900/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/kawasaki-z900/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "kawasaki-ninja-zx-10r": {
+      "bikeId": "kawasaki-ninja-zx-10r",
+      "slug": "kawasaki-ninja-zx-10r",
+      "brand": "Kawasaki",
+      "model": "Ninja ZX-10R",
+      "exShowroomPriceINR": 1679000,
+      "maxPriceINR": 1679000,
+      "estimatedOnRoadDelhiINR": 1922455,
+      "estimatedOnRoadMumbaiINR": 1939245,
+      "estimatedOnRoadBengaluruINR": 1947640,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Kawasaki Official India Portal",
+          "url": "https://kawasaki-india.com/bikes/ninja-zx-10r/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/kawasaki-ninja-zx-10r/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bmw-g-310-r": {
+      "bikeId": "bmw-g-310-r",
+      "slug": "bmw-g-310-r",
+      "brand": "BMW Motorrad",
+      "model": "G 310 R",
+      "exShowroomPriceINR": 290000,
+      "maxPriceINR": 290000,
+      "estimatedOnRoadDelhiINR": 332050,
+      "estimatedOnRoadMumbaiINR": 334950,
+      "estimatedOnRoadBengaluruINR": 336400,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "BMW Motorrad Official India Portal",
+          "url": "https://www.bmw-motorrad.in/en/models/roadster/g310r.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bmw-g-310-r/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bmw-g-310-gs": {
+      "bikeId": "bmw-g-310-gs",
+      "slug": "bmw-g-310-gs",
+      "brand": "BMW Motorrad",
+      "model": "G 310 GS",
+      "exShowroomPriceINR": 330000,
+      "maxPriceINR": 330000,
+      "estimatedOnRoadDelhiINR": 377850,
+      "estimatedOnRoadMumbaiINR": 381150,
+      "estimatedOnRoadBengaluruINR": 382800,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "BMW Motorrad Official India Portal",
+          "url": "https://www.bmw-motorrad.in/en/models/adventure/g310gs.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bmw-g-310-gs/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bmw-s-1000-rr": {
+      "bikeId": "bmw-s-1000-rr",
+      "slug": "bmw-s-1000-rr",
+      "brand": "BMW Motorrad",
+      "model": "S 1000 RR",
+      "exShowroomPriceINR": 2075000,
+      "maxPriceINR": 2525000,
+      "estimatedOnRoadDelhiINR": 2375875,
+      "estimatedOnRoadMumbaiINR": 2396625,
+      "estimatedOnRoadBengaluruINR": 2407000,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "BMW Motorrad Official India Portal",
+          "url": "https://www.bmw-motorrad.in/en/models/sport/s1000rr.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bmw-s-1000-rr/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "triumph-speed-400": {
+      "bikeId": "triumph-speed-400",
+      "slug": "triumph-speed-400",
+      "brand": "Triumph",
+      "model": "Speed 400",
+      "exShowroomPriceINR": 240000,
+      "maxPriceINR": 240000,
+      "estimatedOnRoadDelhiINR": 274800,
+      "estimatedOnRoadMumbaiINR": 277200,
+      "estimatedOnRoadBengaluruINR": 278400,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Triumph Official India Portal",
+          "url": "https://www.triumphmotorcycles.in/motorcycles/classic/speed-400",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/triumph-speed-400/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "triumph-scrambler-400-x": {
+      "bikeId": "triumph-scrambler-400-x",
+      "slug": "triumph-scrambler-400-x",
+      "brand": "Triumph",
+      "model": "Scrambler 400 X",
+      "exShowroomPriceINR": 264496,
+      "maxPriceINR": 264496,
+      "estimatedOnRoadDelhiINR": 302848,
+      "estimatedOnRoadMumbaiINR": 305493,
+      "estimatedOnRoadBengaluruINR": 306815,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Triumph Official India Portal",
+          "url": "https://www.triumphmotorcycles.in/motorcycles/classic/scrambler-400-x",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/triumph-scrambler-400-x/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "triumph-street-triple-765-rs": {
+      "bikeId": "triumph-street-triple-765-rs",
+      "slug": "triumph-street-triple-765-rs",
+      "brand": "Triumph",
+      "model": "Street Triple 765 RS",
+      "exShowroomPriceINR": 1207000,
+      "maxPriceINR": 1207000,
+      "estimatedOnRoadDelhiINR": 1382015,
+      "estimatedOnRoadMumbaiINR": 1394085,
+      "estimatedOnRoadBengaluruINR": 1400120,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Triumph Official India Portal",
+          "url": "https://www.triumphmotorcycles.in/motorcycles/roadsters/street-triple-765",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/triumph-street-triple-765-rs/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "harley-davidson-x440": {
+      "bikeId": "harley-davidson-x440",
+      "slug": "harley-davidson-x440",
+      "brand": "Harley-Davidson",
+      "model": "X440",
+      "exShowroomPriceINR": 239500,
+      "maxPriceINR": 279500,
+      "estimatedOnRoadDelhiINR": 274228,
+      "estimatedOnRoadMumbaiINR": 276623,
+      "estimatedOnRoadBengaluruINR": 277820,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Harley-Davidson Official India Portal",
+          "url": "https://www.harley-davidson.com/in/en/motorcycles/x-440.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/harley-davidson-x440/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "aprilia-rs-457": {
+      "bikeId": "aprilia-rs-457",
+      "slug": "aprilia-rs-457",
+      "brand": "Aprilia",
+      "model": "RS 457",
+      "exShowroomPriceINR": 410000,
+      "maxPriceINR": 410000,
+      "estimatedOnRoadDelhiINR": 469450,
+      "estimatedOnRoadMumbaiINR": 473550,
+      "estimatedOnRoadBengaluruINR": 475600,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Aprilia Official India Portal",
+          "url": "https://www.aprilia.com/in_EN/models/rs-457/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/aprilia-rs-457/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ducati-panigale-v4": {
+      "bikeId": "ducati-panigale-v4",
+      "slug": "ducati-panigale-v4",
+      "brand": "Ducati",
+      "model": "Panigale V4",
+      "exShowroomPriceINR": 2772000,
+      "maxPriceINR": 3348000,
+      "estimatedOnRoadDelhiINR": 3173940,
+      "estimatedOnRoadMumbaiINR": 3201660,
+      "estimatedOnRoadBengaluruINR": 3215520,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ducati Official India Portal",
+          "url": "https://www.ducati.com/in/en/bikes/panigale/panigale-v4",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ducati-panigale-v4/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "jawa-350": {
+      "bikeId": "jawa-350",
+      "slug": "jawa-350",
+      "brand": "Jawa",
+      "model": "350",
+      "exShowroomPriceINR": 214950,
+      "maxPriceINR": 214950,
+      "estimatedOnRoadDelhiINR": 246118,
+      "estimatedOnRoadMumbaiINR": 248267,
+      "estimatedOnRoadBengaluruINR": 249342,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Jawa Official India Portal",
+          "url": "https://www.jawamotorcycles.com/motorcycles/jawa-350",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/jawa-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "jawa-42-bobber": {
+      "bikeId": "jawa-42-bobber",
+      "slug": "jawa-42-bobber",
+      "brand": "Jawa",
+      "model": "42 Bobber",
+      "exShowroomPriceINR": 209500,
+      "maxPriceINR": 229500,
+      "estimatedOnRoadDelhiINR": 239878,
+      "estimatedOnRoadMumbaiINR": 241973,
+      "estimatedOnRoadBengaluruINR": 243020,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Jawa Official India Portal",
+          "url": "https://www.jawamotorcycles.com/motorcycles/42-bobber",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/jawa-42-bobber/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yezdi-adventure": {
+      "bikeId": "yezdi-adventure",
+      "slug": "yezdi-adventure",
+      "brand": "Yezdi",
+      "model": "Adventure",
+      "exShowroomPriceINR": 215900,
+      "maxPriceINR": 227900,
+      "estimatedOnRoadDelhiINR": 247206,
+      "estimatedOnRoadMumbaiINR": 249365,
+      "estimatedOnRoadBengaluruINR": 250444,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yezdi Official India Portal",
+          "url": "https://www.yezdi.com/motorcycles/yezdi-adventure",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yezdi-adventure/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bsa-gold-star-650": {
+      "bikeId": "bsa-gold-star-650",
+      "slug": "bsa-gold-star-650",
+      "brand": "BSA",
+      "model": "Gold Star 650",
+      "exShowroomPriceINR": 299990,
+      "maxPriceINR": 334990,
+      "estimatedOnRoadDelhiINR": 343489,
+      "estimatedOnRoadMumbaiINR": 346488,
+      "estimatedOnRoadBengaluruINR": 347988,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "BSA Official India Portal",
+          "url": "https://www.bsacompany.co.uk/gold-star/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bsa-gold-star-650/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-activa-6g": {
+      "bikeId": "honda-activa-6g",
+      "slug": "honda-activa-6g",
+      "brand": "Honda",
+      "model": "Activa 6G",
+      "exShowroomPriceINR": 76684,
+      "maxPriceINR": 82684,
+      "estimatedOnRoadDelhiINR": 86270,
+      "estimatedOnRoadMumbaiINR": 86883,
+      "estimatedOnRoadBengaluruINR": 87190,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/activa-6g/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-activa-6g/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-activa-125": {
+      "bikeId": "honda-activa-125",
+      "slug": "honda-activa-125",
+      "brand": "Honda",
+      "model": "Activa 125",
+      "exShowroomPriceINR": 80256,
+      "maxPriceINR": 89537,
+      "estimatedOnRoadDelhiINR": 90288,
+      "estimatedOnRoadMumbaiINR": 90930,
+      "estimatedOnRoadBengaluruINR": 91251,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/activa-125/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-activa-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-dio-110": {
+      "bikeId": "honda-dio-110",
+      "slug": "honda-dio-110",
+      "brand": "Honda",
+      "model": "Dio 110",
+      "exShowroomPriceINR": 70211,
+      "maxPriceINR": 77712,
+      "estimatedOnRoadDelhiINR": 78987,
+      "estimatedOnRoadMumbaiINR": 79549,
+      "estimatedOnRoadBengaluruINR": 79830,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/dio-110/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-dio-110/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-dio-125": {
+      "bikeId": "honda-dio-125",
+      "slug": "honda-dio-125",
+      "brand": "Honda",
+      "model": "Dio 125",
+      "exShowroomPriceINR": 83400,
+      "maxPriceINR": 91300,
+      "estimatedOnRoadDelhiINR": 93825,
+      "estimatedOnRoadMumbaiINR": 94492,
+      "estimatedOnRoadBengaluruINR": 94826,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://www.honda2wheelersindia.com/dio-125/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-dio-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-jupiter-110": {
+      "bikeId": "tvs-jupiter-110",
+      "slug": "tvs-jupiter-110",
+      "brand": "TVS",
+      "model": "Jupiter 110",
+      "exShowroomPriceINR": 73700,
+      "maxPriceINR": 87250,
+      "estimatedOnRoadDelhiINR": 82913,
+      "estimatedOnRoadMumbaiINR": 83502,
+      "estimatedOnRoadBengaluruINR": 83797,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-jupiter-110",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-jupiter-110/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-jupiter-125": {
+      "bikeId": "tvs-jupiter-125",
+      "slug": "tvs-jupiter-125",
+      "brand": "TVS",
+      "model": "Jupiter 125",
+      "exShowroomPriceINR": 86405,
+      "maxPriceINR": 96855,
+      "estimatedOnRoadDelhiINR": 97206,
+      "estimatedOnRoadMumbaiINR": 97897,
+      "estimatedOnRoadBengaluruINR": 98242,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-jupiter-125",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-jupiter-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-ntorq-125": {
+      "bikeId": "tvs-ntorq-125",
+      "slug": "tvs-ntorq-125",
+      "brand": "TVS",
+      "model": "Ntorq 125",
+      "exShowroomPriceINR": 84636,
+      "maxPriceINR": 104641,
+      "estimatedOnRoadDelhiINR": 95216,
+      "estimatedOnRoadMumbaiINR": 95893,
+      "estimatedOnRoadBengaluruINR": 96231,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-ntorq",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-ntorq-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-scooty-zest-110": {
+      "bikeId": "tvs-scooty-zest-110",
+      "slug": "tvs-scooty-zest-110",
+      "brand": "TVS",
+      "model": "Scooty Zest 110",
+      "exShowroomPriceINR": 73931,
+      "maxPriceINR": 75293,
+      "estimatedOnRoadDelhiINR": 83172,
+      "estimatedOnRoadMumbaiINR": 83764,
+      "estimatedOnRoadBengaluruINR": 84060,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-scooty-zest-110",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-scooty-zest-110/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-access-125": {
+      "bikeId": "suzuki-access-125",
+      "slug": "suzuki-access-125",
+      "brand": "Suzuki",
+      "model": "Access 125",
+      "exShowroomPriceINR": 79899,
+      "maxPriceINR": 90500,
+      "estimatedOnRoadDelhiINR": 89886,
+      "estimatedOnRoadMumbaiINR": 90526,
+      "estimatedOnRoadBengaluruINR": 90845,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://www.suzukimotorcycle.co.in/product-details/all-new-access-125",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-access-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-burgman-street": {
+      "bikeId": "suzuki-burgman-street",
+      "slug": "suzuki-burgman-street",
+      "brand": "Suzuki",
+      "model": "Burgman Street 125",
+      "exShowroomPriceINR": 94301,
+      "maxPriceINR": 98300,
+      "estimatedOnRoadDelhiINR": 106089,
+      "estimatedOnRoadMumbaiINR": 106843,
+      "estimatedOnRoadBengaluruINR": 107220,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://www.suzukimotorcycle.co.in/product-details/burgman-street",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-burgman-street/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-burgman-street-ex": {
+      "bikeId": "suzuki-burgman-street-ex",
+      "slug": "suzuki-burgman-street-ex",
+      "brand": "Suzuki",
+      "model": "Burgman Street EX",
+      "exShowroomPriceINR": 114500,
+      "maxPriceINR": 114500,
+      "estimatedOnRoadDelhiINR": 131103,
+      "estimatedOnRoadMumbaiINR": 132248,
+      "estimatedOnRoadBengaluruINR": 132820,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://www.suzukimotorcycle.co.in/product-details/burgman-street-ex",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-burgman-street-ex/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-avenis-125": {
+      "bikeId": "suzuki-avenis-125",
+      "slug": "suzuki-avenis-125",
+      "brand": "Suzuki",
+      "model": "Avenis 125",
+      "exShowroomPriceINR": 92000,
+      "maxPriceINR": 92800,
+      "estimatedOnRoadDelhiINR": 103500,
+      "estimatedOnRoadMumbaiINR": 104236,
+      "estimatedOnRoadBengaluruINR": 104604,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://www.suzukimotorcycle.co.in/product-details/avenis",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-avenis-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-aerox-155": {
+      "bikeId": "yamaha-aerox-155",
+      "slug": "yamaha-aerox-155",
+      "brand": "Yamaha",
+      "model": "Aerox 155",
+      "exShowroomPriceINR": 147300,
+      "maxPriceINR": 148800,
+      "estimatedOnRoadDelhiINR": 168659,
+      "estimatedOnRoadMumbaiINR": 170132,
+      "estimatedOnRoadBengaluruINR": 170868,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-aerox-155.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-aerox-155/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-rayzr-125-hybrid": {
+      "bikeId": "yamaha-rayzr-125-hybrid",
+      "slug": "yamaha-rayzr-125-hybrid",
+      "brand": "Yamaha",
+      "model": "RayZR 125 Fi Hybrid",
+      "exShowroomPriceINR": 85300,
+      "maxPriceINR": 95900,
+      "estimatedOnRoadDelhiINR": 95963,
+      "estimatedOnRoadMumbaiINR": 96645,
+      "estimatedOnRoadBengaluruINR": 96986,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-rayzr-125-fi-hybrid.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-rayzr-125-hybrid/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-fascino-125-hybrid": {
+      "bikeId": "yamaha-fascino-125-hybrid",
+      "slug": "yamaha-fascino-125-hybrid",
+      "brand": "Yamaha",
+      "model": "Fascino 125 Fi Hybrid",
+      "exShowroomPriceINR": 81200,
+      "maxPriceINR": 93830,
+      "estimatedOnRoadDelhiINR": 91350,
+      "estimatedOnRoadMumbaiINR": 92000,
+      "estimatedOnRoadBengaluruINR": 92324,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://www.yamaha-motor-india.com/yamaha-fascino-125-fi-hybrid.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-fascino-125-hybrid/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-destini-125": {
+      "bikeId": "hero-destini-125",
+      "slug": "hero-destini-125",
+      "brand": "Hero",
+      "model": "Destini 125 XTEC",
+      "exShowroomPriceINR": 80048,
+      "maxPriceINR": 86538,
+      "estimatedOnRoadDelhiINR": 90054,
+      "estimatedOnRoadMumbaiINR": 90694,
+      "estimatedOnRoadBengaluruINR": 91015,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/scooters/destini-125-xtec.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-destini-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-xoom-110": {
+      "bikeId": "hero-xoom-110",
+      "slug": "hero-xoom-110",
+      "brand": "Hero",
+      "model": "Xoom 110",
+      "exShowroomPriceINR": 71484,
+      "maxPriceINR": 79967,
+      "estimatedOnRoadDelhiINR": 80420,
+      "estimatedOnRoadMumbaiINR": 80991,
+      "estimatedOnRoadBengaluruINR": 81277,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://www.heromotocorp.com/en-in/scooters/xoom.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-xoom-110/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "aprilia-sr-160": {
+      "bikeId": "aprilia-sr-160",
+      "slug": "aprilia-sr-160",
+      "brand": "Aprilia",
+      "model": "SR 160",
+      "exShowroomPriceINR": 133000,
+      "maxPriceINR": 142000,
+      "estimatedOnRoadDelhiINR": 152285,
+      "estimatedOnRoadMumbaiINR": 153615,
+      "estimatedOnRoadBengaluruINR": 154280,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Aprilia Official India Portal",
+          "url": "https://www.aprilia.com/in_EN/models/sr-160/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/aprilia-sr-160/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "aprilia-sxr-160": {
+      "bikeId": "aprilia-sxr-160",
+      "slug": "aprilia-sxr-160",
+      "brand": "Aprilia",
+      "model": "SXR 160",
+      "exShowroomPriceINR": 146000,
+      "maxPriceINR": 146000,
+      "estimatedOnRoadDelhiINR": 167170,
+      "estimatedOnRoadMumbaiINR": 168630,
+      "estimatedOnRoadBengaluruINR": 169360,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Aprilia Official India Portal",
+          "url": "https://www.aprilia.com/in_EN/models/sxr-160/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/aprilia-sxr-160/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "vespa-vxl-125": {
+      "bikeId": "vespa-vxl-125",
+      "slug": "vespa-vxl-125",
+      "brand": "Vespa",
+      "model": "VXL 125",
+      "exShowroomPriceINR": 132000,
+      "maxPriceINR": 132000,
+      "estimatedOnRoadDelhiINR": 151140,
+      "estimatedOnRoadMumbaiINR": 152460,
+      "estimatedOnRoadBengaluruINR": 153120,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Vespa Official India Portal",
+          "url": "https://www.vespa.com/in_EN/models/vxl/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/vespa-vxl-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "vespa-sxl-150": {
+      "bikeId": "vespa-sxl-150",
+      "slug": "vespa-sxl-150",
+      "brand": "Vespa",
+      "model": "SXL 150",
+      "exShowroomPriceINR": 148000,
+      "maxPriceINR": 148000,
+      "estimatedOnRoadDelhiINR": 169460,
+      "estimatedOnRoadMumbaiINR": 170940,
+      "estimatedOnRoadBengaluruINR": 171680,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Vespa Official India Portal",
+          "url": "https://www.vespa.com/in_EN/models/sxl/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/vespa-sxl-150/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ather-450x": {
+      "bikeId": "ather-450x",
+      "slug": "ather-450x",
+      "brand": "Ather",
+      "model": "450X Gen 3",
+      "exShowroomPriceINR": 140599,
+      "maxPriceINR": 154999,
+      "estimatedOnRoadDelhiINR": 160986,
+      "estimatedOnRoadMumbaiINR": 162392,
+      "estimatedOnRoadBengaluruINR": 163095,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ather Official India Portal",
+          "url": "https://www.atherenergy.com/450x",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ather-450x/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ather-450s": {
+      "bikeId": "ather-450s",
+      "slug": "ather-450s",
+      "brand": "Ather",
+      "model": "450S",
+      "exShowroomPriceINR": 115599,
+      "maxPriceINR": 125599,
+      "estimatedOnRoadDelhiINR": 132361,
+      "estimatedOnRoadMumbaiINR": 133517,
+      "estimatedOnRoadBengaluruINR": 134095,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ather Official India Portal",
+          "url": "https://www.atherenergy.com/450s",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ather-450s/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ather-450-apex": {
+      "bikeId": "ather-450-apex",
+      "slug": "ather-450-apex",
+      "brand": "Ather",
+      "model": "450 Apex",
+      "exShowroomPriceINR": 189999,
+      "maxPriceINR": 189999,
+      "estimatedOnRoadDelhiINR": 217549,
+      "estimatedOnRoadMumbaiINR": 219449,
+      "estimatedOnRoadBengaluruINR": 220399,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ather Official India Portal",
+          "url": "https://www.atherenergy.com/450-apex",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ather-450-apex/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ather-rizta": {
+      "bikeId": "ather-rizta",
+      "slug": "ather-rizta",
+      "brand": "Ather",
+      "model": "Rizta",
+      "exShowroomPriceINR": 109999,
+      "maxPriceINR": 144999,
+      "estimatedOnRoadDelhiINR": 125949,
+      "estimatedOnRoadMumbaiINR": 127049,
+      "estimatedOnRoadBengaluruINR": 127599,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ather Official India Portal",
+          "url": "https://www.atherenergy.com/rizta",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ather-rizta/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ola-s1-pro": {
+      "bikeId": "ola-s1-pro",
+      "slug": "ola-s1-pro",
+      "brand": "Ola Electric",
+      "model": "S1 Pro Gen 2",
+      "exShowroomPriceINR": 134999,
+      "maxPriceINR": 134999,
+      "estimatedOnRoadDelhiINR": 154574,
+      "estimatedOnRoadMumbaiINR": 155924,
+      "estimatedOnRoadBengaluruINR": 156599,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ola Electric Official India Portal",
+          "url": "https://www.olaelectric.com/s1-pro",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ola-s1-pro/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ola-s1-air": {
+      "bikeId": "ola-s1-air",
+      "slug": "ola-s1-air",
+      "brand": "Ola Electric",
+      "model": "S1 Air",
+      "exShowroomPriceINR": 104999,
+      "maxPriceINR": 104999,
+      "estimatedOnRoadDelhiINR": 120224,
+      "estimatedOnRoadMumbaiINR": 121274,
+      "estimatedOnRoadBengaluruINR": 121799,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ola Electric Official India Portal",
+          "url": "https://www.olaelectric.com/s1-air",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ola-s1-air/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ola-s1-x": {
+      "bikeId": "ola-s1-x",
+      "slug": "ola-s1-x",
+      "brand": "Ola Electric",
+      "model": "S1 X",
+      "exShowroomPriceINR": 74999,
+      "maxPriceINR": 99999,
+      "estimatedOnRoadDelhiINR": 84374,
+      "estimatedOnRoadMumbaiINR": 84974,
+      "estimatedOnRoadBengaluruINR": 85274,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ola Electric Official India Portal",
+          "url": "https://www.olaelectric.com/s1-x",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ola-s1-x/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-chetak-premium": {
+      "bikeId": "bajaj-chetak-premium",
+      "slug": "bajaj-chetak-premium",
+      "brand": "Bajaj",
+      "model": "Chetak Premium",
+      "exShowroomPriceINR": 147243,
+      "maxPriceINR": 147243,
+      "estimatedOnRoadDelhiINR": 168593,
+      "estimatedOnRoadMumbaiINR": 170066,
+      "estimatedOnRoadBengaluruINR": 170802,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.chetak.com/chetak-premium",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-chetak-premium/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-chetak-2901": {
+      "bikeId": "bajaj-chetak-2901",
+      "slug": "bajaj-chetak-2901",
+      "brand": "Bajaj",
+      "model": "Chetak 2901",
+      "exShowroomPriceINR": 95998,
+      "maxPriceINR": 95998,
+      "estimatedOnRoadDelhiINR": 107998,
+      "estimatedOnRoadMumbaiINR": 108766,
+      "estimatedOnRoadBengaluruINR": 109150,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://www.chetak.com/chetak-2901",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-chetak-2901/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-iqube": {
+      "bikeId": "tvs-iqube",
+      "slug": "tvs-iqube",
+      "brand": "TVS",
+      "model": "iQube Electric",
+      "exShowroomPriceINR": 117299,
+      "maxPriceINR": 136628,
+      "estimatedOnRoadDelhiINR": 134307,
+      "estimatedOnRoadMumbaiINR": 135480,
+      "estimatedOnRoadBengaluruINR": 136067,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-iqube",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-iqube/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-iqube-st": {
+      "bikeId": "tvs-iqube-st",
+      "slug": "tvs-iqube-st",
+      "brand": "TVS",
+      "model": "iQube ST 5.1 kWh",
+      "exShowroomPriceINR": 185373,
+      "maxPriceINR": 185373,
+      "estimatedOnRoadDelhiINR": 212252,
+      "estimatedOnRoadMumbaiINR": 214106,
+      "estimatedOnRoadBengaluruINR": 215033,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-iqube/iqube-st",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-iqube-st/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-x": {
+      "bikeId": "tvs-x",
+      "slug": "tvs-x",
+      "brand": "TVS",
+      "model": "TVS X",
+      "exShowroomPriceINR": 249990,
+      "maxPriceINR": 249990,
+      "estimatedOnRoadDelhiINR": 286239,
+      "estimatedOnRoadMumbaiINR": 288738,
+      "estimatedOnRoadBengaluruINR": 289988,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://www.tvsmotor.com/tvs-x",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-x/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-vida-v1-pro": {
+      "bikeId": "hero-vida-v1-pro",
+      "slug": "hero-vida-v1-pro",
+      "brand": "Hero Vida",
+      "model": "Vida V1 Pro",
+      "exShowroomPriceINR": 130200,
+      "maxPriceINR": 130200,
+      "estimatedOnRoadDelhiINR": 149079,
+      "estimatedOnRoadMumbaiINR": 150381,
+      "estimatedOnRoadBengaluruINR": 151032,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Vida Official India Portal",
+          "url": "https://www.vidaworld.com/vida-v1.html",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-vida-v1-pro/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "river-indie": {
+      "bikeId": "river-indie",
+      "slug": "river-indie",
+      "brand": "River",
+      "model": "Indie",
+      "exShowroomPriceINR": 138000,
+      "maxPriceINR": 138000,
+      "estimatedOnRoadDelhiINR": 158010,
+      "estimatedOnRoadMumbaiINR": 159390,
+      "estimatedOnRoadBengaluruINR": 160080,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "River Official India Portal",
+          "url": "https://www.rideriver.com/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/river-indie/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ultraviolette-f77-mach-2": {
+      "bikeId": "ultraviolette-f77-mach-2",
+      "slug": "ultraviolette-f77-mach-2",
+      "brand": "Ultraviolette",
+      "model": "F77 Mach 2",
+      "exShowroomPriceINR": 299000,
+      "maxPriceINR": 399000,
+      "estimatedOnRoadDelhiINR": 342355,
+      "estimatedOnRoadMumbaiINR": 345345,
+      "estimatedOnRoadBengaluruINR": 346840,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ultraviolette Official India Portal",
+          "url": "https://www.ultraviolette.com/f77-mach2",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ultraviolette-f77-mach-2/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "revolt-rv400": {
+      "bikeId": "revolt-rv400",
+      "slug": "revolt-rv400",
+      "brand": "Revolt Motors",
+      "model": "RV400",
+      "exShowroomPriceINR": 139000,
+      "maxPriceINR": 149950,
+      "estimatedOnRoadDelhiINR": 159155,
+      "estimatedOnRoadMumbaiINR": 160545,
+      "estimatedOnRoadBengaluruINR": 161240,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Revolt Motors Official India Portal",
+          "url": "https://www.revoltmotors.com/rv400",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/revolt-rv400/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "simple-one": {
+      "bikeId": "simple-one",
+      "slug": "simple-one",
+      "brand": "Simple Energy",
+      "model": "Simple One",
+      "exShowroomPriceINR": 165000,
+      "maxPriceINR": 165000,
+      "estimatedOnRoadDelhiINR": 188925,
+      "estimatedOnRoadMumbaiINR": 190575,
+      "estimatedOnRoadBengaluruINR": 191400,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Simple Energy Official India Portal",
+          "url": "https://www.simpleenergy.in/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/simple-one/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "matter-aera-5000": {
+      "bikeId": "matter-aera-5000",
+      "slug": "matter-aera-5000",
+      "brand": "Matter",
+      "model": "AERA 5000",
+      "exShowroomPriceINR": 173999,
+      "maxPriceINR": 183999,
+      "estimatedOnRoadDelhiINR": 199229,
+      "estimatedOnRoadMumbaiINR": 200969,
+      "estimatedOnRoadBengaluruINR": 201839,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Matter Official India Portal",
+          "url": "https://www.matter.in/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/matter-aera-5000/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "oben-rorr": {
+      "bikeId": "oben-rorr",
+      "slug": "oben-rorr",
+      "brand": "Oben Electric",
+      "model": "Oben Rorr",
+      "exShowroomPriceINR": 149999,
+      "maxPriceINR": 149999,
+      "estimatedOnRoadDelhiINR": 171749,
+      "estimatedOnRoadMumbaiINR": 173249,
+      "estimatedOnRoadBengaluruINR": 173999,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Oben Electric Official India Portal",
+          "url": "https://www.obenelectric.com/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/oben-rorr/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tork-kratos-r": {
+      "bikeId": "tork-kratos-r",
+      "slug": "tork-kratos-r",
+      "brand": "Tork Motors",
+      "model": "Kratos R",
+      "exShowroomPriceINR": 149999,
+      "maxPriceINR": 149999,
+      "estimatedOnRoadDelhiINR": 171749,
+      "estimatedOnRoadMumbaiINR": 173249,
+      "estimatedOnRoadBengaluruINR": 173999,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Tork Motors Official India Portal",
+          "url": "https://torkmotors.com/kratos-r",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tork-kratos-r/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "ampere-nexus": {
+      "bikeId": "ampere-nexus",
+      "slug": "ampere-nexus",
+      "brand": "Ampere",
+      "model": "Nexus",
+      "exShowroomPriceINR": 109900,
+      "maxPriceINR": 119900,
+      "estimatedOnRoadDelhiINR": 125836,
+      "estimatedOnRoadMumbaiINR": 126935,
+      "estimatedOnRoadBengaluruINR": 127484,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Ampere Official India Portal",
+          "url": "https://ampere.greaveselectricmobility.com/nexus",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/ampere-nexus/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "kinetic-green-e-luna": {
+      "bikeId": "kinetic-green-e-luna",
+      "slug": "kinetic-green-e-luna",
+      "brand": "Kinetic Green",
+      "model": "E-Luna",
+      "exShowroomPriceINR": 69990,
+      "maxPriceINR": 74990,
+      "estimatedOnRoadDelhiINR": 78739,
+      "estimatedOnRoadMumbaiINR": 79299,
+      "estimatedOnRoadBengaluruINR": 79579,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Kinetic Green Official India Portal",
+          "url": "https://kineticgreen.com/e-luna",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/kinetic-green-e-luna/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-rx-100": {
+      "bikeId": "yamaha-rx-100",
+      "slug": "yamaha-rx-100",
+      "brand": "Yamaha",
+      "model": "RX 100",
+      "exShowroomPriceINR": 19764,
+      "maxPriceINR": 38000,
+      "estimatedOnRoadDelhiINR": 22235,
+      "estimatedOnRoadMumbaiINR": 22393,
+      "estimatedOnRoadBengaluruINR": 22472,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Yamaha_RX_100",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-rx-100/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-rd-350": {
+      "bikeId": "yamaha-rd-350",
+      "slug": "yamaha-rd-350",
+      "brand": "Yamaha",
+      "model": "RD 350 (Rajdoot 350)",
+      "exShowroomPriceINR": 30000,
+      "maxPriceINR": 42000,
+      "estimatedOnRoadDelhiINR": 33750,
+      "estimatedOnRoadMumbaiINR": 33990,
+      "estimatedOnRoadBengaluruINR": 34110,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Yamaha_RD350",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-rd-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "yamaha-rx-135": {
+      "bikeId": "yamaha-rx-135",
+      "slug": "yamaha-rx-135",
+      "brand": "Yamaha",
+      "model": "RX 135",
+      "exShowroomPriceINR": 41000,
+      "maxPriceINR": 48000,
+      "estimatedOnRoadDelhiINR": 46125,
+      "estimatedOnRoadMumbaiINR": 46453,
+      "estimatedOnRoadBengaluruINR": 46617,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Yamaha Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Yamaha_RX-135",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/yamaha-rx-135/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-honda-cbz": {
+      "bikeId": "hero-honda-cbz",
+      "slug": "hero-honda-cbz",
+      "brand": "Hero",
+      "model": "Hero Honda CBZ",
+      "exShowroomPriceINR": 59000,
+      "maxPriceINR": 65000,
+      "estimatedOnRoadDelhiINR": 66375,
+      "estimatedOnRoadMumbaiINR": 66847,
+      "estimatedOnRoadBengaluruINR": 67083,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Hero_Honda_CBZ",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-honda-cbz/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-honda-karizma": {
+      "bikeId": "hero-honda-karizma",
+      "slug": "hero-honda-karizma",
+      "brand": "Hero",
+      "model": "Hero Honda Karizma",
+      "exShowroomPriceINR": 69000,
+      "maxPriceINR": 79000,
+      "estimatedOnRoadDelhiINR": 77625,
+      "estimatedOnRoadMumbaiINR": 78177,
+      "estimatedOnRoadBengaluruINR": 78453,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Hero_Honda_Karizma",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-honda-karizma/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-karizma-zmr": {
+      "bikeId": "hero-karizma-zmr",
+      "slug": "hero-karizma-zmr",
+      "brand": "Hero",
+      "model": "Karizma ZMR",
+      "exShowroomPriceINR": 91000,
+      "maxPriceINR": 108000,
+      "estimatedOnRoadDelhiINR": 102375,
+      "estimatedOnRoadMumbaiINR": 103103,
+      "estimatedOnRoadBengaluruINR": 103467,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Hero_Honda_Karizma_ZMR",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-karizma-zmr/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-honda-cd-100": {
+      "bikeId": "hero-honda-cd-100",
+      "slug": "hero-honda-cd-100",
+      "brand": "Hero",
+      "model": "Hero Honda CD 100",
+      "exShowroomPriceINR": 16000,
+      "maxPriceINR": 32000,
+      "estimatedOnRoadDelhiINR": 18000,
+      "estimatedOnRoadMumbaiINR": 18128,
+      "estimatedOnRoadBengaluruINR": 18192,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Hero_Honda_CD100",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-honda-cd-100/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-classic-150": {
+      "bikeId": "bajaj-pulsar-classic-150",
+      "slug": "bajaj-pulsar-classic-150",
+      "brand": "Bajaj",
+      "model": "Pulsar Classic 150",
+      "exShowroomPriceINR": 50000,
+      "maxPriceINR": 56000,
+      "estimatedOnRoadDelhiINR": 56250,
+      "estimatedOnRoadMumbaiINR": 56650,
+      "estimatedOnRoadBengaluruINR": 56850,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Bajaj_Pulsar",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-classic-150/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-chetak-2-stroke": {
+      "bikeId": "bajaj-chetak-2-stroke",
+      "slug": "bajaj-chetak-2-stroke",
+      "brand": "Bajaj",
+      "model": "Chetak 2-Stroke",
+      "exShowroomPriceINR": 7500,
+      "maxPriceINR": 28000,
+      "estimatedOnRoadDelhiINR": 8438,
+      "estimatedOnRoadMumbaiINR": 8498,
+      "estimatedOnRoadBengaluruINR": 8528,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Bajaj_Chetak",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-chetak-2-stroke/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-shogun": {
+      "bikeId": "suzuki-shogun",
+      "slug": "suzuki-shogun",
+      "brand": "Suzuki",
+      "model": "Suzuki Shogun (TVS Suzuki)",
+      "exShowroomPriceINR": 38000,
+      "maxPriceINR": 44000,
+      "estimatedOnRoadDelhiINR": 42750,
+      "estimatedOnRoadMumbaiINR": 43054,
+      "estimatedOnRoadBengaluruINR": 43206,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/TVS_Suzuki_Shogun",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-shogun/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "suzuki-fiero": {
+      "bikeId": "suzuki-fiero",
+      "slug": "suzuki-fiero",
+      "brand": "Suzuki",
+      "model": "Suzuki Fiero (TVS Suzuki)",
+      "exShowroomPriceINR": 51000,
+      "maxPriceINR": 57000,
+      "estimatedOnRoadDelhiINR": 57375,
+      "estimatedOnRoadMumbaiINR": 57783,
+      "estimatedOnRoadBengaluruINR": 57987,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Suzuki Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/TVS_Fiero",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/suzuki-fiero/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-bullet-500": {
+      "bikeId": "royal-enfield-bullet-500",
+      "slug": "royal-enfield-bullet-500",
+      "brand": "Royal Enfield",
+      "model": "Bullet 500",
+      "exShowroomPriceINR": 188000,
+      "maxPriceINR": 195000,
+      "estimatedOnRoadDelhiINR": 215260,
+      "estimatedOnRoadMumbaiINR": 217140,
+      "estimatedOnRoadBengaluruINR": 218080,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Royal_Enfield_Bullet",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-bullet-500/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-thunderbird-350": {
+      "bikeId": "royal-enfield-thunderbird-350",
+      "slug": "royal-enfield-thunderbird-350",
+      "brand": "Royal Enfield",
+      "model": "Thunderbird 350",
+      "exShowroomPriceINR": 156000,
+      "maxPriceINR": 164000,
+      "estimatedOnRoadDelhiINR": 178620,
+      "estimatedOnRoadMumbaiINR": 180180,
+      "estimatedOnRoadBengaluruINR": 180960,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Royal_Enfield_Thunderbird",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-thunderbird-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "royal-enfield-himalayan-411": {
+      "bikeId": "royal-enfield-himalayan-411",
+      "slug": "royal-enfield-himalayan-411",
+      "brand": "Royal Enfield",
+      "model": "Himalayan 411",
+      "exShowroomPriceINR": 215000,
+      "maxPriceINR": 228000,
+      "estimatedOnRoadDelhiINR": 246175,
+      "estimatedOnRoadMumbaiINR": 248325,
+      "estimatedOnRoadBengaluruINR": 249400,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Royal Enfield Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Royal_Enfield_Himalayan",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/royal-enfield-himalayan-411/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-cbr250r": {
+      "bikeId": "honda-cbr250r",
+      "slug": "honda-cbr250r",
+      "brand": "Honda",
+      "model": "CBR 250R",
+      "exShowroomPriceINR": 165000,
+      "maxPriceINR": 195000,
+      "estimatedOnRoadDelhiINR": 188925,
+      "estimatedOnRoadMumbaiINR": 190575,
+      "estimatedOnRoadBengaluruINR": 191400,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Honda_CBR250R_(2011)",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-cbr250r/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-aviator": {
+      "bikeId": "honda-aviator",
+      "slug": "honda-aviator",
+      "brand": "Honda",
+      "model": "Aviator 110",
+      "exShowroomPriceINR": 58000,
+      "maxPriceINR": 63000,
+      "estimatedOnRoadDelhiINR": 65250,
+      "estimatedOnRoadMumbaiINR": 65714,
+      "estimatedOnRoadBengaluruINR": 65946,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Honda_Aviator",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-aviator/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "benelli-imperiale-400": {
+      "bikeId": "benelli-imperiale-400",
+      "slug": "benelli-imperiale-400",
+      "brand": "Benelli",
+      "model": "Imperiale 400",
+      "exShowroomPriceINR": 235000,
+      "maxPriceINR": 235000,
+      "estimatedOnRoadDelhiINR": 269075,
+      "estimatedOnRoadMumbaiINR": 271425,
+      "estimatedOnRoadBengaluruINR": 272600,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Benelli Official India Portal",
+          "url": "https://india.benelli.com/product/imperiale-400",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/benelli-imperiale-400/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "benelli-trk-502": {
+      "bikeId": "benelli-trk-502",
+      "slug": "benelli-trk-502",
+      "brand": "Benelli",
+      "model": "TRK 502",
+      "exShowroomPriceINR": 585000,
+      "maxPriceINR": 635000,
+      "estimatedOnRoadDelhiINR": 669825,
+      "estimatedOnRoadMumbaiINR": 675675,
+      "estimatedOnRoadBengaluruINR": 678600,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Benelli Official India Portal",
+          "url": "https://india.benelli.com/product/trk-502",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/benelli-trk-502/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "benelli-leoncino-500": {
+      "bikeId": "benelli-leoncino-500",
+      "slug": "benelli-leoncino-500",
+      "brand": "Benelli",
+      "model": "Leoncino 500",
+      "exShowroomPriceINR": 560000,
+      "maxPriceINR": 560000,
+      "estimatedOnRoadDelhiINR": 641200,
+      "estimatedOnRoadMumbaiINR": 646800,
+      "estimatedOnRoadBengaluruINR": 649600,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Benelli Official India Portal",
+          "url": "https://india.benelli.com/product/leoncino-500",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/benelli-leoncino-500/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "keeway-v302c": {
+      "bikeId": "keeway-v302c",
+      "slug": "keeway-v302c",
+      "brand": "Keeway",
+      "model": "V302C",
+      "exShowroomPriceINR": 429000,
+      "maxPriceINR": 429000,
+      "estimatedOnRoadDelhiINR": 491205,
+      "estimatedOnRoadMumbaiINR": 495495,
+      "estimatedOnRoadBengaluruINR": 497640,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Keeway Official India Portal",
+          "url": "https://keeway-india.com/v302c/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/keeway-v302c/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "keeway-sixties-300i": {
+      "bikeId": "keeway-sixties-300i",
+      "slug": "keeway-sixties-300i",
+      "brand": "Keeway",
+      "model": "Sixties 300i",
+      "exShowroomPriceINR": 330000,
+      "maxPriceINR": 330000,
+      "estimatedOnRoadDelhiINR": 377850,
+      "estimatedOnRoadMumbaiINR": 381150,
+      "estimatedOnRoadBengaluruINR": 382800,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Keeway Official India Portal",
+          "url": "https://keeway-india.com/sixties-300i/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/keeway-sixties-300i/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "qjmotor-src-250": {
+      "bikeId": "qjmotor-src-250",
+      "slug": "qjmotor-src-250",
+      "brand": "QJMotor",
+      "model": "SRC 250",
+      "exShowroomPriceINR": 179000,
+      "maxPriceINR": 179000,
+      "estimatedOnRoadDelhiINR": 204955,
+      "estimatedOnRoadMumbaiINR": 206745,
+      "estimatedOnRoadBengaluruINR": 207640,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "QJMotor Official India Portal",
+          "url": "https://qjmotor-india.com/src-250/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/qjmotor-src-250/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "qjmotor-srv-300": {
+      "bikeId": "qjmotor-srv-300",
+      "slug": "qjmotor-srv-300",
+      "brand": "QJMotor",
+      "model": "SRV 300",
+      "exShowroomPriceINR": 319000,
+      "maxPriceINR": 319000,
+      "estimatedOnRoadDelhiINR": 365255,
+      "estimatedOnRoadMumbaiINR": 368445,
+      "estimatedOnRoadBengaluruINR": 370040,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "QJMotor Official India Portal",
+          "url": "https://qjmotor-india.com/srv-300/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/qjmotor-srv-300/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "moto-guzzi-v85-tt": {
+      "bikeId": "moto-guzzi-v85-tt",
+      "slug": "moto-guzzi-v85-tt",
+      "brand": "Moto Guzzi",
+      "model": "V85 TT",
+      "exShowroomPriceINR": 1540000,
+      "maxPriceINR": 1540000,
+      "estimatedOnRoadDelhiINR": 1763300,
+      "estimatedOnRoadMumbaiINR": 1778700,
+      "estimatedOnRoadBengaluruINR": 1786400,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Moto Guzzi Official India Portal",
+          "url": "https://www.motoguzzi.com/in_EN/models/v85-tt/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/moto-guzzi-v85-tt/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-electric-optima-cx": {
+      "bikeId": "hero-electric-optima-cx",
+      "slug": "hero-electric-optima-cx",
+      "brand": "Hero Electric",
+      "model": "Optima CX",
+      "exShowroomPriceINR": 85190,
+      "maxPriceINR": 106590,
+      "estimatedOnRoadDelhiINR": 95839,
+      "estimatedOnRoadMumbaiINR": 96520,
+      "estimatedOnRoadBengaluruINR": 96861,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Electric Official India Portal",
+          "url": "https://heroelectric.in/optima-cx/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-electric-optima-cx/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-electric-photon-lp": {
+      "bikeId": "hero-electric-photon-lp",
+      "slug": "hero-electric-photon-lp",
+      "brand": "Hero Electric",
+      "model": "Photon LP",
+      "exShowroomPriceINR": 110990,
+      "maxPriceINR": 110990,
+      "estimatedOnRoadDelhiINR": 127084,
+      "estimatedOnRoadMumbaiINR": 128193,
+      "estimatedOnRoadBengaluruINR": 128748,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Electric Official India Portal",
+          "url": "https://heroelectric.in/photon-lp/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-electric-photon-lp/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "okinawa-praise-pro": {
+      "bikeId": "okinawa-praise-pro",
+      "slug": "okinawa-praise-pro",
+      "brand": "Okinawa",
+      "model": "PraisePro",
+      "exShowroomPriceINR": 99645,
+      "maxPriceINR": 99645,
+      "estimatedOnRoadDelhiINR": 112101,
+      "estimatedOnRoadMumbaiINR": 112898,
+      "estimatedOnRoadBengaluruINR": 113296,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Okinawa Official India Portal",
+          "url": "https://okinawascooters.com/buy-now/praisepro/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/okinawa-praise-pro/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "pure-ev-etryst-350": {
+      "bikeId": "pure-ev-etryst-350",
+      "slug": "pure-ev-etryst-350",
+      "brand": "PURE EV",
+      "model": "eTryst 350",
+      "exShowroomPriceINR": 149999,
+      "maxPriceINR": 149999,
+      "estimatedOnRoadDelhiINR": 171749,
+      "estimatedOnRoadMumbaiINR": 173249,
+      "estimatedOnRoadBengaluruINR": 173999,
+      "priceFreshness": "fresh",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "PURE EV Official India Portal",
+          "url": "https://pureev.in/etryst-350/",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/pure-ev-etryst-350/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "honda-grazia-125": {
+      "bikeId": "honda-grazia-125",
+      "slug": "honda-grazia-125",
+      "brand": "Honda",
+      "model": "Grazia 125",
+      "exShowroomPriceINR": 82500,
+      "maxPriceINR": 89800,
+      "estimatedOnRoadDelhiINR": 92813,
+      "estimatedOnRoadMumbaiINR": 93473,
+      "estimatedOnRoadBengaluruINR": 93803,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Honda Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Honda_Grazia",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/honda-grazia-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "tvs-victor-110": {
+      "bikeId": "tvs-victor-110",
+      "slug": "tvs-victor-110",
+      "brand": "TVS",
+      "model": "Victor 110",
+      "exShowroomPriceINR": 56600,
+      "maxPriceINR": 59600,
+      "estimatedOnRoadDelhiINR": 63675,
+      "estimatedOnRoadMumbaiINR": 64128,
+      "estimatedOnRoadBengaluruINR": 64354,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "TVS Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/TVS_Victor",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/tvs-victor-110/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-pulsar-180": {
+      "bikeId": "bajaj-pulsar-180",
+      "slug": "bajaj-pulsar-180",
+      "brand": "Bajaj",
+      "model": "Pulsar 180",
+      "exShowroomPriceINR": 115000,
+      "maxPriceINR": 115000,
+      "estimatedOnRoadDelhiINR": 131675,
+      "estimatedOnRoadMumbaiINR": 132825,
+      "estimatedOnRoadBengaluruINR": 133400,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Bajaj_Pulsar",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-pulsar-180/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "bajaj-discover-125": {
+      "bikeId": "bajaj-discover-125",
+      "slug": "bajaj-discover-125",
+      "brand": "Bajaj",
+      "model": "Discover 125",
+      "exShowroomPriceINR": 58000,
+      "maxPriceINR": 62000,
+      "estimatedOnRoadDelhiINR": 65250,
+      "estimatedOnRoadMumbaiINR": 65714,
+      "estimatedOnRoadBengaluruINR": 65946,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Bajaj Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Bajaj_Discover",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/bajaj-discover-125/",
+          "isOfficial": false
+        }
+      ]
+    },
+    "hero-hunk": {
+      "bikeId": "hero-hunk",
+      "slug": "hero-hunk",
+      "brand": "Hero",
+      "model": "Hero Honda Hunk",
+      "exShowroomPriceINR": 68000,
+      "maxPriceINR": 75000,
+      "estimatedOnRoadDelhiINR": 76500,
+      "estimatedOnRoadMumbaiINR": 77044,
+      "estimatedOnRoadBengaluruINR": 77316,
+      "priceFreshness": "historical",
+      "lastCheckedAt": "2026-10-14T12:00:00.000Z",
+      "sources": [
+        {
+          "platform": "official",
+          "label": "Hero Official India Portal",
+          "url": "https://en.wikipedia.org/wiki/Hero_Honda_Hunk",
+          "isOfficial": true
+        },
+        {
+          "platform": "bikewale",
+          "label": "BikeWale Verified Spec & Ex-Showroom Portal",
+          "url": "https://www.bikewale.com/hero-hunk/",
+          "isOfficial": false
+        }
+      ]
+    }
+  }
+}

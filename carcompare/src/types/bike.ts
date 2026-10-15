@@ -1,12 +1,26 @@
 export type VehicleType = 'Motorcycle' | 'Scooter' | 'Electric Two-Wheeler';
-export type BikeCategory = 'Commuter' | 'Sport' | 'Cruiser' | 'Adventure' | 'Touring';
-export type FuelType = 'Petrol' | 'Electric';
+export type BikeCategory =
+  | 'Commuter'
+  | 'Sport'
+  | 'Cruiser'
+  | 'Adventure'
+  | 'Touring'
+  | 'Scooter'
+  | 'Moped'
+  | 'Cafe Racer'
+  | 'Scrambler';
+export type FuelType = 'Petrol' | 'Electric' | 'CNG';
+export type BikeStatus = 'active' | 'discontinued';
 
 export interface Bike {
   id: string;
   slug: string;
   brand: string;
   model: string;
+  series?: string;
+  generation?: string;
+  status?: BikeStatus;
+  launchYear?: number;
   vehicleType: VehicleType;
   category: BikeCategory;
   startingPrice: number;
@@ -24,6 +38,7 @@ export interface Bike {
   fuelTankLitres: number | null;
   tagline: string;
   image: string;
+  sourceUrl?: string;
 }
 
 export interface BikeFilters {

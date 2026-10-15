@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { Search, SlidersHorizontal, X, ChevronDown, RotateCcw, Filter, Check } from 'lucide-react';
+import { Search, SlidersHorizontal, X, ChevronDown, RotateCcw, Filter, Check, ChevronLeft, ChevronRight } from 'lucide-react';
 import { BikeCard } from '@/components/BikeCard';
 import {
   getAllBikes,
@@ -15,8 +15,9 @@ import {
 import type { VehicleType, BikeCategory, FuelType } from '@/types/bike';
 import { PriceRangeSlider, formatPriceDisplay } from '@/components/pricing/PriceRangeSlider';
 
-const PRICE_MIN_LIMIT = 60000;
-const PRICE_MAX_LIMIT = 400000;
+const PRICE_MIN_LIMIT = 0;
+const PRICE_MAX_LIMIT = 3500000;
+const PAGE_SIZE = 24;
 
 const CC_RANGES = [
   { label: 'Under 125 cc', max: 125 },
@@ -77,8 +78,15 @@ export function BikeFilters() {
   const allCategories = useMemo(() => getAllCategories(), []);
   const allFuelTypes = useMemo(() => getAllFuelTypes(), []);
 
+  // Counts for availability status
+  const activeCount = useMemo(() => allBikes.filter((b) => b.status === 'active' || !b.status).length, [allBikes]);
+  const discontinuedCount = useMemo(() => allBikes.filter((b) => b.status === 'discontinued').length, [allBikes]);
+
   // State
   const [search, setSearch] = useState(searchParams.get('q') || '');
+  const [selectedStatus, setSelectedStatus] = useState<'all' | 'active' | 'discontinued'>(
+    (searchParams.get('status') as any) || 'all'
+  );
   const [selectedBrands, setSelectedBrands] = useState<string[]>(
     searchParams.get('brand') ? searchParams.get('brand')!.split(',') : []
   );
@@ -96,12 +104,14 @@ export function BikeFilters() {
   const [minElectricRange, setMinElectricRange] = useState<number | null>(null);
   const [sortBy, setSortBy] = useState<'popularity' | 'price-asc' | 'price-desc' | 'power' | 'mileage'>('popularity');
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
 
   // Sync state to URL
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams();
     if (search.trim()) params.set('q', search.trim());
+    if (selectedStatus !== 'all') params.set('status', selectedStatus);
     if (selectedBrands.length > 0) params.set('brand', selectedBrands.join(','));
     if (selectedVehicleTypes.length > 0) params.set('type', selectedVehicleTypes.join(','));
     if (priceMin > PRICE_MIN_LIMIT) params.set('minPrice', priceMin.toString());
@@ -110,7 +120,12 @@ export function BikeFilters() {
     const queryString = params.toString();
     const newUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
     window.history.replaceState(null, '', newUrl);
-  }, [search, selectedBrands, selectedVehicleTypes, priceMin, priceMax]);
+  }, [search, selectedStatus, selectedBrands, selectedVehicleTypes, priceMin, priceMax]);
+
+  // Reset to page 1 when any filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, selectedStatus, selectedBrands, selectedVehicleTypes, selectedCategories, selectedFuelTypes, priceMin, priceMax, selectedCcIndex, minPower, selectedAbs, minMileage, minElectricRange, sortBy]);
 
   const toggleItem = <T,>(list: T[], item: T, setter: (val: T[]) => void) => {
     setter(list.includes(item) ? list.filter((x) => x !== item) : [...list, item]);
@@ -120,6 +135,7 @@ export function BikeFilters() {
     const ccRange = selectedCcIndex !== null ? CC_RANGES[selectedCcIndex] : null;
     return filterBikes({
       search,
+      status: selectedStatus,
       brands: selectedBrands,
       vehicleTypes: selectedVehicleTypes,
       categories: selectedCategories,
@@ -137,6 +153,7 @@ export function BikeFilters() {
     });
   }, [
     search,
+    selectedStatus,
     selectedBrands,
     selectedVehicleTypes,
     selectedCategories,
@@ -151,8 +168,16 @@ export function BikeFilters() {
     sortBy,
   ]);
 
+  // Pagination calculation
+  const totalPages = Math.max(1, Math.ceil(filteredBikes.length / PAGE_SIZE));
+  const paginatedBikes = useMemo(() => {
+    const start = (currentPage - 1) * PAGE_SIZE;
+    return filteredBikes.slice(start, start + PAGE_SIZE);
+  }, [filteredBikes, currentPage]);
+
   const clearAllFilters = useCallback(() => {
     setSearch('');
+    setSelectedStatus('all');
     setSelectedBrands([]);
     setSelectedVehicleTypes([]);
     setSelectedCategories([]);
@@ -165,10 +190,12 @@ export function BikeFilters() {
     setMinMileage(null);
     setMinElectricRange(null);
     setSortBy('popularity');
+    setCurrentPage(1);
   }, []);
 
   const hasActiveFilters =
     Boolean(search) ||
+    selectedStatus !== 'all' ||
     selectedBrands.length > 0 ||
     selectedVehicleTypes.length > 0 ||
     selectedCategories.length > 0 ||
@@ -183,6 +210,40 @@ export function BikeFilters() {
 
   const renderSidebarContent = () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+      {/* Availability Status Filter */}
+      <FilterSection title="Market Status">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+          {[
+            { id: 'all', label: `All Models (${allBikes.length})` },
+            { id: 'active', label: `Active (${activeCount})` },
+            { id: 'discontinued', label: `Discontinued (${discontinuedCount})` },
+          ].map((opt) => (
+            <label
+              key={opt.id}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                cursor: 'pointer',
+                fontSize: '0.84rem',
+                padding: '0.3rem 0.5rem',
+                borderRadius: 'var(--radius-sm)',
+                background: selectedStatus === opt.id ? 'var(--color-surface-inset)' : 'transparent',
+              }}
+            >
+              <input
+                type="radio"
+                name="statusFilter"
+                checked={selectedStatus === opt.id}
+                onChange={() => setSelectedStatus(opt.id as any)}
+                style={{ accentColor: 'var(--color-accent)' }}
+              />
+              <span style={{ fontWeight: selectedStatus === opt.id ? 700 : 400 }}>{opt.label}</span>
+            </label>
+          ))}
+        </div>
+      </FilterSection>
+
       {/* Price Dual-Handle Range Slider */}
       <FilterSection title="Budget (Ex-Showroom)">
         <PriceRangeSlider
@@ -190,7 +251,7 @@ export function BikeFilters() {
           maxLimit={PRICE_MAX_LIMIT}
           minValue={priceMin}
           maxValue={priceMax}
-          step={5000}
+          step={10000}
           formatType="inr"
           label="Ex-Showroom Price"
           onChange={(min, max) => {
@@ -226,7 +287,7 @@ export function BikeFilters() {
 
       {/* Brand */}
       <FilterSection title="Manufacturer">
-        <div style={{ maxHeight: '180px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.4rem', paddingRight: '0.4rem' }}>
+        <div style={{ maxHeight: '200px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.4rem', paddingRight: '0.4rem' }}>
           {allBrands.map((brand) => {
             const isChecked = selectedBrands.includes(brand);
             return (
@@ -280,7 +341,7 @@ export function BikeFilters() {
 
       {/* Fuel / Powertrain */}
       <FilterSection title="Fuel / Powertrain">
-        <div style={{ display: 'flex', gap: '0.4rem' }}>
+        <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
           {allFuelTypes.map((fuel) => {
             const active = selectedFuelTypes.includes(fuel);
             return (
@@ -289,7 +350,7 @@ export function BikeFilters() {
                 type="button"
                 onClick={() => toggleItem(selectedFuelTypes, fuel, setSelectedFuelTypes)}
                 className={`btn btn-sm ${active ? 'btn-primary' : 'btn-secondary'}`}
-                style={{ flex: 1, padding: '0.35rem 0.6rem', fontSize: '0.82rem', justifyContent: 'center' }}
+                style={{ flex: '1 1 30%', padding: '0.35rem 0.6rem', fontSize: '0.82rem', justifyContent: 'center' }}
               >
                 {fuel}
               </button>
@@ -375,7 +436,7 @@ export function BikeFilters() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search two-wheelers by brand, model, or type..."
+            placeholder="Search two-wheelers by brand, model, series, or type..."
             className="input"
             style={{ paddingLeft: '2.75rem', paddingRight: search ? '2.5rem' : '1rem' }}
             aria-label="Search two-wheelers"
@@ -457,6 +518,13 @@ export function BikeFilters() {
             <span className="badge badge-neutral" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
               Query: &quot;{search}&quot;
               <X size={12} style={{ cursor: 'pointer' }} onClick={() => setSearch('')} />
+            </span>
+          )}
+
+          {selectedStatus !== 'all' && (
+            <span className="badge badge-accent" style={{ gap: '0.35rem', padding: '0.3rem 0.6rem' }}>
+              Status: {selectedStatus.toUpperCase()}
+              <X size={12} style={{ cursor: 'pointer' }} onClick={() => setSelectedStatus('all')} />
             </span>
           )}
 
@@ -635,7 +703,7 @@ export function BikeFilters() {
           </div>
         )}
 
-        {/* ── Products Grid ── */}
+        {/* ── Products Grid + Pagination ── */}
         <div style={{ minWidth: 0 }}>
           {filteredBikes.length === 0 ? (
             <div
@@ -667,7 +735,7 @@ export function BikeFilters() {
                 No two-wheelers match your filters
               </h3>
               <p style={{ color: 'var(--color-text-secondary)', maxWidth: '420px', fontSize: '0.92rem' }}>
-                Try widening your price range or clearing specific displacement and category filters.
+                Try widening your price range or clearing specific displacement, brand, or category filters.
               </p>
               <button type="button" onClick={clearAllFilters} className="btn btn-primary">
                 Clear All Filters
@@ -675,9 +743,20 @@ export function BikeFilters() {
             </div>
           ) : (
             <>
-              <div style={{ marginBottom: '1rem', fontSize: '0.86rem', color: 'var(--color-text-tertiary)' }}>
-                Showing <strong>{filteredBikes.length}</strong> matching models
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+                <div style={{ fontSize: '0.86rem', color: 'var(--color-text-tertiary)' }}>
+                  Showing <strong>{(currentPage - 1) * PAGE_SIZE + 1}</strong>–
+                  <strong>{Math.min(currentPage * PAGE_SIZE, filteredBikes.length)}</strong> of{' '}
+                  <strong>{filteredBikes.length}</strong> matching models
+                </div>
+
+                {totalPages > 1 && (
+                  <div style={{ fontSize: '0.82rem', color: 'var(--color-text-secondary)' }}>
+                    Page {currentPage} of {totalPages}
+                  </div>
+                )}
               </div>
+
               <div
                 style={{
                   display: 'grid',
@@ -685,10 +764,69 @@ export function BikeFilters() {
                   gap: '1.5rem',
                 }}
               >
-                {filteredBikes.map((bike) => (
+                {paginatedBikes.map((bike) => (
                   <BikeCard key={bike.id} bike={bike} />
                 ))}
               </div>
+
+              {/* Pagination Controls */}
+              {totalPages > 1 && (
+                <div
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                    marginTop: '2.5rem',
+                    flexWrap: 'wrap',
+                  }}
+                >
+                  <button
+                    type="button"
+                    onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="btn btn-secondary btn-sm"
+                    style={{ gap: '0.25rem' }}
+                    aria-label="Previous page"
+                  >
+                    <ChevronLeft size={16} /> Prev
+                  </button>
+
+                  {Array.from({ length: totalPages }, (_, i) => i + 1)
+                    .filter((p) => p === 1 || p === totalPages || Math.abs(p - currentPage) <= 2)
+                    .map((pageNum, idx, arr) => {
+                      const prev = arr[idx - 1];
+                      return (
+                        <React.Fragment key={pageNum}>
+                          {prev && pageNum - prev > 1 && (
+                            <span style={{ padding: '0 0.25rem', color: 'var(--color-text-tertiary)' }}>...</span>
+                          )}
+                          <button
+                            type="button"
+                            onClick={() => setCurrentPage(pageNum)}
+                            className={`btn btn-sm ${currentPage === pageNum ? 'btn-primary' : 'btn-secondary'}`}
+                            style={{ minWidth: '36px', justifyContent: 'center' }}
+                            aria-label={`Go to page ${pageNum}`}
+                            aria-current={currentPage === pageNum ? 'page' : undefined}
+                          >
+                            {pageNum}
+                          </button>
+                        </React.Fragment>
+                      );
+                    })}
+
+                  <button
+                    type="button"
+                    onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                    disabled={currentPage === totalPages}
+                    className="btn btn-secondary btn-sm"
+                    style={{ gap: '0.25rem' }}
+                    aria-label="Next page"
+                  >
+                    Next <ChevronRight size={16} />
+                  </button>
+                </div>
+              )}
             </>
           )}
         </div>
