@@ -70,10 +70,26 @@ export function getAllVariants(): CarVariant[] {
   return all;
 }
 
-/** Formats variant price as ₹X.XX Lakh */
+/** Formats variant price as ₹X.XX Lakh or ₹X.XX Crore */
 export function formatVariantPrice(variant: CarVariant): string {
-  if (variant.pricing.exShowroomLakh === null) {
+  if (variant.pricing.exShowroomLakh === null || variant.pricing.exShowroomLakh === undefined) {
     return 'Price on request';
   }
-  return `₹${variant.pricing.exShowroomLakh.toFixed(2)} Lakh`;
+  const lakh = variant.pricing.exShowroomLakh;
+  if (lakh >= 100) {
+    return `₹${(lakh / 100).toFixed(2)} Crore`;
+  }
+  return `₹${lakh.toFixed(2)} Lakh`;
+}
+
+/** Formats on-road Nashik price if available as ₹X.XX Lakh or ₹X.XX Crore */
+export function formatOnRoadPrice(variant: CarVariant): string | null {
+  if (!variant.pricing.onRoadNashikLakh) {
+    return null;
+  }
+  const lakh = variant.pricing.onRoadNashikLakh;
+  if (lakh >= 100) {
+    return `₹${(lakh / 100).toFixed(2)} Crore`;
+  }
+  return `₹${lakh.toFixed(2)} Lakh`;
 }

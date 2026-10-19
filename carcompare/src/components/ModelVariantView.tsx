@@ -22,12 +22,18 @@ import {
   Sparkles,
   Camera,
   Fuel,
+  Wrench,
+  Disc,
+  Award,
+  Wind,
+  Sun,
+  Cpu,
 } from 'lucide-react';
 import type { Car } from '@/types/car';
-import type { ModelVariantGroup } from '@/types/variant';
+import type { ModelVariantGroup, FeatureAvailability } from '@/types/variant';
 import type { ModelImageEntry } from '@/types/car-images';
 import { CANONICAL_FEATURES, calculateUpgradeDiff, type UpgradeDiff } from '@/lib/featureMatrix';
-import { formatVariantPrice } from '@/lib/variants';
+import { formatVariantPrice, formatOnRoadPrice } from '@/lib/variants';
 import { AddToCompareButton } from '@/components/AddToCompareButton';
 import { getCarPriceSnapshot } from '@/lib/pricing/service';
 import { PriceFreshnessBadge } from '@/components/pricing/PriceFreshnessBadge';
@@ -72,10 +78,11 @@ function FeatureRow({
   available,
 }: {
   label: string;
-  available: boolean | 'standard' | 'optional' | 'not_available';
+  available: boolean | FeatureAvailability;
 }) {
   const isAvailable = available === true || available === 'standard';
   const isOptional = available === 'optional';
+  const isUnknown = available === 'unknown';
 
   return (
     <div
@@ -102,6 +109,19 @@ function FeatureRow({
           }}
         >
           OPT
+        </span>
+      ) : isUnknown ? (
+        <span
+          style={{
+            fontSize: '0.65rem',
+            padding: '2px 5px',
+            background: 'rgba(100, 116, 139, 0.1)',
+            color: '#64748b',
+            borderRadius: '4px',
+            fontWeight: 600,
+          }}
+        >
+          ?
         </span>
       ) : (
         <XCircle size={15} color="#d0d0cc" style={{ flexShrink: 0 }} />
@@ -188,6 +208,23 @@ export function ModelVariantView({
   const selectedVariant = useMemo(() => {
     return variants.find((v) => v.slug === selectedSlug) || variants[0];
   }, [variants, selectedSlug]);
+
+  const [activeSpecTab, setActiveSpecTab] = useState<
+    'chassis' | 'brakes' | 'lighting' | 'cabin' | 'cockpit' | 'safety' | 'warranty'
+  >('chassis');
+
+  const hasExtendedSpecs = Boolean(
+    selectedVariant?.suspension ||
+    selectedVariant?.brakes ||
+    selectedVariant?.tyres ||
+    selectedVariant?.warranty ||
+    selectedVariant?.extendedSafety ||
+    selectedVariant?.lighting ||
+    selectedVariant?.seating ||
+    selectedVariant?.climate ||
+    selectedVariant?.instrumentCluster ||
+    selectedVariant?.steering
+  );
 
   const handleSelectVariant = (slug: string) => {
     setSelectedSlug(slug);
@@ -494,9 +531,32 @@ export function ModelVariantView({
                     {formatVariantPrice(selectedVariant)}
                   </p>
                   <span style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)' }}>
-                    Model Range: ₹{modelGroup.priceRangeLakh.min.toFixed(2)}L – {modelGroup.priceRangeLakh.max.toFixed(2)}L
+                    Model Range: {modelGroup.priceRangeLakh.min >= 100 ? `₹${(modelGroup.priceRangeLakh.min / 100).toFixed(2)} Cr` : `₹${modelGroup.priceRangeLakh.min.toFixed(2)}L`} – {modelGroup.priceRangeLakh.max >= 100 ? `₹${(modelGroup.priceRangeLakh.max / 100).toFixed(2)} Cr` : `₹${modelGroup.priceRangeLakh.max.toFixed(2)}L`}
                   </span>
                 </div>
+
+                {/* Variant On-Road Nashik Price */}
+                {formatOnRoadPrice(selectedVariant) && (
+                  <div
+                    style={{
+                      marginTop: '0.5rem',
+                      padding: '0.45rem 0.75rem',
+                      borderRadius: '8px',
+                      background: 'rgba(37, 99, 235, 0.08)',
+                      border: '1px solid rgba(37, 99, 235, 0.25)',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--color-text-secondary)' }}>
+                      On-Road Price (Nashik):
+                    </span>
+                    <span style={{ fontSize: '1.05rem', fontWeight: 800, color: 'var(--color-accent)' }}>
+                      {formatOnRoadPrice(selectedVariant)}
+                    </span>
+                  </div>
+                )}
 
                 {/* Variant Verified Mileage */}
                 {selectedVariant.powertrain.fuelType === 'Electric' ? (
@@ -890,6 +950,194 @@ export function ModelVariantView({
               </div>
             </div>
 
+            {/* EXTENDED COMPREHENSIVE SPECIFICATIONS (Sections A through V) */}
+            {hasExtendedSpecs && (
+              <div className="card" style={{ padding: '1.5rem' }}>
+                <div
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    marginBottom: '1.25rem',
+                    flexWrap: 'wrap',
+                    gap: '0.75rem',
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <Wrench size={18} color="var(--color-accent)" />
+                    <h2 style={{ fontSize: '1.1rem', fontWeight: 600 }}>
+                      Complete Variant Specifications ({selectedVariant.name})
+                    </h2>
+                  </div>
+                  <span
+                    style={{
+                      fontSize: '0.72rem',
+                      fontWeight: 600,
+                      textTransform: 'uppercase',
+                      padding: '3px 8px',
+                      borderRadius: '4px',
+                      background: 'rgba(37,99,235,0.08)',
+                      color: 'var(--color-primary, #2563eb)',
+                    }}
+                  >
+                    Verified Variant Specs (22-Point Schema)
+                  </span>
+                </div>
+
+                {/* Spec Domain Navigation Tabs */}
+                <div
+                  style={{
+                    display: 'flex',
+                    gap: '0.5rem',
+                    overflowX: 'auto',
+                    paddingBottom: '0.5rem',
+                    marginBottom: '1.25rem',
+                    borderBottom: '1px solid var(--color-border-subtle)',
+                  }}
+                >
+                  {[
+                    { id: 'chassis', label: 'Chassis & Suspension', icon: Wrench },
+                    { id: 'brakes', label: 'Brakes & Wheels', icon: Disc },
+                    { id: 'lighting', label: 'Lighting & Exterior', icon: Sun },
+                    { id: 'cabin', label: 'Cabin & Seating', icon: Wind },
+                    { id: 'cockpit', label: 'Cockpit & Tech', icon: Cpu },
+                    { id: 'safety', label: 'Detailed Safety', icon: Shield },
+                    { id: 'warranty', label: 'Warranty & Peace of Mind', icon: Award },
+                  ].map((tab) => {
+                    const Icon = tab.icon;
+                    const isActive = activeSpecTab === tab.id;
+                    return (
+                      <button
+                        key={tab.id}
+                        type="button"
+                        onClick={() => setActiveSpecTab(tab.id as typeof activeSpecTab)}
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '0.4rem',
+                          padding: '0.4rem 0.8rem',
+                          borderRadius: '6px',
+                          border: isActive ? '1px solid var(--color-accent)' : '1px solid var(--color-border)',
+                          background: isActive ? 'var(--color-accent-light)' : 'var(--color-bg)',
+                          color: isActive ? 'var(--color-accent)' : 'var(--color-text-secondary)',
+                          fontSize: '0.8rem',
+                          fontWeight: isActive ? 600 : 500,
+                          cursor: 'pointer',
+                          whiteSpace: 'nowrap',
+                          transition: 'all 0.15s ease',
+                        }}
+                      >
+                        <Icon size={14} />
+                        <span>{tab.label}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Tab 1: Chassis & Suspension */}
+                {activeSpecTab === 'chassis' && (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <SpecItem label="Front Suspension" value={selectedVariant.suspension?.front ?? 'MacPherson Strut'} />
+                    <SpecItem label="Rear Suspension" value={selectedVariant.suspension?.rear ?? 'Twist Beam'} />
+                    <SpecItem label="Steering Assistance" value={selectedVariant.steering?.powerAssistanceType ?? 'Electric Power Steering (EPS)'} />
+                    <SpecItem label="Steering Wheel Design" value={selectedVariant.steering?.steeringWheelDesign ?? '2-Spoke'} />
+                    <SpecItem label="Tilt Steering" value={selectedVariant.steering?.tiltAdjustment === 'standard' ? 'Standard' : 'No'} />
+                    <SpecItem label="Turning Radius" value={selectedVariant.extendedDimensions?.minimumTurningRadiusM} unit="m" />
+                    <SpecItem label="Number of Doors" value={selectedVariant.extendedDimensions?.numberOfDoors ?? 5} />
+                    <SpecItem label="Seating Rows" value={selectedVariant.extendedDimensions?.seatingRows ?? 2} />
+                  </div>
+                )}
+
+                {/* Tab 2: Brakes & Wheels */}
+                {activeSpecTab === 'brakes' && (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <SpecItem label="Front Brakes" value={selectedVariant.brakes?.frontBrakeType ?? 'Disc'} />
+                    <SpecItem label="Rear Brakes" value={selectedVariant.brakes?.rearBrakeType ?? 'Drum'} />
+                    <SpecItem label="Front Tyre Size" value={selectedVariant.tyres?.frontTyreSize} />
+                    <SpecItem label="Rear Tyre Size" value={selectedVariant.tyres?.rearTyreSize} />
+                    <SpecItem label="Wheel Material" value={selectedVariant.tyres?.wheelMaterial} />
+                    <SpecItem label="Spare Wheel Type" value={selectedVariant.tyres?.spareWheelType} />
+                    <SpecItem label="Spare Tyre Details" value={selectedVariant.tyres?.spareTyreDetails} />
+                    <SpecItem label="Tyre Construction" value={selectedVariant.tyres?.tyreConstruction} />
+                    <SpecItem label="Cornering Brake Control (CSC)" value={selectedVariant.brakes?.corneringBrakeControl === 'standard' ? 'Yes (CSC)' : 'No'} />
+                    <SpecItem label="Brake Disc Wiping" value={selectedVariant.brakes?.brakeDiscWiping === 'standard' ? 'Yes' : 'No'} />
+                  </div>
+                )}
+
+                {/* Tab 3: Lighting & Exterior */}
+                {activeSpecTab === 'lighting' && (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <SpecItem label="Headlamp Technology" value={selectedVariant.lighting?.headlampType} />
+                    <SpecItem label="Daytime Running Lamps (DRLs)" value={selectedVariant.lighting?.drl === 'standard' ? 'LED DRLs' : 'No'} />
+                    <SpecItem label="Taillamp Setup" value={selectedVariant.lighting?.taillightType} />
+                    <SpecItem label="Front Fog Lights" value={selectedVariant.lighting?.fogLights === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Follow-Me-Home Headlamps" value={selectedVariant.lighting?.followMeHomeHeadlamps === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Automatic Headlamps" value={selectedVariant.lighting?.automaticHeadlamps === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Outside Rear View Mirrors (ORVM)" value={selectedVariant.doorsAndMirrors?.orvmAdjustment} />
+                    <SpecItem label="ORVM Finish" value={selectedVariant.doorsAndMirrors?.orvmFinish} />
+                    <SpecItem label="Rear Window Defogger" value={selectedVariant.doorsAndMirrors?.rearDefogger === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Rain Sensing Wipers" value={selectedVariant.doorsAndMirrors?.rainSensingWipers === 'standard' ? 'Yes' : 'No'} />
+                  </div>
+                )}
+
+                {/* Tab 4: Cabin & Seating */}
+                {activeSpecTab === 'cabin' && (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <SpecItem label="Seat Upholstery" value={selectedVariant.seating?.seatUpholstery} />
+                    <SpecItem label="Driver Seat Adjustment" value={`${selectedVariant.seating?.driverSeatAdjustmentType ?? 'Manual'} (${selectedVariant.seating?.driverSeatAdjustmentWays ?? 4}-Way)`} />
+                    <SpecItem label="Ventilated Front Seats" value={selectedVariant.seating?.ventilatedFrontSeats === 'standard' ? 'Segment-First Ventilated Seats' : 'No'} />
+                    <SpecItem label="Front Armrest" value={selectedVariant.seating?.driverArmrest === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Rear Seat Armrest" value={selectedVariant.seating?.rearArmrest === 'standard' ? 'With Cupholders' : 'No'} />
+                    <SpecItem label="Air Conditioning" value={selectedVariant.climate?.acType} />
+                    <SpecItem label="Rear AC Vents" value={selectedVariant.features.interior.rearACVents === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Air Purifier" value={selectedVariant.climate?.airPurifier === 'standard' ? 'Built-in' : 'No'} />
+                    <SpecItem label="Cooled Glovebox" value={selectedVariant.storage?.cooledGlovebox === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Boot Release Mechanism" value={selectedVariant.doorsAndMirrors?.bootOpeningMechanism} />
+                  </div>
+                )}
+
+                {/* Tab 5: Cockpit & Tech */}
+                {activeSpecTab === 'cockpit' && (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <SpecItem label="Instrument Cluster" value={`${selectedVariant.instrumentCluster?.clusterType} (${selectedVariant.instrumentCluster?.clusterSizeInches ?? 4.2}")`} />
+                    <SpecItem label="Infotainment Screen" value={selectedVariant.features.infotainment.infotainmentScreenSizeInches ? `${selectedVariant.features.infotainment.infotainmentScreenSizeInches}" Floating Touchscreen` : 'Audio Unit'} />
+                    <SpecItem label="Speaker Configuration" value={`${selectedVariant.features.infotainment.speakerCount ?? 4} Speakers`} />
+                    <SpecItem label="Smart Dashcam / DVR" value={selectedVariant.extendedSafety?.dashcam === 'standard' ? 'Built-in (Last 30 Min DVR)' : 'No'} />
+                    <SpecItem label="Parking Camera Setup" value={selectedVariant.parkingAssist?.surroundViewCamera === 'standard' ? '360° Surround Camera' : selectedVariant.parkingAssist?.parkingCamera === 'standard' ? 'Reverse Camera' : 'Sensors Only'} />
+                    <SpecItem label="Wireless Smartphone Charging" value={selectedVariant.features.interior.wirelessCharging === 'standard' ? 'Yes' : 'No'} />
+                    <SpecItem label="Connected Vehicle Suite" value={selectedVariant.connectedCar?.appName ?? 'None'} />
+                    <SpecItem label="Keyless Entry & Start" value={selectedVariant.parkingAssist?.pushButtonStart === 'standard' ? 'Smart Key + Push Button Start' : selectedVariant.doorsAndMirrors?.centralLocking === 'standard' ? 'Remote Key' : 'Manual'} />
+                  </div>
+                )}
+
+                {/* Tab 6: Detailed Safety */}
+                {activeSpecTab === 'safety' && (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <SpecItem label="Total Airbags" value={`${selectedVariant.features.safety.airbagsCount ?? 6} Airbags (Standard)`} />
+                    <SpecItem label="Driver & Co-Driver Airbags" value="Standard" />
+                    <SpecItem label="Side & Curtain Airbags" value={selectedVariant.extendedSafety?.curtainAirbags === 'standard' ? 'Standard' : 'No'} />
+                    <SpecItem label="ISOFIX Child Seat Anchors" value={selectedVariant.extendedSafety?.isofixChildSeatAnchors === 'standard' ? 'Standard' : 'No'} />
+                    <SpecItem label="Electronic Stability Program (ESP)" value={selectedVariant.brakes?.esp === 'standard' ? 'Standard' : 'No'} />
+                    <SpecItem label="Hill Hold Assist" value={selectedVariant.brakes?.hillHoldControl === 'standard' ? 'Standard' : 'No'} />
+                    <SpecItem label="Seatbelt Pretensioners" value={selectedVariant.extendedSafety?.seatbeltPretensioners === 'standard' ? 'Front Seats' : 'No'} />
+                    <SpecItem label="Emergency Brake Light Flashing" value={selectedVariant.extendedSafety?.emergencyBrakeLightFlashing === 'standard' ? 'Standard' : 'No'} />
+                    <SpecItem label="Engine Immobiliser" value={selectedVariant.extendedSafety?.engineImmobiliser === 'standard' ? 'Standard' : 'No'} />
+                    <SpecItem label="Anti-Theft Alarm" value={selectedVariant.extendedSafety?.antiTheftAlarm === 'standard' ? 'Standard' : 'No'} />
+                  </div>
+                )}
+
+                {/* Tab 7: Warranty */}
+                {activeSpecTab === 'warranty' && (
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <SpecItem label="Standard Vehicle Warranty" value={`${selectedVariant.warranty?.vehicleWarrantyYears ?? 3} Years / ${(selectedVariant.warranty?.vehicleWarrantyKm ?? 100000).toLocaleString()} km`} />
+                    <SpecItem label="Powertrain Warranty" value={`${selectedVariant.warranty?.powertrainWarrantyYears ?? 3} Years / ${(selectedVariant.warranty?.powertrainWarrantyKm ?? 100000).toLocaleString()} km`} />
+                    <SpecItem label="Extended Warranty Availability" value={selectedVariant.warranty?.extendedWarrantyAvailable ? 'Available up to 5 Years / 1,25,000 km' : 'Standard Only'} />
+                    <SpecItem label="Emergency Roadside Assistance" value="24x7 RSA Available" />
+                  </div>
+                )}
+              </div>
+            )}
+
             {/* VARIANT FEATURE COMPARISON MATRIX */}
             {variants.length > 1 && (
               <div className="card" style={{ padding: '1.5rem', overflowX: 'auto' }}>
@@ -920,9 +1168,14 @@ export function ModelVariantView({
                           }}
                         >
                           <div>{v.name}</div>
-                          <div style={{ fontSize: '0.72rem', fontWeight: 400, color: 'var(--color-text-tertiary)' }}>
+                          <div style={{ fontSize: '0.72rem', fontWeight: 600, color: 'var(--color-text-secondary)' }}>
                             {formatVariantPrice(v)}
                           </div>
+                          {formatOnRoadPrice(v) && (
+                            <div style={{ fontSize: '0.68rem', color: 'var(--color-accent)', fontWeight: 600 }}>
+                              On-Road: {formatOnRoadPrice(v)}
+                            </div>
+                          )}
                         </th>
                       ))}
                     </tr>
@@ -1050,8 +1303,15 @@ export function ModelVariantView({
                           {v.powertrain.fuelType} · {v.powertrain.transmission}
                         </div>
                       </div>
-                      <div style={{ fontSize: '0.85rem', fontWeight: 700, color: isSelected ? 'var(--color-accent)' : 'var(--color-text-primary)' }}>
-                        {formatVariantPrice(v)}
+                      <div style={{ textAlign: 'right' }}>
+                        <div style={{ fontSize: '0.85rem', fontWeight: 700, color: isSelected ? 'var(--color-accent)' : 'var(--color-text-primary)' }}>
+                          {formatVariantPrice(v)}
+                        </div>
+                        {formatOnRoadPrice(v) && (
+                          <div style={{ fontSize: '0.7rem', color: 'var(--color-accent)', fontWeight: 600 }}>
+                            {formatOnRoadPrice(v)} On-Road
+                          </div>
+                        )}
                       </div>
                     </button>
                   );

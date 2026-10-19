@@ -21,6 +21,259 @@ import type { FuelType, TransmissionType, NCAPRating } from '../src/types/car';
 import type { RawCatalogModel } from '../src/lib/cars';
 import { VERIFIED_MODEL_VARIANTS } from './data_verified_variants';
 import { VERIFIED_MODEL_VARIANTS_BATCH2 } from './data_verified_variants_batch2';
+import { TATA_AERIS_VARIANTS } from './data_verified_variants_aeris';
+import { TATA_PUNCH_VARIANTS } from './data_verified_variants_punch';
+import { TATA_SIERRA_VARIANTS } from './data_verified_variants_sierra';
+import { TATA_TIAGO_VARIANTS } from './data_verified_variants_tiago';
+import { TATA_PUNCH_EV_VARIANTS } from './data_verified_variants_punch_ev';
+import { TATA_HARRIER_VARIANTS } from './data_verified_variants_harrier';
+import { TATA_SIERRA_EV_VARIANTS } from './data_verified_variants_sierra_ev';
+import { TATA_SAFARI_VARIANTS } from './data_verified_variants_safari';
+import { TATA_ALTROZ_VARIANTS } from './data_verified_variants_altroz';
+import { TATA_TIAGO_EV_VARIANTS } from './data_verified_variants_tiago_ev';
+import { TATA_CURVV_VARIANTS } from './data_verified_variants_curvv';
+import { TATA_NEXON_EV_VARIANTS } from './data_verified_variants_nexon_ev';
+import { TATA_HARRIER_EV_VARIANTS } from './data_verified_variants_harrier_ev';
+import { TATA_CURVV_EV_VARIANTS } from './data_verified_variants_curvv_ev';
+import { TATA_TIGOR_EV_VARIANTS } from './data_verified_variants_tigor_ev';
+import { TATA_AERIS_EV_VARIANTS } from './data_verified_variants_aeris_ev';
+import {
+  BMW_2_SERIES_GRAN_COUPE_VARIANTS,
+  BMW_3_SERIES_GRAN_LIMOUSINE_VARIANTS,
+  BMW_M340I_VARIANTS,
+  BMW_M4_VARIANTS,
+  BMW_X1_VARIANTS,
+  BMW_M5_VARIANTS,
+  BMW_M440I_VARIANTS,
+  BMW_X7_VARIANTS,
+  BMW_X5_VARIANTS,
+} from './data_verified_variants_bmw';
+import {
+  BMW_X3_VARIANTS,
+  BMW_M2_VARIANTS,
+  BMW_7_SERIES_VARIANTS,
+  BMW_I7_VARIANTS,
+  BMW_5_SERIES_LWB_VARIANTS,
+  BMW_X1_LWB_VARIANTS,
+  BMW_IX1_LWB_VARIANTS,
+  BMW_XM_VARIANTS,
+  BMW_I5_LWB_VARIANTS,
+  BMW_X6_VARIANTS,
+  BMW_I5_VARIANTS,
+  BMW_IX_VARIANTS,
+} from './data_verified_variants_bmw_batch2';
+import {
+  VOLKSWAGEN_VIRTUS_VARIANTS,
+  VOLKSWAGEN_TAIGUN_VARIANTS,
+  VOLKSWAGEN_TAYRON_VARIANTS,
+  VOLKSWAGEN_GOLF_GTI_VARIANTS,
+  VOLKSWAGEN_TIGUAN_VARIANTS,
+} from './data_verified_variants_volkswagen';
+import {
+  SKODA_SLAVIA_VARIANTS,
+  SKODA_KYLAQ_VARIANTS,
+  SKODA_KUSHAQ_VARIANTS,
+  SKODA_KODIAQ_VARIANTS,
+  SKODA_OCTAVIA_RS_VARIANTS,
+  SKODA_KODIAQ_RS_VARIANTS,
+} from './data_verified_variants_skoda';
+import {
+  HONDA_ELEVATE_VARIANTS,
+  HONDA_AMAZE_VARIANTS,
+  HONDA_CITY_VARIANTS,
+} from './data_verified_variants_honda';
+import {
+  MARUTI_BREZZA_VARIANTS,
+  MARUTI_FRONX_VARIANTS,
+  MARUTI_BALENO_VARIANTS,
+  MARUTI_SWIFT_VARIANTS,
+} from './data_verified_variants_maruti';
+import {
+  MARUTI_VICTORIS_VARIANTS,
+  MARUTI_GRAND_VITARA_VARIANTS,
+} from './data_verified_variants_maruti_suv';
+import {
+  MARUTI_DZIRE_VARIANTS,
+  MARUTI_ALTO_K10_VARIANTS,
+  MARUTI_ERTIGA_VARIANTS,
+  MARUTI_WAGON_R_VARIANTS,
+  MARUTI_S_PRESSO_VARIANTS,
+} from './data_verified_variants_maruti_batch2';
+import {
+  MARUTI_CELERIO_VARIANTS,
+  MARUTI_XL6_VARIANTS,
+  MARUTI_E_VITARA_VARIANTS,
+  MARUTI_JIMNY_VARIANTS,
+  MARUTI_EECO_VARIANTS,
+  MARUTI_INVICTO_VARIANTS,
+} from './data_verified_variants_maruti_batch3';
+import {
+  TOYOTA_GLANZA_VARIANTS,
+  TOYOTA_TAISOR_VARIANTS,
+  TOYOTA_HYRYDER_VARIANTS,
+} from './data_verified_variants_toyota_batch1';
+import {
+  TOYOTA_INNOVA_HYCROSS_VARIANTS,
+  TOYOTA_FORTUNER_VARIANTS,
+  TOYOTA_INNOVA_CRYSTA_VARIANTS,
+} from './data_verified_variants_toyota_batch2';
+import {
+  TOYOTA_HILUX_VARIANTS,
+  TOYOTA_FORTUNER_LEGENDER_VARIANTS,
+  TOYOTA_RUMION_VARIANTS,
+  TOYOTA_LAND_CRUISER_VARIANTS,
+  TOYOTA_CAMRY_VARIANTS,
+  TOYOTA_VELLFIRE_VARIANTS,
+} from './data_verified_variants_toyota_batch3';
+import {
+  HYUNDAI_BAYON_VARIANTS,
+  HYUNDAI_CRETA_VARIANTS,
+  HYUNDAI_VENUE_VARIANTS,
+} from './data_verified_variants_hyundai_batch1';
+import {
+  HYUNDAI_EXTER_VARIANTS,
+  HYUNDAI_I20_VARIANTS,
+  HYUNDAI_GRAND_I10_NIOS_VARIANTS,
+} from './data_verified_variants_hyundai_batch2';
+import {
+  HYUNDAI_VERNA_VARIANTS,
+  HYUNDAI_AURA_VARIANTS,
+  HYUNDAI_ALCAZAR_VARIANTS,
+} from './data_verified_variants_hyundai_batch3';
+import {
+  HYUNDAI_I20_N_LINE_VARIANTS,
+  HYUNDAI_VENUE_N_LINE_VARIANTS,
+  HYUNDAI_CRETA_N_LINE_VARIANTS,
+  HYUNDAI_CRETA_ELECTRIC_VARIANTS,
+  HYUNDAI_IONIQ_5_VARIANTS,
+} from './data_verified_variants_hyundai_batch4';
+import {
+  LAMBORGHINI_REVUELTO_VARIANTS,
+  LAMBORGHINI_URUS_SE_VARIANTS,
+  LAMBORGHINI_TEMERARIO_VARIANTS,
+} from './data_verified_variants_lamborghini';
+import {
+  JEEP_COMPASS_VARIANTS,
+  JEEP_MERIDIAN_VARIANTS,
+  JEEP_WRANGLER_VARIANTS,
+  JEEP_GRAND_CHEROKEE_VARIANTS,
+} from './data_verified_variants_jeep';
+import {
+  FORCE_GURKHA_VARIANTS,
+  FORCE_TRAX_CRUISER_VARIANTS,
+} from './data_verified_variants_force';
+import {
+  CITROEN_C3_X_VARIANTS,
+  CITROEN_BASALT_X_VARIANTS,
+  CITROEN_AIRCROSS_VARIANTS,
+  CITROEN_EC3_X_VARIANTS,
+  CITROEN_C5_AIRCROSS_VARIANTS,
+} from './data_verified_variants_citroen';
+import {
+  LEXUS_ES_350H_VARIANTS,
+  LEXUS_LX_VARIANTS,
+  LEXUS_LM_VARIANTS,
+  LEXUS_NX_VARIANTS,
+  LEXUS_RX_VARIANTS,
+  LEXUS_ES_500E_VARIANTS,
+} from './data_verified_variants_lexus';
+import {
+  BYD_ATTO_3_VARIANTS,
+  BYD_SEALION_7_VARIANTS,
+  BYD_SEAL_VARIANTS,
+  BYD_EMAX_7_VARIANTS,
+} from './data_verified_variants_byd';
+import {
+  RENAULT_TRIBER_VARIANTS,
+  RENAULT_DUSTER_VARIANTS,
+  RENAULT_KWID_VARIANTS,
+  RENAULT_KIGER_VARIANTS,
+} from './data_verified_variants_renault';
+import {
+  NISSAN_MAGNITE_VARIANTS,
+  NISSAN_TEKTON_VARIANTS,
+  NISSAN_GRAVITE_VARIANTS,
+  NISSAN_XTRAIL_VARIANTS,
+} from './data_verified_variants_nissan';
+import {
+  MG_HECTOR_TOMAHAWK_EV_VARIANTS,
+  MG_WINDSOR_EV_VARIANTS,
+  MG_HECTOR_VARIANTS,
+  MG_MAJESTOR_VARIANTS,
+  MG_COMET_EV_VARIANTS,
+  MG_CYBERSTER_VARIANTS,
+  MG_HECTOR_TOMAHAWK_VARIANTS,
+  MG_M9_VARIANTS,
+  MG_ZS_EV_VARIANTS,
+  MG_ASTOR_VARIANTS,
+  MG_HECTOR_PLUS_VARIANTS,
+} from './data_verified_variants_mg';
+import {
+  LAND_ROVER_DEFENDER_VARIANTS,
+  LAND_ROVER_RANGE_ROVER_VELAR_VARIANTS,
+  LAND_ROVER_RANGE_ROVER_VARIANTS,
+  LAND_ROVER_RANGE_ROVER_SPORT_VARIANTS,
+  LAND_ROVER_RANGE_ROVER_EVOQUE_VARIANTS,
+  LAND_ROVER_DISCOVERY_SPORT_VARIANTS,
+  LAND_ROVER_DISCOVERY_VARIANTS,
+} from './data_verified_variants_land_rover';
+import {
+  AUDI_Q3_VARIANTS,
+  AUDI_A4_VARIANTS,
+  AUDI_A6_VARIANTS,
+  AUDI_Q7_VARIANTS,
+  AUDI_S5_SPORTBACK_VARIANTS,
+  AUDI_Q3_SPORTBACK_VARIANTS,
+  AUDI_Q8_VARIANTS,
+  AUDI_A8_L_VARIANTS,
+  AUDI_RS5_VARIANTS,
+  AUDI_RS_Q8_PERFORMANCE_VARIANTS,
+  AUDI_E_TRON_GT_VARIANTS,
+  AUDI_E_TRON_SPORTBACK_VARIANTS,
+  AUDI_E_TRON_VARIANTS,
+  AUDI_Q8_E_TRON_VARIANTS,
+  AUDI_Q8_SPORTBACK_E_TRON_VARIANTS,
+  AUDI_SQ8_VARIANTS,
+} from './data_verified_variants_audi';
+import {
+  MERCEDES_G_CLASS_VARIANTS,
+  MERCEDES_MAYBACH_S_CLASS_VARIANTS,
+  MERCEDES_C_CLASS_VARIANTS,
+  MERCEDES_GLA_VARIANTS,
+  MERCEDES_GLS_VARIANTS,
+  MERCEDES_GLC_VARIANTS,
+  MERCEDES_E_CLASS_VARIANTS,
+  MERCEDES_CLA_EV_VARIANTS,
+  MERCEDES_GLE_VARIANTS,
+  MERCEDES_S_CLASS_VARIANTS,
+  MERCEDES_AMG_CLE_VARIANTS,
+  MERCEDES_V_CLASS_VARIANTS,
+  MERCEDES_MAYBACH_GLS_VARIANTS,
+  MERCEDES_AMG_G_CLASS_VARIANTS,
+  MERCEDES_AMG_GLA35_VARIANTS,
+  MERCEDES_CLE_CABRIOLET_VARIANTS,
+  MERCEDES_AMG_GLC43_COUPE_VARIANTS,
+} from './data_verified_variants_mercedes';
+import {
+  MERCEDES_AMG_C_43_VARIANTS,
+  MERCEDES_AMG_GT_63_VARIANTS,
+  MERCEDES_G_CLASS_ELECTRIC_VARIANTS,
+  MERCEDES_EQS_VARIANTS,
+  MERCEDES_MAYBACH_SL_680_VARIANTS,
+  MERCEDES_AMG_GLE_COUPE_VARIANTS,
+  MERCEDES_AMG_A45_S_VARIANTS,
+  MERCEDES_AMG_E53_CABRIOLET_VARIANTS,
+  MERCEDES_AMG_SL55_ROADSTER_VARIANTS,
+  MERCEDES_EQS_SUV_VARIANTS,
+  MERCEDES_AMG_E53_PHEV_VARIANTS,
+  MERCEDES_AMG_C_63_S_E_PERFORMANCE_VARIANTS,
+  MERCEDES_MAYBACH_EQS_SUV_VARIANTS,
+  MERCEDES_AMG_GT_63_S_4MATIC_PLUS_VARIANTS,
+  MERCEDES_AMG_EQS_VARIANTS,
+  MERCEDES_EQE_SUV_VARIANTS,
+  MERCEDES_AMG_GT_63_S_E_PERFORMANCE_VARIANTS,
+  MERCEDES_AMG_S_63_E_PERFORMANCE_VARIANTS,
+} from './data_verified_variants_mercedes_amg_eq';
 
 const modelsJsonPath = path.resolve(__dirname, '../data/india-car-models.json');
 const variantsJsonPath = path.resolve(__dirname, '../data/india-car-variants.json');
@@ -1029,6 +1282,210 @@ let needsVerificationCount = 0;
 
 for (const model of activeModels) {
   const customVariants =
+    (model.slug === 'tata-aeris' ? TATA_AERIS_VARIANTS : undefined) ||
+    (model.slug === 'tata-punch' ? TATA_PUNCH_VARIANTS : undefined) ||
+    (model.slug === 'tata-punch-ev' ? TATA_PUNCH_EV_VARIANTS : undefined) ||
+    (model.slug === 'tata-harrier' ? TATA_HARRIER_VARIANTS : undefined) ||
+    (model.slug === 'tata-sierra' ? TATA_SIERRA_VARIANTS : undefined) ||
+    (model.slug === 'tata-sierra-ev' ? TATA_SIERRA_EV_VARIANTS : undefined) ||
+    (model.slug === 'tata-safari' ? TATA_SAFARI_VARIANTS : undefined) ||
+    (model.slug === 'tata-tiago' ? TATA_TIAGO_VARIANTS : undefined) ||
+    (model.slug === 'tata-altroz' ? TATA_ALTROZ_VARIANTS : undefined) ||
+    (model.slug === 'tata-tiago-ev' ? TATA_TIAGO_EV_VARIANTS : undefined) ||
+    (model.slug === 'tata-curvv' ? TATA_CURVV_VARIANTS : undefined) ||
+    (model.slug === 'tata-nexon-ev' ? TATA_NEXON_EV_VARIANTS : undefined) ||
+    (model.slug === 'tata-harrier-ev' ? TATA_HARRIER_EV_VARIANTS : undefined) ||
+    (model.slug === 'tata-curvv-ev' ? TATA_CURVV_EV_VARIANTS : undefined) ||
+    (model.slug === 'tata-tigor-ev' ? TATA_TIGOR_EV_VARIANTS : undefined) ||
+    (model.slug === 'tata-aeris-ev' ? TATA_AERIS_EV_VARIANTS : undefined) ||
+    (model.slug === 'bmw-2-series-gran-coupe' ? BMW_2_SERIES_GRAN_COUPE_VARIANTS : undefined) ||
+    (model.slug === 'bmw-3-series-gran-limousine' ? BMW_3_SERIES_GRAN_LIMOUSINE_VARIANTS : undefined) ||
+    (model.slug === 'bmw-m340i' ? BMW_M340I_VARIANTS : undefined) ||
+    (model.slug === 'bmw-m4' ? BMW_M4_VARIANTS : undefined) ||
+    (model.slug === 'bmw-x1' ? BMW_X1_VARIANTS : undefined) ||
+    (model.slug === 'bmw-m5' ? BMW_M5_VARIANTS : undefined) ||
+    (model.slug === 'bmw-m440i' ? BMW_M440I_VARIANTS : undefined) ||
+    (model.slug === 'bmw-x7' ? BMW_X7_VARIANTS : undefined) ||
+    (model.slug === 'bmw-x5' ? BMW_X5_VARIANTS : undefined) ||
+    (model.slug === 'bmw-x3' ? BMW_X3_VARIANTS : undefined) ||
+    (model.slug === 'bmw-m2' ? BMW_M2_VARIANTS : undefined) ||
+    (model.slug === 'bmw-7-series' ? BMW_7_SERIES_VARIANTS : undefined) ||
+    (model.slug === 'bmw-i7' ? BMW_I7_VARIANTS : undefined) ||
+    (model.slug === 'bmw-5-series-long-wheelbase' || model.slug === 'bmw-5-series-lwb' ? BMW_5_SERIES_LWB_VARIANTS : undefined) ||
+    (model.slug === 'bmw-x1-lwb' ? BMW_X1_LWB_VARIANTS : undefined) ||
+    (model.slug === 'bmw-ix1-lwb' || model.slug === 'bmw-ix1' ? BMW_IX1_LWB_VARIANTS : undefined) ||
+    (model.slug === 'bmw-xm' ? BMW_XM_VARIANTS : undefined) ||
+    (model.slug === 'bmw-i5-lwb' ? BMW_I5_LWB_VARIANTS : undefined) ||
+    (model.slug === 'bmw-x6' ? BMW_X6_VARIANTS : undefined) ||
+    (model.slug === 'bmw-i5' ? BMW_I5_VARIANTS : undefined) ||
+    (model.slug === 'bmw-ix' ? BMW_IX_VARIANTS : undefined) ||
+    (model.slug === 'volkswagen-virtus' ? VOLKSWAGEN_VIRTUS_VARIANTS : undefined) ||
+    (model.slug === 'volkswagen-taigun' ? VOLKSWAGEN_TAIGUN_VARIANTS : undefined) ||
+    (model.slug === 'volkswagen-tayron' ? VOLKSWAGEN_TAYRON_VARIANTS : undefined) ||
+    (model.slug === 'volkswagen-golf-gti' ? VOLKSWAGEN_GOLF_GTI_VARIANTS : undefined) ||
+    (model.slug === 'volkswagen-tiguan' || model.slug === 'volkswagen-tiguan-r-line' ? VOLKSWAGEN_TIGUAN_VARIANTS : undefined) ||
+    (model.slug === 'skoda-slavia' ? SKODA_SLAVIA_VARIANTS : undefined) ||
+    (model.slug === 'skoda-kylaq' ? SKODA_KYLAQ_VARIANTS : undefined) ||
+    (model.slug === 'skoda-kushaq' ? SKODA_KUSHAQ_VARIANTS : undefined) ||
+    (model.slug === 'skoda-kodiaq' ? SKODA_KODIAQ_VARIANTS : undefined) ||
+    (model.slug === 'skoda-octavia-rs' ? SKODA_OCTAVIA_RS_VARIANTS : undefined) ||
+    (model.slug === 'skoda-kodiaq-rs' ? SKODA_KODIAQ_RS_VARIANTS : undefined) ||
+    (model.slug === 'honda-elevate' ? HONDA_ELEVATE_VARIANTS : undefined) ||
+    (model.slug === 'honda-amaze' ? HONDA_AMAZE_VARIANTS : undefined) ||
+    (model.slug === 'honda-city' ? HONDA_CITY_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-brezza' ? MARUTI_BREZZA_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-fronx' ? MARUTI_FRONX_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-baleno' ? MARUTI_BALENO_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-swift' ? MARUTI_SWIFT_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-victoris' ? MARUTI_VICTORIS_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-grand-vitara' ? MARUTI_GRAND_VITARA_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-dzire' ? MARUTI_DZIRE_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-alto-k10' ? MARUTI_ALTO_K10_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-ertiga' ? MARUTI_ERTIGA_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-wagon-r' ? MARUTI_WAGON_R_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-s-presso' ? MARUTI_S_PRESSO_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-celerio' ? MARUTI_CELERIO_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-xl6' ? MARUTI_XL6_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-e-vitara' ? MARUTI_E_VITARA_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-jimny' ? MARUTI_JIMNY_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-eeco' ? MARUTI_EECO_VARIANTS : undefined) ||
+    (model.slug === 'maruti-suzuki-invicto' ? MARUTI_INVICTO_VARIANTS : undefined) ||
+    (model.slug === 'toyota-glanza' ? TOYOTA_GLANZA_VARIANTS : undefined) ||
+    (model.slug === 'toyota-urban-cruiser-taisor' ? TOYOTA_TAISOR_VARIANTS : undefined) ||
+    (model.slug === 'toyota-urban-cruiser-hyryder' ? TOYOTA_HYRYDER_VARIANTS : undefined) ||
+    (model.slug === 'toyota-innova-hycross' ? TOYOTA_INNOVA_HYCROSS_VARIANTS : undefined) ||
+    (model.slug === 'toyota-fortuner' ? TOYOTA_FORTUNER_VARIANTS : undefined) ||
+    (model.slug === 'toyota-fortuner-legender' ? TOYOTA_FORTUNER_LEGENDER_VARIANTS : undefined) ||
+    (model.slug === 'toyota-innova-crysta' ? TOYOTA_INNOVA_CRYSTA_VARIANTS : undefined) ||
+    (model.slug === 'toyota-hilux' ? TOYOTA_HILUX_VARIANTS : undefined) ||
+    (model.slug === 'toyota-rumion' ? TOYOTA_RUMION_VARIANTS : undefined) ||
+    (model.slug === 'toyota-land-cruiser-300' || model.slug === 'toyota-land-cruiser' ? TOYOTA_LAND_CRUISER_VARIANTS : undefined) ||
+    (model.slug === 'toyota-camry' ? TOYOTA_CAMRY_VARIANTS : undefined) ||
+    (model.slug === 'toyota-vellfire' ? TOYOTA_VELLFIRE_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-bayon' ? HYUNDAI_BAYON_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-creta' ? HYUNDAI_CRETA_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-venue' ? HYUNDAI_VENUE_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-exter' ? HYUNDAI_EXTER_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-i20' ? HYUNDAI_I20_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-grand-i10-nios' ? HYUNDAI_GRAND_I10_NIOS_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-verna' ? HYUNDAI_VERNA_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-aura' ? HYUNDAI_AURA_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-alcazar' ? HYUNDAI_ALCAZAR_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-i20-n-line' ? HYUNDAI_I20_N_LINE_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-venue-n-line' ? HYUNDAI_VENUE_N_LINE_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-creta-n-line' ? HYUNDAI_CRETA_N_LINE_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-creta-electric' || model.slug === 'hyundai-creta-ev' ? HYUNDAI_CRETA_ELECTRIC_VARIANTS : undefined) ||
+    (model.slug === 'hyundai-ioniq-5' ? HYUNDAI_IONIQ_5_VARIANTS : undefined) ||
+    (model.slug === 'lamborghini-revuelto' ? LAMBORGHINI_REVUELTO_VARIANTS : undefined) ||
+    (model.slug === 'lamborghini-urus-se' ? LAMBORGHINI_URUS_SE_VARIANTS : undefined) ||
+    (model.slug === 'lamborghini-temerario' ? LAMBORGHINI_TEMERARIO_VARIANTS : undefined) ||
+    (model.slug === 'jeep-compass' ? JEEP_COMPASS_VARIANTS : undefined) ||
+    (model.slug === 'jeep-meridian' ? JEEP_MERIDIAN_VARIANTS : undefined) ||
+    (model.slug === 'jeep-wrangler' ? JEEP_WRANGLER_VARIANTS : undefined) ||
+    (model.slug === 'jeep-grand-cherokee' ? JEEP_GRAND_CHEROKEE_VARIANTS : undefined) ||
+    (model.slug === 'force-gurkha' ? FORCE_GURKHA_VARIANTS : undefined) ||
+    (model.slug === 'force-trax-cruiser' ? FORCE_TRAX_CRUISER_VARIANTS : undefined) ||
+    (model.slug === 'citroen-c3' || model.slug === 'citroen-c3-x' ? CITROEN_C3_X_VARIANTS : undefined) ||
+    (model.slug === 'citroen-basalt' || model.slug === 'citroen-basalt-x' ? CITROEN_BASALT_X_VARIANTS : undefined) ||
+    (model.slug === 'citroen-c3-aircross' || model.slug === 'citroen-aircross' || model.slug === 'citroen-aircross-x' ? CITROEN_AIRCROSS_VARIANTS : undefined) ||
+    (model.slug === 'citroen-e-c3' || model.slug === 'citroen-ec3-x' ? CITROEN_EC3_X_VARIANTS : undefined) ||
+    (model.slug === 'citroen-c5-aircross' ? CITROEN_C5_AIRCROSS_VARIANTS : undefined) ||
+    // Lexus
+    (model.slug === 'lexus-es-350h' || model.slug === 'lexus-es-300h' ? LEXUS_ES_350H_VARIANTS : undefined) ||
+    (model.slug === 'lexus-lx' || model.slug === 'lexus-lx-500d' ? LEXUS_LX_VARIANTS : undefined) ||
+    (model.slug === 'lexus-lm' || model.slug === 'lexus-lm-350h' ? LEXUS_LM_VARIANTS : undefined) ||
+    (model.slug === 'lexus-nx' || model.slug === 'lexus-nx-350h' ? LEXUS_NX_VARIANTS : undefined) ||
+    (model.slug === 'lexus-rx' ? LEXUS_RX_VARIANTS : undefined) ||
+    (model.slug === 'lexus-es-500e' ? LEXUS_ES_500E_VARIANTS : undefined) ||
+    // BYD
+    (model.slug === 'byd-atto-3' ? BYD_ATTO_3_VARIANTS : undefined) ||
+    (model.slug === 'byd-sealion-7' ? BYD_SEALION_7_VARIANTS : undefined) ||
+    (model.slug === 'byd-seal' ? BYD_SEAL_VARIANTS : undefined) ||
+    (model.slug === 'byd-emax-7' || model.slug === 'byd-e6' ? BYD_EMAX_7_VARIANTS : undefined) ||
+    // Renault
+    (model.slug === 'renault-triber' ? RENAULT_TRIBER_VARIANTS : undefined) ||
+    (model.slug === 'renault-duster' ? RENAULT_DUSTER_VARIANTS : undefined) ||
+    (model.slug === 'renault-kwid' ? RENAULT_KWID_VARIANTS : undefined) ||
+    (model.slug === 'renault-kiger' ? RENAULT_KIGER_VARIANTS : undefined) ||
+    // Nissan
+    (model.slug === 'nissan-magnite' ? NISSAN_MAGNITE_VARIANTS : undefined) ||
+    (model.slug === 'nissan-tekton' ? NISSAN_TEKTON_VARIANTS : undefined) ||
+    (model.slug === 'nissan-gravite' ? NISSAN_GRAVITE_VARIANTS : undefined) ||
+    (model.slug === 'nissan-x-trail' ? NISSAN_XTRAIL_VARIANTS : undefined) ||
+    // MG
+    (model.slug === 'mg-hector-tomahawk-ev' ? MG_HECTOR_TOMAHAWK_EV_VARIANTS : undefined) ||
+    (model.slug === 'mg-windsor-ev' ? MG_WINDSOR_EV_VARIANTS : undefined) ||
+    (model.slug === 'mg-hector' ? MG_HECTOR_VARIANTS : undefined) ||
+    (model.slug === 'mg-majestor' ? MG_MAJESTOR_VARIANTS : undefined) ||
+    (model.slug === 'mg-comet-ev' ? MG_COMET_EV_VARIANTS : undefined) ||
+    (model.slug === 'mg-cyberster' ? MG_CYBERSTER_VARIANTS : undefined) ||
+    (model.slug === 'mg-hector-tomahawk' ? MG_HECTOR_TOMAHAWK_VARIANTS : undefined) ||
+    (model.slug === 'mg-m9' ? MG_M9_VARIANTS : undefined) ||
+    (model.slug === 'mg-zs-ev' ? MG_ZS_EV_VARIANTS : undefined) ||
+    (model.slug === 'mg-astor' ? MG_ASTOR_VARIANTS : undefined) ||
+    (model.slug === 'mg-hector-plus' ? MG_HECTOR_PLUS_VARIANTS : undefined) ||
+    // Land Rover
+    (model.slug === 'land-rover-defender' ? LAND_ROVER_DEFENDER_VARIANTS : undefined) ||
+    (model.slug === 'land-rover-range-rover-velar' ? LAND_ROVER_RANGE_ROVER_VELAR_VARIANTS : undefined) ||
+    (model.slug === 'land-rover-range-rover' ? LAND_ROVER_RANGE_ROVER_VARIANTS : undefined) ||
+    (model.slug === 'land-rover-range-rover-sport' ? LAND_ROVER_RANGE_ROVER_SPORT_VARIANTS : undefined) ||
+    (model.slug === 'range-rover-evoque' || model.slug === 'land-rover-range-rover-evoque' ? LAND_ROVER_RANGE_ROVER_EVOQUE_VARIANTS : undefined) ||
+    (model.slug === 'land-rover-discovery-sport' ? LAND_ROVER_DISCOVERY_SPORT_VARIANTS : undefined) ||
+    (model.slug === 'land-rover-discovery' ? LAND_ROVER_DISCOVERY_VARIANTS : undefined) ||
+    // Audi
+    (model.slug === 'audi-q3' || model.slug === 'q3' ? AUDI_Q3_VARIANTS : undefined) ||
+    (model.slug === 'audi-a4' || model.slug === 'a4' ? AUDI_A4_VARIANTS : undefined) ||
+    (model.slug === 'audi-a6' || model.slug === 'a6' ? AUDI_A6_VARIANTS : undefined) ||
+    (model.slug === 'audi-q7' || model.slug === 'q7' ? AUDI_Q7_VARIANTS : undefined) ||
+    (model.slug === 'audi-s5-sportback' || model.slug === 's5-sportback' ? AUDI_S5_SPORTBACK_VARIANTS : undefined) ||
+    (model.slug === 'audi-q3-sportback' || model.slug === 'q3-sportback' ? AUDI_Q3_SPORTBACK_VARIANTS : undefined) ||
+    (model.slug === 'audi-q8' || model.slug === 'q8' ? AUDI_Q8_VARIANTS : undefined) ||
+    (model.slug === 'audi-a8-l' || model.slug === 'a8-l' ? AUDI_A8_L_VARIANTS : undefined) ||
+    (model.slug === 'audi-rs5' || model.slug === 'rs5' ? AUDI_RS5_VARIANTS : undefined) ||
+    (model.slug === 'audi-rs-q8-performance' || model.slug === 'rs-q8-performance' || model.slug === 'audi-rs-q8' ? AUDI_RS_Q8_PERFORMANCE_VARIANTS : undefined) ||
+    (model.slug === 'audi-e-tron-gt' || model.slug === 'e-tron-gt' ? AUDI_E_TRON_GT_VARIANTS : undefined) ||
+    (model.slug === 'audi-e-tron-sportback' || model.slug === 'e-tron-sportback' ? AUDI_E_TRON_SPORTBACK_VARIANTS : undefined) ||
+    (model.slug === 'audi-e-tron' || model.slug === 'e-tron' ? AUDI_E_TRON_VARIANTS : undefined) ||
+    (model.slug === 'audi-q8-e-tron' || model.slug === 'q8-e-tron' ? AUDI_Q8_E_TRON_VARIANTS : undefined) ||
+    (model.slug === 'audi-q8-sportback-e-tron' || model.slug === 'q8-sportback-e-tron' ? AUDI_Q8_SPORTBACK_E_TRON_VARIANTS : undefined) ||
+    (model.slug === 'audi-sq8' || model.slug === 'sq8' ? AUDI_SQ8_VARIANTS : undefined) ||
+    // Mercedes-Benz
+    (model.slug === 'mercedes-benz-g-class' || model.slug === 'g-class' ? MERCEDES_G_CLASS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-maybach-s-class' || model.slug === 'maybach-s-class' ? MERCEDES_MAYBACH_S_CLASS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-c-class' || model.slug === 'c-class' ? MERCEDES_C_CLASS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-gla' || model.slug === 'gla' ? MERCEDES_GLA_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-gls' || model.slug === 'gls' ? MERCEDES_GLS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-glc' || model.slug === 'glc' ? MERCEDES_GLC_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-e-class' || model.slug === 'e-class' || model.slug === 'mercedes-benz-e-class-long-wheelbase' ? MERCEDES_E_CLASS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-cla-ev' || model.slug === 'cla-ev' ? MERCEDES_CLA_EV_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-gle' || model.slug === 'gle' ? MERCEDES_GLE_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-s-class' || model.slug === 's-class' ? MERCEDES_S_CLASS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-cle' || model.slug === 'amg-cle' || model.slug === 'mercedes-benz-cle' ? MERCEDES_AMG_CLE_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-v-class' || model.slug === 'v-class' ? MERCEDES_V_CLASS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-maybach-gls' || model.slug === 'maybach-gls' ? MERCEDES_MAYBACH_GLS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-g-class' || model.slug === 'amg-g-class' ? MERCEDES_AMG_G_CLASS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-gla35' || model.slug === 'amg-gla35' ? MERCEDES_AMG_GLA35_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-cle-cabriolet' || model.slug === 'cle-cabriolet' ? MERCEDES_CLE_CABRIOLET_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-glc43-coupe' || model.slug === 'amg-glc43-coupe' ? MERCEDES_AMG_GLC43_COUPE_VARIANTS : undefined) ||
+    // Mercedes-Benz Part 2: AMG, Maybach, & EQ Electric
+    (model.slug === 'mercedes-benz-amg-c-43' || model.slug === 'amg-c-43' ? MERCEDES_AMG_C_43_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-gt-63' || model.slug === 'amg-gt-63' || model.slug === 'mercedes-amg-gt' ? MERCEDES_AMG_GT_63_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-g-class-electric' || model.slug === 'g-class-electric' ? MERCEDES_G_CLASS_ELECTRIC_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-eqs' || model.slug === 'eqs' || model.slug === 'mercedes-benz-eqs-sedan' ? MERCEDES_EQS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-maybach-sl-680' || model.slug === 'maybach-sl-680' ? MERCEDES_MAYBACH_SL_680_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-gle-coupe' || model.slug === 'amg-gle-coupe' ? MERCEDES_AMG_GLE_COUPE_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-a45-s' || model.slug === 'amg-a45-s' ? MERCEDES_AMG_A45_S_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-e53-cabriolet' || model.slug === 'amg-e53-cabriolet' ? MERCEDES_AMG_E53_CABRIOLET_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-sl55-roadster' || model.slug === 'amg-sl55-roadster' ? MERCEDES_AMG_SL55_ROADSTER_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-eqs-suv' || model.slug === 'eqs-suv' ? MERCEDES_EQS_SUV_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-e53-phev' || model.slug === 'amg-e53-phev' ? MERCEDES_AMG_E53_PHEV_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-c-63-s-e-performance' || model.slug === 'amg-c-63-s-e-performance' ? MERCEDES_AMG_C_63_S_E_PERFORMANCE_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-maybach-eqs-suv' || model.slug === 'maybach-eqs-suv' ? MERCEDES_MAYBACH_EQS_SUV_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-gt-63-s-4matic-plus' || model.slug === 'amg-gt-63-s-4matic-plus' ? MERCEDES_AMG_GT_63_S_4MATIC_PLUS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-eqs' || model.slug === 'amg-eqs' ? MERCEDES_AMG_EQS_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-eqe-suv' || model.slug === 'eqe-suv' ? MERCEDES_EQE_SUV_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-gt-63-s-e-performance' || model.slug === 'amg-gt-63-s-e-performance' ? MERCEDES_AMG_GT_63_S_E_PERFORMANCE_VARIANTS : undefined) ||
+    (model.slug === 'mercedes-benz-amg-s-63-e-performance' || model.slug === 'amg-s-63-e-performance' ? MERCEDES_AMG_S_63_E_PERFORMANCE_VARIANTS : undefined) ||
     DETAILED_VERIFIED_VARIANTS[model.slug] ||
     VERIFIED_MODEL_VARIANTS[model.slug] ||
     VERIFIED_MODEL_VARIANTS_BATCH2[model.slug];
@@ -1036,7 +1493,7 @@ for (const model of activeModels) {
   if (customVariants && customVariants.length > 0) {
     const variants: CarVariant[] = customVariants.map((cv, idx) => {
       const v: CarVariant = {
-        id: cv.id || `${model.slug}-${cv.slug || idx}`,
+        id: (cv.id && cv.modelId === model.slug) ? cv.id : `${model.slug}-${cv.slug || idx}`,
         modelId: model.slug,
         generationId: null,
         name: cv.name || `${model.name} Variant`,
@@ -1069,7 +1526,7 @@ for (const model of activeModels) {
           zeroToHundredSec: model.specs?.zeroToHundredSec || null,
           topSpeedKmph: model.specs?.topSpeedKmph || null,
         },
-        dimensions: {
+        dimensions: cv.dimensions || {
           lengthMm: model.specs?.lengthMm || null,
           widthMm: model.specs?.widthMm || null,
           heightMm: model.specs?.heightMm || null,
@@ -1080,13 +1537,33 @@ for (const model of activeModels) {
           fuelTankLitres: model.specs?.fuelTankLitres || null,
         },
         features: cv.features || makeStandardFeatures(),
-        sources: model.sources.map((s) => ({
+        // Comprehensive Extended Specifications (Sections A through V)
+        extendedPowertrain: cv.extendedPowertrain || null,
+        suspension: cv.suspension || null,
+        extendedDimensions: cv.extendedDimensions || null,
+        tyres: cv.tyres || null,
+        warranty: cv.warranty || null,
+        extendedSafety: cv.extendedSafety || null,
+        brakes: cv.brakes || null,
+        climate: cv.climate || null,
+        doorsAndMirrors: cv.doorsAndMirrors || null,
+        sunroofWindows: cv.sunroofWindows || null,
+        parkingAssist: cv.parkingAssist || null,
+        storage: cv.storage || null,
+        seating: cv.seating || null,
+        instrumentCluster: cv.instrumentCluster || null,
+        steering: cv.steering || null,
+        lighting: cv.lighting || null,
+        connectedCar: cv.connectedCar || null,
+        styling: cv.styling || null,
+        warnings: cv.warnings || null,
+        sources: cv.sources || model.sources.map((s) => ({
           name: s.name,
           url: s.url,
           type: s.type,
           checkedAt: s.checkedAt,
         })),
-        lastVerified: model.lastVerified || '2026-10-05',
+        lastVerified: cv.lastVerified || model.lastVerified || '2026-10-16',
       };
       return v;
     });

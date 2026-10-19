@@ -2,9 +2,9 @@
   "metadata": {
     "lastUpdated": "2026-10-07",
     "catalogVersion": "1.1.0",
-    "totalModels": 206,
-    "modelsWithImages": 206,
-    "modelsWithFourAngle": 183,
+    "totalModels": 208,
+    "modelsWithImages": 208,
+    "modelsWithFourAngle": 185,
     "modelsMissingImages": 0
   },
   "models": [
@@ -2506,6 +2506,94 @@
       "imageStatus": "complete"
     },
     {
+      "modelId": "tata-aeris",
+      "modelName": "Aeris",
+      "brand": "Tata",
+      "primaryImage": {
+        "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/222864/aeris-exterior-right-front-three-quarter-31.png?isig=0&q=80",
+        "angle": "front_3_4",
+        "alt": "Aeris front three-quarter view",
+        "source": "CarWale Official Automotive Media",
+        "sourceUrl": "https://www.carwale.com/tata-cars/aeris/images/",
+        "sourceTier": "reputable_media",
+        "generation": "Current Generation",
+        "verifiedAt": "2026-10-16",
+        "urlVerified": true
+      },
+      "images": [
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/222864/aeris-exterior-right-front-three-quarter-31.png?isig=0&q=80",
+          "angle": "front_3_4",
+          "alt": "Aeris front three-quarter view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/aeris/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-16",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/222864/aeris-exterior-right-side-view.jpeg?isig=0&q=80",
+          "angle": "side",
+          "alt": "Aeris side profile view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/aeris/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-16",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/222864/aeris-exterior-right-rear-three-quarter.jpeg?isig=0&q=80",
+          "angle": "rear_3_4",
+          "alt": "Aeris rear three-quarter view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/aeris/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-16",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/222864/aeris-exterior-rear-view.jpeg?isig=0&q=80",
+          "angle": "rear",
+          "alt": "Aeris straight rear view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/aeris/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-16",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/222864/aeris-exterior-front-view-16.jpeg?isig=0&q=80",
+          "angle": "front",
+          "alt": "Aeris straight front view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/aeris/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-16",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/222864/aeris-interior-dashboard-5.jpeg?isig=0&q=80",
+          "angle": "interior",
+          "alt": "Aeris dashboard and interior view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/aeris/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-16",
+          "urlVerified": true
+        }
+      ],
+      "manufacturerPageUrl": "https://cars.tatamotors.com/aeris",
+      "hasFourAngle": true,
+      "lastAuditedAt": "2026-10-16",
+      "imageStatus": "complete"
+    },
+    {
       "modelId": "tata-altroz",
       "modelName": "Altroz",
       "brand": "Tata",
@@ -2679,6 +2767,72 @@
       "manufacturerPageUrl": "https://cars.tatamotors.com/punch",
       "hasFourAngle": true,
       "lastAuditedAt": "2026-10-07",
+      "imageStatus": "complete"
+    },
+    {
+      "modelId": "tata-sierra",
+      "modelName": "Sierra",
+      "brand": "Tata",
+      "primaryImage": {
+        "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/193017/sierra-exterior-right-front-three-quarter-316.jpeg?isig=0&q=80",
+        "angle": "front_3_4",
+        "alt": "Sierra front three-quarter view",
+        "source": "CarWale Official Automotive Media",
+        "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+        "sourceTier": "reputable_media",
+        "generation": "Current Generation",
+        "verifiedAt": "2026-10-17",
+        "urlVerified": true
+      },
+      "images": [
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/193017/sierra-exterior-right-front-three-quarter-316.jpeg?isig=0&q=80",
+          "angle": "front_3_4",
+          "alt": "Sierra front three-quarter view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/213969/sierra-exterior-right-front-three-quarter.jpeg?isig=0&q=80",
+          "angle": "side",
+          "alt": "Sierra side profile view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/193017/sierra-exterior-front-view-3.jpeg?isig=0&q=80",
+          "angle": "front",
+          "alt": "Sierra straight front view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/212857/sierra-interior-dashboard.jpeg?isig=0&q=80",
+          "angle": "interior",
+          "alt": "Sierra dashboard and interior view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        }
+      ],
+      "manufacturerPageUrl": "https://cars.tatamotors.com/sierra",
+      "hasFourAngle": true,
+      "lastAuditedAt": "2026-10-17",
       "imageStatus": "complete"
     },
     {
@@ -17068,6 +17222,55 @@
       "hasFourAngle": false,
       "lastAuditedAt": "2026-10-07",
       "imageStatus": "partial"
+    },
+    {
+      "modelId": "tata-sierra-ev",
+      "images": [
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/193017/sierra-exterior-right-front-three-quarter-316.jpeg?isig=0&q=80",
+          "angle": "front_3_4",
+          "alt": "Sierra front three-quarter view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/213969/sierra-exterior-right-front-three-quarter.jpeg?isig=0&q=80",
+          "angle": "side",
+          "alt": "Sierra side profile view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/193017/sierra-exterior-front-view-3.jpeg?isig=0&q=80",
+          "angle": "front",
+          "alt": "Sierra straight front view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        },
+        {
+          "url": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/212857/sierra-interior-dashboard.jpeg?isig=0&q=80",
+          "angle": "interior",
+          "alt": "Sierra dashboard and interior view",
+          "source": "CarWale Official Automotive Media",
+          "sourceUrl": "https://www.carwale.com/tata-cars/sierra/images/",
+          "sourceTier": "reputable_media",
+          "generation": "Current Generation",
+          "verifiedAt": "2026-10-17",
+          "urlVerified": true
+        }
+      ]
     }
   ]
 }
